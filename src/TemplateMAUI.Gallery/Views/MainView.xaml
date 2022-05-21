@@ -140,7 +140,7 @@
                                     Style="{StaticResource GitHubSubTitleTextStyle}"/>
                                 <Label
                                     Grid.Row="2"
-                                    Text="#xamarin_forms #templateui"
+                                    Text="#dotnet_maui #templatemaui"
                                     Style="{StaticResource GitHubTagTextStyle}"/>
                             </Grid>
                         </Frame>

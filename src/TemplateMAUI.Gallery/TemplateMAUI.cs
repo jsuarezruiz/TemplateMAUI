@@ -7,10 +7,10 @@ namespace TemplateMAUI.Gallery
         // TODO: 
         public static void Init()
         {
-            var templateUIDictionary = new Generic();
+            var templateMAUIDictionary = new Generic();
 
-            if (!Application.Current.Resources.MergedDictionaries.Contains(templateUIDictionary))
-                Application.Current.Resources.Add(templateUIDictionary);
+            if (!Application.Current.Resources.MergedDictionaries.Contains(templateMAUIDictionary))
+                Application.Current.Resources.Add(templateMAUIDictionary);
         }
     }
 }

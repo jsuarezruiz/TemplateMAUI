@@ -10,7 +10,31 @@
             <themes:Colors />
             <themes:Geometries />
             <!-- STYLES -->
+            <themes:AreaChart />
+            <themes:AvatarView />
+            <themes:BadgeView />
+            <themes:BarChart />
+            <themes:CarouselView />
+            <themes:ChatBubble />
+            <themes:CategoryAxis />
+            <themes:CircleProgressBar />
+            <themes:ComparerView />
+            <themes:Divider />
+            <themes:GridLines />
+            <themes:GridSplitter />
+            <themes:LineChart />
+            <themes:Marquee />
+            <themes:PinBox />
+            <themes:ProgressBar />
             <themes:Rate />
+            <themes:SegmentedControl />
+            <themes:Shield />
+            <themes:Slider />
+            <themes:SnackBar />
+            <themes:Tag />
+            <themes:ToggleSwitch />
+            <themes:TreeView />
+            <themes:ValueAxis />
         </ResourceDictionary.MergedDictionaries>
     </ResourceDictionary>
 </ResourceDictionary>

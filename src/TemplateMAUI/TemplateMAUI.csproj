@@ -21,6 +21,9 @@
 	  <MauiXaml Update="Themes\Styles\AreaChart.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Themes\Styles\BadgeView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Themes\Styles\BarChart.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

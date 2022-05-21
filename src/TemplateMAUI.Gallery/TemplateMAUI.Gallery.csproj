@@ -49,9 +49,37 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\after.jpg" />
+	  <None Remove="Resources\Images\avatarview.png" />
+	  <None Remove="Resources\Images\badgeview.png" />
+	  <None Remove="Resources\Images\before.jpg" />
+	  <None Remove="Resources\Images\carouselview.png" />
+	  <None Remove="Resources\Images\chart.png" />
+	  <None Remove="Resources\Images\chatbubble.png" />
+	  <None Remove="Resources\Images\circleprogressbar.png" />
+	  <None Remove="Resources\Images\circularlayout.png" />
+	  <None Remove="Resources\Images\comparerview.png" />
 	  <None Remove="Resources\Images\customize.png" />
+	  <None Remove="Resources\Images\divider.png" />
+	  <None Remove="Resources\Images\docklayout.png" />
+	  <None Remove="Resources\Images\file.png" />
+	  <None Remove="Resources\Images\folder.png" />
+	  <None Remove="Resources\Images\gridsplitter.png" />
+	  <None Remove="Resources\Images\hexlayout.png" />
+	  <None Remove="Resources\Images\javier.jpg" />
+	  <None Remove="Resources\Images\marquee.png" />
+	  <None Remove="Resources\Images\pinbox.png" />
+	  <None Remove="Resources\Images\progressbar.png" />
 	  <None Remove="Resources\Images\rate.png" />
+	  <None Remove="Resources\Images\redstar.png" />
+	  <None Remove="Resources\Images\segmentedcontrol.png" />
+	  <None Remove="Resources\Images\shield.png" />
+	  <None Remove="Resources\Images\slider.png" />
+	  <None Remove="Resources\Images\snackbar.png" />
 	  <None Remove="Resources\Images\started.png" />
+	  <None Remove="Resources\Images\tag.png" />
+	  <None Remove="Resources\Images\toggleswitch.png" />
+	  <None Remove="Resources\Images\whitefile.png" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -59,6 +87,21 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="Views\AvatarViewGallery.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\BadgeViewGallery.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\CarouselViewGallery.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\ChatBubbleGallery.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\CircleProgressBarGallery.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\CustomNavigationPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

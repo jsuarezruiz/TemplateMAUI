@@ -55,7 +55,7 @@
                     <RowDefinition Height="*" />
                 </Grid.RowDefinitions>
                 <StackLayout
-                    Margin="18, 0">
+                    Margin="18, 0, 18, 12">
                     <Label
                         Text="A set of templated controls."
                         VerticalOptions="Start"
@@ -66,7 +66,7 @@
                     Grid.Row="1">
                     <Grid.RowDefinitions>
                         <!--
-                            <RowDefinition>
+                        <RowDefinition>
                             <RowDefinition.Height>
                                 <OnPlatform x:TypeArguments="GridLength">
                                    <On Platform="Android, iOS">150</On>
@@ -76,7 +76,7 @@
                             </RowDefinition.Height>
                         </RowDefinition>
                         -->
-                        <RowDefinition Height="150" />
+                        <RowDefinition Height="160" />
                         <RowDefinition Height="100" />
                         <RowDefinition Height="*" />
                     </Grid.RowDefinitions>

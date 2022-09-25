@@ -7,34 +7,45 @@
     BarBackgroundColor="{StaticResource NavBarBackgroundColor}"
     BarTextColor="White"
     Title="Tag Gallery">
+    <TabbedPage.Resources>
+        <ResourceDictionary>
+
+            <Style TargetType="controls:Tag">
+                <Setter Property="Margin" Value="6" />
+            </Style>
+            
+        </ResourceDictionary>
+    </TabbedPage.Resources>
     <ContentPage
         Title="Getting Started"
         IconImageSource="started.png">
         <ContentPage.Content>
-            <StackLayout
-                Orientation="Horizontal"
+            <StackLayout 
                 Padding="12">
-                <controls:Tag 
-                    Margin="2, 0"
-                    Text="Lorem ipsum"
-                    TextColor="White"
-                    BackgroundColor="CadetBlue"
-                    BorderColor="DarkBlue"
-                    ShowCloseButton="False"/>
-                <controls:Tag
-                    Margin="2, 0"
-                    Text="Lorem ipsum"
-                    TextColor="White"
-                    BackgroundColor="CadetBlue"
-                    SelectedBackgroundColor="DarkGreen"
-                    BorderColor="DarkBlue"
-                    Selectable="True"/>
-                <controls:Tag
-                    Margin="2, 0"
-                    Text="Lorem ipsum"
-                    TextColor="White"
-                    BackgroundColor="CadetBlue"
-                    BorderColor="DarkBlue"/>
+                <StackLayout           
+                    Orientation="Horizontal">
+                    <controls:Tag 
+                        Margin="2, 0"
+                        Text="Lorem ipsum"
+                        TextColor="White"
+                        BackgroundColor="CadetBlue"
+                        BorderColor="DarkBlue"
+                        ShowCloseButton="False"/>
+                    <controls:Tag
+                        Margin="2, 0"
+                        Text="Lorem ipsum"
+                        TextColor="White"
+                        BackgroundColor="CadetBlue"
+                        SelectedBackgroundColor="DarkGreen"
+                        BorderColor="DarkBlue"
+                        Selectable="True"/>
+                    <controls:Tag
+                        Margin="2, 0"
+                        Text="Lorem ipsum"
+                        TextColor="White"
+                        BackgroundColor="CadetBlue"
+                        BorderColor="DarkBlue"/>
+                </StackLayout>
             </StackLayout>
         </ContentPage.Content>
     </ContentPage>

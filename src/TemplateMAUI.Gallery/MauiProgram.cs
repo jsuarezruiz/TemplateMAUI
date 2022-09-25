@@ -1,6 +1,4 @@
-﻿using TemplateMAUI.Hosting;
-
-namespace TemplateMAUI.Gallery
+﻿namespace TemplateMAUI.Gallery
 {
     public static class MauiProgram
     {
@@ -9,7 +7,6 @@ namespace TemplateMAUI.Gallery
             var builder = MauiApp.CreateBuilder();
             builder
                 .UseMauiApp<App>()
-                .ConfigureTemplateMAUI()
                 .ConfigureFonts(fonts =>
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");

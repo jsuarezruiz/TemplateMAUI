@@ -156,9 +156,9 @@
                             BackgroundColor="White"
                             Padding="0"
                             Margin="12, 0, 12, 12">
-                            <StackLayout
-                                BindableLayout.ItemsSource="{Binding Gallery}">
-                                <BindableLayout.ItemTemplate>
+                            <CollectionView 
+                                ItemsSource="{Binding Gallery}">
+                                <CollectionView.ItemTemplate>
                                     <DataTemplate>
                                         <templates:GalleryItemTemplate>
                                             <templates:GalleryItemTemplate.GestureRecognizers>
@@ -168,8 +168,8 @@
                                             </templates:GalleryItemTemplate.GestureRecognizers>
                                         </templates:GalleryItemTemplate>
                                     </DataTemplate>
-                                </BindableLayout.ItemTemplate>
-                            </StackLayout>
+                                </CollectionView.ItemTemplate>
+                            </CollectionView>
                         </Frame>
                     </StackLayout>
                 </Grid>

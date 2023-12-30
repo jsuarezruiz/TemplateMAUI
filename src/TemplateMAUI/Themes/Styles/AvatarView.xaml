@@ -11,7 +11,6 @@
             <Image
                 x:Name="Part_Image"
                 Aspect="AspectFill"
-                BackgroundColor="{TemplateBinding BackgroundColor}"
                 Source="{TemplateBinding ImageSource}">
                 <Image.Clip>
                     <EllipseGeometry
@@ -21,6 +20,7 @@
             <Ellipse
                 x:Name="Part_Border"
                 Aspect="Fill"
+                Fill="{TemplateBinding BackgroundColor}"
                 Stroke="{TemplateBinding BorderColor, Converter={StaticResource ColorToBrushConverter}}"
                 StrokeThickness="{TemplateBinding BorderWidth}"
                 HorizontalOptions="Start"/>

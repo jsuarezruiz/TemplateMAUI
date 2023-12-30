@@ -12,14 +12,12 @@
         <Setter Property="ControlTemplate">
             <Setter.Value>
                 <ControlTemplate>
-                    <Frame
+                    <Border
                         x:Name="PART_Border"
-                        CornerRadius="4"
+                        StrokeShape="RoundRectangle 4"
                         HorizontalOptions="Start"
                         Padding="0"
-                        HeightRequest="20"
-                        IsClippedToBounds="True"
-                        HasShadow="False">
+                        HeightRequest="20">
                         <Grid
                             ColumnSpacing="0">
                             <Grid.ColumnDefinitions>
@@ -45,7 +43,7 @@
                                     Margin="4, 0" />
                             </Grid>
                         </Grid>
-                    </Frame>
+                    </Border>
                 </ControlTemplate>
             </Setter.Value>
         </Setter>

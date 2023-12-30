@@ -7,7 +7,7 @@ namespace TemplateMAUI.Controls
     {
         const string ElementBorder = "PART_Border";
 
-        Frame _border;
+        Border _border;
 
         public static readonly BindableProperty SubjectProperty =
               BindableProperty.Create(nameof(Subject), typeof(string), typeof(Shield), string.Empty);
@@ -69,7 +69,7 @@ namespace TemplateMAUI.Controls
         {
             base.OnApplyTemplate();
 
-            _border = GetTemplateChild(ElementBorder) as Frame;
+            _border = GetTemplateChild(ElementBorder) as Border;
 
             UpdateIsEnabled(); 
         }

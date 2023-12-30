@@ -14,7 +14,6 @@ namespace TemplateMAUI.Controls
         Frame _indicatorBackground;
         Label _text;
         View _content;
-        bool _isVisible;
         bool _placementDone;
 
         public static readonly BindableProperty ContentProperty =
@@ -246,7 +245,7 @@ namespace TemplateMAUI.Controls
 
             if (IsAnimated)
             {
-                if (badgeIsVisible == _isVisible)
+                if (!badgeIsVisible)
                     return;
 
                 if (badgeIsVisible)
@@ -259,8 +258,6 @@ namespace TemplateMAUI.Controls
                     await BadgeAnimation.OnDisappering(_indicatorContainer);
                     _indicatorContainer.IsVisible = false;
                 }
-
-                _isVisible = badgeIsVisible;
             }
             else
                 _indicatorContainer.IsVisible = badgeIsVisible;

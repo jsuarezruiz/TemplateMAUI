@@ -24,8 +24,10 @@
                             VerticalOptions="Start">
                             <Frame
                                 x:Name="PART_IndicatorBackground"
-                                CornerRadius="8"
-                                Padding="2"
+                                CornerRadius="12"
+                                Padding="0"
+                                MinimumHeightRequest="20"
+                                MinimumWidthRequest="20"
                                 BackgroundColor="{TemplateBinding BackgroundColor}"
                                 BorderColor="{TemplateBinding BorderColor}"
                                 HasShadow="{TemplateBinding HasShadow}">
@@ -39,7 +41,7 @@
                                     FontFamily="{TemplateBinding FontFamily}"
                                     FontAttributes="{TemplateBinding FontAttributes}"
                                     AutomationId="{TemplateBinding AutomationId}"
-                                    Margin="4, 0"/>
+                                    Margin="2, 0"/>
                             </Frame>
                         </Grid>
                     </Grid>

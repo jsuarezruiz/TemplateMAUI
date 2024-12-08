@@ -7,8 +7,7 @@
     Title="Slider Gallery">
     <ContentPage.Content>
         <StackLayout
-            Padding="12" 
-            Spacing="0">
+            Padding="12" Spacing="0">
             <Label
                 Text="Getting Started"/>
             <controls:Slider
@@ -17,14 +16,12 @@
                 Value="5"
                 ValueChanged="OnSliderValueChanged"/>
             <Label
-                Text="Customize the background colors"
-                Margin="0,10,0,0"/>
+                Text="Customize the background colors" Margin="0,10,0,0"/>
             <controls:Slider
                 Value="3"
                 BackgroundColor="LightCoral"/>
             <Label
-                Text="Customize the track colors" 
-                Margin="0,10,0,0"/>
+                Text="Customize the track colors" Margin="0,10,0,0"/>
             <controls:Slider
                 Minimum="0"
                 MinimumTrackColor="Red"
@@ -32,8 +29,7 @@
                 MaximumTrackColor="Blue"
                 Value="7"/>
             <Label
-                Text="Customize the track size" 
-                Margin="0,10,0,0"/>
+                Text="Customize the track size" Margin="0,10,0,0"/>
             <controls:Slider
                 TrackSize="4"
                 Minimum="0"
@@ -42,22 +38,21 @@
                 MaximumTrackColor="DarkGreen"
                 Value="2"/>
             <Label
-                Text="Customize the thumb" 
-                Margin="0,10,0,0"/>
-            <controls:Slider 
-                x:Name="changingSlider"
+                Text="Customize the thumb" Margin="0,10,0,0"/>
+            <controls:Slider x:Name="changingSlider"
                 TrackSize="4"
-                Minimum="0"
+                Minimum="2"
                 MinimumTrackColor="LightGreen"
                 Maximum="10"
-                MaximumTrackColor="DarkGreen"
-                Value="2">
+                MaximumTrackColor="LightGreen"
+                Value="12"
+                Margin="0">
                 <controls:Slider.Thumb>
                     <Frame
                         BackgroundColor="Black"
                         CornerRadius="10"
-                        HeightRequest="30" 
-                        WidthRequest="30"
+                        HeightRequest="60" 
+                        WidthRequest="60"
                         Padding="0"
                         Margin="0">
                         <Grid>
@@ -72,9 +67,8 @@
                     </Frame>
                 </controls:Slider.Thumb>
             </controls:Slider>
-            <Grid 
-                Margin="0" 
-                Padding="0">
+
+            <Grid Margin="0" Padding="0">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="2"/>
@@ -84,22 +78,11 @@
                     <RowDefinition Height="auto"/>
                     <RowDefinition Height="auto"/>
                 </Grid.RowDefinitions>
-                <BoxView 
-                    Grid.Column="1" 
-                    BackgroundColor="Red"
-                    HeightRequest="10" 
-                    Margin="0" />
-                <Label 
-                    Text="Center" 
-                    Grid.Row="1" 
-                    Grid.ColumnSpan="3" 
-                    HorizontalOptions="FillAndExpand" 
-                    HorizontalTextAlignment="Center"/>
+                <BoxView Grid.Column="1" BackgroundColor="Red" HeightRequest="10" Margin="0" />
+                <Label Text="Center" Grid.Row="1" Grid.ColumnSpan="3" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center"/>
             </Grid>
-            <Label 
-                TextColor="Black"
-                FontAttributes="Bold" 
-                Margin="0,10,0,0">
+
+            <Label TextColor="Black" FontAttributes="Bold" Margin="0,10,0,0">
                 <Label.FormattedText>
                     <FormattedString>
                         <FormattedString.Spans>

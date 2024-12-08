@@ -6,11 +6,12 @@
     x:Class="TemplateMAUI.Gallery.Views.ComparerViewGallery"
     Title="ComparerView Gallery">
     <ContentPage.Content>
-        <StackLayout
+        <VerticalStackLayout
             Padding="12">
             <Label
                 Text="Horizontal"/>
-            <controls:ComparerView>
+            <controls:ComparerView
+                HeightRequest="200">
                 <controls:ComparerView.SourceView>
                     <Image
                         Aspect="AspectFill"
@@ -26,7 +27,8 @@
                 Text="Vertical"/>
             <controls:ComparerView
                 Color="Purple"
-                Orientation="Vertical">
+                Orientation="Vertical"
+                HeightRequest="200">
                 <controls:ComparerView.SourceView>
                     <Image
                         Aspect="AspectFill"
@@ -38,6 +40,6 @@
                         Source="after.jpg"/>
                 </controls:ComparerView.TargetView>
             </controls:ComparerView>
-        </StackLayout>
+        </VerticalStackLayout>
     </ContentPage.Content>
 </ContentPage>

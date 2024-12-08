@@ -148,8 +148,8 @@ namespace TemplateMAUI.Controls
                 return;
 
             var half = ThumbHalfWidth;
-            var thumbCenterpostion = ConvertRangeValue(val, min, max, half, _trackBackground.Width -half);
-            SetThumbPosition(thumbCenterpostion - half, thumbCenterpostion, val);
+            var thumbCenterPostion = ConvertRangeValue(val, min, max, half, _trackBackground.Width -half);
+            SetThumbPosition(thumbCenterPostion - half, thumbCenterPostion, val);
         }
 
         void OnThumbPanUpdated(object sender, PanUpdatedEventArgs e)
@@ -159,7 +159,7 @@ namespace TemplateMAUI.Controls
                 case GestureStatus.Started:
                     _previousPosition = e.TotalX;
 
-                    if (Device.RuntimePlatform == Device.iOS)
+                    if (DeviceInfo.Platform == DevicePlatform.iOS)
                         _previousPosition += _thumb.TranslationX;
                     break;
                 case GestureStatus.Running:
@@ -167,12 +167,12 @@ namespace TemplateMAUI.Controls
                     var half = ThumbHalfWidth;
                     var maxPosition = _trackBackground.Width - half;
 
-                    if (Device.RuntimePlatform == Device.Android)
+                    if (DeviceInfo.Platform == DevicePlatform.Android)
                         totalX += _thumb.TranslationX;
 
-                    var thumbCenterPostion = CheckValueByRange(totalX + half, half, maxPosition);
-                    var val = ConvertRangeValue(thumbCenterPostion, half, maxPosition, Minimum, Maximum);
-                    SetThumbPosition(thumbCenterPostion - half, thumbCenterPostion, val);
+                    var thumbCenterPosition = CheckValueByRange(totalX + half, half, maxPosition);
+                    var val = ConvertRangeValue(thumbCenterPosition, half, maxPosition, Minimum, Maximum);
+                    SetThumbPosition(thumbCenterPosition - half, thumbCenterPosition, val);
                     Value = val;
                     break;
                 case GestureStatus.Completed:
@@ -190,11 +190,11 @@ namespace TemplateMAUI.Controls
         double CheckValueByRange(double val, double min, double max)
             => val <= min ? min : val >= max ? max : val;
 
-        void SetThumbPosition(double thumbPosition, double progrssWidth, double val)
+        void SetThumbPosition(double thumbPosition, double progressWidth, double val)
         {
             _previousVal = val;
             _thumb.TranslationX = thumbPosition;
-            _progress.WidthRequest = progrssWidth;
+            _progress.WidthRequest = progressWidth;
         }
     }
 }

@@ -107,15 +107,12 @@ namespace TemplateMAUI.Controls
 
         static double GetDefaultRadius()
         {
-            switch (Device.RuntimePlatform)
-            {
-                case Device.iOS:
-                    return 6.0;
-                case Device.WinUI:
-                    return 12.0;
-                default:
-                    return 24.0;
-            }
+            if (DeviceInfo.Platform == DevicePlatform.iOS)
+                return 6.0;
+            else if (DeviceInfo.Platform == DevicePlatform.WinUI)
+                return 12.0;
+            else
+                return 24.0;
         }
 
         public double CornerRadius

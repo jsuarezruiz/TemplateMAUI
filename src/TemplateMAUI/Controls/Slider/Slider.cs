@@ -14,7 +14,6 @@ namespace TemplateMAUI.Controls
         double _previousPosition;
         double? _previousVal = null;
 
-
         public event EventHandler<ValueChangedEventArgs> ValueChanged;
 
         double ThumbHalfWidth => (_thumb?.Width ?? 0) / 2;
@@ -96,9 +95,11 @@ namespace TemplateMAUI.Controls
         protected override void OnApplyTemplate()
         {
             base.OnApplyTemplate();
+
             _trackBackground = GetTemplateChild(ElementTrackBackground) as View;
             _progress = GetTemplateChild(ElementProgress) as BoxView;
             _thumb = GetTemplateChild(ElementThumb) as ContentView;
+
             UpdateIsEnabled();
         }
 
@@ -113,6 +114,7 @@ namespace TemplateMAUI.Controls
         protected override void OnSizeAllocated(double width, double height)
         {
             base.OnSizeAllocated(width, height);
+
             UpdateValue(true);
         }
 
@@ -126,7 +128,6 @@ namespace TemplateMAUI.Controls
             }
             else
             {
-                _trackBackground.GestureRecognizers.Clear();
                 _thumb.GestureRecognizers.Clear();
             }
         }
@@ -148,8 +149,8 @@ namespace TemplateMAUI.Controls
                 return;
 
             var half = ThumbHalfWidth;
-            var thumbCenterpostion = ConvertRangeValue(val, min, max, half, _trackBackground.Width -half);
-            SetThumbPosition(thumbCenterpostion - half, thumbCenterpostion, val);
+            var thumbCenterPosition = ConvertRangeValue(val, min, max, half, _trackBackground.Width -half);
+            SetThumbPosition(thumbCenterPosition - half, thumbCenterPosition, val);
         }
 
         void OnThumbPanUpdated(object sender, PanUpdatedEventArgs e)
@@ -159,7 +160,7 @@ namespace TemplateMAUI.Controls
                 case GestureStatus.Started:
                     _previousPosition = e.TotalX;
 
-                    if (Device.RuntimePlatform == Device.iOS)
+                    if (DeviceInfo.Platform == DevicePlatform.iOS || DeviceInfo.Platform == DevicePlatform.WinUI)
                         _previousPosition += _thumb.TranslationX;
                     break;
                 case GestureStatus.Running:
@@ -167,12 +168,12 @@ namespace TemplateMAUI.Controls
                     var half = ThumbHalfWidth;
                     var maxPosition = _trackBackground.Width - half;
 
-                    if (Device.RuntimePlatform == Device.Android)
+                    if (DeviceInfo.Platform == DevicePlatform.Android)
                         totalX += _thumb.TranslationX;
 
-                    var thumbCenterPostion = CheckValueByRange(totalX + half, half, maxPosition);
-                    var val = ConvertRangeValue(thumbCenterPostion, half, maxPosition, Minimum, Maximum);
-                    SetThumbPosition(thumbCenterPostion - half, thumbCenterPostion, val);
+                    var thumbCenterPosition = CheckValueByRange(totalX + half, half, maxPosition);
+                    var val = ConvertRangeValue(thumbCenterPosition, half, maxPosition, Minimum, Maximum);
+                    SetThumbPosition(thumbCenterPosition - half, thumbCenterPosition, val);
                     Value = val;
                     break;
                 case GestureStatus.Completed:
@@ -190,11 +191,11 @@ namespace TemplateMAUI.Controls
         double CheckValueByRange(double val, double min, double max)
             => val <= min ? min : val >= max ? max : val;
 
-        void SetThumbPosition(double thumbPosition, double progrssWidth, double val)
+        void SetThumbPosition(double thumbPosition, double progressWidth, double val)
         {
             _previousVal = val;
             _thumb.TranslationX = thumbPosition;
-            _progress.WidthRequest = progrssWidth;
+            _progress.WidthRequest = progressWidth;
         }
     }
 }

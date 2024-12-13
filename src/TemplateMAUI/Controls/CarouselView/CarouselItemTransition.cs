@@ -24,7 +24,7 @@
             {
                 var tcs = new TaskCompletionSource<bool>();
 
-                Device.BeginInvokeOnMainThread(() =>
+                args.Parent.Dispatcher.Dispatch(() =>
                 {
                     Animation resetAnimation = new Animation();
 
@@ -50,7 +50,7 @@
             {
                 var tcs = new TaskCompletionSource<bool>();
 
-                Device.BeginInvokeOnMainThread(() =>
+                args.Parent.Dispatcher.Dispatch(() =>
                 {
                     Animation completeAnimation = new Animation();
 

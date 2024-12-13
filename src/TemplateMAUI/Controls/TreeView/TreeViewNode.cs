@@ -144,7 +144,7 @@ namespace TemplateMAUI.Controls
         }
 
         public static readonly BindableProperty FontSizeProperty =
-          BindableProperty.Create(nameof(FontSize), typeof(double), typeof(TreeViewNode), Device.GetNamedSize(NamedSize.Small, typeof(Label)),
+          BindableProperty.Create(nameof(FontSize), typeof(double), typeof(TreeViewNode), 12.0,
               propertyChanged: CurrentChanged);
 
         [TypeConverter(typeof(FontSizeConverter))]
@@ -155,7 +155,7 @@ namespace TemplateMAUI.Controls
         }
 
         public static readonly BindableProperty FontSizeSelectedProperty =
-            BindableProperty.Create(nameof(FontSizeSelected), typeof(double), typeof(TreeViewNode), Device.GetNamedSize(NamedSize.Small, typeof(Label)),
+            BindableProperty.Create(nameof(FontSizeSelected), typeof(double), typeof(TreeViewNode), 12.0,
                 propertyChanged: CurrentChanged);
 
         [TypeConverter(typeof(FontSizeConverter))]
@@ -217,7 +217,7 @@ namespace TemplateMAUI.Controls
         }
 
         internal static readonly BindablePropertyKey CurrentFontSizePropertyKey =
-            BindableProperty.CreateReadOnly(nameof(CurrentFontSize), typeof(double), typeof(TreeViewNode), Device.GetNamedSize(NamedSize.Small, typeof(Label)));
+            BindableProperty.CreateReadOnly(nameof(CurrentFontSize), typeof(double), typeof(TreeViewNode), 12.0);
 
         public static readonly BindableProperty CurrentFontSizeProperty = CurrentFontSizePropertyKey.BindableProperty;
 
@@ -312,7 +312,7 @@ namespace TemplateMAUI.Controls
             CurrentIcon = !IsSelected || IconSelected == null ? Icon : IconSelected;
             CurrentBackgroundColor = !IsSelected || BackgroundColorSelected == Colors.Transparent ? BackgroundColor : BackgroundColorSelected;
             CurrentTextColor = !IsSelected || TextColorSelected == Colors.Transparent ? TextColor : TextColorSelected;
-            CurrentFontSize = !IsSelected || FontSizeSelected == Device.GetNamedSize(NamedSize.Small, typeof(Label)) ? FontSize : FontSizeSelected;
+            CurrentFontSize = !IsSelected || FontSizeSelected == 12.0 ? FontSize : FontSizeSelected;
 
             UpdateLayout();
         }

@@ -118,7 +118,7 @@ namespace TemplateMAUI.Controls
         }
 
         public static readonly BindableProperty FontSizeProperty =
-            BindableProperty.Create(nameof(FontSize), typeof(double), typeof(SegmentedControl), 14.0);
+            BindableProperty.Create(nameof(FontSize), typeof(double), typeof(SegmentedControl), 12.0);
 
         [TypeConverter(typeof(FontSizeConverter))]
         public double FontSize
@@ -128,7 +128,7 @@ namespace TemplateMAUI.Controls
         }
 
         public static readonly BindableProperty FontSizeSelectedProperty =
-            BindableProperty.Create(nameof(FontSizeSelected), typeof(double), typeof(SegmentedControl), 14.0);
+            BindableProperty.Create(nameof(FontSizeSelected), typeof(double), typeof(SegmentedControl), 12.0);
 
         [TypeConverter(typeof(FontSizeConverter))]
         public double FontSizeSelected
@@ -339,10 +339,10 @@ namespace TemplateMAUI.Controls
             if (segmentedItem.TextColorSelected == Colors.Transparent)
                 segmentedItem.TextColorSelected = TextColorSelected;
 
-            if (segmentedItem.FontSize == 14.0)
+            if (segmentedItem.FontSize == 12.0)
                 segmentedItem.FontSize = FontSize;
 
-            if (segmentedItem.FontSizeSelected == 14.0)
+            if (segmentedItem.FontSizeSelected == 12.0)
                 segmentedItem.FontSizeSelected = FontSizeSelected;
 
             if (!string.IsNullOrEmpty(segmentedItem.FontFamily))

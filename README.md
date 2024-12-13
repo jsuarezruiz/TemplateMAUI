@@ -36,6 +36,18 @@ Provides an option for displaying a split-screen of two views, which can help yo
 
 ![ComparerView](https://raw.githubusercontent.com/jsuarezruiz/TemplateMAUI/main/images/comparerview.png)
 
+#### DataVisualization
+
+Several series graphs.
+
+![DataVisualization](https://raw.githubusercontent.com/jsuarezruiz/TemplateMAUI/main/images/datavisualization.png)
+
+#### Divider
+
+Displays a separator between views.
+
+![Divider](https://raw.githubusercontent.com/jsuarezruiz/TemplateMAUI/main/images/divider.png)
+
 ## Copyright and license
 
 Code released under the [MIT license](https://opensource.org/licenses/MIT).

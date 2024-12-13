@@ -152,7 +152,7 @@ namespace TemplateMAUI.Controls
                     _previousPositionX = e.TotalX;
                     _previousPositionY = e.TotalY;
 
-                    if (DeviceInfo.Platform == DevicePlatform.iOS)
+                    if (DeviceInfo.Platform == DevicePlatform.iOS || DeviceInfo.Platform == DevicePlatform.WinUI)
                     {
                         _previousPositionX += _thumbContainer.TranslationX;
                         _previousPositionY += _thumbContainer.TranslationY;

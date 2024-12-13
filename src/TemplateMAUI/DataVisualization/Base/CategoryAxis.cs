@@ -109,7 +109,7 @@ namespace TemplateMAUI.DataVisualization
                 _valueLabels.Add(new Label
                 {
                     HorizontalOptions = LayoutOptions.End,
-                    FontSize = (Device.RuntimePlatform == Device.iOS) ? 8.0 : Device.GetNamedSize(NamedSize.Micro, typeof(Label))
+                    FontSize = (DeviceInfo.Platform == DevicePlatform.iOS) ? 8.0 : 9.0
                 });
 
                 UpdateText(i);

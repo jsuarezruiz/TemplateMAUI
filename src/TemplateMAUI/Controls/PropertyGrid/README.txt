@@ -1,0 +1,1 @@
+﻿Based on the awesome PropertyGrid control from https://github.com/HandyOrg/HandyControl

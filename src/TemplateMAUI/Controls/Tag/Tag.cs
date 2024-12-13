@@ -94,7 +94,7 @@ namespace TemplateMAUI.Controls
         }
 
         public static readonly BindableProperty FontSizeProperty =
-            BindableProperty.Create(nameof(FontSize), typeof(double), typeof(Tag), Device.GetNamedSize(NamedSize.Small, typeof(Label)),
+            BindableProperty.Create(nameof(FontSize), typeof(double), typeof(Tag), 12.0,
             propertyChanged: OnFontSizeChanged);
 
         static void OnFontSizeChanged(BindableObject bindable, object oldValue, object newValue) => ((Tag)bindable).UpdateFontSize();

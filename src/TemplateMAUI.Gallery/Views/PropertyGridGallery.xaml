@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:controls="clr-namespace:TemplateMAUI.Controls;assembly=TemplateMAUI"
+    x:Class="TemplateMAUI.Gallery.Views.PropertyGridGallery"
+    Title="PropertyGrid Gallery">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+
+            <Style x:Key="ValueStyle" TargetType="Label">
+                <Setter Property="FontAttributes" Value="Bold" />
+                <Setter Property="FontSize" Value="14" />
+                <Setter Property="VerticalOptions" Value="Center" />
+            </Style>
+            
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <Grid
+        RowDefinitions="Auto, Auto"
+        Padding="12">
+        <controls:PropertyGrid  
+            SelectedObject="{Binding Model}" />
+        <Grid
+            Grid.Row="1"
+            ColumnDefinitions="150, *"
+            RowDefinitions="Auto, Auto, Auto, Auto, Auto, Auto"
+            BindingContext="{Binding Model}">
+            <Label 
+                Text="String" />
+            <Label 
+                Grid.Column="1"
+                Text="{Binding String, Mode=OneWay}" 
+                Style="{StaticResource ValueStyle}" />
+            <Label 
+                Grid.Row="1"
+                Text="Enum" />
+            <Label 
+                Grid.Column="1"
+                Grid.Row="1"
+                Text="{Binding Enum, Mode=OneWay}" 
+                Style="{StaticResource ValueStyle}" />
+            <Label 
+                Grid.Row="2"
+                Text="Integer" />
+            <Label 
+                Grid.Column="1"
+                Grid.Row="2"
+                Text="{Binding Integer,Mode=OneWay}" 
+                Style="{StaticResource ValueStyle}" />
+            <Label 
+                Grid.Row="3"
+                Text="Boolean" />
+            <Label 
+                Grid.Column="1"
+                Grid.Row="3"
+                Text="{Binding Boolean,Mode=OneWay}" 
+                Style="{StaticResource ValueStyle}" />
+            <Label 
+                Grid.Row="4"
+                Text="HorizontalAlignment" />
+            <Label 
+                Grid.Column="1"
+                Grid.Row="4"
+                Text="{Binding HorizontalAlignment,Mode=OneWay}" 
+                Style="{StaticResource ValueStyle}" />
+            <Label
+                Grid.Row="5"
+                Text="VerticalAlignment" />
+            <Label 
+                Grid.Column="1"
+                Grid.Row="5"
+                Text="{Binding VerticalAlignment,Mode=OneWay}"
+                Style="{StaticResource ValueStyle}" />
+        </Grid>
+    </Grid>
+</ContentPage>

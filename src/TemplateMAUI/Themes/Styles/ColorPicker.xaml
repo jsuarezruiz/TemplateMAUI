@@ -5,4 +5,227 @@
     x:Class="TemplateMAUI.Themes.ColorPicker"     
     xmlns:controls="clr-namespace:TemplateMAUI.Controls">
     
+    <Color x:Key="BorderColor">#e0e0e0</Color>
+    <SolidColorBrush x:Key="BorderBrush" Color="{DynamicResource BorderColor}" />
+
+    <controls:ColorToHexConverter x:Key="ColorToHexConverter" />
+    
+    <LinearGradientBrush x:Key="ColorPickerRainbowBrush">
+        <GradientStop Color="#ff0000"/>
+        <GradientStop Color="#ff00ff" Offset="0.167"/>
+        <GradientStop Color="#0000ff" Offset="0.334"/>
+        <GradientStop Color="#00ffff" Offset="0.501"/>
+        <GradientStop Color="#00ff00" Offset="0.668"/>
+        <GradientStop Color="#ffff00" Offset="0.835"/>
+        <GradientStop Color="#ff0000" Offset="1"/>
+    </LinearGradientBrush>
+    
+    <ControlTemplate x:Key="SliderColorControlTemplate">
+        <Grid 
+            x:Name="PART_TrackBackground"
+            Padding="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <BoxView 
+                x:Name="PART_Track"
+                HeightRequest="12"
+                CornerRadius="2"
+                Background="{StaticResource ColorPickerRainbowBrush}"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="Center"
+                Margin="2, 0"/>
+            <BoxView 
+                x:Name="PART_Progress"
+                HeightRequest="0"
+                WidthRequest="0"
+                Color="{TemplateBinding MinimumTrackColor}"
+                HorizontalOptions="Start"
+                VerticalOptions="Center"
+                Margin="2, 0"/>
+            <ContentView 
+                x:Name="PART_Thumb"
+                HorizontalOptions="Start"
+                VerticalOptions="Center"
+                Padding="0"
+                Margin="0">
+                <ContentView.Content>
+                    <Ellipse 
+                        Fill="White"
+                        Stroke="DarkGray"
+                        StrokeThickness="2"
+                        HeightRequest="20"
+                        WidthRequest="20"
+                        Margin="0"/>
+                </ContentView.Content>
+            </ContentView>
+
+        </Grid>
+    </ControlTemplate>
+
+    <ControlTemplate x:Key="SliderOpacityControlTemplate">
+        <Grid 
+            x:Name="PART_TrackBackground"
+          Padding="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Border 
+                x:Name="PART_Track"
+                HeightRequest="12"  
+                HorizontalOptions="Fill"
+                VerticalOptions="Center"
+                Margin="2, 0">
+                <Grid>
+                    <Image 
+                        Aspect="AspectFill"
+                        Source="transparent_bar.png" />
+                    <Rectangle>
+                        <Rectangle.Background>
+                            <LinearGradientBrush>
+                                <LinearGradientBrush.GradientStops>
+                                    <GradientStop Color="Transparent" Offset="0.5" />
+                                    <GradientStop Color="White" Offset="1.0" />
+                                </LinearGradientBrush.GradientStops>
+                            </LinearGradientBrush>
+                        </Rectangle.Background>
+                    </Rectangle>
+                </Grid>
+            </Border>
+            <BoxView 
+                x:Name="PART_Progress"
+                HeightRequest="0"
+                WidthRequest="0"
+                Color="{TemplateBinding MinimumTrackColor}"
+                HorizontalOptions="Start"
+                VerticalOptions="Center"
+                Margin="2, 0"/>
+            <ContentView 
+                x:Name="PART_Thumb"
+                HorizontalOptions="Start"
+                VerticalOptions="Center"
+                Padding="0"
+                Margin="0">
+                <ContentView.Content>
+                    <Ellipse 
+                        Fill="White"
+                        Stroke="DarkGray"
+                        StrokeThickness="2"
+                        HeightRequest="20"
+                        WidthRequest="20"
+                        Margin="0"/>
+                </ContentView.Content>
+            </ContentView>
+        </Grid>
+    </ControlTemplate>
+
+    <Style TargetType="controls:ColorPicker">
+        <Setter Property="HeightRequest" Value="250"/>
+        <Setter Property="WidthRequest" Value="250"/>
+        <Setter Property="ControlTemplate">
+            <Setter.Value>
+                <ControlTemplate>
+                    <Grid  
+                        RowDefinitions="*, Auto, Auto">
+                        <Border 
+                            StrokeThickness="1" 
+                            Stroke="{DynamicResource BorderBrush}"
+                            Grid.RowSpan="3"
+                            Background="{TemplateBinding Background}"/>
+                        <Border
+                            StrokeThickness="0"
+                            Margin="6">
+                            <Border.Background>
+                                <LinearGradientBrush EndPoint="0,0.5" StartPoint="1,0.5">
+                                    <GradientStop Color="White" Offset="1"/>
+                                    <GradientStop Color="#80ffffff" Offset=".5"/>
+                                    <GradientStop Color="#00ffffff"/>
+                                </LinearGradientBrush>
+                            </Border.Background>
+                        </Border>
+                        <Border
+                            StrokeThickness="0"
+                            Margin="6">
+                            <Border.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="Black" Offset="1"/>
+                                    <GradientStop Color="#80000000" Offset=".5"/>
+                                    <GradientStop Color="#00000000"/>
+                                </LinearGradientBrush>
+                            </Border.Background>
+                        </Border>
+                        <Border    
+                            x:Name="PART_Gradient"
+                            StrokeThickness="0"
+                            Margin="6">
+                            <Ellipse 
+                                x:Name="PART_Thumb"
+                                Fill="Transparent"
+                                Stroke="LightGray"
+                                StrokeThickness="2"
+                                HeightRequest="20"
+                                WidthRequest="20"
+                                Margin="0"/>
+                        </Border>
+                        <Grid
+                            Grid.Row="1"
+                            ColumnDefinitions="Auto, *"
+                            Margin="6">
+                            <Grid         
+                                Grid.RowSpan="2"
+                                VerticalOptions="Center">
+                                <Image 
+                                    Aspect="AspectFit"
+                                    Source="transparent_ellipse.png"
+                                    WidthRequest="39"
+                                    HeightRequest="39" />
+                                <Border
+                                    x:Name="PART_Color"
+                                    StrokeShape="Ellipse"
+                                    StrokeThickness="1"
+                                    Stroke="{StaticResource BorderBrush}"
+                                    BackgroundColor="{TemplateBinding SelectedColor}"
+                                    WidthRequest="40"
+                                    HeightRequest="40" />
+                            </Grid>
+                            <StackLayout
+                                Grid.Column="1"
+                                VerticalOptions="Center"
+                                Margin="12, 0, 0, 0">
+                                <controls:Slider 
+                                    x:Name="PART_SliderColor"
+                                    Margin="0, 6"
+                                    Minimum="0"
+                                    Maximum="90"
+                                    Value="100"
+                                    ControlTemplate="{StaticResource SliderColorControlTemplate}"/>
+                                <controls:Slider 
+                                    x:Name="PART_SliderOpacity"
+                                    Margin="0, 6"
+                                    Minimum="0"
+                                    Maximum="255"
+                                    Value="200"
+                                    ControlTemplate="{StaticResource SliderOpacityControlTemplate}"/>
+                            </StackLayout>
+                        </Grid>
+                        <StackLayout    
+                            Grid.Row="2"
+                            Margin="6">
+                            <Label 
+                                x:Name="PART_HexLabel"
+                                HorizontalOptions="Center"
+                                FontAttributes="Bold"
+                                Text="{TemplateBinding SelectedColor, Converter={StaticResource ColorToHexConverter}}"/>
+                            <Label 
+                                Margin="0,2,0,0"
+                                FontSize="9" 
+                                Text="HEX" 
+                                HorizontalOptions="Center"/>
+                        </StackLayout>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
 </ResourceDictionary>

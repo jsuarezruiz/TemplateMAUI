@@ -60,7 +60,7 @@ namespace TemplateMAUI.Controls
         }
 
         public static readonly BindableProperty FontSizeProperty =
-            BindableProperty.Create(nameof(FontSize), typeof(double), typeof(SegmentedItem), Device.GetNamedSize(NamedSize.Small, typeof(Label)),
+            BindableProperty.Create(nameof(FontSize), typeof(double), typeof(SegmentedItem), 12.0,
                 propertyChanged: OnSegmentedItemPropertyChanged);
 
         [TypeConverter(typeof(FontSizeConverter))]
@@ -71,7 +71,7 @@ namespace TemplateMAUI.Controls
         }
 
         public static readonly BindableProperty FontSizeSelectedProperty =
-            BindableProperty.Create(nameof(FontSizeSelected), typeof(double), typeof(SegmentedItem), Device.GetNamedSize(NamedSize.Small, typeof(Label)));
+            BindableProperty.Create(nameof(FontSizeSelected), typeof(double), typeof(SegmentedItem), 12.0);
 
         [TypeConverter(typeof(FontSizeConverter))]
         public double FontSizeSelected

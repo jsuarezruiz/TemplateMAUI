@@ -89,7 +89,7 @@ namespace TemplateMAUI.Controls
         }
 
         public static readonly BindableProperty FontSizeProperty =
-            BindableProperty.Create(nameof(FontSize), typeof(double), typeof(TreeView), Device.GetNamedSize(NamedSize.Small, typeof(Label)));
+            BindableProperty.Create(nameof(FontSize), typeof(double), typeof(TreeView), 12.0d);
 
         [TypeConverter(typeof(FontSizeConverter))]
         public double FontSize
@@ -99,7 +99,7 @@ namespace TemplateMAUI.Controls
         }
 
         public static readonly BindableProperty FontSizeSelectedProperty =
-            BindableProperty.Create(nameof(FontSizeSelected), typeof(double), typeof(TreeView), Device.GetNamedSize(NamedSize.Small, typeof(Label)));
+            BindableProperty.Create(nameof(FontSizeSelected), typeof(double), typeof(TreeView), 12.0d);
 
         [TypeConverter(typeof(FontSizeConverter))]
         public double FontSizeSelected
@@ -198,10 +198,10 @@ namespace TemplateMAUI.Controls
             if (treeViewNode.TextColorSelected == Colors.Transparent)
                 treeViewNode.TextColorSelected = TextColorSelected;
 
-            if (treeViewNode.FontSize == Device.GetNamedSize(NamedSize.Small, typeof(Label)))
+            if (treeViewNode.FontSize == 12.0d)
                 treeViewNode.FontSize = FontSize;
 
-            if (treeViewNode.FontSizeSelected == Device.GetNamedSize(NamedSize.Small, typeof(Label)))
+            if (treeViewNode.FontSizeSelected == 12.0d)
                 treeViewNode.FontSizeSelected = FontSizeSelected;
         }
     }

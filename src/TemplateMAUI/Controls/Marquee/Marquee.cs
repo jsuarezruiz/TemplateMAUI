@@ -13,7 +13,7 @@
 
         public Marquee()
         {
-            Device.StartTimer(TimeSpan.FromMilliseconds(DefaultSpeed / AnimationSpeed), OnTimerTick);
+            Dispatcher.StartTimer(TimeSpan.FromMilliseconds(DefaultSpeed / AnimationSpeed), OnTimerTick);
         }
 
         public static readonly BindableProperty MarqueeDirectionProperty =
@@ -106,7 +106,7 @@
 
             var presenter = _content as ContentPresenter;
 
-            if(presenter?.Content is Label label)
+            if (presenter?.Content is Label label)
             {
                 label.LineBreakMode = LineBreakMode.NoWrap;
                 label.MaxLines = 1;
@@ -117,27 +117,34 @@
         void UpdateAnimationSpeed()
         {
             // TODO: Cancel previous animation.
-            Device.StartTimer(TimeSpan.FromMilliseconds(DefaultSpeed / AnimationSpeed), OnTimerTick);
+            Dispatcher.StartTimer(TimeSpan.FromMilliseconds(DefaultSpeed / AnimationSpeed), OnTimerTick);
         }
 
         bool OnTimerTick()
         {
-            if (Direction == MarqueeDirection.RightToLeft)
+            try
             {
-                _content.TranslationX -= 5f;
+                if (Direction == MarqueeDirection.RightToLeft)
+                {
+                    _content.TranslationX -= 5f;
 
-                if (Math.Abs(_content.TranslationX) > Width)
-                    _content.TranslationX = _content.Width;
+                    if (Math.Abs(_content.TranslationX) > Width)
+                        _content.TranslationX = _content.Width;
+                }
+                else
+                {
+                    _content.TranslationX += 5f;
+
+                    if (Math.Abs(_content.TranslationX) > Width)
+                        _content.TranslationX = -_content.Width;
+                }
+
+                return IsEnabled;
             }
-            else
+            catch
             {
-                _content.TranslationX += 5f;
-
-                if (Math.Abs(_content.TranslationX) > Width)
-                    _content.TranslationX = -_content.Width;
+                return false;
             }
-
-            return IsEnabled;
         }
     }
 }

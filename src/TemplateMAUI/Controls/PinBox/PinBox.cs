@@ -150,8 +150,8 @@ namespace TemplateMAUI.Controls
             set { SetValue(AnimationProperty, value); }
         }
 
-        public event EventHandler Focused;
-        public event EventHandler Unfocused;
+        public new event EventHandler Focused;
+        public new event EventHandler Unfocused;
         public event EventHandler<PinCompletedEventArgs> Completed;
 
         protected override void OnApplyTemplate()

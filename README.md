@@ -24,6 +24,18 @@ Allow to navigate through a collection of views.
 
 ![CarouselView](https://raw.githubusercontent.com/jsuarezruiz/TemplateMAUI/main/images/carouselview.png)
 
+#### ChatBubble
+
+Allow to show a speech bubble message.
+
+![ChatBubble](https://raw.githubusercontent.com/jsuarezruiz/TemplateMAUI/main/images/chatbubble.png)
+
+#### ComparerView
+ 
+Provides an option for displaying a split-screen of two views, which can help you to make comparisons.
+
+![ComparerView](https://raw.githubusercontent.com/jsuarezruiz/TemplateMAUI/main/images/comparerview.png)
+
 ## Copyright and license
 
 Code released under the [MIT license](https://opensource.org/licenses/MIT).

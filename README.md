@@ -48,6 +48,18 @@ Displays a separator between views.
 
 ![Divider](https://raw.githubusercontent.com/jsuarezruiz/TemplateMAUI/main/images/divider.png)
 
+#### Marquee
+
+Use this control to add an attention–getting text message that scrolls continuously across the screen.
+
+![Marquee](https://raw.githubusercontent.com/jsuarezruiz/TemplateMAUI/main/images/marquee.png)
+
+#### PinBox
+
+Allow to introduce a PIN or verification Code.
+
+![PinBox](https://raw.githubusercontent.com/jsuarezruiz/TemplateMAUI/main/images/pinbox.png)
+
 ## Copyright and license
 
 Code released under the [MIT license](https://opensource.org/licenses/MIT).

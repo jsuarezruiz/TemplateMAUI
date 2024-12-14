@@ -116,6 +116,7 @@ namespace TemplateMAUI.Controls
             get => (Color)GetValue(TextColorSelectedProperty);
             set { SetValue(TextColorSelectedProperty, value); }
         }
+
         public static readonly BindableProperty FontSizeProperty =
             BindableProperty.Create(nameof(FontSize), typeof(double), typeof(SegmentedControl), 12.0);
 
@@ -216,7 +217,10 @@ namespace TemplateMAUI.Controls
 
                 UpdateSegmentedItem(segmentedItem);
                 if (AddSegmentedItem(segmentedItem))
+                {
+                    _holder.ColumnDefinitions.Add(new ColumnDefinition());
                     Grid.SetColumn(segmentedItem, index++);
+                }
             }
 
             UpdateIsEnabled();
@@ -241,7 +245,10 @@ namespace TemplateMAUI.Controls
                 {
                     UpdateSegmentedItem(newSegmentedItem);
                     if (AddSegmentedItem(newSegmentedItem))
+                    {
+                        _holder.ColumnDefinitions.Add(new ColumnDefinition());
                         Grid.SetColumn(newSegmentedItem, _counter++);
+                    }
                 }
             }
 
@@ -356,6 +363,7 @@ namespace TemplateMAUI.Controls
             if (_holder == null)
                 return;
 
+            _holder.ColumnDefinitions.Clear();
             _holder.Children.Clear();
         }
 
@@ -364,6 +372,8 @@ namespace TemplateMAUI.Controls
             if (_holder == null)
                 return;
 
+            var index = _holder.Children.IndexOf(segmentedItem);
+            _holder.ColumnDefinitions.RemoveAt(index);
             _holder.Children.Remove(segmentedItem);
         }
 

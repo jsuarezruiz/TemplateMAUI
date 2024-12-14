@@ -119,6 +119,7 @@ namespace TemplateMAUI.DataVisualization
 
         void AddBarChartToLayout()
         {
+            _chartPanel.Children.Clear();
             _chartPanel.Children.Add(_barChart);
         }
 

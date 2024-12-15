@@ -72,6 +72,24 @@ Allows users to select a rating value from a group of visual symbols like stars.
 
 ![Rate](https://raw.githubusercontent.com/jsuarezruiz/TemplateMAUI/main/images/rate.png)
 
+#### Shield
+
+Shield is a type of badge.
+
+![Shield](https://raw.githubusercontent.com/jsuarezruiz/TemplateMAUI/main/images/shield.png)
+
+#### Slider
+
+Is a horizontal bar that can be manipulated by the user to select a double value from a continuous range.
+
+![Slider](https://raw.githubusercontent.com/jsuarezruiz/TemplateMAUI/main/images/slider.png)
+
+#### TreeView
+
+Enables a hierarchical list with expanding and collapsing nodes that contain nested items.
+
+![TreeView](https://raw.githubusercontent.com/jsuarezruiz/TemplateMAUI/main/images/treeview.png)
+
 ## Copyright and license
 
 Code released under the [MIT license](https://opensource.org/licenses/MIT).

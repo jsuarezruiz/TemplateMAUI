@@ -60,6 +60,18 @@ Allow to introduce a PIN or verification Code.
 
 ![PinBox](https://raw.githubusercontent.com/jsuarezruiz/TemplateMAUI/main/images/pinbox.png)
 
+### ProgressBar
+
+Provides a customizable visual to indicate the progress of a task.
+
+![ProgressBar](https://raw.githubusercontent.com/jsuarezruiz/TemplateMAUI/main/images/progressbar.png)
+
+#### Rate
+
+Allows users to select a rating value from a group of visual symbols like stars.
+
+![Rate](https://raw.githubusercontent.com/jsuarezruiz/TemplateMAUI/main/images/rate.png)
+
 ## Copyright and license
 
 Code released under the [MIT license](https://opensource.org/licenses/MIT).

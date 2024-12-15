@@ -150,8 +150,6 @@ namespace TemplateMAUI.DataVisualization
 
                 AbsoluteLayout.SetLayoutBounds(_valueBoxes[i], new Rect(_valueBoxes[i].X, y, _valueBoxes[i].Width, _valueBoxes[i].Height));
                 AbsoluteLayout.SetLayoutBounds(_valueTicks[i], new Rect(_valueTicks[i].X, y, _valueTicks[i].Width, _valueTicks[i].Height));
-
-
             }
         }
     }

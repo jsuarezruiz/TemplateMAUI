@@ -50,7 +50,7 @@ Displays a separator between views.
 
 #### Marquee
 
-Use this control to add an attention–getting text message that scrolls continuously across the screen.
+Use this control to add an attention getting text message that scrolls continuously across the screen.
 
 ![Marquee](https://raw.githubusercontent.com/jsuarezruiz/TemplateMAUI/main/images/marquee.png)
 
@@ -59,6 +59,18 @@ Use this control to add an attention–getting text message that scrolls continu
 Allow to introduce a PIN or verification Code.
 
 ![PinBox](https://raw.githubusercontent.com/jsuarezruiz/TemplateMAUI/main/images/pinbox.png)
+
+### ProgressBar
+
+Provides a customizable visual to indicate the progress of a task.
+
+![ProgressBar](https://raw.githubusercontent.com/jsuarezruiz/TemplateMAUI/main/images/progressbar.png)
+
+#### Rate
+
+Allows users to select a rating value from a group of visual symbols like stars.
+
+![Rate](https://raw.githubusercontent.com/jsuarezruiz/TemplateMAUI/main/images/rate.png)
 
 ## Copyright and license
 

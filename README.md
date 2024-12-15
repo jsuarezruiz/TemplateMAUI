@@ -50,7 +50,7 @@ Displays a separator between views.
 
 #### Marquee
 
-Use this control to add an attention–getting text message that scrolls continuously across the screen.
+Use this control to add an attention getting text message that scrolls continuously across the screen.
 
 ![Marquee](https://raw.githubusercontent.com/jsuarezruiz/TemplateMAUI/main/images/marquee.png)
 
@@ -71,6 +71,24 @@ Provides a customizable visual to indicate the progress of a task.
 Allows users to select a rating value from a group of visual symbols like stars.
 
 ![Rate](https://raw.githubusercontent.com/jsuarezruiz/TemplateMAUI/main/images/rate.png)
+
+#### Shield
+
+Shield is a type of badge.
+
+![Shield](https://raw.githubusercontent.com/jsuarezruiz/TemplateMAUI/main/images/shield.png)
+
+#### Slider
+
+Is a horizontal bar that can be manipulated by the user to select a double value from a continuous range.
+
+![Slider](https://raw.githubusercontent.com/jsuarezruiz/TemplateMAUI/main/images/slider.png)
+
+#### TreeView
+
+Enables a hierarchical list with expanding and collapsing nodes that contain nested items.
+
+![TreeView](https://raw.githubusercontent.com/jsuarezruiz/TemplateMAUI/main/images/treeview.png)
 
 ## Copyright and license
 

@@ -6,7 +6,7 @@
     xmlns:controls="clr-namespace:TemplateMAUI.Controls">
 
         <Style TargetType="controls:SnackBar">
-            <Setter Property="HorizontalOptions" Value="Start" />
+            <Setter Property="HorizontalOptions" Value="Fill" />
             <Setter Property="VerticalOptions" Value="End" />
             <Setter Property="ControlTemplate">
                 <Setter.Value>

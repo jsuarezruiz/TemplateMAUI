@@ -148,8 +148,10 @@ namespace TemplateMAUI.DataVisualization
             {
                 var y = height - (_locations[i] * height / max);
 
-                AbsoluteLayout.SetLayoutBounds(_valueBoxes[i], new Rect(_valueBoxes[i].X + _valueTicks[i].Width, y - _valueBoxes[i].Height / 2, _valueBoxes[i].Width, _valueBoxes[i].Height));
-                AbsoluteLayout.SetLayoutBounds(_valueTicks[i], new Rect(_valueTicks[i].X + _valueTicks[i].Width, y, _valueTicks[i].Width, _valueTicks[i].Height));
+                AbsoluteLayout.SetLayoutBounds(_valueBoxes[i], new Rect(_valueBoxes[i].X, y, _valueBoxes[i].Width, _valueBoxes[i].Height));
+                AbsoluteLayout.SetLayoutBounds(_valueTicks[i], new Rect(_valueTicks[i].X, y, _valueTicks[i].Width, _valueTicks[i].Height));
+
+
             }
         }
     }

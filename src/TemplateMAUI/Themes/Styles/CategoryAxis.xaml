@@ -37,7 +37,6 @@
                             Grid.Row="2"
                             HorizontalOptions="Fill"
                             VerticalOptions="Fill" />
-
                     </Grid>
                 </ControlTemplate>
             </Setter.Value>

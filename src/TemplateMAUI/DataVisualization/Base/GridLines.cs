@@ -8,12 +8,12 @@ namespace TemplateMAUI.DataVisualization
 
         AbsoluteLayout _gridLayout;
         List<double> _locations;
-        readonly List<Line> _gridLines;
+        readonly List<BoxView> _gridLines;
 
         public GridLines()
         {
             _locations = new List<double>();
-            _gridLines = new List<Line>();
+            _gridLines = new List<BoxView>();
 
             VerticalOptions = LayoutOptions.Fill;
             HorizontalOptions = LayoutOptions.Fill;
@@ -32,6 +32,7 @@ namespace TemplateMAUI.DataVisualization
             base.OnApplyTemplate();
 
             _gridLayout = GetTemplateChild(ElementGridLayout) as AbsoluteLayout;
+   
         }
 
         public void UpdateLocations(IEnumerable<double> locations)
@@ -59,28 +60,20 @@ namespace TemplateMAUI.DataVisualization
         {
             for (int i = 0; i < count; i++)
             {
-                UpdateLineX(i);
-                UpdateLineY(i);
+                UpdateLineLocation(i);
             }
         }
 
-        void UpdateLineX(int i)
+        void UpdateLineLocation(int i)
         {
-            if (_gridLayout != null && _gridLines.Count > i)
-            {
-                if (_gridLines[i].X2 != _gridLayout.Width)
-                    _gridLines[i].X2 = _gridLayout.Width;
-            }
-        }
-
-        void UpdateLineY(int i)
-        {      
-            if (_gridLines.Count > i && _gridLines[i].Y1 != _locations[i])
+            if (_gridLines.Count > i && _gridLines[i].TranslationY != _locations[i])
             {
                 var max = _locations.Max();
-                var height = _gridLayout.Height;
-                var y = 2 * (height - (_locations[i] * height / max)) + 1;
-                _gridLines[i].Y1 = _gridLines[i].Y2 = y;
+                var height = _gridLayout.Frame.Height;
+                var y = (height - (_locations[i] * height / max)) + 1;
+
+                _gridLines[i].TranslationY = y;
+                _gridLines[i].WidthRequest = _gridLayout.Width;
             }
         }
 
@@ -88,18 +81,15 @@ namespace TemplateMAUI.DataVisualization
         {
             for (int i = count; i < _locations.Count; i++)
             {
-                Line line = new Line
+                BoxView line = new BoxView
                 {
-                    Aspect = Stretch.Fill,
-                    Opacity = 0.25,
-                    Stroke = new SolidColorBrush(Colors.Gray),
-                    StrokeThickness = 1,
-                    X1 = 0
+                    Background = new SolidColorBrush(Colors.LightGray),
+                    HeightRequest = 1,
+                    WidthRequest = _gridLayout.Width,
                 };
                 _gridLines.Add(line);
 
-                UpdateLineX(i);
-                UpdateLineY(i);
+                UpdateLineLocation(i);
 
                 _gridLayout.Children.Add(_gridLines[i]);
             }

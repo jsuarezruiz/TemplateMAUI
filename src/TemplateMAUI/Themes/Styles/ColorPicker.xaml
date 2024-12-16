@@ -204,7 +204,7 @@
                                     Margin="0, 6"
                                     Minimum="0"
                                     Maximum="255"
-                                    Value="200"
+                                    Value="255"
                                     ControlTemplate="{StaticResource SliderOpacityControlTemplate}"/>
                             </StackLayout>
                         </Grid>

@@ -12,11 +12,13 @@ namespace TemplateMAUI.Controls
         const string ElementThumb = "PART_Thumb";
         const string ElementSliderColor = "PART_SliderColor";
         const string ElementSliderOpacity = "PART_SliderOpacity";
+        const string ElementHexLabel = "PART_HexLabel";
 
         Border _gradientBackground;
         Shape _thumb;
         Slider _sliderColor;
         Slider _sliderOpacity;
+        Label _hexLabel;
 
         double _previousX;
         double _previousY;
@@ -32,7 +34,7 @@ namespace TemplateMAUI.Controls
             set { SetValue(SelectedColorProperty, value); }
         }
 
-        protected override void OnApplyTemplate()
+        protected override async void OnApplyTemplate()
         {
             if (_sliderColor is not null)
             {
@@ -50,6 +52,7 @@ namespace TemplateMAUI.Controls
             _thumb = GetTemplateChild(ElementThumb) as Shape;
             _sliderColor = GetTemplateChild(ElementSliderColor) as Slider;
             _sliderOpacity = GetTemplateChild(ElementSliderOpacity) as Slider;
+            _hexLabel = GetTemplateChild(ElementHexLabel) as Label;
 
             if (_sliderColor is not null)
             {
@@ -91,14 +94,14 @@ namespace TemplateMAUI.Controls
             _gradientBackground.Background = gradientBackground;
         }
 
-        void OnSliderColorValueChanged(object sender, ValueChangedEventArgs e)
+        async void OnSliderColorValueChanged(object sender, ValueChangedEventArgs e)
         {
-            UpdateSelectedColor();
+            await UpdateSelectedColorFromSliderAsync();
         }
 
-        void OnSliderOpacityValueChanged(object sender, ValueChangedEventArgs e)
+        async void OnSliderOpacityValueChanged(object sender, ValueChangedEventArgs e)
         {
-            UpdateSelectedColor();
+            await UpdateSelectedColorFromSliderAsync();
         }
 
         void UpdateIsEnabled()
@@ -108,10 +111,18 @@ namespace TemplateMAUI.Controls
                 var panGestureRecognizer = new PanGestureRecognizer();
                 panGestureRecognizer.PanUpdated += OnThumbPanUpdated;
                 _gradientBackground.GestureRecognizers.Add(panGestureRecognizer);
+
+                var tapGestureRecognizer = new TapGestureRecognizer
+                {
+                    NumberOfTapsRequired = 2
+                };
+                tapGestureRecognizer.Tapped += OnHexTapped;
+                _hexLabel.GestureRecognizers.Add(tapGestureRecognizer);
             }
             else
             {
                 _gradientBackground.GestureRecognizers.Clear();
+                _hexLabel.GestureRecognizers.Clear();
             }
         }
 
@@ -135,33 +146,43 @@ namespace TemplateMAUI.Controls
                     var x = _previousX + e.TotalX;
                     var y = _previousY + e.TotalY;
 
+                    Console.WriteLine($"X: {x}, Y: {y}");
+
                     SetThumbPosition(x, y);
+                    
+                    var positionX = x + _gradientBackground.Width / 2;
+                    var positionY = y + _gradientBackground.Height / 2;
+
+                    await UpdateSelectedColorFromGradientThumbAsync(positionX, positionY);
                     break;
                 case GestureStatus.Completed:
                 case GestureStatus.Canceled:
                     _thumb.Scale = 1.0;
-
-                    var finalX = _thumb.TranslationX + _gradientBackground.Width / 2;
-                    var finalY = _thumb.TranslationY + _gradientBackground.Height / 2;
-                    var selectedColor = await GetGradientBackgroundSelectedColorAsync(finalX, finalY);
-                                       
-                    SelectedColor = selectedColor;
                     break;
             }
         }
 
-        void UpdateSelectedColor()
+        async void OnHexTapped(object sender, EventArgs args)
         {
-            if (Application.Current.Resources["ColorPickerRainbowBrush"] is not LinearGradientBrush colorPickerRainbowBrush)
-                return;
+            await Clipboard.Default.SetTextAsync(_hexLabel.Text);
+        }
 
-            var value = _sliderColor.Value / 100;
-            var color = colorPickerRainbowBrush.GradientStops.FirstOrDefault(gs => gs.Offset > value).Color;
-            var colorWithAlpha = color.WithAlpha((float)_sliderOpacity.Value / 255);
+        async Task UpdateSelectedColorFromSliderAsync()
+        {
+            try
+            {
+                Color color = await _sliderColor.ColorAtPoint(_sliderColor.Value, _sliderColor.Height / 2);
 
-            SelectedColor = colorWithAlpha;
+                Color colorWithAlpha = color.WithAlpha((float)_sliderOpacity.Value / 255);
 
-            UpdateGradientBackground();
+                SelectedColor = colorWithAlpha;
+
+                UpdateGradientBackground();
+            }
+            catch
+            {
+                // Invalid color point
+            }
         }
 
         void SetThumbPosition(double x, double y)
@@ -198,11 +219,20 @@ namespace TemplateMAUI.Controls
             _thumb.TranslationY = y;
         }
 
-        async Task<Color> GetGradientBackgroundSelectedColorAsync(double x, double y)
+        async Task UpdateSelectedColorFromGradientThumbAsync(double x, double y)
         {
-            Color color = await _gradientBackground.ColorAtPoint(x, y);
+            try
+            {
+                Color color = await _gradientBackground.ColorAtPoint(x, y);
 
-            return color;
+                Color colorWithAlpha = color.WithAlpha((float)_sliderOpacity.Value / 255);
+
+                SelectedColor = colorWithAlpha;
+            }
+            catch
+            {
+                // Invalid color point
+            }
         }
     }
 }

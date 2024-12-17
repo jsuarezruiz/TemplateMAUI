@@ -1,6 +1,4 @@
-﻿using Microsoft.Maui.Controls;
-using Microsoft.Maui.Controls.Shapes;
-using Microsoft.Maui.Platform;
+﻿using Microsoft.Maui.Controls.Shapes;
 using System.Runtime.CompilerServices;
 using TemplateMAUI.Platforms;
 
@@ -8,17 +6,25 @@ namespace TemplateMAUI.Controls
 {
     public class ColorPicker : TemplatedView
     {
+        const string ElementGradientContainer = "PART_GradientContainer";
+        const string ElementGradientBackgroundLayer1 = "PART_GradientBackgroundLayer1";
+        const string ElementGradientBackgroundLayer2 = "PART_GradientBackgroundLayer2";
         const string ElementGradient = "PART_Gradient";
         const string ElementThumb = "PART_Thumb";
         const string ElementSliderColor = "PART_SliderColor";
         const string ElementSliderOpacity = "PART_SliderOpacity";
-        const string ElementHexLabel = "PART_HexLabel";
+        const string ElementHexLayout = "PART_Hex";
+        const string ElementRgbaLayout = "PART_Rgba";
 
+        Grid _gradientContainer;
+        Border _gradientBackgroundLayer1;
+        Border _gradientBackgroundLayer2;
         Border _gradientBackground;
         Shape _thumb;
         Slider _sliderColor;
         Slider _sliderOpacity;
-        Label _hexLabel;
+        Layout _hexLayout;
+        Layout _rgbaLayout;
 
         double _previousX;
         double _previousY;
@@ -34,7 +40,7 @@ namespace TemplateMAUI.Controls
             set { SetValue(SelectedColorProperty, value); }
         }
 
-        protected override async void OnApplyTemplate()
+        protected override void OnApplyTemplate()
         {
             if (_sliderColor is not null)
             {
@@ -48,11 +54,15 @@ namespace TemplateMAUI.Controls
 
             base.OnApplyTemplate();
 
+            _gradientContainer = GetTemplateChild(ElementGradientContainer) as Grid;
+            _gradientBackgroundLayer1 = GetTemplateChild(ElementGradientBackgroundLayer1) as Border;
+            _gradientBackgroundLayer2 = GetTemplateChild(ElementGradientBackgroundLayer2) as Border;
             _gradientBackground = GetTemplateChild(ElementGradient) as Border;
             _thumb = GetTemplateChild(ElementThumb) as Shape;
             _sliderColor = GetTemplateChild(ElementSliderColor) as Slider;
             _sliderOpacity = GetTemplateChild(ElementSliderOpacity) as Slider;
-            _hexLabel = GetTemplateChild(ElementHexLabel) as Label;
+            _hexLayout = GetTemplateChild(ElementHexLayout) as Layout;
+            _rgbaLayout = GetTemplateChild(ElementRgbaLayout) as Layout;
 
             if (_sliderColor is not null)
             {
@@ -101,6 +111,9 @@ namespace TemplateMAUI.Controls
 
         async void OnSliderOpacityValueChanged(object sender, ValueChangedEventArgs e)
         {
+            var opacity = e.Value / 255;
+            _gradientBackgroundLayer1.Opacity = _gradientBackgroundLayer2.Opacity = opacity;
+
             await UpdateSelectedColorFromSliderAsync();
         }
 
@@ -112,17 +125,25 @@ namespace TemplateMAUI.Controls
                 panGestureRecognizer.PanUpdated += OnThumbPanUpdated;
                 _gradientBackground.GestureRecognizers.Add(panGestureRecognizer);
 
-                var tapGestureRecognizer = new TapGestureRecognizer
+                var hexTapGestureRecognizer = new TapGestureRecognizer
                 {
                     NumberOfTapsRequired = 2
                 };
-                tapGestureRecognizer.Tapped += OnHexTapped;
-                _hexLabel.GestureRecognizers.Add(tapGestureRecognizer);
+                hexTapGestureRecognizer.Tapped += OnHexTapped;
+                _hexLayout.GestureRecognizers.Add(hexTapGestureRecognizer);
+
+                var rgbaTapGestureRecognizer = new TapGestureRecognizer
+                {
+                    NumberOfTapsRequired = 2
+                };
+                rgbaTapGestureRecognizer.Tapped += OnRgbaTapped;
+                _rgbaLayout.GestureRecognizers.Add(rgbaTapGestureRecognizer);
             }
             else
             {
                 _gradientBackground.GestureRecognizers.Clear();
-                _hexLabel.GestureRecognizers.Clear();
+                _hexLayout.GestureRecognizers.Clear();
+                _rgbaLayout.GestureRecognizers.Clear();
             }
         }
 
@@ -149,7 +170,7 @@ namespace TemplateMAUI.Controls
                     Console.WriteLine($"X: {x}, Y: {y}");
 
                     SetThumbPosition(x, y);
-                    
+
                     var positionX = x + _gradientBackground.Width / 2;
                     var positionY = y + _gradientBackground.Height / 2;
 
@@ -164,7 +185,14 @@ namespace TemplateMAUI.Controls
 
         async void OnHexTapped(object sender, EventArgs args)
         {
-            await Clipboard.Default.SetTextAsync(_hexLabel.Text);
+            await Clipboard.Default.SetTextAsync(SelectedColor.ToHex());
+        }
+
+        async void OnRgbaTapped(object sender, EventArgs args)
+        {
+            SelectedColor.ToRgba(out byte r, out byte g, out byte b, out byte a);
+
+            await Clipboard.Default.SetTextAsync($"{r} {g} {b} {a}");
         }
 
         async Task UpdateSelectedColorFromSliderAsync()
@@ -223,7 +251,7 @@ namespace TemplateMAUI.Controls
         {
             try
             {
-                Color color = await _gradientBackground.ColorAtPoint(x, y);
+                Color color = await _gradientContainer.ColorAtPoint(x, y);
 
                 Color colorWithAlpha = color.WithAlpha((float)_sliderOpacity.Value / 255);
 

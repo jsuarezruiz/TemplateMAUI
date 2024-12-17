@@ -4,11 +4,12 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="TemplateMAUI.Themes.ColorPicker"     
     xmlns:controls="clr-namespace:TemplateMAUI.Controls">
-    
+
     <Color x:Key="BorderColor">#e0e0e0</Color>
     <SolidColorBrush x:Key="BorderBrush" Color="{DynamicResource BorderColor}" />
 
     <controls:ColorToHexConverter x:Key="ColorToHexConverter" />
+    <controls:ColorToRgbaConverter x:Key="ColorToRgbaConverter" />
     
     <LinearGradientBrush x:Key="ColorPickerRainbowBrush">
         <GradientStop Color="#ff0000"/>
@@ -19,7 +20,7 @@
         <GradientStop Color="#ffff00" Offset="0.835"/>
         <GradientStop Color="#ff0000" Offset="1"/>
     </LinearGradientBrush>
-    
+
     <ControlTemplate x:Key="SliderColorControlTemplate">
         <Grid 
             x:Name="PART_TrackBackground"
@@ -120,53 +121,57 @@
     </ControlTemplate>
 
     <Style TargetType="controls:ColorPicker">
-        <Setter Property="HeightRequest" Value="250"/>
+        <Setter Property="HeightRequest" Value="300"/>
         <Setter Property="WidthRequest" Value="250"/>
         <Setter Property="ControlTemplate">
             <Setter.Value>
                 <ControlTemplate>
                     <Grid  
-                        RowDefinitions="*, Auto, Auto">
+                        RowDefinitions="*, Auto, Auto, Auto">
                         <Border 
                             StrokeThickness="1" 
                             Stroke="{DynamicResource BorderBrush}"
-                            Grid.RowSpan="3"
+                            Grid.RowSpan="4"
                             Background="{TemplateBinding Background}"/>
-                        <Border
-                            StrokeThickness="0"
-                            Margin="6">
-                            <Border.Background>
-                                <LinearGradientBrush EndPoint="0,0.5" StartPoint="1,0.5">
-                                    <GradientStop Color="White" Offset="1"/>
-                                    <GradientStop Color="#80ffffff" Offset=".5"/>
-                                    <GradientStop Color="#00ffffff"/>
-                                </LinearGradientBrush>
-                            </Border.Background>
-                        </Border>
-                        <Border
-                            StrokeThickness="0"
-                            Margin="6">
-                            <Border.Background>
-                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                                    <GradientStop Color="Black" Offset="1"/>
-                                    <GradientStop Color="#80000000" Offset=".5"/>
-                                    <GradientStop Color="#00000000"/>
-                                </LinearGradientBrush>
-                            </Border.Background>
-                        </Border>
-                        <Border    
-                            x:Name="PART_Gradient"
-                            StrokeThickness="0"
-                            Margin="6">
-                            <Ellipse 
-                                x:Name="PART_Thumb"
-                                Fill="Transparent"
-                                Stroke="LightGray"
-                                StrokeThickness="2"
-                                HeightRequest="20"
-                                WidthRequest="20"
-                                Margin="0"/>
-                        </Border>
+                        <Grid x:Name="PART_GradientContainer">
+                            <Border
+                                x:Name="PART_GradientBackgroundLayer1"
+                                StrokeThickness="0"
+                                Margin="6">
+                                <Border.Background>
+                                    <LinearGradientBrush EndPoint="0,0.5" StartPoint="1,0.5">
+                                        <GradientStop Color="White" Offset="1"/>
+                                        <GradientStop Color="#80ffffff" Offset=".5"/>
+                                        <GradientStop Color="#00ffffff"/>
+                                    </LinearGradientBrush>
+                                </Border.Background>
+                            </Border>
+                            <Border
+                                x:Name="PART_GradientBackgroundLayer2"
+                                StrokeThickness="0"
+                                Margin="6">
+                                <Border.Background>
+                                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                        <GradientStop Color="Black" Offset="1"/>
+                                        <GradientStop Color="#80000000" Offset=".5"/>
+                                        <GradientStop Color="#00000000"/>
+                                    </LinearGradientBrush>
+                                </Border.Background>
+                            </Border>
+                            <Border    
+                                x:Name="PART_Gradient"
+                                StrokeThickness="0"
+                                Margin="6">
+                                <Ellipse 
+                                    x:Name="PART_Thumb"
+                                    Fill="Transparent"
+                                    Stroke="LightGray"
+                                    StrokeThickness="2"
+                                    HeightRequest="20"
+                                    WidthRequest="20"
+                                    Margin="0"/>
+                            </Border>
+                        </Grid>
                         <Grid
                             Grid.Row="1"
                             ColumnDefinitions="Auto, *"
@@ -208,11 +213,11 @@
                                     ControlTemplate="{StaticResource SliderOpacityControlTemplate}"/>
                             </StackLayout>
                         </Grid>
-                        <StackLayout    
+                        <StackLayout  
+                            x:Name="PART_Hex"
                             Grid.Row="2"
                             Margin="6">
                             <Label 
-                                x:Name="PART_HexLabel"
                                 HorizontalOptions="Center"
                                 FontAttributes="Bold"
                                 Text="{TemplateBinding SelectedColor, Converter={StaticResource ColorToHexConverter}}"/>
@@ -222,6 +227,59 @@
                                 Text="HEX" 
                                 HorizontalOptions="Center"/>
                         </StackLayout>
+                        <Grid
+                            x:Name="PART_Rgba"
+                            Grid.Row="3"
+                            ColumnDefinitions="*, *, *, *"
+                            RowDefinitions="*, *"
+                            Margin="3">
+                            <Label
+                                HorizontalOptions="Center"
+                                FontAttributes="Bold"
+                                Text="{TemplateBinding SelectedColor, Converter={StaticResource ColorToRgbaConverter}, ConverterParameter=Red}"/>
+                            <Label 
+                                Grid.Row="1"
+                                Margin="0,2,0,0"
+                                FontSize="9"
+                                HorizontalOptions="Center"
+                                Text="R"/>
+                            <Label
+                                Grid.Column="1"
+                                HorizontalOptions="Center"
+                                FontAttributes="Bold"
+                                Text="{TemplateBinding SelectedColor, Converter={StaticResource ColorToRgbaConverter}, ConverterParameter=Green}"/>
+                            <Label 
+                                Grid.Column="1"
+                                Grid.Row="1"
+                                Margin="0,2,0,0"
+                                FontSize="9"
+                                HorizontalOptions="Center"
+                                Text="G"/>
+                            <Label
+                                Grid.Column="2"
+                                HorizontalOptions="Center"
+                                FontAttributes="Bold"
+                                Text="{TemplateBinding SelectedColor, Converter={StaticResource ColorToRgbaConverter}, ConverterParameter=Blue}"/>
+                            <Label 
+                                Grid.Column="2"
+                                Grid.Row="1"
+                                Margin="0,2,0,0"
+                                FontSize="9"
+                                HorizontalOptions="Center"
+                                Text="B"/>
+                            <Label
+                                Grid.Column="3"
+                                HorizontalOptions="Center"
+                                FontAttributes="Bold"
+                                Text="{TemplateBinding SelectedColor, Converter={StaticResource ColorToRgbaConverter}, ConverterParameter=Alpha}"/>
+                            <Label 
+                                Grid.Column="3"
+                                Grid.Row="1"
+                                Margin="0,2,0,0"
+                                FontSize="9"
+                                HorizontalOptions="Center"
+                                Text="A"/>
+                        </Grid>
                     </Grid>
                 </ControlTemplate>
             </Setter.Value>

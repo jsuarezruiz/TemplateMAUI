@@ -7,15 +7,6 @@
     BarBackgroundColor="{StaticResource NavBarBackgroundColor}"
     BarTextColor="White"
     Title="Tag Gallery">
-    <TabbedPage.Resources>
-        <ResourceDictionary>
-
-            <Style TargetType="controls:Tag">
-                <Setter Property="Margin" Value="6" />
-            </Style>
-            
-        </ResourceDictionary>
-    </TabbedPage.Resources>
     <ContentPage
         Title="Getting Started"
         IconImageSource="started.png">
@@ -30,7 +21,7 @@
                         TextColor="White"
                         BackgroundColor="CadetBlue"
                         BorderColor="DarkBlue"
-                        ShowCloseButton="False"/>
+                        ShowCloseButton="False" />
                     <controls:Tag
                         Margin="2, 0"
                         Text="Lorem ipsum"
@@ -44,7 +35,7 @@
                         Text="Lorem ipsum"
                         TextColor="White"
                         BackgroundColor="CadetBlue"
-                        BorderColor="DarkBlue"/>
+                        BorderColor="DarkBlue" />
                 </StackLayout>
             </StackLayout>
         </ContentPage.Content>
@@ -59,20 +50,23 @@
                     Text="Custom colors"
                     TextColor="LightBlue"
                     BackgroundColor="CadetBlue"
-                    BorderColor="DarkBlue"/>
+                    BorderColor="DarkBlue"
+                    Margin="0, 2" />
                 <controls:Tag
                     Text="Customize the font properties"
                     FontAttributes="Bold"
                     FontSize="18"
                     TextColor="White"
                     BackgroundColor="MediumVioletRed"
-                    BorderColor="Violet"/>
+                    BorderColor="Violet"
+                    Margin="0, 2" />
                 <controls:Tag
                     IsEnabled="False"
                     Text="Disabled"
                     TextColor="White"
                     BackgroundColor="DarkGreen"
-                    BorderColor="Green"/>
+                    BorderColor="Green"
+                    Margin="0, 2" />
             </StackLayout>
         </ContentPage.Content>
     </ContentPage>
@@ -89,13 +83,15 @@
                     BackgroundColor="Orange"
                     SelectedBackgroundColor="Red"
                     BorderColor="DarkOrange"
-                    Selected="OnTagSelected"/>
+                    Selected="OnTagSelected"
+                    Margin="0, 2" />
                 <controls:Tag
                     Text="Closed"
                     TextColor="White"
                     BackgroundColor="Red"
                     BorderColor="DarkRed"
-                    Closed="OnTagClosed"/>
+                    Closed="OnTagClosed"
+                    Margin="0, 2" />
             </StackLayout>
         </ContentPage.Content>
     </ContentPage>

@@ -81,7 +81,7 @@ namespace TemplateMAUI.Controls
             switch (e.StatusType)
             {
                 case GestureStatus.Running:
-                    if (Device.RuntimePlatform == Device.iOS)
+                    if (DeviceInfo.Platform == DevicePlatform.iOS)
                     {
                         var totalX = e.TotalX - _previousPositionX;
                         var totalY = e.TotalY - _previousPositionY;

@@ -109,7 +109,7 @@ namespace TemplateMAUI.DataVisualization
                 _valueLabels.Add(new Label
                 {
                     HorizontalOptions = LayoutOptions.End,
-                    FontSize = (Device.RuntimePlatform == Device.iOS) ? 8.0 : Device.GetNamedSize(NamedSize.Micro, typeof(Label))
+                    FontSize = (DeviceInfo.Platform == DevicePlatform.iOS) ? 8.0 : 9.0
                 });
 
                 UpdateText(i);
@@ -150,9 +150,9 @@ namespace TemplateMAUI.DataVisualization
             for (int i = 0; i < _valueLabels.Count; i++)
             {
                 AbsoluteLayout.SetLayoutBounds(_valueLabels[i],
-                    new Rect(_locations[i] - _valueLabels[i].Width / 2, _valueLabels[i].Y - _valueTicks[i].Height, _valueLabels[i].Width, _valueLabels[i].Height));
+                    new Rect(_locations[i] - _valueLabels[i].Width / 2, _valueLabels[i].Y, _valueLabels[i].Width, _valueLabels[i].Height));
                 AbsoluteLayout.SetLayoutBounds(_valueTicks[i],
-                    new Rect(_locations[i], _valueTicks[i].Y - _valueTicks[i].Height, _valueTicks[i].Width, _valueTicks[i].Height));
+                    new Rect(_locations[i], _valueTicks[i].Y, _valueTicks[i].Width, _valueTicks[i].Height));
             }
         }
     }

@@ -56,7 +56,7 @@ namespace TemplateMAUI.DataVisualization
             double maxBoxWidth = 0;
 
             foreach (Label valueBox in _valueBoxes)
-            { 
+            {
                 valueBox.Measure(widthConstraint, heightConstraint);
                 maxBoxWidth = Math.Max(maxBoxWidth, valueBox.Width);
             }
@@ -97,14 +97,14 @@ namespace TemplateMAUI.DataVisualization
             else if (_values.Count < _valueBoxes.Count)
                 RemoveValueItems(count);
         }
-        
+
         void AddValueItems(int count)
         {
             for (int i = count; i < _values.Count; i++)
             {
                 _valueBoxes.Add(new Label
                 {
-                    FontSize = (Device.RuntimePlatform == Device.iOS) ? 8.0 : Device.GetNamedSize(NamedSize.Micro, typeof(Label))
+                    FontSize = (DeviceInfo.Platform == DevicePlatform.iOS) ? 8.0 : 9.0 // Updated line
                 });
 
                 UpdateText(i);
@@ -148,8 +148,8 @@ namespace TemplateMAUI.DataVisualization
             {
                 var y = height - (_locations[i] * height / max);
 
-                AbsoluteLayout.SetLayoutBounds(_valueBoxes[i], new Rect(_valueBoxes[i].X + _valueTicks[i].Width, y - _valueBoxes[i].Height / 2, _valueBoxes[i].Width, _valueBoxes[i].Height));
-                AbsoluteLayout.SetLayoutBounds(_valueTicks[i], new Rect(_valueTicks[i].X + _valueTicks[i].Width, y, _valueTicks[i].Width, _valueTicks[i].Height));
+                AbsoluteLayout.SetLayoutBounds(_valueBoxes[i], new Rect(_valueBoxes[i].X, y, _valueBoxes[i].Width, _valueBoxes[i].Height));
+                AbsoluteLayout.SetLayoutBounds(_valueTicks[i], new Rect(_valueTicks[i].X, y, _valueTicks[i].Width, _valueTicks[i].Height));
             }
         }
     }

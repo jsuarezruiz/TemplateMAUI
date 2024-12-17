@@ -93,7 +93,7 @@ namespace TemplateMAUI.Platforms
 
             context.DrawImage(new CGRect(0, 0, width, height), cgImage);
 
-            var pixelLocation = (bytesPerRow * y) + componentCount * x;
+            var pixelLocation = (int)(bytesPerRow * y) + (int)(componentCount * x);
 
             var pixel = new byte[]
             {

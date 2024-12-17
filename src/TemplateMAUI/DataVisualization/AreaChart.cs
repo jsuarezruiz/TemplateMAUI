@@ -101,6 +101,7 @@ namespace TemplateMAUI.DataVisualization
 
         void AddAreaChartToLayout()
         {
+            _chartPanel.Children.Clear();
             _chartPanel.Children.Add(_areaChart);
         }
 

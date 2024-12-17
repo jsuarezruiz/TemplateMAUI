@@ -7,7 +7,7 @@ namespace TemplateMAUI.Controls
         const double ComparerThumbSize = 40;
 
         const string ElementTarget = "PART_Target";
-        const string ElementTargetContaner = "PART_TargetContainer";
+        const string ElementTargetContainer = "PART_TargetContainer";
         const string ElementSource = "PART_Source";
         const string ElementThumbContainer = "PART_ThumbContainer";
         const string ElementThumb = "PART_Thumb";
@@ -84,7 +84,7 @@ namespace TemplateMAUI.Controls
 
             _targetView = GetTemplateChild(ElementTarget) as View;
             _sourceView = GetTemplateChild(ElementSource) as View;
-            _targetContainer = GetTemplateChild(ElementTargetContaner) as Grid;
+            _targetContainer = GetTemplateChild(ElementTargetContainer) as Grid;
             _thumbContainer = GetTemplateChild(ElementThumbContainer) as Grid;
             _thumb = GetTemplateChild(ElementThumb) as ComparerThumb;
 
@@ -152,7 +152,7 @@ namespace TemplateMAUI.Controls
                     _previousPositionX = e.TotalX;
                     _previousPositionY = e.TotalY;
 
-                    if (Device.RuntimePlatform == Device.iOS)
+                    if (DeviceInfo.Platform == DevicePlatform.iOS || DeviceInfo.Platform == DevicePlatform.WinUI)
                     {
                         _previousPositionX += _thumbContainer.TranslationX;
                         _previousPositionY += _thumbContainer.TranslationY;
@@ -162,9 +162,9 @@ namespace TemplateMAUI.Controls
 
                     if (Orientation == ComparerOrientation.Horizontal)
                     {
-                        var delta = _previousPositionX+ e.TotalX;
+                        var delta = _previousPositionX + e.TotalX;
 
-                        if (Device.RuntimePlatform == Device.Android)
+                        if (DeviceInfo.Platform == DevicePlatform.Android)
                             delta += _thumbContainer.TranslationX;
 
                         if (IsValidDelta(delta))
@@ -174,7 +174,7 @@ namespace TemplateMAUI.Controls
                     {
                         var delta = _previousPositionY + e.TotalY;
 
-                        if (Device.RuntimePlatform == Device.Android)
+                        if (DeviceInfo.Platform == DevicePlatform.Android)
                             delta += _thumbContainer.TranslationY;
 
                         if (IsValidDelta(delta))

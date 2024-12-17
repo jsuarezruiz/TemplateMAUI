@@ -141,7 +141,6 @@ namespace TemplateMAUI.Controls
             }
             else
             {
-                _trackBackground.GestureRecognizers.Clear();
                 _thumb.GestureRecognizers.Clear();
             }
         }
@@ -163,7 +162,9 @@ namespace TemplateMAUI.Controls
                 return;
 
             var half = ThumbHalfWidth;
+
             var thumbCenterPosition = ConvertRangeValue(val, min, max, half, _trackBackground.Width - half);
+
             SetThumbPosition(thumbCenterPosition - half, thumbCenterPosition, val);
         }
 

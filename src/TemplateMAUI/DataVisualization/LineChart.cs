@@ -93,14 +93,15 @@ namespace TemplateMAUI.DataVisualization
             _lineChart = new Polyline
             {
                 Aspect = Stretch.Fill,
-                WidthRequest = 100,
                 Stroke = new SolidColorBrush(Color),
-                StrokeThickness = 2
+                StrokeThickness = 2,
+                Margin = new Thickness(24, 0)
             };
         }
 
         void AddLineChartToLayout()
         {
+            _chartPanel.Children.Clear();
             _chartPanel.Children.Add(_lineChart);
         }
 

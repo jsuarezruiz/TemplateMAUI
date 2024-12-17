@@ -40,7 +40,8 @@
                             <Grid
                                 x:Name="PART_ButtonClose"
                                 Grid.Column="1"
-                                IsVisible="{TemplateBinding ShowCloseButton}">
+                                IsVisible="{TemplateBinding ShowCloseButton}"
+                                Margin="4, 0">
                                 <Path
                                     Aspect="Fill"
                                     HeightRequest="12"

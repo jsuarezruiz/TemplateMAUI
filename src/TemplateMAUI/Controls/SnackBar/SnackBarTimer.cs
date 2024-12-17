@@ -16,7 +16,7 @@
         public void Start()
         {
             CancellationTokenSource cts = _cancellation;
-            Device.StartTimer(_timespan,
+            Application.Current.Dispatcher.StartTimer(_timespan,
             () =>
             {
                 if (cts.IsCancellationRequested) return false;

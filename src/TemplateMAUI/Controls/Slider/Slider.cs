@@ -30,6 +30,7 @@ namespace TemplateMAUI.Controls
                 return thumbWidth / 2;
             }
         }
+
         public static readonly BindableProperty ValueProperty =
             BindableProperty.Create(nameof(Value), typeof(double), typeof(Slider), 0.0d, propertyChanged: OnValueChanged);
 
@@ -126,6 +127,7 @@ namespace TemplateMAUI.Controls
         protected override void OnSizeAllocated(double width, double height)
         {
             base.OnSizeAllocated(width, height);
+
             UpdateValue(true);
         }
 

@@ -12,6 +12,7 @@ namespace TemplateMAUI.Controls
         const string ElementGradient = "PART_Gradient";
         const string ElementThumb = "PART_Thumb";
         const string ElementSliderColor = "PART_SliderColor";
+        const string ElementSliderColorTrack = "PART_SliderColorTrack";
         const string ElementSliderOpacity = "PART_SliderOpacity";
         const string ElementHexLayout = "PART_Hex";
         const string ElementRgbaLayout = "PART_Rgba";
@@ -22,6 +23,7 @@ namespace TemplateMAUI.Controls
         Border _gradientBackground;
         Shape _thumb;
         Slider _sliderColor;
+        View _sliderColorTrack;
         Slider _sliderOpacity;
         Layout _hexLayout;
         Layout _rgbaLayout;
@@ -60,6 +62,7 @@ namespace TemplateMAUI.Controls
             _gradientBackground = GetTemplateChild(ElementGradient) as Border;
             _thumb = GetTemplateChild(ElementThumb) as Shape;
             _sliderColor = GetTemplateChild(ElementSliderColor) as Slider;
+            _sliderColorTrack = GetTemplateChild(ElementSliderColorTrack) as View;
             _sliderOpacity = GetTemplateChild(ElementSliderOpacity) as Slider;
             _hexLayout = GetTemplateChild(ElementHexLayout) as Layout;
             _rgbaLayout = GetTemplateChild(ElementRgbaLayout) as Layout;
@@ -74,7 +77,6 @@ namespace TemplateMAUI.Controls
                 _sliderOpacity.ValueChanged += OnSliderOpacityValueChanged;
             }
 
-            UpdateGradientBackground();
             UpdateIsEnabled();
         }
 
@@ -167,8 +169,6 @@ namespace TemplateMAUI.Controls
                     var x = _previousX + e.TotalX;
                     var y = _previousY + e.TotalY;
 
-                    Console.WriteLine($"X: {x}, Y: {y}");
-
                     SetThumbPosition(x, y);
 
                     var positionX = x + _gradientBackground.Width / 2;
@@ -199,8 +199,23 @@ namespace TemplateMAUI.Controls
         {
             try
             {
-                Color color = await _sliderColor.ColorAtPoint(_sliderColor.Value, _sliderColor.Height / 2);
+                var maximum = _sliderColor.Maximum;
+                var value = _sliderColor.Value;
 
+                var width = _sliderColorTrack.Width;
+                var height = _sliderColorTrack.Height;
+
+                if (width <= 0 || height <= 0)
+                    return;
+
+                var x = value * width / maximum ;
+
+                if (x > 0)
+                    x -= 1;
+
+                var y = height / 2;
+
+                Color color = await _sliderColorTrack.ColorAtPoint(x, y);
                 Color colorWithAlpha = color.WithAlpha((float)_sliderOpacity.Value / 255);
 
                 SelectedColor = colorWithAlpha;
@@ -251,6 +266,12 @@ namespace TemplateMAUI.Controls
         {
             try
             {
+                var width = _gradientContainer.Width;
+                var height = _gradientContainer.Height;
+
+                if (width <= 0 || height <= 0)
+                    return;
+
                 Color color = await _gradientContainer.ColorAtPoint(x, y);
 
                 Color colorWithAlpha = color.WithAlpha((float)_sliderOpacity.Value / 255);

@@ -24,7 +24,7 @@ namespace TemplateMAUI.Platforms
             return color;
         }
 
-        public static Task<UIImage> ToImage(this UIView view, IMauiContext mauiContext)
+        internal static Task<UIImage> ToImage(this UIView view, IMauiContext mauiContext)
         {
             if (view.Superview is WrapperView wrapper)
                 view = wrapper;
@@ -52,14 +52,14 @@ namespace TemplateMAUI.Platforms
             return Task.FromResult(image);
         }
 
-        public static async Task<Microsoft.Maui.Graphics.Color> ColorAtPoint(this UIView view, double x, double y, IMauiContext mauiContext, bool includeAlpha = false)
+        internal static async Task<Microsoft.Maui.Graphics.Color> ColorAtPoint(this UIView view, double x, double y, IMauiContext mauiContext, bool includeAlpha = false)
         {
             var bitmap = await view.ToImage(mauiContext);
 
             return bitmap.ColorAtPoint(x, y).ToColor();
         }
 
-        public static UIColor ColorAtPoint(this UIImage bitmap, double x, double y)
+        internal static UIColor ColorAtPoint(this UIImage bitmap, double x, double y)
         {
             var pixel = bitmap.GetPixel(x, y);
 
@@ -72,7 +72,7 @@ namespace TemplateMAUI.Platforms
             return color;
         }
 
-        public static byte[] GetPixel(this UIImage bitmap, double x, double y)
+        internal static byte[] GetPixel(this UIImage bitmap, double x, double y)
         {
             var cgImage = bitmap.CGImage!;
             var width = cgImage.Width;

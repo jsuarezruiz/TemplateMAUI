@@ -2,6 +2,10 @@
 
 namespace TemplateMAUI.DataVisualization
 {
+    /// <summary>
+    /// The ValueAxis is a custom templated view designed to represent a value axis within a data visualization control. 
+    /// It provides the visual representation and functionality for displaying and managing the values along the axis, such as labels or ticks.
+    /// </summary>
     public class ValueAxis : TemplatedView
     {
         public static double ContentWidth = 36;

@@ -1,0 +1,141 @@
+### YamlMime:ManagedReference
+items:
+- uid: TemplateMAUI.Controls.VisualType
+  commentId: T:TemplateMAUI.Controls.VisualType
+  id: VisualType
+  parent: TemplateMAUI.Controls
+  children:
+  - TemplateMAUI.Controls.VisualType.Cupertino
+  - TemplateMAUI.Controls.VisualType.Fluent
+  - TemplateMAUI.Controls.VisualType.Material
+  langs:
+  - csharp
+  - vb
+  name: VisualType
+  nameWithType: VisualType
+  fullName: TemplateMAUI.Controls.VisualType
+  type: Enum
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/ToggleSwitch/VisualType.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: VisualType
+    path: ../src/TemplateMAUI/Controls/ToggleSwitch/VisualType.cs
+    startLine: 5
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  summary: Represents the different visual styles that can be applied to user interface components.
+  example: []
+  syntax:
+    content: public enum VisualType
+    content.vb: Public Enum VisualType
+- uid: TemplateMAUI.Controls.VisualType.Cupertino
+  commentId: F:TemplateMAUI.Controls.VisualType.Cupertino
+  id: Cupertino
+  parent: TemplateMAUI.Controls.VisualType
+  langs:
+  - csharp
+  - vb
+  name: Cupertino
+  nameWithType: VisualType.Cupertino
+  fullName: TemplateMAUI.Controls.VisualType.Cupertino
+  type: Field
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/ToggleSwitch/VisualType.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: Cupertino
+    path: ../src/TemplateMAUI/Controls/ToggleSwitch/VisualType.cs
+    startLine: 7
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: Cupertino = 0
+    return:
+      type: TemplateMAUI.Controls.VisualType
+- uid: TemplateMAUI.Controls.VisualType.Fluent
+  commentId: F:TemplateMAUI.Controls.VisualType.Fluent
+  id: Fluent
+  parent: TemplateMAUI.Controls.VisualType
+  langs:
+  - csharp
+  - vb
+  name: Fluent
+  nameWithType: VisualType.Fluent
+  fullName: TemplateMAUI.Controls.VisualType.Fluent
+  type: Field
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/ToggleSwitch/VisualType.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: Fluent
+    path: ../src/TemplateMAUI/Controls/ToggleSwitch/VisualType.cs
+    startLine: 8
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: Fluent = 1
+    return:
+      type: TemplateMAUI.Controls.VisualType
+- uid: TemplateMAUI.Controls.VisualType.Material
+  commentId: F:TemplateMAUI.Controls.VisualType.Material
+  id: Material
+  parent: TemplateMAUI.Controls.VisualType
+  langs:
+  - csharp
+  - vb
+  name: Material
+  nameWithType: VisualType.Material
+  fullName: TemplateMAUI.Controls.VisualType.Material
+  type: Field
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/ToggleSwitch/VisualType.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: Material
+    path: ../src/TemplateMAUI/Controls/ToggleSwitch/VisualType.cs
+    startLine: 9
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: Material = 2
+    return:
+      type: TemplateMAUI.Controls.VisualType
+references:
+- uid: TemplateMAUI.Controls
+  commentId: N:TemplateMAUI.Controls
+  href: TemplateMAUI.html
+  name: TemplateMAUI.Controls
+  nameWithType: TemplateMAUI.Controls
+  fullName: TemplateMAUI.Controls
+  spec.csharp:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Controls
+    name: Controls
+    href: TemplateMAUI.Controls.html
+  spec.vb:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Controls
+    name: Controls
+    href: TemplateMAUI.Controls.html
+- uid: TemplateMAUI.Controls.VisualType
+  commentId: T:TemplateMAUI.Controls.VisualType
+  parent: TemplateMAUI.Controls
+  href: TemplateMAUI.Controls.VisualType.html
+  name: VisualType
+  nameWithType: VisualType
+  fullName: TemplateMAUI.Controls.VisualType

@@ -1,0 +1,44 @@
+### YamlMime:ManagedReference
+items:
+- uid: TemplateMAUI.Gallery.Converters
+  commentId: N:TemplateMAUI.Gallery.Converters
+  id: TemplateMAUI.Gallery.Converters
+  children:
+  - TemplateMAUI.Gallery.Converters.ColorToBrushConverter
+  - TemplateMAUI.Gallery.Converters.GalleryItemStatusToBoolConverter
+  - TemplateMAUI.Gallery.Converters.GalleryItemStatusToColorConverter
+  - TemplateMAUI.Gallery.Converters.GalleryItemStatusToStringConverter
+  langs:
+  - csharp
+  - vb
+  name: TemplateMAUI.Gallery.Converters
+  nameWithType: TemplateMAUI.Gallery.Converters
+  fullName: TemplateMAUI.Gallery.Converters
+  type: Namespace
+  assemblies:
+  - TemplateMAUI.Gallery
+references:
+- uid: TemplateMAUI.Gallery.Converters.ColorToBrushConverter
+  commentId: T:TemplateMAUI.Gallery.Converters.ColorToBrushConverter
+  href: TemplateMAUI.Gallery.Converters.ColorToBrushConverter.html
+  name: ColorToBrushConverter
+  nameWithType: ColorToBrushConverter
+  fullName: TemplateMAUI.Gallery.Converters.ColorToBrushConverter
+- uid: TemplateMAUI.Gallery.Converters.GalleryItemStatusToBoolConverter
+  commentId: T:TemplateMAUI.Gallery.Converters.GalleryItemStatusToBoolConverter
+  href: TemplateMAUI.Gallery.Converters.GalleryItemStatusToBoolConverter.html
+  name: GalleryItemStatusToBoolConverter
+  nameWithType: GalleryItemStatusToBoolConverter
+  fullName: TemplateMAUI.Gallery.Converters.GalleryItemStatusToBoolConverter
+- uid: TemplateMAUI.Gallery.Converters.GalleryItemStatusToColorConverter
+  commentId: T:TemplateMAUI.Gallery.Converters.GalleryItemStatusToColorConverter
+  href: TemplateMAUI.Gallery.Converters.GalleryItemStatusToColorConverter.html
+  name: GalleryItemStatusToColorConverter
+  nameWithType: GalleryItemStatusToColorConverter
+  fullName: TemplateMAUI.Gallery.Converters.GalleryItemStatusToColorConverter
+- uid: TemplateMAUI.Gallery.Converters.GalleryItemStatusToStringConverter
+  commentId: T:TemplateMAUI.Gallery.Converters.GalleryItemStatusToStringConverter
+  href: TemplateMAUI.Gallery.Converters.GalleryItemStatusToStringConverter.html
+  name: GalleryItemStatusToStringConverter
+  nameWithType: GalleryItemStatusToStringConverter
+  fullName: TemplateMAUI.Gallery.Converters.GalleryItemStatusToStringConverter

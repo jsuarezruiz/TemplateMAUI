@@ -1,5 +1,9 @@
 ﻿namespace TemplateMAUI.Controls
 {
+    /// <summary>
+    /// The SnackBarAnimation class implements the ISnackBarAnimation interface, providing custom animations for snack bar views. 
+    /// This class defines the behavior for opening and closing animations using translation effects.
+    /// </summary>
     public class SnackBarAnimation : ISnackBarAnimation
     {
         const uint OpenAnimationDuration = 250;

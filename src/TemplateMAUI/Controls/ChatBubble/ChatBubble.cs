@@ -3,6 +3,10 @@ using System.ComponentModel;
 
 namespace TemplateMAUI.Controls
 {
+    /// <summary>
+    /// The ChatBubble is a custom templated control designed to display chat messages in a visually appealing bubble format. 
+    /// It provides flexibility for styling and positioning, making it ideal for chat applications.
+    /// </summary>
     public class ChatBubble : TemplatedView
     {
         const string ElementContainer = "PART_Container";

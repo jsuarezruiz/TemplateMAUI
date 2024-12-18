@@ -3,6 +3,9 @@ using System.Windows.Input;
 
 namespace TemplateMAUI.Controls
 {
+    /// <summary>
+    /// The Shield is a custom templated control designed to provide a decorative or functional shield element in a user interface. 
+    /// </summary>
     public class Shield : TemplatedView
     {
         const string ElementBorder = "PART_Border";

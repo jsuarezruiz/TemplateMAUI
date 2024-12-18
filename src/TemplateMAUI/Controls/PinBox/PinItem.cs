@@ -2,6 +2,10 @@
 
 namespace TemplateMAUI.Controls
 {
+    /// <summary>
+    /// The PinItem is a custom templated control designed to represent a single item within a PIN entry control. 
+    /// It provides the visual representation and functionality for individual PIN input elements, making up the complete PIN entry interface.
+    /// </summary>
     [EditorBrowsable(EditorBrowsableState.Never)]
     public class PinItem : TemplatedView
     {

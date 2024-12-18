@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: TemplateMAUI.Platforms
+  commentId: N:TemplateMAUI.Platforms
+  id: TemplateMAUI.Platforms
+  children:
+  - TemplateMAUI.Platforms.BitmapExtensions
+  langs:
+  - csharp
+  - vb
+  name: TemplateMAUI.Platforms
+  nameWithType: TemplateMAUI.Platforms
+  fullName: TemplateMAUI.Platforms
+  type: Namespace
+  assemblies:
+  - TemplateMAUI
+references:
+- uid: TemplateMAUI.Platforms.BitmapExtensions
+  commentId: T:TemplateMAUI.Platforms.BitmapExtensions
+  parent: TemplateMAUI.Platforms
+  href: TemplateMAUI.Platforms.BitmapExtensions.html
+  name: BitmapExtensions
+  nameWithType: BitmapExtensions
+  fullName: TemplateMAUI.Platforms.BitmapExtensions
+- uid: TemplateMAUI.Platforms
+  commentId: N:TemplateMAUI.Platforms
+  href: TemplateMAUI.html
+  name: TemplateMAUI.Platforms
+  nameWithType: TemplateMAUI.Platforms
+  fullName: TemplateMAUI.Platforms
+  spec.csharp:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Platforms
+    name: Platforms
+    href: TemplateMAUI.Platforms.html
+  spec.vb:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Platforms
+    name: Platforms
+    href: TemplateMAUI.Platforms.html

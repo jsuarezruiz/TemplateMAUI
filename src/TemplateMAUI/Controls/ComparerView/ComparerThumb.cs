@@ -67,16 +67,16 @@
                 BackgroundColor = LighterColor(Color);
         }
 
-        Color LighterColor(Color color, float correctionfactory = 75f)
+        Color LighterColor(Color color, float correctionFactory = 75f)
         {
-            correctionfactory /= 100f;
+            correctionFactory /= 100f;
 
             const float rgb255 = 255f;
 
             return Color.FromRgb(
-                (int)((float)color.Red + ((rgb255 - (float)color.Red) * correctionfactory)),
-                (int)((float)color.Green + ((rgb255 - (float)color.Green) * correctionfactory)),
-                (int)((float)color.Blue + ((rgb255 - (float)color.Blue) * correctionfactory)));
+                (int)((float)color.Red + ((rgb255 - (float)color.Red) * correctionFactory)),
+                (int)((float)color.Green + ((rgb255 - (float)color.Green) * correctionFactory)),
+                (int)((float)color.Blue + ((rgb255 - (float)color.Blue) * correctionFactory)));
         }
     }
 }

@@ -1,0 +1,114 @@
+### YamlMime:ManagedReference
+items:
+- uid: TemplateMAUI.Controls.ComparerOrientation
+  commentId: T:TemplateMAUI.Controls.ComparerOrientation
+  id: ComparerOrientation
+  parent: TemplateMAUI.Controls
+  children:
+  - TemplateMAUI.Controls.ComparerOrientation.Horizontal
+  - TemplateMAUI.Controls.ComparerOrientation.Vertical
+  langs:
+  - csharp
+  - vb
+  name: ComparerOrientation
+  nameWithType: ComparerOrientation
+  fullName: TemplateMAUI.Controls.ComparerOrientation
+  type: Enum
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/ComparerView/ComparerOrientation.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: ComparerOrientation
+    path: ../src/TemplateMAUI/Controls/ComparerView/ComparerOrientation.cs
+    startLine: 5
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  summary: Represents the possible orientations for a comparer view.
+  example: []
+  syntax:
+    content: public enum ComparerOrientation
+    content.vb: Public Enum ComparerOrientation
+- uid: TemplateMAUI.Controls.ComparerOrientation.Horizontal
+  commentId: F:TemplateMAUI.Controls.ComparerOrientation.Horizontal
+  id: Horizontal
+  parent: TemplateMAUI.Controls.ComparerOrientation
+  langs:
+  - csharp
+  - vb
+  name: Horizontal
+  nameWithType: ComparerOrientation.Horizontal
+  fullName: TemplateMAUI.Controls.ComparerOrientation.Horizontal
+  type: Field
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/ComparerView/ComparerOrientation.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: Horizontal
+    path: ../src/TemplateMAUI/Controls/ComparerView/ComparerOrientation.cs
+    startLine: 7
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: Horizontal = 0
+    return:
+      type: TemplateMAUI.Controls.ComparerOrientation
+- uid: TemplateMAUI.Controls.ComparerOrientation.Vertical
+  commentId: F:TemplateMAUI.Controls.ComparerOrientation.Vertical
+  id: Vertical
+  parent: TemplateMAUI.Controls.ComparerOrientation
+  langs:
+  - csharp
+  - vb
+  name: Vertical
+  nameWithType: ComparerOrientation.Vertical
+  fullName: TemplateMAUI.Controls.ComparerOrientation.Vertical
+  type: Field
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/ComparerView/ComparerOrientation.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: Vertical
+    path: ../src/TemplateMAUI/Controls/ComparerView/ComparerOrientation.cs
+    startLine: 8
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: Vertical = 1
+    return:
+      type: TemplateMAUI.Controls.ComparerOrientation
+references:
+- uid: TemplateMAUI.Controls
+  commentId: N:TemplateMAUI.Controls
+  href: TemplateMAUI.html
+  name: TemplateMAUI.Controls
+  nameWithType: TemplateMAUI.Controls
+  fullName: TemplateMAUI.Controls
+  spec.csharp:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Controls
+    name: Controls
+    href: TemplateMAUI.Controls.html
+  spec.vb:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Controls
+    name: Controls
+    href: TemplateMAUI.Controls.html
+- uid: TemplateMAUI.Controls.ComparerOrientation
+  commentId: T:TemplateMAUI.Controls.ComparerOrientation
+  parent: TemplateMAUI.Controls
+  href: TemplateMAUI.Controls.ComparerOrientation.html
+  name: ComparerOrientation
+  nameWithType: ComparerOrientation
+  fullName: TemplateMAUI.Controls.ComparerOrientation

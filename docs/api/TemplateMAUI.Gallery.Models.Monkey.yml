@@ -1,0 +1,589 @@
+### YamlMime:ManagedReference
+items:
+- uid: TemplateMAUI.Gallery.Models.Monkey
+  commentId: T:TemplateMAUI.Gallery.Models.Monkey
+  id: Monkey
+  parent: TemplateMAUI.Gallery.Models
+  children:
+  - TemplateMAUI.Gallery.Models.Monkey.Color
+  - TemplateMAUI.Gallery.Models.Monkey.Details
+  - TemplateMAUI.Gallery.Models.Monkey.Image
+  - TemplateMAUI.Gallery.Models.Monkey.Index
+  - TemplateMAUI.Gallery.Models.Monkey.Location
+  - TemplateMAUI.Gallery.Models.Monkey.Name
+  langs:
+  - csharp
+  - vb
+  name: Monkey
+  nameWithType: Monkey
+  fullName: TemplateMAUI.Gallery.Models.Monkey
+  type: Class
+  source:
+    remote:
+      path: src/TemplateMAUI.Gallery/Models/Monkey.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: Monkey
+    path: ../src/TemplateMAUI.Gallery/Models/Monkey.cs
+    startLine: 2
+  assemblies:
+  - TemplateMAUI.Gallery
+  namespace: TemplateMAUI.Gallery.Models
+  syntax:
+    content: public class Monkey
+    content.vb: Public Class Monkey
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: TemplateMAUI.Gallery.Models.Monkey.Index
+  commentId: P:TemplateMAUI.Gallery.Models.Monkey.Index
+  id: Index
+  parent: TemplateMAUI.Gallery.Models.Monkey
+  langs:
+  - csharp
+  - vb
+  name: Index
+  nameWithType: Monkey.Index
+  fullName: TemplateMAUI.Gallery.Models.Monkey.Index
+  type: Property
+  source:
+    remote:
+      path: src/TemplateMAUI.Gallery/Models/Monkey.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: Index
+    path: ../src/TemplateMAUI.Gallery/Models/Monkey.cs
+    startLine: 4
+  assemblies:
+  - TemplateMAUI.Gallery
+  namespace: TemplateMAUI.Gallery.Models
+  syntax:
+    content: public int Index { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Index As Integer
+  overload: TemplateMAUI.Gallery.Models.Monkey.Index*
+- uid: TemplateMAUI.Gallery.Models.Monkey.Name
+  commentId: P:TemplateMAUI.Gallery.Models.Monkey.Name
+  id: Name
+  parent: TemplateMAUI.Gallery.Models.Monkey
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Monkey.Name
+  fullName: TemplateMAUI.Gallery.Models.Monkey.Name
+  type: Property
+  source:
+    remote:
+      path: src/TemplateMAUI.Gallery/Models/Monkey.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: Name
+    path: ../src/TemplateMAUI.Gallery/Models/Monkey.cs
+    startLine: 5
+  assemblies:
+  - TemplateMAUI.Gallery
+  namespace: TemplateMAUI.Gallery.Models
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: TemplateMAUI.Gallery.Models.Monkey.Name*
+- uid: TemplateMAUI.Gallery.Models.Monkey.Location
+  commentId: P:TemplateMAUI.Gallery.Models.Monkey.Location
+  id: Location
+  parent: TemplateMAUI.Gallery.Models.Monkey
+  langs:
+  - csharp
+  - vb
+  name: Location
+  nameWithType: Monkey.Location
+  fullName: TemplateMAUI.Gallery.Models.Monkey.Location
+  type: Property
+  source:
+    remote:
+      path: src/TemplateMAUI.Gallery/Models/Monkey.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: Location
+    path: ../src/TemplateMAUI.Gallery/Models/Monkey.cs
+    startLine: 6
+  assemblies:
+  - TemplateMAUI.Gallery
+  namespace: TemplateMAUI.Gallery.Models
+  syntax:
+    content: public string Location { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Location As String
+  overload: TemplateMAUI.Gallery.Models.Monkey.Location*
+- uid: TemplateMAUI.Gallery.Models.Monkey.Details
+  commentId: P:TemplateMAUI.Gallery.Models.Monkey.Details
+  id: Details
+  parent: TemplateMAUI.Gallery.Models.Monkey
+  langs:
+  - csharp
+  - vb
+  name: Details
+  nameWithType: Monkey.Details
+  fullName: TemplateMAUI.Gallery.Models.Monkey.Details
+  type: Property
+  source:
+    remote:
+      path: src/TemplateMAUI.Gallery/Models/Monkey.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: Details
+    path: ../src/TemplateMAUI.Gallery/Models/Monkey.cs
+    startLine: 7
+  assemblies:
+  - TemplateMAUI.Gallery
+  namespace: TemplateMAUI.Gallery.Models
+  syntax:
+    content: public string Details { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Details As String
+  overload: TemplateMAUI.Gallery.Models.Monkey.Details*
+- uid: TemplateMAUI.Gallery.Models.Monkey.Image
+  commentId: P:TemplateMAUI.Gallery.Models.Monkey.Image
+  id: Image
+  parent: TemplateMAUI.Gallery.Models.Monkey
+  langs:
+  - csharp
+  - vb
+  name: Image
+  nameWithType: Monkey.Image
+  fullName: TemplateMAUI.Gallery.Models.Monkey.Image
+  type: Property
+  source:
+    remote:
+      path: src/TemplateMAUI.Gallery/Models/Monkey.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: Image
+    path: ../src/TemplateMAUI.Gallery/Models/Monkey.cs
+    startLine: 8
+  assemblies:
+  - TemplateMAUI.Gallery
+  namespace: TemplateMAUI.Gallery.Models
+  syntax:
+    content: public string Image { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Image As String
+  overload: TemplateMAUI.Gallery.Models.Monkey.Image*
+- uid: TemplateMAUI.Gallery.Models.Monkey.Color
+  commentId: P:TemplateMAUI.Gallery.Models.Monkey.Color
+  id: Color
+  parent: TemplateMAUI.Gallery.Models.Monkey
+  langs:
+  - csharp
+  - vb
+  name: Color
+  nameWithType: Monkey.Color
+  fullName: TemplateMAUI.Gallery.Models.Monkey.Color
+  type: Property
+  source:
+    remote:
+      path: src/TemplateMAUI.Gallery/Models/Monkey.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: Color
+    path: ../src/TemplateMAUI.Gallery/Models/Monkey.cs
+    startLine: 9
+  assemblies:
+  - TemplateMAUI.Gallery
+  namespace: TemplateMAUI.Gallery.Models
+  syntax:
+    content: public Color Color { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.Maui.Graphics.Color
+    content.vb: Public Property Color As Color
+  overload: TemplateMAUI.Gallery.Models.Monkey.Color*
+references:
+- uid: TemplateMAUI.Gallery.Models
+  commentId: N:TemplateMAUI.Gallery.Models
+  href: TemplateMAUI.html
+  name: TemplateMAUI.Gallery.Models
+  nameWithType: TemplateMAUI.Gallery.Models
+  fullName: TemplateMAUI.Gallery.Models
+  spec.csharp:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Gallery
+    name: Gallery
+    href: TemplateMAUI.Gallery.html
+  - name: .
+  - uid: TemplateMAUI.Gallery.Models
+    name: Models
+    href: TemplateMAUI.Gallery.Models.html
+  spec.vb:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Gallery
+    name: Gallery
+    href: TemplateMAUI.Gallery.html
+  - name: .
+  - uid: TemplateMAUI.Gallery.Models
+    name: Models
+    href: TemplateMAUI.Gallery.Models.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TemplateMAUI.Gallery.Models.Monkey.Index*
+  commentId: Overload:TemplateMAUI.Gallery.Models.Monkey.Index
+  href: TemplateMAUI.Gallery.Models.Monkey.html#TemplateMAUI_Gallery_Models_Monkey_Index
+  name: Index
+  nameWithType: Monkey.Index
+  fullName: TemplateMAUI.Gallery.Models.Monkey.Index
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: TemplateMAUI.Gallery.Models.Monkey.Name*
+  commentId: Overload:TemplateMAUI.Gallery.Models.Monkey.Name
+  href: TemplateMAUI.Gallery.Models.Monkey.html#TemplateMAUI_Gallery_Models_Monkey_Name
+  name: Name
+  nameWithType: Monkey.Name
+  fullName: TemplateMAUI.Gallery.Models.Monkey.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: TemplateMAUI.Gallery.Models.Monkey.Location*
+  commentId: Overload:TemplateMAUI.Gallery.Models.Monkey.Location
+  href: TemplateMAUI.Gallery.Models.Monkey.html#TemplateMAUI_Gallery_Models_Monkey_Location
+  name: Location
+  nameWithType: Monkey.Location
+  fullName: TemplateMAUI.Gallery.Models.Monkey.Location
+- uid: TemplateMAUI.Gallery.Models.Monkey.Details*
+  commentId: Overload:TemplateMAUI.Gallery.Models.Monkey.Details
+  href: TemplateMAUI.Gallery.Models.Monkey.html#TemplateMAUI_Gallery_Models_Monkey_Details
+  name: Details
+  nameWithType: Monkey.Details
+  fullName: TemplateMAUI.Gallery.Models.Monkey.Details
+- uid: TemplateMAUI.Gallery.Models.Monkey.Image*
+  commentId: Overload:TemplateMAUI.Gallery.Models.Monkey.Image
+  href: TemplateMAUI.Gallery.Models.Monkey.html#TemplateMAUI_Gallery_Models_Monkey_Image
+  name: Image
+  nameWithType: Monkey.Image
+  fullName: TemplateMAUI.Gallery.Models.Monkey.Image
+- uid: TemplateMAUI.Gallery.Models.Monkey.Color*
+  commentId: Overload:TemplateMAUI.Gallery.Models.Monkey.Color
+  href: TemplateMAUI.Gallery.Models.Monkey.html#TemplateMAUI_Gallery_Models_Monkey_Color
+  name: Color
+  nameWithType: Monkey.Color
+  fullName: TemplateMAUI.Gallery.Models.Monkey.Color
+- uid: Microsoft.Maui.Graphics.Color
+  commentId: T:Microsoft.Maui.Graphics.Color
+  parent: Microsoft.Maui.Graphics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.graphics.color
+  name: Color
+  nameWithType: Color
+  fullName: Microsoft.Maui.Graphics.Color
+- uid: Microsoft.Maui.Graphics
+  commentId: N:Microsoft.Maui.Graphics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Maui.Graphics
+  nameWithType: Microsoft.Maui.Graphics
+  fullName: Microsoft.Maui.Graphics
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Maui
+    name: Maui
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui
+  - name: .
+  - uid: Microsoft.Maui.Graphics
+    name: Graphics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.graphics
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Maui
+    name: Maui
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui
+  - name: .
+  - uid: Microsoft.Maui.Graphics
+    name: Graphics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.graphics

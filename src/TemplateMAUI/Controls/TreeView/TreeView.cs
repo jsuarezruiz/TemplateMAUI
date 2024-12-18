@@ -2,6 +2,10 @@
 
 namespace TemplateMAUI.Controls
 {
+    /// <summary>
+    /// The TreeView is a custom templated control that provides a hierarchical structure for displaying data in a tree format. 
+    /// It allows for expandable nodes and is ideal for representing nested data structures such as file systems, and more.
+    /// </summary>
     // TODO: Add ItemsSource property, TreeViewItem, Load on Demand, Animations, etc.
     [ContentProperty(nameof(RootNodes))]
     public class TreeView : TemplatedView

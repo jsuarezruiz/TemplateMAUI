@@ -1,0 +1,112 @@
+### YamlMime:ManagedReference
+items:
+- uid: TemplateMAUI.Controls.SelectionMode
+  commentId: T:TemplateMAUI.Controls.SelectionMode
+  id: SelectionMode
+  parent: TemplateMAUI.Controls
+  children:
+  - TemplateMAUI.Controls.SelectionMode.None
+  - TemplateMAUI.Controls.SelectionMode.Single
+  langs:
+  - csharp
+  - vb
+  name: SelectionMode
+  nameWithType: SelectionMode
+  fullName: TemplateMAUI.Controls.SelectionMode
+  type: Enum
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/TreeView/SelectionMode.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: SelectionMode
+    path: ../src/TemplateMAUI/Controls/TreeView/SelectionMode.cs
+    startLine: 2
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: public enum SelectionMode
+    content.vb: Public Enum SelectionMode
+- uid: TemplateMAUI.Controls.SelectionMode.None
+  commentId: F:TemplateMAUI.Controls.SelectionMode.None
+  id: None
+  parent: TemplateMAUI.Controls.SelectionMode
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: SelectionMode.None
+  fullName: TemplateMAUI.Controls.SelectionMode.None
+  type: Field
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/TreeView/SelectionMode.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: None
+    path: ../src/TemplateMAUI/Controls/TreeView/SelectionMode.cs
+    startLine: 4
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: None = 0
+    return:
+      type: TemplateMAUI.Controls.SelectionMode
+- uid: TemplateMAUI.Controls.SelectionMode.Single
+  commentId: F:TemplateMAUI.Controls.SelectionMode.Single
+  id: Single
+  parent: TemplateMAUI.Controls.SelectionMode
+  langs:
+  - csharp
+  - vb
+  name: Single
+  nameWithType: SelectionMode.Single
+  fullName: TemplateMAUI.Controls.SelectionMode.Single
+  type: Field
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/TreeView/SelectionMode.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: Single
+    path: ../src/TemplateMAUI/Controls/TreeView/SelectionMode.cs
+    startLine: 5
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: Single = 1
+    return:
+      type: TemplateMAUI.Controls.SelectionMode
+references:
+- uid: TemplateMAUI.Controls
+  commentId: N:TemplateMAUI.Controls
+  href: TemplateMAUI.html
+  name: TemplateMAUI.Controls
+  nameWithType: TemplateMAUI.Controls
+  fullName: TemplateMAUI.Controls
+  spec.csharp:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Controls
+    name: Controls
+    href: TemplateMAUI.Controls.html
+  spec.vb:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Controls
+    name: Controls
+    href: TemplateMAUI.Controls.html
+- uid: TemplateMAUI.Controls.SelectionMode
+  commentId: T:TemplateMAUI.Controls.SelectionMode
+  parent: TemplateMAUI.Controls
+  href: TemplateMAUI.Controls.SelectionMode.html
+  name: SelectionMode
+  nameWithType: SelectionMode
+  fullName: TemplateMAUI.Controls.SelectionMode

@@ -4,6 +4,10 @@ using Path = Microsoft.Maui.Controls.Shapes.Path;
 
 namespace TemplateMAUI.Controls
 {
+    /// <summary>
+    /// The CircleProgressBar is a custom templated control designed to represent a circular progress bar. 
+    /// It provides a visual indicator of progress in a circular form, typically used to show the completion status of a task or operation.
+    /// </summary>
     [EditorBrowsable(EditorBrowsableState.Never)]
     public class CircleProgressBar : TemplatedView
     {

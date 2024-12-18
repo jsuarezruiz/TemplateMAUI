@@ -2,6 +2,10 @@
 
 namespace TemplateMAUI.Controls
 {
+    /// <summary>
+    /// The RateItem is a custom templated control designed to represent a single item within a rating control. 
+    /// It provides the visual representation and functionality for individual rating elements, such as stars or other icons, making up the complete rating interface.
+    /// </summary>
     public class RateItem : TemplatedView
     {
         const string ElementIcon = "PART_Icon";

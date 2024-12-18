@@ -1,0 +1,120 @@
+### YamlMime:ManagedReference
+items:
+- uid: TemplateMAUI.Gallery.Views.PropertyEnum
+  commentId: T:TemplateMAUI.Gallery.Views.PropertyEnum
+  id: PropertyEnum
+  parent: TemplateMAUI.Gallery.Views
+  children:
+  - TemplateMAUI.Gallery.Views.PropertyEnum.Value1
+  - TemplateMAUI.Gallery.Views.PropertyEnum.Value2
+  langs:
+  - csharp
+  - vb
+  name: PropertyEnum
+  nameWithType: PropertyEnum
+  fullName: TemplateMAUI.Gallery.Views.PropertyEnum
+  type: Enum
+  source:
+    remote:
+      path: src/TemplateMAUI.Gallery/Views/PropertyGridGallery.xaml.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: PropertyEnum
+    path: ../src/TemplateMAUI.Gallery/Views/PropertyGridGallery.xaml.cs
+    startLine: 131
+  assemblies:
+  - TemplateMAUI.Gallery
+  namespace: TemplateMAUI.Gallery.Views
+  syntax:
+    content: public enum PropertyEnum
+    content.vb: Public Enum PropertyEnum
+- uid: TemplateMAUI.Gallery.Views.PropertyEnum.Value1
+  commentId: F:TemplateMAUI.Gallery.Views.PropertyEnum.Value1
+  id: Value1
+  parent: TemplateMAUI.Gallery.Views.PropertyEnum
+  langs:
+  - csharp
+  - vb
+  name: Value1
+  nameWithType: PropertyEnum.Value1
+  fullName: TemplateMAUI.Gallery.Views.PropertyEnum.Value1
+  type: Field
+  source:
+    remote:
+      path: src/TemplateMAUI.Gallery/Views/PropertyGridGallery.xaml.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: Value1
+    path: ../src/TemplateMAUI.Gallery/Views/PropertyGridGallery.xaml.cs
+    startLine: 133
+  assemblies:
+  - TemplateMAUI.Gallery
+  namespace: TemplateMAUI.Gallery.Views
+  syntax:
+    content: Value1 = 0
+    return:
+      type: TemplateMAUI.Gallery.Views.PropertyEnum
+- uid: TemplateMAUI.Gallery.Views.PropertyEnum.Value2
+  commentId: F:TemplateMAUI.Gallery.Views.PropertyEnum.Value2
+  id: Value2
+  parent: TemplateMAUI.Gallery.Views.PropertyEnum
+  langs:
+  - csharp
+  - vb
+  name: Value2
+  nameWithType: PropertyEnum.Value2
+  fullName: TemplateMAUI.Gallery.Views.PropertyEnum.Value2
+  type: Field
+  source:
+    remote:
+      path: src/TemplateMAUI.Gallery/Views/PropertyGridGallery.xaml.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: Value2
+    path: ../src/TemplateMAUI.Gallery/Views/PropertyGridGallery.xaml.cs
+    startLine: 134
+  assemblies:
+  - TemplateMAUI.Gallery
+  namespace: TemplateMAUI.Gallery.Views
+  syntax:
+    content: Value2 = 1
+    return:
+      type: TemplateMAUI.Gallery.Views.PropertyEnum
+references:
+- uid: TemplateMAUI.Gallery.Views
+  commentId: N:TemplateMAUI.Gallery.Views
+  href: TemplateMAUI.html
+  name: TemplateMAUI.Gallery.Views
+  nameWithType: TemplateMAUI.Gallery.Views
+  fullName: TemplateMAUI.Gallery.Views
+  spec.csharp:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Gallery
+    name: Gallery
+    href: TemplateMAUI.Gallery.html
+  - name: .
+  - uid: TemplateMAUI.Gallery.Views
+    name: Views
+    href: TemplateMAUI.Gallery.Views.html
+  spec.vb:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Gallery
+    name: Gallery
+    href: TemplateMAUI.Gallery.html
+  - name: .
+  - uid: TemplateMAUI.Gallery.Views
+    name: Views
+    href: TemplateMAUI.Gallery.Views.html
+- uid: TemplateMAUI.Gallery.Views.PropertyEnum
+  commentId: T:TemplateMAUI.Gallery.Views.PropertyEnum
+  parent: TemplateMAUI.Gallery.Views
+  href: TemplateMAUI.Gallery.Views.PropertyEnum.html
+  name: PropertyEnum
+  nameWithType: PropertyEnum
+  fullName: TemplateMAUI.Gallery.Views.PropertyEnum

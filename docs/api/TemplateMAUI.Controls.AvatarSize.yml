@@ -1,0 +1,195 @@
+### YamlMime:ManagedReference
+items:
+- uid: TemplateMAUI.Controls.AvatarSize
+  commentId: T:TemplateMAUI.Controls.AvatarSize
+  id: AvatarSize
+  parent: TemplateMAUI.Controls
+  children:
+  - TemplateMAUI.Controls.AvatarSize.ExtraLarge
+  - TemplateMAUI.Controls.AvatarSize.ExtraSmall
+  - TemplateMAUI.Controls.AvatarSize.Large
+  - TemplateMAUI.Controls.AvatarSize.Medium
+  - TemplateMAUI.Controls.AvatarSize.Small
+  langs:
+  - csharp
+  - vb
+  name: AvatarSize
+  nameWithType: AvatarSize
+  fullName: TemplateMAUI.Controls.AvatarSize
+  type: Enum
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/AvatarView/AvatarSize.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: AvatarSize
+    path: ../src/TemplateMAUI/Controls/AvatarView/AvatarSize.cs
+    startLine: 5
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  summary: Represents the possible sizes for an avatar in the AvatarView.
+  example: []
+  syntax:
+    content: public enum AvatarSize
+    content.vb: Public Enum AvatarSize
+- uid: TemplateMAUI.Controls.AvatarSize.ExtraSmall
+  commentId: F:TemplateMAUI.Controls.AvatarSize.ExtraSmall
+  id: ExtraSmall
+  parent: TemplateMAUI.Controls.AvatarSize
+  langs:
+  - csharp
+  - vb
+  name: ExtraSmall
+  nameWithType: AvatarSize.ExtraSmall
+  fullName: TemplateMAUI.Controls.AvatarSize.ExtraSmall
+  type: Field
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/AvatarView/AvatarSize.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: ExtraSmall
+    path: ../src/TemplateMAUI/Controls/AvatarView/AvatarSize.cs
+    startLine: 7
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: ExtraSmall = 0
+    return:
+      type: TemplateMAUI.Controls.AvatarSize
+- uid: TemplateMAUI.Controls.AvatarSize.Small
+  commentId: F:TemplateMAUI.Controls.AvatarSize.Small
+  id: Small
+  parent: TemplateMAUI.Controls.AvatarSize
+  langs:
+  - csharp
+  - vb
+  name: Small
+  nameWithType: AvatarSize.Small
+  fullName: TemplateMAUI.Controls.AvatarSize.Small
+  type: Field
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/AvatarView/AvatarSize.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: Small
+    path: ../src/TemplateMAUI/Controls/AvatarView/AvatarSize.cs
+    startLine: 8
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: Small = 1
+    return:
+      type: TemplateMAUI.Controls.AvatarSize
+- uid: TemplateMAUI.Controls.AvatarSize.Medium
+  commentId: F:TemplateMAUI.Controls.AvatarSize.Medium
+  id: Medium
+  parent: TemplateMAUI.Controls.AvatarSize
+  langs:
+  - csharp
+  - vb
+  name: Medium
+  nameWithType: AvatarSize.Medium
+  fullName: TemplateMAUI.Controls.AvatarSize.Medium
+  type: Field
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/AvatarView/AvatarSize.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: Medium
+    path: ../src/TemplateMAUI/Controls/AvatarView/AvatarSize.cs
+    startLine: 9
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: Medium = 2
+    return:
+      type: TemplateMAUI.Controls.AvatarSize
+- uid: TemplateMAUI.Controls.AvatarSize.Large
+  commentId: F:TemplateMAUI.Controls.AvatarSize.Large
+  id: Large
+  parent: TemplateMAUI.Controls.AvatarSize
+  langs:
+  - csharp
+  - vb
+  name: Large
+  nameWithType: AvatarSize.Large
+  fullName: TemplateMAUI.Controls.AvatarSize.Large
+  type: Field
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/AvatarView/AvatarSize.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: Large
+    path: ../src/TemplateMAUI/Controls/AvatarView/AvatarSize.cs
+    startLine: 10
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: Large = 3
+    return:
+      type: TemplateMAUI.Controls.AvatarSize
+- uid: TemplateMAUI.Controls.AvatarSize.ExtraLarge
+  commentId: F:TemplateMAUI.Controls.AvatarSize.ExtraLarge
+  id: ExtraLarge
+  parent: TemplateMAUI.Controls.AvatarSize
+  langs:
+  - csharp
+  - vb
+  name: ExtraLarge
+  nameWithType: AvatarSize.ExtraLarge
+  fullName: TemplateMAUI.Controls.AvatarSize.ExtraLarge
+  type: Field
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/AvatarView/AvatarSize.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: ExtraLarge
+    path: ../src/TemplateMAUI/Controls/AvatarView/AvatarSize.cs
+    startLine: 11
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: ExtraLarge = 4
+    return:
+      type: TemplateMAUI.Controls.AvatarSize
+references:
+- uid: TemplateMAUI.Controls
+  commentId: N:TemplateMAUI.Controls
+  href: TemplateMAUI.html
+  name: TemplateMAUI.Controls
+  nameWithType: TemplateMAUI.Controls
+  fullName: TemplateMAUI.Controls
+  spec.csharp:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Controls
+    name: Controls
+    href: TemplateMAUI.Controls.html
+  spec.vb:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Controls
+    name: Controls
+    href: TemplateMAUI.Controls.html
+- uid: TemplateMAUI.Controls.AvatarSize
+  commentId: T:TemplateMAUI.Controls.AvatarSize
+  parent: TemplateMAUI.Controls
+  href: TemplateMAUI.Controls.AvatarSize.html
+  name: AvatarSize
+  nameWithType: AvatarSize
+  fullName: TemplateMAUI.Controls.AvatarSize

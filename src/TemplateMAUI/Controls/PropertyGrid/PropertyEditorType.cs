@@ -1,5 +1,8 @@
 ﻿namespace TemplateMAUI.Controls
 {
+    /// <summary>
+    /// Represents the different types of property editors that can be used in a PropertyGrid.
+    /// </summary>
     public enum PropertyEditorType
     {
         String,

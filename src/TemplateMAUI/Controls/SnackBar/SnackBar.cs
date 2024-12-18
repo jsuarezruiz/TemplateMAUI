@@ -3,6 +3,10 @@ using System.Runtime.CompilerServices;
 
 namespace TemplateMAUI.Controls
 {
+    /// <summary>
+    /// The SnackBar is a custom templated control designed to display brief messages or notifications to users. 
+    /// SnackBars typically appear at the bottom of the screen and provide feedback about an operation or offer a quick action for the user to perform.
+    /// </summary>
     // TODO: Create a SnackBarManager to allow have methods that can show a SnackBar without adding the SnackBar to the page hierarchy.
     public class SnackBar : TemplatedView
     {

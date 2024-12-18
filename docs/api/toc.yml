@@ -1,0 +1,350 @@
+### YamlMime:TableOfContent
+items:
+- uid: TemplateMAUI.Controls
+  name: TemplateMAUI.Controls
+  type: Namespace
+  items:
+  - uid: TemplateMAUI.Controls.AvatarShape
+    name: AvatarShape
+    type: Enum
+  - uid: TemplateMAUI.Controls.AvatarSize
+    name: AvatarSize
+    type: Enum
+  - uid: TemplateMAUI.Controls.AvatarView
+    name: AvatarView
+    type: Class
+  - uid: TemplateMAUI.Controls.BadgeAnimation
+    name: BadgeAnimation
+    type: Class
+  - uid: TemplateMAUI.Controls.BadgePosition
+    name: BadgePosition
+    type: Enum
+  - uid: TemplateMAUI.Controls.BadgeView
+    name: BadgeView
+    type: Class
+  - uid: TemplateMAUI.Controls.BoolPropertyEditor
+    name: BoolPropertyEditor
+    type: Class
+  - uid: TemplateMAUI.Controls.CarouselItemTransition
+    name: CarouselItemTransition
+    type: Class
+  - uid: TemplateMAUI.Controls.CarouselView
+    name: CarouselView
+    type: Class
+  - uid: TemplateMAUI.Controls.ChatBubble
+    name: ChatBubble
+    type: Class
+  - uid: TemplateMAUI.Controls.ChatBubbleType
+    name: ChatBubbleType
+    type: Enum
+  - uid: TemplateMAUI.Controls.ComparerOrientation
+    name: ComparerOrientation
+    type: Enum
+  - uid: TemplateMAUI.Controls.ComparerThumb
+    name: ComparerThumb
+    type: Class
+  - uid: TemplateMAUI.Controls.ComparerView
+    name: ComparerView
+    type: Class
+  - uid: TemplateMAUI.Controls.CurrentItemChangedEventArgs
+    name: CurrentItemChangedEventArgs
+    type: Class
+  - uid: TemplateMAUI.Controls.DatePropertyEditor
+    name: DatePropertyEditor
+    type: Class
+  - uid: TemplateMAUI.Controls.Divider
+    name: Divider
+    type: Class
+  - uid: TemplateMAUI.Controls.DividerOrientation
+    name: DividerOrientation
+    type: Enum
+  - uid: TemplateMAUI.Controls.ElementToBoolConverter
+    name: ElementToBoolConverter
+    type: Class
+  - uid: TemplateMAUI.Controls.EnumPropertyEditor
+    name: EnumPropertyEditor
+    type: Class
+  - uid: TemplateMAUI.Controls.GridResizeDirection
+    name: GridResizeDirection
+    type: Enum
+  - uid: TemplateMAUI.Controls.GridSplitter
+    name: GridSplitter
+    type: Class
+  - uid: TemplateMAUI.Controls.IBadgeAnimation
+    name: IBadgeAnimation
+    type: Interface
+  - uid: TemplateMAUI.Controls.ICarouselItemTransition
+    name: ICarouselItemTransition
+    type: Interface
+  - uid: TemplateMAUI.Controls.ICarouselViewController
+    name: ICarouselViewController
+    type: Interface
+  - uid: TemplateMAUI.Controls.IPinAnimation
+    name: IPinAnimation
+    type: Interface
+  - uid: TemplateMAUI.Controls.ISnackBarAnimation
+    name: ISnackBarAnimation
+    type: Interface
+  - uid: TemplateMAUI.Controls.Marquee
+    name: Marquee
+    type: Class
+  - uid: TemplateMAUI.Controls.MarqueeDirection
+    name: MarqueeDirection
+    type: Enum
+  - uid: TemplateMAUI.Controls.NodeDoubleTappedEventArgs
+    name: NodeDoubleTappedEventArgs
+    type: Class
+  - uid: TemplateMAUI.Controls.NodeExpandedCollapsedEventArgs
+    name: NodeExpandedCollapsedEventArgs
+    type: Class
+  - uid: TemplateMAUI.Controls.NodeTappedEventArgs
+    name: NodeTappedEventArgs
+    type: Class
+  - uid: TemplateMAUI.Controls.NumberPropertyEditor
+    name: NumberPropertyEditor
+    type: Class
+  - uid: TemplateMAUI.Controls.PinAnimation
+    name: PinAnimation
+    type: Class
+  - uid: TemplateMAUI.Controls.PinBox
+    name: PinBox
+    type: Class
+  - uid: TemplateMAUI.Controls.PinCompletedEventArgs
+    name: PinCompletedEventArgs
+    type: Class
+  - uid: TemplateMAUI.Controls.PositionChangedEventArgs
+    name: PositionChangedEventArgs
+    type: Class
+  - uid: TemplateMAUI.Controls.ProgressBar
+    name: ProgressBar
+    type: Class
+  - uid: TemplateMAUI.Controls.PropertyEditorBase
+    name: PropertyEditorBase
+    type: Class
+  - uid: TemplateMAUI.Controls.PropertyEditorType
+    name: PropertyEditorType
+    type: Enum
+  - uid: TemplateMAUI.Controls.PropertyGrid
+    name: PropertyGrid
+    type: Class
+  - uid: TemplateMAUI.Controls.PropertyItem
+    name: PropertyItem
+    type: Class
+  - uid: TemplateMAUI.Controls.PropertyItems
+    name: PropertyItems
+    type: Class
+  - uid: TemplateMAUI.Controls.PropertyResolver
+    name: PropertyResolver
+    type: Class
+  - uid: TemplateMAUI.Controls.Rate
+    name: Rate
+    type: Class
+  - uid: TemplateMAUI.Controls.RateItem
+    name: RateItem
+    type: Class
+  - uid: TemplateMAUI.Controls.ReadOnlyPropertyEditor
+    name: ReadOnlyPropertyEditor
+    type: Class
+  - uid: TemplateMAUI.Controls.ScrolledEventArgs
+    name: ScrolledEventArgs
+    type: Class
+  - uid: TemplateMAUI.Controls.SegmentedControl
+    name: SegmentedControl
+    type: Class
+  - uid: TemplateMAUI.Controls.SegmentedItem
+    name: SegmentedItem
+    type: Class
+  - uid: TemplateMAUI.Controls.SelectedIndexEventArgs
+    name: SelectedIndexEventArgs
+    type: Class
+  - uid: TemplateMAUI.Controls.SelectionChanged
+    name: SelectionChanged
+    type: Enum
+  - uid: TemplateMAUI.Controls.SelectionChangedArgs
+    name: SelectionChangedArgs
+    type: Class
+  - uid: TemplateMAUI.Controls.SelectionChangingArgs
+    name: SelectionChangingArgs
+    type: Class
+  - uid: TemplateMAUI.Controls.SelectionMode
+    name: SelectionMode
+    type: Enum
+  - uid: TemplateMAUI.Controls.Shield
+    name: Shield
+    type: Class
+  - uid: TemplateMAUI.Controls.Slider
+    name: Slider
+    type: Class
+  - uid: TemplateMAUI.Controls.SnackBar
+    name: SnackBar
+    type: Class
+  - uid: TemplateMAUI.Controls.SnackBarAnimation
+    name: SnackBarAnimation
+    type: Class
+  - uid: TemplateMAUI.Controls.SnackBarTimer
+    name: SnackBarTimer
+    type: Class
+  - uid: TemplateMAUI.Controls.StringPropertyEditor
+    name: StringPropertyEditor
+    type: Class
+  - uid: TemplateMAUI.Controls.SwipeDirection
+    name: SwipeDirection
+    type: Enum
+  - uid: TemplateMAUI.Controls.Tag
+    name: Tag
+    type: Class
+  - uid: TemplateMAUI.Controls.ToggleSwitch
+    name: ToggleSwitch
+    type: Class
+  - uid: TemplateMAUI.Controls.ToggledEventArgs
+    name: ToggledEventArgs
+    type: Class
+  - uid: TemplateMAUI.Controls.TreeView
+    name: TreeView
+    type: Class
+  - uid: TemplateMAUI.Controls.TreeViewChildrenToBoolConverter
+    name: TreeViewChildrenToBoolConverter
+    type: Class
+  - uid: TemplateMAUI.Controls.TreeViewNode
+    name: TreeViewNode
+    type: Class
+  - uid: TemplateMAUI.Controls.TreeViewNodes
+    name: TreeViewNodes
+    type: Class
+  - uid: TemplateMAUI.Controls.ValueChangedEventArgs
+    name: ValueChangedEventArgs
+    type: Class
+  - uid: TemplateMAUI.Controls.VisualType
+    name: VisualType
+    type: Enum
+- uid: TemplateMAUI.DataVisualization
+  name: TemplateMAUI.DataVisualization
+  type: Namespace
+  items:
+  - uid: TemplateMAUI.DataVisualization.AreaChart
+    name: AreaChart
+    type: Class
+  - uid: TemplateMAUI.DataVisualization.BarChart
+    name: BarChart
+    type: Class
+  - uid: TemplateMAUI.DataVisualization.CategoryAxis
+    name: CategoryAxis
+    type: Class
+  - uid: TemplateMAUI.DataVisualization.GridLines
+    name: GridLines
+    type: Class
+  - uid: TemplateMAUI.DataVisualization.LineChart
+    name: LineChart
+    type: Class
+  - uid: TemplateMAUI.DataVisualization.SerialChart
+    name: SerialChart
+    type: Class
+  - uid: TemplateMAUI.DataVisualization.ValueAxis
+    name: ValueAxis
+    type: Class
+- uid: TemplateMAUI.Extensions
+  name: TemplateMAUI.Extensions
+  type: Namespace
+  items:
+  - uid: TemplateMAUI.Extensions.EnumerableExtension
+    name: EnumerableExtension
+    type: Class
+- uid: TemplateMAUI.Helpers
+  name: TemplateMAUI.Helpers
+  type: Namespace
+  items:
+  - uid: TemplateMAUI.Helpers.VisualTreeHelper
+    name: VisualTreeHelper
+    type: Class
+- uid: TemplateMAUI.Themes
+  name: TemplateMAUI.Themes
+  type: Namespace
+  items:
+  - uid: TemplateMAUI.Themes.AreaChart
+    name: AreaChart
+    type: Class
+  - uid: TemplateMAUI.Themes.AvatarView
+    name: AvatarView
+    type: Class
+  - uid: TemplateMAUI.Themes.BadgeView
+    name: BadgeView
+    type: Class
+  - uid: TemplateMAUI.Themes.BarChart
+    name: BarChart
+    type: Class
+  - uid: TemplateMAUI.Themes.CarouselView
+    name: CarouselView
+    type: Class
+  - uid: TemplateMAUI.Themes.CategoryAxis
+    name: CategoryAxis
+    type: Class
+  - uid: TemplateMAUI.Themes.ChatBubble
+    name: ChatBubble
+    type: Class
+  - uid: TemplateMAUI.Themes.CircleProgressBar
+    name: CircleProgressBar
+    type: Class
+  - uid: TemplateMAUI.Themes.Colors
+    name: Colors
+    type: Class
+  - uid: TemplateMAUI.Themes.ComparerView
+    name: ComparerView
+    type: Class
+  - uid: TemplateMAUI.Themes.Divider
+    name: Divider
+    type: Class
+  - uid: TemplateMAUI.Themes.Generic
+    name: Generic
+    type: Class
+  - uid: TemplateMAUI.Themes.Geometries
+    name: Geometries
+    type: Class
+  - uid: TemplateMAUI.Themes.GridLines
+    name: GridLines
+    type: Class
+  - uid: TemplateMAUI.Themes.GridSplitter
+    name: GridSplitter
+    type: Class
+  - uid: TemplateMAUI.Themes.LineChart
+    name: LineChart
+    type: Class
+  - uid: TemplateMAUI.Themes.Marquee
+    name: Marquee
+    type: Class
+  - uid: TemplateMAUI.Themes.PinBox
+    name: PinBox
+    type: Class
+  - uid: TemplateMAUI.Themes.ProgressBar
+    name: ProgressBar
+    type: Class
+  - uid: TemplateMAUI.Themes.PropertyGrid
+    name: PropertyGrid
+    type: Class
+  - uid: TemplateMAUI.Themes.Rate
+    name: Rate
+    type: Class
+  - uid: TemplateMAUI.Themes.SegmentedControl
+    name: SegmentedControl
+    type: Class
+  - uid: TemplateMAUI.Themes.Shield
+    name: Shield
+    type: Class
+  - uid: TemplateMAUI.Themes.Slider
+    name: Slider
+    type: Class
+  - uid: TemplateMAUI.Themes.SnackBar
+    name: SnackBar
+    type: Class
+  - uid: TemplateMAUI.Themes.Tag
+    name: Tag
+    type: Class
+  - uid: TemplateMAUI.Themes.ToggleSwitch
+    name: ToggleSwitch
+    type: Class
+  - uid: TemplateMAUI.Themes.TreeView
+    name: TreeView
+    type: Class
+  - uid: TemplateMAUI.Themes.ValueAxis
+    name: ValueAxis
+    type: Class
+memberLayout: SamePage

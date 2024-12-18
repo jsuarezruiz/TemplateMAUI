@@ -1,0 +1,186 @@
+### YamlMime:ManagedReference
+items:
+- uid: TemplateMAUI.Controls.ICarouselItemTransition
+  commentId: T:TemplateMAUI.Controls.ICarouselItemTransition
+  id: ICarouselItemTransition
+  parent: TemplateMAUI.Controls
+  children:
+  - TemplateMAUI.Controls.ICarouselItemTransition.OnSelectionChanged(TemplateMAUI.Controls.SelectionChangedArgs)
+  - TemplateMAUI.Controls.ICarouselItemTransition.OnSelectionChanging(TemplateMAUI.Controls.SelectionChangingArgs)
+  langs:
+  - csharp
+  - vb
+  name: ICarouselItemTransition
+  nameWithType: ICarouselItemTransition
+  fullName: TemplateMAUI.Controls.ICarouselItemTransition
+  type: Interface
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/CarouselView/ICarouselItemTransition.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: ICarouselItemTransition
+    path: ../src/TemplateMAUI/Controls/CarouselView/ICarouselItemTransition.cs
+    startLine: 4
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: public interface ICarouselItemTransition
+    content.vb: Public Interface ICarouselItemTransition
+- uid: TemplateMAUI.Controls.ICarouselItemTransition.OnSelectionChanging(TemplateMAUI.Controls.SelectionChangingArgs)
+  commentId: M:TemplateMAUI.Controls.ICarouselItemTransition.OnSelectionChanging(TemplateMAUI.Controls.SelectionChangingArgs)
+  id: OnSelectionChanging(TemplateMAUI.Controls.SelectionChangingArgs)
+  parent: TemplateMAUI.Controls.ICarouselItemTransition
+  langs:
+  - csharp
+  - vb
+  name: OnSelectionChanging(SelectionChangingArgs)
+  nameWithType: ICarouselItemTransition.OnSelectionChanging(SelectionChangingArgs)
+  fullName: TemplateMAUI.Controls.ICarouselItemTransition.OnSelectionChanging(TemplateMAUI.Controls.SelectionChangingArgs)
+  type: Method
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/CarouselView/ICarouselItemTransition.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: OnSelectionChanging
+    path: ../src/TemplateMAUI/Controls/CarouselView/ICarouselItemTransition.cs
+    startLine: 6
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: Task OnSelectionChanging(SelectionChangingArgs args)
+    parameters:
+    - id: args
+      type: TemplateMAUI.Controls.SelectionChangingArgs
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function OnSelectionChanging(args As SelectionChangingArgs) As Task
+  overload: TemplateMAUI.Controls.ICarouselItemTransition.OnSelectionChanging*
+- uid: TemplateMAUI.Controls.ICarouselItemTransition.OnSelectionChanged(TemplateMAUI.Controls.SelectionChangedArgs)
+  commentId: M:TemplateMAUI.Controls.ICarouselItemTransition.OnSelectionChanged(TemplateMAUI.Controls.SelectionChangedArgs)
+  id: OnSelectionChanged(TemplateMAUI.Controls.SelectionChangedArgs)
+  parent: TemplateMAUI.Controls.ICarouselItemTransition
+  langs:
+  - csharp
+  - vb
+  name: OnSelectionChanged(SelectionChangedArgs)
+  nameWithType: ICarouselItemTransition.OnSelectionChanged(SelectionChangedArgs)
+  fullName: TemplateMAUI.Controls.ICarouselItemTransition.OnSelectionChanged(TemplateMAUI.Controls.SelectionChangedArgs)
+  type: Method
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/CarouselView/ICarouselItemTransition.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: OnSelectionChanged
+    path: ../src/TemplateMAUI/Controls/CarouselView/ICarouselItemTransition.cs
+    startLine: 7
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: Task OnSelectionChanged(SelectionChangedArgs args)
+    parameters:
+    - id: args
+      type: TemplateMAUI.Controls.SelectionChangedArgs
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function OnSelectionChanged(args As SelectionChangedArgs) As Task
+  overload: TemplateMAUI.Controls.ICarouselItemTransition.OnSelectionChanged*
+references:
+- uid: TemplateMAUI.Controls
+  commentId: N:TemplateMAUI.Controls
+  href: TemplateMAUI.html
+  name: TemplateMAUI.Controls
+  nameWithType: TemplateMAUI.Controls
+  fullName: TemplateMAUI.Controls
+  spec.csharp:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Controls
+    name: Controls
+    href: TemplateMAUI.Controls.html
+  spec.vb:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Controls
+    name: Controls
+    href: TemplateMAUI.Controls.html
+- uid: TemplateMAUI.Controls.ICarouselItemTransition.OnSelectionChanging*
+  commentId: Overload:TemplateMAUI.Controls.ICarouselItemTransition.OnSelectionChanging
+  href: TemplateMAUI.Controls.ICarouselItemTransition.html#TemplateMAUI_Controls_ICarouselItemTransition_OnSelectionChanging_TemplateMAUI_Controls_SelectionChangingArgs_
+  name: OnSelectionChanging
+  nameWithType: ICarouselItemTransition.OnSelectionChanging
+  fullName: TemplateMAUI.Controls.ICarouselItemTransition.OnSelectionChanging
+- uid: TemplateMAUI.Controls.SelectionChangingArgs
+  commentId: T:TemplateMAUI.Controls.SelectionChangingArgs
+  parent: TemplateMAUI.Controls
+  href: TemplateMAUI.Controls.SelectionChangingArgs.html
+  name: SelectionChangingArgs
+  nameWithType: SelectionChangingArgs
+  fullName: TemplateMAUI.Controls.SelectionChangingArgs
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: TemplateMAUI.Controls.ICarouselItemTransition.OnSelectionChanged*
+  commentId: Overload:TemplateMAUI.Controls.ICarouselItemTransition.OnSelectionChanged
+  href: TemplateMAUI.Controls.ICarouselItemTransition.html#TemplateMAUI_Controls_ICarouselItemTransition_OnSelectionChanged_TemplateMAUI_Controls_SelectionChangedArgs_
+  name: OnSelectionChanged
+  nameWithType: ICarouselItemTransition.OnSelectionChanged
+  fullName: TemplateMAUI.Controls.ICarouselItemTransition.OnSelectionChanged
+- uid: TemplateMAUI.Controls.SelectionChangedArgs
+  commentId: T:TemplateMAUI.Controls.SelectionChangedArgs
+  parent: TemplateMAUI.Controls
+  href: TemplateMAUI.Controls.SelectionChangedArgs.html
+  name: SelectionChangedArgs
+  nameWithType: SelectionChangedArgs
+  fullName: TemplateMAUI.Controls.SelectionChangedArgs

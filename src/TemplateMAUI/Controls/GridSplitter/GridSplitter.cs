@@ -3,6 +3,10 @@ using System.Runtime.CompilerServices;
 
 namespace TemplateMAUI.Controls
 {
+    /// <summary>
+    /// The GridSplitter is a custom templated control designed to provide a way to resize rows or columns in a grid layout. 
+    /// It allows users to dynamically adjust the size of grid elements, enhancing the flexibility and interactivity of the user interface.
+    /// </summary>
     public class GridSplitter : TemplatedView
     {
         const string ElementGridSplitter = "PART_GridSplitter";

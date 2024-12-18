@@ -1,0 +1,222 @@
+### YamlMime:ManagedReference
+items:
+- uid: TemplateMAUI.Controls.IBadgeAnimation
+  commentId: T:TemplateMAUI.Controls.IBadgeAnimation
+  id: IBadgeAnimation
+  parent: TemplateMAUI.Controls
+  children:
+  - TemplateMAUI.Controls.IBadgeAnimation.OnAppearing(Microsoft.Maui.Controls.View)
+  - TemplateMAUI.Controls.IBadgeAnimation.OnDisappering(Microsoft.Maui.Controls.View)
+  langs:
+  - csharp
+  - vb
+  name: IBadgeAnimation
+  nameWithType: IBadgeAnimation
+  fullName: TemplateMAUI.Controls.IBadgeAnimation
+  type: Interface
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/BadgeView/IBadgeAnimation.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: IBadgeAnimation
+    path: ../src/TemplateMAUI/Controls/BadgeView/IBadgeAnimation.cs
+    startLine: 6
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  summary: >-
+    The IBadgeAnimation interface defines the methods required to implement animations for badge views. 
+
+    This interface allows for custom animations to be applied when a badge appears and disappears.
+  example: []
+  syntax:
+    content: public interface IBadgeAnimation
+    content.vb: Public Interface IBadgeAnimation
+- uid: TemplateMAUI.Controls.IBadgeAnimation.OnAppearing(Microsoft.Maui.Controls.View)
+  commentId: M:TemplateMAUI.Controls.IBadgeAnimation.OnAppearing(Microsoft.Maui.Controls.View)
+  id: OnAppearing(Microsoft.Maui.Controls.View)
+  parent: TemplateMAUI.Controls.IBadgeAnimation
+  langs:
+  - csharp
+  - vb
+  name: OnAppearing(View)
+  nameWithType: IBadgeAnimation.OnAppearing(View)
+  fullName: TemplateMAUI.Controls.IBadgeAnimation.OnAppearing(Microsoft.Maui.Controls.View)
+  type: Method
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/BadgeView/IBadgeAnimation.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: OnAppearing
+    path: ../src/TemplateMAUI/Controls/BadgeView/IBadgeAnimation.cs
+    startLine: 8
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: Task OnAppearing(View badgeView)
+    parameters:
+    - id: badgeView
+      type: Microsoft.Maui.Controls.View
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function OnAppearing(badgeView As View) As Task
+  overload: TemplateMAUI.Controls.IBadgeAnimation.OnAppearing*
+- uid: TemplateMAUI.Controls.IBadgeAnimation.OnDisappering(Microsoft.Maui.Controls.View)
+  commentId: M:TemplateMAUI.Controls.IBadgeAnimation.OnDisappering(Microsoft.Maui.Controls.View)
+  id: OnDisappering(Microsoft.Maui.Controls.View)
+  parent: TemplateMAUI.Controls.IBadgeAnimation
+  langs:
+  - csharp
+  - vb
+  name: OnDisappering(View)
+  nameWithType: IBadgeAnimation.OnDisappering(View)
+  fullName: TemplateMAUI.Controls.IBadgeAnimation.OnDisappering(Microsoft.Maui.Controls.View)
+  type: Method
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/BadgeView/IBadgeAnimation.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: OnDisappering
+    path: ../src/TemplateMAUI/Controls/BadgeView/IBadgeAnimation.cs
+    startLine: 9
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: Task OnDisappering(View badgeView)
+    parameters:
+    - id: badgeView
+      type: Microsoft.Maui.Controls.View
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function OnDisappering(badgeView As View) As Task
+  overload: TemplateMAUI.Controls.IBadgeAnimation.OnDisappering*
+references:
+- uid: TemplateMAUI.Controls
+  commentId: N:TemplateMAUI.Controls
+  href: TemplateMAUI.html
+  name: TemplateMAUI.Controls
+  nameWithType: TemplateMAUI.Controls
+  fullName: TemplateMAUI.Controls
+  spec.csharp:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Controls
+    name: Controls
+    href: TemplateMAUI.Controls.html
+  spec.vb:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Controls
+    name: Controls
+    href: TemplateMAUI.Controls.html
+- uid: TemplateMAUI.Controls.IBadgeAnimation.OnAppearing*
+  commentId: Overload:TemplateMAUI.Controls.IBadgeAnimation.OnAppearing
+  href: TemplateMAUI.Controls.IBadgeAnimation.html#TemplateMAUI_Controls_IBadgeAnimation_OnAppearing_Microsoft_Maui_Controls_View_
+  name: OnAppearing
+  nameWithType: IBadgeAnimation.OnAppearing
+  fullName: TemplateMAUI.Controls.IBadgeAnimation.OnAppearing
+- uid: Microsoft.Maui.Controls.View
+  commentId: T:Microsoft.Maui.Controls.View
+  parent: Microsoft.Maui.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.view
+  name: View
+  nameWithType: View
+  fullName: Microsoft.Maui.Controls.View
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: Microsoft.Maui.Controls
+  commentId: N:Microsoft.Maui.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Maui.Controls
+  nameWithType: Microsoft.Maui.Controls
+  fullName: Microsoft.Maui.Controls
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Maui
+    name: Maui
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui
+  - name: .
+  - uid: Microsoft.Maui.Controls
+    name: Controls
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Maui
+    name: Maui
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui
+  - name: .
+  - uid: Microsoft.Maui.Controls
+    name: Controls
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: TemplateMAUI.Controls.IBadgeAnimation.OnDisappering*
+  commentId: Overload:TemplateMAUI.Controls.IBadgeAnimation.OnDisappering
+  href: TemplateMAUI.Controls.IBadgeAnimation.html#TemplateMAUI_Controls_IBadgeAnimation_OnDisappering_Microsoft_Maui_Controls_View_
+  name: OnDisappering
+  nameWithType: IBadgeAnimation.OnDisappering
+  fullName: TemplateMAUI.Controls.IBadgeAnimation.OnDisappering

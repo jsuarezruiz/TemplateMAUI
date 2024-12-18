@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: TemplateMAUI.Extensions
+  commentId: N:TemplateMAUI.Extensions
+  id: TemplateMAUI.Extensions
+  children:
+  - TemplateMAUI.Extensions.EnumerableExtension
+  langs:
+  - csharp
+  - vb
+  name: TemplateMAUI.Extensions
+  nameWithType: TemplateMAUI.Extensions
+  fullName: TemplateMAUI.Extensions
+  type: Namespace
+  assemblies:
+  - TemplateMAUI
+references:
+- uid: TemplateMAUI.Extensions.EnumerableExtension
+  commentId: T:TemplateMAUI.Extensions.EnumerableExtension
+  parent: TemplateMAUI.Extensions
+  href: TemplateMAUI.Extensions.EnumerableExtension.html
+  name: EnumerableExtension
+  nameWithType: EnumerableExtension
+  fullName: TemplateMAUI.Extensions.EnumerableExtension
+- uid: TemplateMAUI.Extensions
+  commentId: N:TemplateMAUI.Extensions
+  href: TemplateMAUI.html
+  name: TemplateMAUI.Extensions
+  nameWithType: TemplateMAUI.Extensions
+  fullName: TemplateMAUI.Extensions
+  spec.csharp:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Extensions
+    name: Extensions
+    href: TemplateMAUI.Extensions.html
+  spec.vb:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Extensions
+    name: Extensions
+    href: TemplateMAUI.Extensions.html

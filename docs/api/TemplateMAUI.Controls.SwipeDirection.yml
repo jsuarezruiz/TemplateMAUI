@@ -1,0 +1,112 @@
+### YamlMime:ManagedReference
+items:
+- uid: TemplateMAUI.Controls.SwipeDirection
+  commentId: T:TemplateMAUI.Controls.SwipeDirection
+  id: SwipeDirection
+  parent: TemplateMAUI.Controls
+  children:
+  - TemplateMAUI.Controls.SwipeDirection.LeftToRight
+  - TemplateMAUI.Controls.SwipeDirection.RightToLeft
+  langs:
+  - csharp
+  - vb
+  name: SwipeDirection
+  nameWithType: SwipeDirection
+  fullName: TemplateMAUI.Controls.SwipeDirection
+  type: Enum
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/CarouselView/SwipeDirection.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: SwipeDirection
+    path: ../src/TemplateMAUI/Controls/CarouselView/SwipeDirection.cs
+    startLine: 2
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: public enum SwipeDirection
+    content.vb: Public Enum SwipeDirection
+- uid: TemplateMAUI.Controls.SwipeDirection.RightToLeft
+  commentId: F:TemplateMAUI.Controls.SwipeDirection.RightToLeft
+  id: RightToLeft
+  parent: TemplateMAUI.Controls.SwipeDirection
+  langs:
+  - csharp
+  - vb
+  name: RightToLeft
+  nameWithType: SwipeDirection.RightToLeft
+  fullName: TemplateMAUI.Controls.SwipeDirection.RightToLeft
+  type: Field
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/CarouselView/SwipeDirection.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: RightToLeft
+    path: ../src/TemplateMAUI/Controls/CarouselView/SwipeDirection.cs
+    startLine: 4
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: RightToLeft = -1
+    return:
+      type: TemplateMAUI.Controls.SwipeDirection
+- uid: TemplateMAUI.Controls.SwipeDirection.LeftToRight
+  commentId: F:TemplateMAUI.Controls.SwipeDirection.LeftToRight
+  id: LeftToRight
+  parent: TemplateMAUI.Controls.SwipeDirection
+  langs:
+  - csharp
+  - vb
+  name: LeftToRight
+  nameWithType: SwipeDirection.LeftToRight
+  fullName: TemplateMAUI.Controls.SwipeDirection.LeftToRight
+  type: Field
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/CarouselView/SwipeDirection.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: LeftToRight
+    path: ../src/TemplateMAUI/Controls/CarouselView/SwipeDirection.cs
+    startLine: 5
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: LeftToRight = 1
+    return:
+      type: TemplateMAUI.Controls.SwipeDirection
+references:
+- uid: TemplateMAUI.Controls
+  commentId: N:TemplateMAUI.Controls
+  href: TemplateMAUI.html
+  name: TemplateMAUI.Controls
+  nameWithType: TemplateMAUI.Controls
+  fullName: TemplateMAUI.Controls
+  spec.csharp:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Controls
+    name: Controls
+    href: TemplateMAUI.Controls.html
+  spec.vb:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Controls
+    name: Controls
+    href: TemplateMAUI.Controls.html
+- uid: TemplateMAUI.Controls.SwipeDirection
+  commentId: T:TemplateMAUI.Controls.SwipeDirection
+  parent: TemplateMAUI.Controls
+  href: TemplateMAUI.Controls.SwipeDirection.html
+  name: SwipeDirection
+  nameWithType: SwipeDirection
+  fullName: TemplateMAUI.Controls.SwipeDirection

@@ -1,5 +1,9 @@
 ﻿namespace TemplateMAUI.Helpers
 {
+    /// <summary>
+    /// The VisualTreeHelper class is a utility class that provides static methods for visual tree operations, such as traversing and querying elements within a visual tree. 
+    /// It is commonly used for tasks like finding parent or child elements, hit testing, and retrieving visual properties.
+    /// </summary>
     // TODO: Complete adding methods to get childrens, etc.
     public static class VisualTreeHelper
     {

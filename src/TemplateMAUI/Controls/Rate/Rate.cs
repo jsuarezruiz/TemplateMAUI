@@ -3,6 +3,10 @@ using System.Runtime.CompilerServices;
 
 namespace TemplateMAUI.Controls
 {
+    /// <summary>
+    /// The Rate is a custom templated control designed to provide a user interface for rating items, such as products, services, or content. 
+    /// It typically displays a series of icons (like stars) that users can select to indicate their rating.
+    /// </summary>
     public class Rate : TemplatedView
     {
         const string ElementPanel = "PART_Panel";

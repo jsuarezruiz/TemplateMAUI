@@ -1,5 +1,9 @@
 ﻿namespace TemplateMAUI.Controls
 {
+    /// <summary>
+    /// The ProgressBar is a custom templated control designed to visually represent the progress of an operation. 
+    /// It provides a flexible and customizable way to display progress in your application, supporting various styles and configurations.
+    /// </summary>
     // TODO: Add Indeterminate State
     public class ProgressBar : TemplatedView
     {

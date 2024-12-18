@@ -2,6 +2,10 @@
 
 namespace TemplateMAUI.Controls
 {
+    /// <summary>
+    /// The Slider is a custom templated control that allows users to select a value from a range of values by moving a thumb control along a track. 
+    /// It provides a flexible and customizable way to input numerical values within a specified range.
+    /// </summary>
     public class Slider : TemplatedView
     {
         const string ElementTrackBackground = "PART_TrackBackground";

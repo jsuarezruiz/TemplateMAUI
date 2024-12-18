@@ -4,6 +4,10 @@ using TemplateMAUI.Helpers;
 
 namespace TemplateMAUI.Controls
 {
+    /// <summary>
+    /// The TreeViewNode is a custom templated control designed to represent a single node within a tree view control. 
+    /// It provides the visual representation and functionality for individual nodes, allowing users to interact with hierarchical data structures in a tree-like format.
+    /// </summary>
     [ContentProperty(nameof(Children))]
     public class TreeViewNode : TemplatedView
     {

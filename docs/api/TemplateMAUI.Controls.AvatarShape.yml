@@ -1,0 +1,114 @@
+### YamlMime:ManagedReference
+items:
+- uid: TemplateMAUI.Controls.AvatarShape
+  commentId: T:TemplateMAUI.Controls.AvatarShape
+  id: AvatarShape
+  parent: TemplateMAUI.Controls
+  children:
+  - TemplateMAUI.Controls.AvatarShape.Circle
+  - TemplateMAUI.Controls.AvatarShape.Square
+  langs:
+  - csharp
+  - vb
+  name: AvatarShape
+  nameWithType: AvatarShape
+  fullName: TemplateMAUI.Controls.AvatarShape
+  type: Enum
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/AvatarView/AvatarShape.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: AvatarShape
+    path: ../src/TemplateMAUI/Controls/AvatarView/AvatarShape.cs
+    startLine: 5
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  summary: Represents the possible shapes for an avatar in the AvatarView.
+  example: []
+  syntax:
+    content: public enum AvatarShape
+    content.vb: Public Enum AvatarShape
+- uid: TemplateMAUI.Controls.AvatarShape.Circle
+  commentId: F:TemplateMAUI.Controls.AvatarShape.Circle
+  id: Circle
+  parent: TemplateMAUI.Controls.AvatarShape
+  langs:
+  - csharp
+  - vb
+  name: Circle
+  nameWithType: AvatarShape.Circle
+  fullName: TemplateMAUI.Controls.AvatarShape.Circle
+  type: Field
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/AvatarView/AvatarShape.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: Circle
+    path: ../src/TemplateMAUI/Controls/AvatarView/AvatarShape.cs
+    startLine: 7
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: Circle = 0
+    return:
+      type: TemplateMAUI.Controls.AvatarShape
+- uid: TemplateMAUI.Controls.AvatarShape.Square
+  commentId: F:TemplateMAUI.Controls.AvatarShape.Square
+  id: Square
+  parent: TemplateMAUI.Controls.AvatarShape
+  langs:
+  - csharp
+  - vb
+  name: Square
+  nameWithType: AvatarShape.Square
+  fullName: TemplateMAUI.Controls.AvatarShape.Square
+  type: Field
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/AvatarView/AvatarShape.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: Square
+    path: ../src/TemplateMAUI/Controls/AvatarView/AvatarShape.cs
+    startLine: 8
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: Square = 1
+    return:
+      type: TemplateMAUI.Controls.AvatarShape
+references:
+- uid: TemplateMAUI.Controls
+  commentId: N:TemplateMAUI.Controls
+  href: TemplateMAUI.html
+  name: TemplateMAUI.Controls
+  nameWithType: TemplateMAUI.Controls
+  fullName: TemplateMAUI.Controls
+  spec.csharp:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Controls
+    name: Controls
+    href: TemplateMAUI.Controls.html
+  spec.vb:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Controls
+    name: Controls
+    href: TemplateMAUI.Controls.html
+- uid: TemplateMAUI.Controls.AvatarShape
+  commentId: T:TemplateMAUI.Controls.AvatarShape
+  parent: TemplateMAUI.Controls
+  href: TemplateMAUI.Controls.AvatarShape.html
+  name: AvatarShape
+  nameWithType: AvatarShape
+  fullName: TemplateMAUI.Controls.AvatarShape

@@ -1,0 +1,739 @@
+### YamlMime:ManagedReference
+items:
+- uid: TemplateMAUI.Gallery.Views.PropertyGridModel
+  commentId: T:TemplateMAUI.Gallery.Views.PropertyGridModel
+  id: PropertyGridModel
+  parent: TemplateMAUI.Gallery.Views
+  children:
+  - TemplateMAUI.Gallery.Views.PropertyGridModel.Boolean
+  - TemplateMAUI.Gallery.Views.PropertyGridModel.Enum
+  - TemplateMAUI.Gallery.Views.PropertyGridModel.HorizontalAlignment
+  - TemplateMAUI.Gallery.Views.PropertyGridModel.Integer
+  - TemplateMAUI.Gallery.Views.PropertyGridModel.OnPropertyChanged(System.String)
+  - TemplateMAUI.Gallery.Views.PropertyGridModel.PropertyChanged
+  - TemplateMAUI.Gallery.Views.PropertyGridModel.String
+  - TemplateMAUI.Gallery.Views.PropertyGridModel.VerticalAlignment
+  langs:
+  - csharp
+  - vb
+  name: PropertyGridModel
+  nameWithType: PropertyGridModel
+  fullName: TemplateMAUI.Gallery.Views.PropertyGridModel
+  type: Class
+  source:
+    remote:
+      path: src/TemplateMAUI.Gallery/Views/PropertyGridGallery.xaml.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: PropertyGridModel
+    path: ../src/TemplateMAUI.Gallery/Views/PropertyGridGallery.xaml.cs
+    startLine: 35
+  assemblies:
+  - TemplateMAUI.Gallery
+  namespace: TemplateMAUI.Gallery.Views
+  syntax:
+    content: 'public class PropertyGridModel : INotifyPropertyChanged'
+    content.vb: Public Class PropertyGridModel Implements INotifyPropertyChanged
+  inheritance:
+  - System.Object
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: TemplateMAUI.Gallery.Views.PropertyGridModel.String
+  commentId: P:TemplateMAUI.Gallery.Views.PropertyGridModel.String
+  id: String
+  parent: TemplateMAUI.Gallery.Views.PropertyGridModel
+  langs:
+  - csharp
+  - vb
+  name: String
+  nameWithType: PropertyGridModel.String
+  fullName: TemplateMAUI.Gallery.Views.PropertyGridModel.String
+  type: Property
+  source:
+    remote:
+      path: src/TemplateMAUI.Gallery/Views/PropertyGridGallery.xaml.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: String
+    path: ../src/TemplateMAUI.Gallery/Views/PropertyGridGallery.xaml.cs
+    startLine: 44
+  assemblies:
+  - TemplateMAUI.Gallery
+  namespace: TemplateMAUI.Gallery.Views
+  syntax:
+    content: public string String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property [String] As String
+  overload: TemplateMAUI.Gallery.Views.PropertyGridModel.String*
+- uid: TemplateMAUI.Gallery.Views.PropertyGridModel.Integer
+  commentId: P:TemplateMAUI.Gallery.Views.PropertyGridModel.Integer
+  id: Integer
+  parent: TemplateMAUI.Gallery.Views.PropertyGridModel
+  langs:
+  - csharp
+  - vb
+  name: Integer
+  nameWithType: PropertyGridModel.Integer
+  fullName: TemplateMAUI.Gallery.Views.PropertyGridModel.Integer
+  type: Property
+  source:
+    remote:
+      path: src/TemplateMAUI.Gallery/Views/PropertyGridGallery.xaml.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: Integer
+    path: ../src/TemplateMAUI.Gallery/Views/PropertyGridGallery.xaml.cs
+    startLine: 57
+  assemblies:
+  - TemplateMAUI.Gallery
+  namespace: TemplateMAUI.Gallery.Views
+  syntax:
+    content: public int Integer { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property [Integer] As Integer
+  overload: TemplateMAUI.Gallery.Views.PropertyGridModel.Integer*
+- uid: TemplateMAUI.Gallery.Views.PropertyGridModel.Boolean
+  commentId: P:TemplateMAUI.Gallery.Views.PropertyGridModel.Boolean
+  id: Boolean
+  parent: TemplateMAUI.Gallery.Views.PropertyGridModel
+  langs:
+  - csharp
+  - vb
+  name: Boolean
+  nameWithType: PropertyGridModel.Boolean
+  fullName: TemplateMAUI.Gallery.Views.PropertyGridModel.Boolean
+  type: Property
+  source:
+    remote:
+      path: src/TemplateMAUI.Gallery/Views/PropertyGridGallery.xaml.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: Boolean
+    path: ../src/TemplateMAUI.Gallery/Views/PropertyGridGallery.xaml.cs
+    startLine: 70
+  assemblies:
+  - TemplateMAUI.Gallery
+  namespace: TemplateMAUI.Gallery.Views
+  syntax:
+    content: public bool Boolean { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property [Boolean] As Boolean
+  overload: TemplateMAUI.Gallery.Views.PropertyGridModel.Boolean*
+- uid: TemplateMAUI.Gallery.Views.PropertyGridModel.Enum
+  commentId: P:TemplateMAUI.Gallery.Views.PropertyGridModel.Enum
+  id: Enum
+  parent: TemplateMAUI.Gallery.Views.PropertyGridModel
+  langs:
+  - csharp
+  - vb
+  name: Enum
+  nameWithType: PropertyGridModel.Enum
+  fullName: TemplateMAUI.Gallery.Views.PropertyGridModel.Enum
+  type: Property
+  source:
+    remote:
+      path: src/TemplateMAUI.Gallery/Views/PropertyGridGallery.xaml.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: Enum
+    path: ../src/TemplateMAUI.Gallery/Views/PropertyGridGallery.xaml.cs
+    startLine: 83
+  assemblies:
+  - TemplateMAUI.Gallery
+  namespace: TemplateMAUI.Gallery.Views
+  syntax:
+    content: public PropertyEnum Enum { get; set; }
+    parameters: []
+    return:
+      type: TemplateMAUI.Gallery.Views.PropertyEnum
+    content.vb: Public Property [Enum] As PropertyEnum
+  overload: TemplateMAUI.Gallery.Views.PropertyGridModel.Enum*
+- uid: TemplateMAUI.Gallery.Views.PropertyGridModel.HorizontalAlignment
+  commentId: P:TemplateMAUI.Gallery.Views.PropertyGridModel.HorizontalAlignment
+  id: HorizontalAlignment
+  parent: TemplateMAUI.Gallery.Views.PropertyGridModel
+  langs:
+  - csharp
+  - vb
+  name: HorizontalAlignment
+  nameWithType: PropertyGridModel.HorizontalAlignment
+  fullName: TemplateMAUI.Gallery.Views.PropertyGridModel.HorizontalAlignment
+  type: Property
+  source:
+    remote:
+      path: src/TemplateMAUI.Gallery/Views/PropertyGridGallery.xaml.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: HorizontalAlignment
+    path: ../src/TemplateMAUI.Gallery/Views/PropertyGridGallery.xaml.cs
+    startLine: 96
+  assemblies:
+  - TemplateMAUI.Gallery
+  namespace: TemplateMAUI.Gallery.Views
+  syntax:
+    content: public HorizontalAlignment HorizontalAlignment { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.Maui.Graphics.HorizontalAlignment
+    content.vb: Public Property HorizontalAlignment As HorizontalAlignment
+  overload: TemplateMAUI.Gallery.Views.PropertyGridModel.HorizontalAlignment*
+- uid: TemplateMAUI.Gallery.Views.PropertyGridModel.VerticalAlignment
+  commentId: P:TemplateMAUI.Gallery.Views.PropertyGridModel.VerticalAlignment
+  id: VerticalAlignment
+  parent: TemplateMAUI.Gallery.Views.PropertyGridModel
+  langs:
+  - csharp
+  - vb
+  name: VerticalAlignment
+  nameWithType: PropertyGridModel.VerticalAlignment
+  fullName: TemplateMAUI.Gallery.Views.PropertyGridModel.VerticalAlignment
+  type: Property
+  source:
+    remote:
+      path: src/TemplateMAUI.Gallery/Views/PropertyGridGallery.xaml.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: VerticalAlignment
+    path: ../src/TemplateMAUI.Gallery/Views/PropertyGridGallery.xaml.cs
+    startLine: 109
+  assemblies:
+  - TemplateMAUI.Gallery
+  namespace: TemplateMAUI.Gallery.Views
+  syntax:
+    content: public VerticalAlignment VerticalAlignment { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.Maui.Graphics.VerticalAlignment
+    content.vb: Public Property VerticalAlignment As VerticalAlignment
+  overload: TemplateMAUI.Gallery.Views.PropertyGridModel.VerticalAlignment*
+- uid: TemplateMAUI.Gallery.Views.PropertyGridModel.PropertyChanged
+  commentId: E:TemplateMAUI.Gallery.Views.PropertyGridModel.PropertyChanged
+  id: PropertyChanged
+  parent: TemplateMAUI.Gallery.Views.PropertyGridModel
+  langs:
+  - csharp
+  - vb
+  name: PropertyChanged
+  nameWithType: PropertyGridModel.PropertyChanged
+  fullName: TemplateMAUI.Gallery.Views.PropertyGridModel.PropertyChanged
+  type: Event
+  source:
+    remote:
+      path: src/TemplateMAUI.Gallery/Views/PropertyGridGallery.xaml.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: PropertyChanged
+    path: ../src/TemplateMAUI.Gallery/Views/PropertyGridGallery.xaml.cs
+    startLine: 123
+  assemblies:
+  - TemplateMAUI.Gallery
+  namespace: TemplateMAUI.Gallery.Views
+  summary: Occurs when a property value changes.
+  example: []
+  syntax:
+    content: public event PropertyChangedEventHandler PropertyChanged
+    return:
+      type: System.ComponentModel.PropertyChangedEventHandler
+    content.vb: Public Event PropertyChanged As PropertyChangedEventHandler
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged.PropertyChanged
+- uid: TemplateMAUI.Gallery.Views.PropertyGridModel.OnPropertyChanged(System.String)
+  commentId: M:TemplateMAUI.Gallery.Views.PropertyGridModel.OnPropertyChanged(System.String)
+  id: OnPropertyChanged(System.String)
+  parent: TemplateMAUI.Gallery.Views.PropertyGridModel
+  langs:
+  - csharp
+  - vb
+  name: OnPropertyChanged(string)
+  nameWithType: PropertyGridModel.OnPropertyChanged(string)
+  fullName: TemplateMAUI.Gallery.Views.PropertyGridModel.OnPropertyChanged(string)
+  type: Method
+  source:
+    remote:
+      path: src/TemplateMAUI.Gallery/Views/PropertyGridGallery.xaml.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: OnPropertyChanged
+    path: ../src/TemplateMAUI.Gallery/Views/PropertyGridGallery.xaml.cs
+    startLine: 125
+  assemblies:
+  - TemplateMAUI.Gallery
+  namespace: TemplateMAUI.Gallery.Views
+  syntax:
+    content: protected void OnPropertyChanged(string name = null)
+    parameters:
+    - id: name
+      type: System.String
+    content.vb: Protected Sub OnPropertyChanged(name As String = Nothing)
+  overload: TemplateMAUI.Gallery.Views.PropertyGridModel.OnPropertyChanged*
+  nameWithType.vb: PropertyGridModel.OnPropertyChanged(String)
+  fullName.vb: TemplateMAUI.Gallery.Views.PropertyGridModel.OnPropertyChanged(String)
+  name.vb: OnPropertyChanged(String)
+references:
+- uid: TemplateMAUI.Gallery.Views
+  commentId: N:TemplateMAUI.Gallery.Views
+  href: TemplateMAUI.html
+  name: TemplateMAUI.Gallery.Views
+  nameWithType: TemplateMAUI.Gallery.Views
+  fullName: TemplateMAUI.Gallery.Views
+  spec.csharp:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Gallery
+    name: Gallery
+    href: TemplateMAUI.Gallery.html
+  - name: .
+  - uid: TemplateMAUI.Gallery.Views
+    name: Views
+    href: TemplateMAUI.Gallery.Views.html
+  spec.vb:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Gallery
+    name: Gallery
+    href: TemplateMAUI.Gallery.html
+  - name: .
+  - uid: TemplateMAUI.Gallery.Views
+    name: Views
+    href: TemplateMAUI.Gallery.Views.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+- uid: TemplateMAUI.Gallery.Views.PropertyGridModel.String*
+  commentId: Overload:TemplateMAUI.Gallery.Views.PropertyGridModel.String
+  href: TemplateMAUI.Gallery.Views.PropertyGridModel.html#TemplateMAUI_Gallery_Views_PropertyGridModel_String
+  name: String
+  nameWithType: PropertyGridModel.String
+  fullName: TemplateMAUI.Gallery.Views.PropertyGridModel.String
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: TemplateMAUI.Gallery.Views.PropertyGridModel.Integer*
+  commentId: Overload:TemplateMAUI.Gallery.Views.PropertyGridModel.Integer
+  href: TemplateMAUI.Gallery.Views.PropertyGridModel.html#TemplateMAUI_Gallery_Views_PropertyGridModel_Integer
+  name: Integer
+  nameWithType: PropertyGridModel.Integer
+  fullName: TemplateMAUI.Gallery.Views.PropertyGridModel.Integer
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: TemplateMAUI.Gallery.Views.PropertyGridModel.Boolean*
+  commentId: Overload:TemplateMAUI.Gallery.Views.PropertyGridModel.Boolean
+  href: TemplateMAUI.Gallery.Views.PropertyGridModel.html#TemplateMAUI_Gallery_Views_PropertyGridModel_Boolean
+  name: Boolean
+  nameWithType: PropertyGridModel.Boolean
+  fullName: TemplateMAUI.Gallery.Views.PropertyGridModel.Boolean
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: TemplateMAUI.Gallery.Views.PropertyGridModel.Enum*
+  commentId: Overload:TemplateMAUI.Gallery.Views.PropertyGridModel.Enum
+  href: TemplateMAUI.Gallery.Views.PropertyGridModel.html#TemplateMAUI_Gallery_Views_PropertyGridModel_Enum
+  name: Enum
+  nameWithType: PropertyGridModel.Enum
+  fullName: TemplateMAUI.Gallery.Views.PropertyGridModel.Enum
+- uid: TemplateMAUI.Gallery.Views.PropertyEnum
+  commentId: T:TemplateMAUI.Gallery.Views.PropertyEnum
+  parent: TemplateMAUI.Gallery.Views
+  href: TemplateMAUI.Gallery.Views.PropertyEnum.html
+  name: PropertyEnum
+  nameWithType: PropertyEnum
+  fullName: TemplateMAUI.Gallery.Views.PropertyEnum
+- uid: TemplateMAUI.Gallery.Views.PropertyGridModel.HorizontalAlignment*
+  commentId: Overload:TemplateMAUI.Gallery.Views.PropertyGridModel.HorizontalAlignment
+  href: TemplateMAUI.Gallery.Views.PropertyGridModel.html#TemplateMAUI_Gallery_Views_PropertyGridModel_HorizontalAlignment
+  name: HorizontalAlignment
+  nameWithType: PropertyGridModel.HorizontalAlignment
+  fullName: TemplateMAUI.Gallery.Views.PropertyGridModel.HorizontalAlignment
+- uid: Microsoft.Maui.Graphics.HorizontalAlignment
+  commentId: T:Microsoft.Maui.Graphics.HorizontalAlignment
+  parent: Microsoft.Maui.Graphics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.graphics.horizontalalignment
+  name: HorizontalAlignment
+  nameWithType: HorizontalAlignment
+  fullName: Microsoft.Maui.Graphics.HorizontalAlignment
+- uid: Microsoft.Maui.Graphics
+  commentId: N:Microsoft.Maui.Graphics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Maui.Graphics
+  nameWithType: Microsoft.Maui.Graphics
+  fullName: Microsoft.Maui.Graphics
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Maui
+    name: Maui
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui
+  - name: .
+  - uid: Microsoft.Maui.Graphics
+    name: Graphics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.graphics
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Maui
+    name: Maui
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui
+  - name: .
+  - uid: Microsoft.Maui.Graphics
+    name: Graphics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.graphics
+- uid: TemplateMAUI.Gallery.Views.PropertyGridModel.VerticalAlignment*
+  commentId: Overload:TemplateMAUI.Gallery.Views.PropertyGridModel.VerticalAlignment
+  href: TemplateMAUI.Gallery.Views.PropertyGridModel.html#TemplateMAUI_Gallery_Views_PropertyGridModel_VerticalAlignment
+  name: VerticalAlignment
+  nameWithType: PropertyGridModel.VerticalAlignment
+  fullName: TemplateMAUI.Gallery.Views.PropertyGridModel.VerticalAlignment
+- uid: Microsoft.Maui.Graphics.VerticalAlignment
+  commentId: T:Microsoft.Maui.Graphics.VerticalAlignment
+  parent: Microsoft.Maui.Graphics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.graphics.verticalalignment
+  name: VerticalAlignment
+  nameWithType: VerticalAlignment
+  fullName: Microsoft.Maui.Graphics.VerticalAlignment
+- uid: System.ComponentModel.INotifyPropertyChanged.PropertyChanged
+  commentId: E:System.ComponentModel.INotifyPropertyChanged.PropertyChanged
+  parent: System.ComponentModel.INotifyPropertyChanged
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged.propertychanged
+  name: PropertyChanged
+  nameWithType: INotifyPropertyChanged.PropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged.PropertyChanged
+- uid: System.ComponentModel.PropertyChangedEventHandler
+  commentId: T:System.ComponentModel.PropertyChangedEventHandler
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventhandler
+  name: PropertyChangedEventHandler
+  nameWithType: PropertyChangedEventHandler
+  fullName: System.ComponentModel.PropertyChangedEventHandler
+- uid: TemplateMAUI.Gallery.Views.PropertyGridModel.OnPropertyChanged*
+  commentId: Overload:TemplateMAUI.Gallery.Views.PropertyGridModel.OnPropertyChanged
+  href: TemplateMAUI.Gallery.Views.PropertyGridModel.html#TemplateMAUI_Gallery_Views_PropertyGridModel_OnPropertyChanged_System_String_
+  name: OnPropertyChanged
+  nameWithType: PropertyGridModel.OnPropertyChanged
+  fullName: TemplateMAUI.Gallery.Views.PropertyGridModel.OnPropertyChanged

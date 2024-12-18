@@ -1,0 +1,112 @@
+### YamlMime:ManagedReference
+items:
+- uid: TemplateMAUI.Controls.SelectionChanged
+  commentId: T:TemplateMAUI.Controls.SelectionChanged
+  id: SelectionChanged
+  parent: TemplateMAUI.Controls
+  children:
+  - TemplateMAUI.Controls.SelectionChanged.Completed
+  - TemplateMAUI.Controls.SelectionChanged.Reset
+  langs:
+  - csharp
+  - vb
+  name: SelectionChanged
+  nameWithType: SelectionChanged
+  fullName: TemplateMAUI.Controls.SelectionChanged
+  type: Enum
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/CarouselView/SelectionChangedArgs.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: SelectionChanged
+    path: ../src/TemplateMAUI/Controls/CarouselView/SelectionChangedArgs.cs
+    startLine: 2
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: public enum SelectionChanged
+    content.vb: Public Enum SelectionChanged
+- uid: TemplateMAUI.Controls.SelectionChanged.Completed
+  commentId: F:TemplateMAUI.Controls.SelectionChanged.Completed
+  id: Completed
+  parent: TemplateMAUI.Controls.SelectionChanged
+  langs:
+  - csharp
+  - vb
+  name: Completed
+  nameWithType: SelectionChanged.Completed
+  fullName: TemplateMAUI.Controls.SelectionChanged.Completed
+  type: Field
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/CarouselView/SelectionChangedArgs.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: Completed
+    path: ../src/TemplateMAUI/Controls/CarouselView/SelectionChangedArgs.cs
+    startLine: 4
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: Completed = 0
+    return:
+      type: TemplateMAUI.Controls.SelectionChanged
+- uid: TemplateMAUI.Controls.SelectionChanged.Reset
+  commentId: F:TemplateMAUI.Controls.SelectionChanged.Reset
+  id: Reset
+  parent: TemplateMAUI.Controls.SelectionChanged
+  langs:
+  - csharp
+  - vb
+  name: Reset
+  nameWithType: SelectionChanged.Reset
+  fullName: TemplateMAUI.Controls.SelectionChanged.Reset
+  type: Field
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/CarouselView/SelectionChangedArgs.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: Reset
+    path: ../src/TemplateMAUI/Controls/CarouselView/SelectionChangedArgs.cs
+    startLine: 5
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: Reset = 1
+    return:
+      type: TemplateMAUI.Controls.SelectionChanged
+references:
+- uid: TemplateMAUI.Controls
+  commentId: N:TemplateMAUI.Controls
+  href: TemplateMAUI.html
+  name: TemplateMAUI.Controls
+  nameWithType: TemplateMAUI.Controls
+  fullName: TemplateMAUI.Controls
+  spec.csharp:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Controls
+    name: Controls
+    href: TemplateMAUI.Controls.html
+  spec.vb:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Controls
+    name: Controls
+    href: TemplateMAUI.Controls.html
+- uid: TemplateMAUI.Controls.SelectionChanged
+  commentId: T:TemplateMAUI.Controls.SelectionChanged
+  parent: TemplateMAUI.Controls
+  href: TemplateMAUI.Controls.SelectionChanged.html
+  name: SelectionChanged
+  nameWithType: SelectionChanged
+  fullName: TemplateMAUI.Controls.SelectionChanged

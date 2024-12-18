@@ -3,6 +3,10 @@ using System.Collections.Specialized;
 
 namespace TemplateMAUI.DataVisualization
 {
+    /// <summary>
+    /// The SerialChart class is an abstract base class designed to represent a serial chart within a user interface. 
+    /// It provides common functionality and properties for creating and managing various types of serial charts, such as line charts, bar charts, and area charts.
+    /// </summary>
     public abstract class SerialChart : TemplatedView
     {
         public static readonly BindableProperty DataSourceProperty =

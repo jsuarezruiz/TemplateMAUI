@@ -1,0 +1,183 @@
+### YamlMime:ManagedReference
+items:
+- uid: TemplateMAUI.Controls.IPinAnimation
+  commentId: T:TemplateMAUI.Controls.IPinAnimation
+  id: IPinAnimation
+  parent: TemplateMAUI.Controls
+  children:
+  - TemplateMAUI.Controls.IPinAnimation.OnFocus(TemplateMAUI.Controls.PinItem)
+  - TemplateMAUI.Controls.IPinAnimation.OnUnfocus(TemplateMAUI.Controls.PinItem)
+  langs:
+  - csharp
+  - vb
+  name: IPinAnimation
+  nameWithType: IPinAnimation
+  fullName: TemplateMAUI.Controls.IPinAnimation
+  type: Interface
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/PinBox/IPinAnimation.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: IPinAnimation
+    path: ../src/TemplateMAUI/Controls/PinBox/IPinAnimation.cs
+    startLine: 6
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  summary: >-
+    The IPinAnimation interface defines the methods required to implement animations for PIN items. 
+
+    This interface allows for custom animations to be applied when a PIN item gains or loses focus.
+  example: []
+  syntax:
+    content: public interface IPinAnimation
+    content.vb: Public Interface IPinAnimation
+- uid: TemplateMAUI.Controls.IPinAnimation.OnFocus(TemplateMAUI.Controls.PinItem)
+  commentId: M:TemplateMAUI.Controls.IPinAnimation.OnFocus(TemplateMAUI.Controls.PinItem)
+  id: OnFocus(TemplateMAUI.Controls.PinItem)
+  parent: TemplateMAUI.Controls.IPinAnimation
+  langs:
+  - csharp
+  - vb
+  name: OnFocus(PinItem)
+  nameWithType: IPinAnimation.OnFocus(PinItem)
+  fullName: TemplateMAUI.Controls.IPinAnimation.OnFocus(TemplateMAUI.Controls.PinItem)
+  type: Method
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/PinBox/IPinAnimation.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: OnFocus
+    path: ../src/TemplateMAUI/Controls/PinBox/IPinAnimation.cs
+    startLine: 8
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: Task OnFocus(PinItem pinItem)
+    parameters:
+    - id: pinItem
+      type: TemplateMAUI.Controls.PinItem
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function OnFocus(pinItem As PinItem) As Task
+  overload: TemplateMAUI.Controls.IPinAnimation.OnFocus*
+- uid: TemplateMAUI.Controls.IPinAnimation.OnUnfocus(TemplateMAUI.Controls.PinItem)
+  commentId: M:TemplateMAUI.Controls.IPinAnimation.OnUnfocus(TemplateMAUI.Controls.PinItem)
+  id: OnUnfocus(TemplateMAUI.Controls.PinItem)
+  parent: TemplateMAUI.Controls.IPinAnimation
+  langs:
+  - csharp
+  - vb
+  name: OnUnfocus(PinItem)
+  nameWithType: IPinAnimation.OnUnfocus(PinItem)
+  fullName: TemplateMAUI.Controls.IPinAnimation.OnUnfocus(TemplateMAUI.Controls.PinItem)
+  type: Method
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/PinBox/IPinAnimation.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: OnUnfocus
+    path: ../src/TemplateMAUI/Controls/PinBox/IPinAnimation.cs
+    startLine: 9
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: Task OnUnfocus(PinItem pinItem)
+    parameters:
+    - id: pinItem
+      type: TemplateMAUI.Controls.PinItem
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function OnUnfocus(pinItem As PinItem) As Task
+  overload: TemplateMAUI.Controls.IPinAnimation.OnUnfocus*
+references:
+- uid: TemplateMAUI.Controls
+  commentId: N:TemplateMAUI.Controls
+  href: TemplateMAUI.html
+  name: TemplateMAUI.Controls
+  nameWithType: TemplateMAUI.Controls
+  fullName: TemplateMAUI.Controls
+  spec.csharp:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Controls
+    name: Controls
+    href: TemplateMAUI.Controls.html
+  spec.vb:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Controls
+    name: Controls
+    href: TemplateMAUI.Controls.html
+- uid: TemplateMAUI.Controls.IPinAnimation.OnFocus*
+  commentId: Overload:TemplateMAUI.Controls.IPinAnimation.OnFocus
+  href: TemplateMAUI.Controls.IPinAnimation.html#TemplateMAUI_Controls_IPinAnimation_OnFocus_TemplateMAUI_Controls_PinItem_
+  name: OnFocus
+  nameWithType: IPinAnimation.OnFocus
+  fullName: TemplateMAUI.Controls.IPinAnimation.OnFocus
+- uid: TemplateMAUI.Controls.PinItem
+  commentId: T:TemplateMAUI.Controls.PinItem
+  parent: TemplateMAUI.Controls
+  name: PinItem
+  nameWithType: PinItem
+  fullName: TemplateMAUI.Controls.PinItem
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: TemplateMAUI.Controls.IPinAnimation.OnUnfocus*
+  commentId: Overload:TemplateMAUI.Controls.IPinAnimation.OnUnfocus
+  href: TemplateMAUI.Controls.IPinAnimation.html#TemplateMAUI_Controls_IPinAnimation_OnUnfocus_TemplateMAUI_Controls_PinItem_
+  name: OnUnfocus
+  nameWithType: IPinAnimation.OnUnfocus
+  fullName: TemplateMAUI.Controls.IPinAnimation.OnUnfocus

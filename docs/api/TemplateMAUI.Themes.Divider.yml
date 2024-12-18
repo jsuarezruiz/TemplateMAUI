@@ -1,0 +1,1364 @@
+### YamlMime:ManagedReference
+items:
+- uid: TemplateMAUI.Themes.Divider
+  commentId: T:TemplateMAUI.Themes.Divider
+  id: Divider
+  parent: TemplateMAUI.Themes
+  children:
+  - TemplateMAUI.Themes.Divider.#ctor
+  langs:
+  - csharp
+  - vb
+  name: Divider
+  nameWithType: Divider
+  fullName: TemplateMAUI.Themes.Divider
+  type: Class
+  source:
+    id: Divider
+    path: Microsoft.Maui.Controls.SourceGen\Microsoft.Maui.Controls.SourceGen.CodeBehindGenerator\Themes_Styles_Divider.xaml.sg.cs
+    startLine: 13
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Themes
+  syntax:
+    content: >-
+      [XamlFilePath("Themes\\Styles\\Divider.xaml")]
+
+      public class Divider : ResourceDictionary, IDictionary<string, object>, ICollection<KeyValuePair<string, object>>, IEnumerable<KeyValuePair<string, object>>, IEnumerable
+    content.vb: >-
+      <XamlFilePath("Themes\Styles\Divider.xaml")>
+
+      Public Class Divider Inherits ResourceDictionary Implements IDictionary(Of String, Object), ICollection(Of KeyValuePair(Of String, Object)), IEnumerable(Of KeyValuePair(Of String, Object)), IEnumerable
+  inheritance:
+  - System.Object
+  - Microsoft.Maui.Controls.ResourceDictionary
+  implements:
+  - System.Collections.Generic.IDictionary{System.String,System.Object}
+  - System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{System.String,System.Object}}
+  - System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Object}}
+  - System.Collections.IEnumerable
+  inheritedMembers:
+  - Microsoft.Maui.Controls.ResourceDictionary.Clear
+  - Microsoft.Maui.Controls.ResourceDictionary.Add(System.String,System.Object)
+  - Microsoft.Maui.Controls.ResourceDictionary.ContainsKey(System.String)
+  - Microsoft.Maui.Controls.ResourceDictionary.Remove(System.String)
+  - Microsoft.Maui.Controls.ResourceDictionary.GetEnumerator
+  - Microsoft.Maui.Controls.ResourceDictionary.TryGetValue(System.String,System.Object@)
+  - Microsoft.Maui.Controls.ResourceDictionary.Add(Microsoft.Maui.Controls.Style)
+  - Microsoft.Maui.Controls.ResourceDictionary.Add(Microsoft.Maui.Controls.ResourceDictionary)
+  - Microsoft.Maui.Controls.ResourceDictionary.Add(Microsoft.Maui.Controls.StyleSheets.StyleSheet)
+  - Microsoft.Maui.Controls.ResourceDictionary.Source
+  - Microsoft.Maui.Controls.ResourceDictionary.MergedDictionaries
+  - Microsoft.Maui.Controls.ResourceDictionary.Count
+  - Microsoft.Maui.Controls.ResourceDictionary.Item(System.String)
+  - Microsoft.Maui.Controls.ResourceDictionary.Keys
+  - Microsoft.Maui.Controls.ResourceDictionary.Values
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Object}}.TemplateMAUI.Extensions.EnumerableExtension.Invoke``1(System.Action{System.Collections.Generic.KeyValuePair{System.String,System.Object}})
+  attributes:
+  - type: Microsoft.Maui.Controls.Xaml.XamlFilePathAttribute
+    ctor: Microsoft.Maui.Controls.Xaml.XamlFilePathAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Themes\Styles\Divider.xaml
+- uid: TemplateMAUI.Themes.Divider.#ctor
+  commentId: M:TemplateMAUI.Themes.Divider.#ctor
+  id: '#ctor'
+  parent: TemplateMAUI.Themes.Divider
+  langs:
+  - csharp
+  - vb
+  name: Divider()
+  nameWithType: Divider.Divider()
+  fullName: TemplateMAUI.Themes.Divider.Divider()
+  type: Constructor
+  source:
+    remote:
+      path: src/TemplateMAUI/Themes/Styles/Divider.xaml.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: .ctor
+    path: ../src/TemplateMAUI/Themes/Styles/Divider.xaml.cs
+    startLine: 4
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Themes
+  syntax:
+    content: public Divider()
+    content.vb: Public Sub New()
+  overload: TemplateMAUI.Themes.Divider.#ctor*
+  nameWithType.vb: Divider.New()
+  fullName.vb: TemplateMAUI.Themes.Divider.New()
+  name.vb: New()
+references:
+- uid: TemplateMAUI.Themes
+  commentId: N:TemplateMAUI.Themes
+  href: TemplateMAUI.html
+  name: TemplateMAUI.Themes
+  nameWithType: TemplateMAUI.Themes
+  fullName: TemplateMAUI.Themes
+  spec.csharp:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Themes
+    name: Themes
+    href: TemplateMAUI.Themes.html
+  spec.vb:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Themes
+    name: Themes
+    href: TemplateMAUI.Themes.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Microsoft.Maui.Controls.ResourceDictionary
+  commentId: T:Microsoft.Maui.Controls.ResourceDictionary
+  parent: Microsoft.Maui.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.resourcedictionary
+  name: ResourceDictionary
+  nameWithType: ResourceDictionary
+  fullName: Microsoft.Maui.Controls.ResourceDictionary
+- uid: System.Collections.Generic.IDictionary{System.String,System.Object}
+  commentId: T:System.Collections.Generic.IDictionary{System.String,System.Object}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IDictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  name: IDictionary<string, object>
+  nameWithType: IDictionary<string, object>
+  fullName: System.Collections.Generic.IDictionary<string, object>
+  nameWithType.vb: IDictionary(Of String, Object)
+  fullName.vb: System.Collections.Generic.IDictionary(Of String, Object)
+  name.vb: IDictionary(Of String, Object)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{System.String,System.Object}}
+  commentId: T:System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{System.String,System.Object}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<KeyValuePair<string, object>>
+  nameWithType: ICollection<KeyValuePair<string, object>>
+  fullName: System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<string, object>>
+  nameWithType.vb: ICollection(Of KeyValuePair(Of String, Object))
+  fullName.vb: System.Collections.Generic.ICollection(Of System.Collections.Generic.KeyValuePair(Of String, Object))
+  name.vb: ICollection(Of KeyValuePair(Of String, Object))
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Object}}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Object}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<KeyValuePair<string, object>>
+  nameWithType: IEnumerable<KeyValuePair<string, object>>
+  fullName: System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string, object>>
+  nameWithType.vb: IEnumerable(Of KeyValuePair(Of String, Object))
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of String, Object))
+  name.vb: IEnumerable(Of KeyValuePair(Of String, Object))
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  - name: )
+- uid: System.Collections.IEnumerable
+  commentId: T:System.Collections.IEnumerable
+  parent: System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable
+  name: IEnumerable
+  nameWithType: IEnumerable
+  fullName: System.Collections.IEnumerable
+- uid: Microsoft.Maui.Controls.ResourceDictionary.Clear
+  commentId: M:Microsoft.Maui.Controls.ResourceDictionary.Clear
+  parent: Microsoft.Maui.Controls.ResourceDictionary
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.resourcedictionary.clear
+  name: Clear()
+  nameWithType: ResourceDictionary.Clear()
+  fullName: Microsoft.Maui.Controls.ResourceDictionary.Clear()
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.ResourceDictionary.Clear
+    name: Clear
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.resourcedictionary.clear
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.ResourceDictionary.Clear
+    name: Clear
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.resourcedictionary.clear
+  - name: (
+  - name: )
+- uid: Microsoft.Maui.Controls.ResourceDictionary.Add(System.String,System.Object)
+  commentId: M:Microsoft.Maui.Controls.ResourceDictionary.Add(System.String,System.Object)
+  parent: Microsoft.Maui.Controls.ResourceDictionary
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.resourcedictionary.add#microsoft-maui-controls-resourcedictionary-add(system-string-system-object)
+  name: Add(string, object)
+  nameWithType: ResourceDictionary.Add(string, object)
+  fullName: Microsoft.Maui.Controls.ResourceDictionary.Add(string, object)
+  nameWithType.vb: ResourceDictionary.Add(String, Object)
+  fullName.vb: Microsoft.Maui.Controls.ResourceDictionary.Add(String, Object)
+  name.vb: Add(String, Object)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.ResourceDictionary.Add(System.String,System.Object)
+    name: Add
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.resourcedictionary.add#microsoft-maui-controls-resourcedictionary-add(system-string-system-object)
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.ResourceDictionary.Add(System.String,System.Object)
+    name: Add
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.resourcedictionary.add#microsoft-maui-controls-resourcedictionary-add(system-string-system-object)
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Microsoft.Maui.Controls.ResourceDictionary.ContainsKey(System.String)
+  commentId: M:Microsoft.Maui.Controls.ResourceDictionary.ContainsKey(System.String)
+  parent: Microsoft.Maui.Controls.ResourceDictionary
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.resourcedictionary.containskey
+  name: ContainsKey(string)
+  nameWithType: ResourceDictionary.ContainsKey(string)
+  fullName: Microsoft.Maui.Controls.ResourceDictionary.ContainsKey(string)
+  nameWithType.vb: ResourceDictionary.ContainsKey(String)
+  fullName.vb: Microsoft.Maui.Controls.ResourceDictionary.ContainsKey(String)
+  name.vb: ContainsKey(String)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.ResourceDictionary.ContainsKey(System.String)
+    name: ContainsKey
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.resourcedictionary.containskey
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.ResourceDictionary.ContainsKey(System.String)
+    name: ContainsKey
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.resourcedictionary.containskey
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Microsoft.Maui.Controls.ResourceDictionary.Remove(System.String)
+  commentId: M:Microsoft.Maui.Controls.ResourceDictionary.Remove(System.String)
+  parent: Microsoft.Maui.Controls.ResourceDictionary
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.resourcedictionary.remove
+  name: Remove(string)
+  nameWithType: ResourceDictionary.Remove(string)
+  fullName: Microsoft.Maui.Controls.ResourceDictionary.Remove(string)
+  nameWithType.vb: ResourceDictionary.Remove(String)
+  fullName.vb: Microsoft.Maui.Controls.ResourceDictionary.Remove(String)
+  name.vb: Remove(String)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.ResourceDictionary.Remove(System.String)
+    name: Remove
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.resourcedictionary.remove
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.ResourceDictionary.Remove(System.String)
+    name: Remove
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.resourcedictionary.remove
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Microsoft.Maui.Controls.ResourceDictionary.GetEnumerator
+  commentId: M:Microsoft.Maui.Controls.ResourceDictionary.GetEnumerator
+  parent: Microsoft.Maui.Controls.ResourceDictionary
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.resourcedictionary.getenumerator
+  name: GetEnumerator()
+  nameWithType: ResourceDictionary.GetEnumerator()
+  fullName: Microsoft.Maui.Controls.ResourceDictionary.GetEnumerator()
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.ResourceDictionary.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.resourcedictionary.getenumerator
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.ResourceDictionary.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.resourcedictionary.getenumerator
+  - name: (
+  - name: )
+- uid: Microsoft.Maui.Controls.ResourceDictionary.TryGetValue(System.String,System.Object@)
+  commentId: M:Microsoft.Maui.Controls.ResourceDictionary.TryGetValue(System.String,System.Object@)
+  parent: Microsoft.Maui.Controls.ResourceDictionary
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.resourcedictionary.trygetvalue
+  name: TryGetValue(string, out object)
+  nameWithType: ResourceDictionary.TryGetValue(string, out object)
+  fullName: Microsoft.Maui.Controls.ResourceDictionary.TryGetValue(string, out object)
+  nameWithType.vb: ResourceDictionary.TryGetValue(String, Object)
+  fullName.vb: Microsoft.Maui.Controls.ResourceDictionary.TryGetValue(String, Object)
+  name.vb: TryGetValue(String, Object)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.ResourceDictionary.TryGetValue(System.String,System.Object@)
+    name: TryGetValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.resourcedictionary.trygetvalue
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - name: out
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.ResourceDictionary.TryGetValue(System.String,System.Object@)
+    name: TryGetValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.resourcedictionary.trygetvalue
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Microsoft.Maui.Controls.ResourceDictionary.Add(Microsoft.Maui.Controls.Style)
+  commentId: M:Microsoft.Maui.Controls.ResourceDictionary.Add(Microsoft.Maui.Controls.Style)
+  parent: Microsoft.Maui.Controls.ResourceDictionary
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.resourcedictionary.add#microsoft-maui-controls-resourcedictionary-add(microsoft-maui-controls-style)
+  name: Add(Style)
+  nameWithType: ResourceDictionary.Add(Style)
+  fullName: Microsoft.Maui.Controls.ResourceDictionary.Add(Microsoft.Maui.Controls.Style)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.ResourceDictionary.Add(Microsoft.Maui.Controls.Style)
+    name: Add
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.resourcedictionary.add#microsoft-maui-controls-resourcedictionary-add(microsoft-maui-controls-style)
+  - name: (
+  - uid: Microsoft.Maui.Controls.Style
+    name: Style
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.style
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.ResourceDictionary.Add(Microsoft.Maui.Controls.Style)
+    name: Add
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.resourcedictionary.add#microsoft-maui-controls-resourcedictionary-add(microsoft-maui-controls-style)
+  - name: (
+  - uid: Microsoft.Maui.Controls.Style
+    name: Style
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.style
+  - name: )
+- uid: Microsoft.Maui.Controls.ResourceDictionary.Add(Microsoft.Maui.Controls.ResourceDictionary)
+  commentId: M:Microsoft.Maui.Controls.ResourceDictionary.Add(Microsoft.Maui.Controls.ResourceDictionary)
+  parent: Microsoft.Maui.Controls.ResourceDictionary
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.resourcedictionary.add#microsoft-maui-controls-resourcedictionary-add(microsoft-maui-controls-resourcedictionary)
+  name: Add(ResourceDictionary)
+  nameWithType: ResourceDictionary.Add(ResourceDictionary)
+  fullName: Microsoft.Maui.Controls.ResourceDictionary.Add(Microsoft.Maui.Controls.ResourceDictionary)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.ResourceDictionary.Add(Microsoft.Maui.Controls.ResourceDictionary)
+    name: Add
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.resourcedictionary.add#microsoft-maui-controls-resourcedictionary-add(microsoft-maui-controls-resourcedictionary)
+  - name: (
+  - uid: Microsoft.Maui.Controls.ResourceDictionary
+    name: ResourceDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.resourcedictionary
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.ResourceDictionary.Add(Microsoft.Maui.Controls.ResourceDictionary)
+    name: Add
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.resourcedictionary.add#microsoft-maui-controls-resourcedictionary-add(microsoft-maui-controls-resourcedictionary)
+  - name: (
+  - uid: Microsoft.Maui.Controls.ResourceDictionary
+    name: ResourceDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.resourcedictionary
+  - name: )
+- uid: Microsoft.Maui.Controls.ResourceDictionary.Add(Microsoft.Maui.Controls.StyleSheets.StyleSheet)
+  commentId: M:Microsoft.Maui.Controls.ResourceDictionary.Add(Microsoft.Maui.Controls.StyleSheets.StyleSheet)
+  parent: Microsoft.Maui.Controls.ResourceDictionary
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.resourcedictionary.add#microsoft-maui-controls-resourcedictionary-add(microsoft-maui-controls-stylesheets-stylesheet)
+  name: Add(StyleSheet)
+  nameWithType: ResourceDictionary.Add(StyleSheet)
+  fullName: Microsoft.Maui.Controls.ResourceDictionary.Add(Microsoft.Maui.Controls.StyleSheets.StyleSheet)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.ResourceDictionary.Add(Microsoft.Maui.Controls.StyleSheets.StyleSheet)
+    name: Add
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.resourcedictionary.add#microsoft-maui-controls-resourcedictionary-add(microsoft-maui-controls-stylesheets-stylesheet)
+  - name: (
+  - uid: Microsoft.Maui.Controls.StyleSheets.StyleSheet
+    name: StyleSheet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.stylesheets.stylesheet
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.ResourceDictionary.Add(Microsoft.Maui.Controls.StyleSheets.StyleSheet)
+    name: Add
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.resourcedictionary.add#microsoft-maui-controls-resourcedictionary-add(microsoft-maui-controls-stylesheets-stylesheet)
+  - name: (
+  - uid: Microsoft.Maui.Controls.StyleSheets.StyleSheet
+    name: StyleSheet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.stylesheets.stylesheet
+  - name: )
+- uid: Microsoft.Maui.Controls.ResourceDictionary.Source
+  commentId: P:Microsoft.Maui.Controls.ResourceDictionary.Source
+  parent: Microsoft.Maui.Controls.ResourceDictionary
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.resourcedictionary.source
+  name: Source
+  nameWithType: ResourceDictionary.Source
+  fullName: Microsoft.Maui.Controls.ResourceDictionary.Source
+- uid: Microsoft.Maui.Controls.ResourceDictionary.MergedDictionaries
+  commentId: P:Microsoft.Maui.Controls.ResourceDictionary.MergedDictionaries
+  parent: Microsoft.Maui.Controls.ResourceDictionary
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.resourcedictionary.mergeddictionaries
+  name: MergedDictionaries
+  nameWithType: ResourceDictionary.MergedDictionaries
+  fullName: Microsoft.Maui.Controls.ResourceDictionary.MergedDictionaries
+- uid: Microsoft.Maui.Controls.ResourceDictionary.Count
+  commentId: P:Microsoft.Maui.Controls.ResourceDictionary.Count
+  parent: Microsoft.Maui.Controls.ResourceDictionary
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.resourcedictionary.count
+  name: Count
+  nameWithType: ResourceDictionary.Count
+  fullName: Microsoft.Maui.Controls.ResourceDictionary.Count
+- uid: Microsoft.Maui.Controls.ResourceDictionary.Item(System.String)
+  commentId: P:Microsoft.Maui.Controls.ResourceDictionary.Item(System.String)
+  parent: Microsoft.Maui.Controls.ResourceDictionary
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: this[string]
+  nameWithType: ResourceDictionary.this[string]
+  fullName: Microsoft.Maui.Controls.ResourceDictionary.this[string]
+  nameWithType.vb: ResourceDictionary.this[](String)
+  fullName.vb: Microsoft.Maui.Controls.ResourceDictionary.this[](String)
+  name.vb: this[](String)
+  spec.csharp:
+  - name: this
+  - name: '['
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ']'
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.ResourceDictionary.Item(System.String)
+    name: this[]
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.resourcedictionary.item
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Microsoft.Maui.Controls.ResourceDictionary.Keys
+  commentId: P:Microsoft.Maui.Controls.ResourceDictionary.Keys
+  parent: Microsoft.Maui.Controls.ResourceDictionary
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.resourcedictionary.keys
+  name: Keys
+  nameWithType: ResourceDictionary.Keys
+  fullName: Microsoft.Maui.Controls.ResourceDictionary.Keys
+- uid: Microsoft.Maui.Controls.ResourceDictionary.Values
+  commentId: P:Microsoft.Maui.Controls.ResourceDictionary.Values
+  parent: Microsoft.Maui.Controls.ResourceDictionary
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.resourcedictionary.values
+  name: Values
+  nameWithType: ResourceDictionary.Values
+  fullName: Microsoft.Maui.Controls.ResourceDictionary.Values
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Object}}.TemplateMAUI.Extensions.EnumerableExtension.Invoke``1(System.Action{System.Collections.Generic.KeyValuePair{System.String,System.Object}})
+  commentId: M:TemplateMAUI.Extensions.EnumerableExtension.Invoke``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  parent: TemplateMAUI.Extensions.EnumerableExtension
+  definition: TemplateMAUI.Extensions.EnumerableExtension.Invoke``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  href: TemplateMAUI.Extensions.EnumerableExtension.html#TemplateMAUI_Extensions_EnumerableExtension_Invoke__1_System_Collections_Generic_IEnumerable___0__System_Action___0__
+  name: Invoke<KeyValuePair<string, object>>(IEnumerable<KeyValuePair<string, object>>, Action<KeyValuePair<string, object>>)
+  nameWithType: EnumerableExtension.Invoke<KeyValuePair<string, object>>(IEnumerable<KeyValuePair<string, object>>, Action<KeyValuePair<string, object>>)
+  fullName: TemplateMAUI.Extensions.EnumerableExtension.Invoke<System.Collections.Generic.KeyValuePair<string, object>>(System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string, object>>, System.Action<System.Collections.Generic.KeyValuePair<string, object>>)
+  nameWithType.vb: EnumerableExtension.Invoke(Of KeyValuePair(Of String, Object))(IEnumerable(Of KeyValuePair(Of String, Object)), Action(Of KeyValuePair(Of String, Object)))
+  fullName.vb: TemplateMAUI.Extensions.EnumerableExtension.Invoke(Of System.Collections.Generic.KeyValuePair(Of String, Object))(System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of String, Object)), System.Action(Of System.Collections.Generic.KeyValuePair(Of String, Object)))
+  name.vb: Invoke(Of KeyValuePair(Of String, Object))(IEnumerable(Of KeyValuePair(Of String, Object)), Action(Of KeyValuePair(Of String, Object)))
+  spec.csharp:
+  - uid: TemplateMAUI.Extensions.EnumerableExtension.Invoke``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Object}},System.Action{System.Collections.Generic.KeyValuePair{System.String,System.Object}})
+    name: Invoke
+    href: TemplateMAUI.Extensions.EnumerableExtension.html#TemplateMAUI_Extensions_EnumerableExtension_Invoke__1_System_Collections_Generic_IEnumerable___0__System_Action___0__
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  - name: '>'
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: TemplateMAUI.Extensions.EnumerableExtension.Invoke``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Object}},System.Action{System.Collections.Generic.KeyValuePair{System.String,System.Object}})
+    name: Invoke
+    href: TemplateMAUI.Extensions.EnumerableExtension.html#TemplateMAUI_Extensions_EnumerableExtension_Invoke__1_System_Collections_Generic_IEnumerable___0__System_Action___0__
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  - name: )
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  - name: )
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.Maui.Controls
+  commentId: N:Microsoft.Maui.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Maui.Controls
+  nameWithType: Microsoft.Maui.Controls
+  fullName: Microsoft.Maui.Controls
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Maui
+    name: Maui
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui
+  - name: .
+  - uid: Microsoft.Maui.Controls
+    name: Controls
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Maui
+    name: Maui
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui
+  - name: .
+  - uid: Microsoft.Maui.Controls
+    name: Controls
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls
+- uid: System.Collections.Generic.IDictionary`2
+  commentId: T:System.Collections.Generic.IDictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  name: IDictionary<TKey, TValue>
+  nameWithType: IDictionary<TKey, TValue>
+  fullName: System.Collections.Generic.IDictionary<TKey, TValue>
+  nameWithType.vb: IDictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.IDictionary(Of TKey, TValue)
+  name.vb: IDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System.Collections.Generic.ICollection`1
+  commentId: T:System.Collections.Generic.ICollection`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<T>
+  nameWithType: ICollection<T>
+  fullName: System.Collections.Generic.ICollection<T>
+  nameWithType.vb: ICollection(Of T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T)
+  name.vb: ICollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+- uid: TemplateMAUI.Extensions.EnumerableExtension.Invoke``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  commentId: M:TemplateMAUI.Extensions.EnumerableExtension.Invoke``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  isExternal: true
+  href: TemplateMAUI.Extensions.EnumerableExtension.html#TemplateMAUI_Extensions_EnumerableExtension_Invoke__1_System_Collections_Generic_IEnumerable___0__System_Action___0__
+  name: Invoke<TSource>(IEnumerable<TSource>, Action<TSource>)
+  nameWithType: EnumerableExtension.Invoke<TSource>(IEnumerable<TSource>, Action<TSource>)
+  fullName: TemplateMAUI.Extensions.EnumerableExtension.Invoke<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Action<TSource>)
+  nameWithType.vb: EnumerableExtension.Invoke(Of TSource)(IEnumerable(Of TSource), Action(Of TSource))
+  fullName.vb: TemplateMAUI.Extensions.EnumerableExtension.Invoke(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Action(Of TSource))
+  name.vb: Invoke(Of TSource)(IEnumerable(Of TSource), Action(Of TSource))
+  spec.csharp:
+  - uid: TemplateMAUI.Extensions.EnumerableExtension.Invoke``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+    name: Invoke
+    href: TemplateMAUI.Extensions.EnumerableExtension.html#TemplateMAUI_Extensions_EnumerableExtension_Invoke__1_System_Collections_Generic_IEnumerable___0__System_Action___0__
+  - name: <
+  - name: TSource
+  - name: '>'
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: TSource
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: TSource
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: TemplateMAUI.Extensions.EnumerableExtension.Invoke``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+    name: Invoke
+    href: TemplateMAUI.Extensions.EnumerableExtension.html#TemplateMAUI_Extensions_EnumerableExtension_Invoke__1_System_Collections_Generic_IEnumerable___0__System_Action___0__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: )
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: )
+  - name: )
+- uid: TemplateMAUI.Extensions.EnumerableExtension
+  commentId: T:TemplateMAUI.Extensions.EnumerableExtension
+  parent: TemplateMAUI.Extensions
+  href: TemplateMAUI.Extensions.EnumerableExtension.html
+  name: EnumerableExtension
+  nameWithType: EnumerableExtension
+  fullName: TemplateMAUI.Extensions.EnumerableExtension
+- uid: TemplateMAUI.Extensions
+  commentId: N:TemplateMAUI.Extensions
+  href: TemplateMAUI.html
+  name: TemplateMAUI.Extensions
+  nameWithType: TemplateMAUI.Extensions
+  fullName: TemplateMAUI.Extensions
+  spec.csharp:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Extensions
+    name: Extensions
+    href: TemplateMAUI.Extensions.html
+  spec.vb:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Extensions
+    name: Extensions
+    href: TemplateMAUI.Extensions.html
+- uid: TemplateMAUI.Themes.Divider.#ctor*
+  commentId: Overload:TemplateMAUI.Themes.Divider.#ctor
+  href: TemplateMAUI.Themes.Divider.html#TemplateMAUI_Themes_Divider__ctor
+  name: Divider
+  nameWithType: Divider.Divider
+  fullName: TemplateMAUI.Themes.Divider.Divider
+  nameWithType.vb: Divider.New
+  fullName.vb: TemplateMAUI.Themes.Divider.New
+  name.vb: New

@@ -1,0 +1,3802 @@
+### YamlMime:ManagedReference
+items:
+- uid: TemplateMAUI.Controls.TreeViewNodes
+  commentId: T:TemplateMAUI.Controls.TreeViewNodes
+  id: TreeViewNodes
+  parent: TemplateMAUI.Controls
+  children:
+  - TemplateMAUI.Controls.TreeViewNodes.#ctor
+  - TemplateMAUI.Controls.TreeViewNodes.#ctor(System.Collections.Generic.IEnumerable{TemplateMAUI.Controls.TreeViewNode})
+  - TemplateMAUI.Controls.TreeViewNodes.Add(TemplateMAUI.Controls.TreeViewNode)
+  - TemplateMAUI.Controls.TreeViewNodes.Clear
+  - TemplateMAUI.Controls.TreeViewNodes.CollectionChanged
+  - TemplateMAUI.Controls.TreeViewNodes.Contains(TemplateMAUI.Controls.TreeViewNode)
+  - TemplateMAUI.Controls.TreeViewNodes.CopyTo(TemplateMAUI.Controls.TreeViewNode[],System.Int32)
+  - TemplateMAUI.Controls.TreeViewNodes.Count
+  - TemplateMAUI.Controls.TreeViewNodes.GetEnumerator
+  - TemplateMAUI.Controls.TreeViewNodes.IndexOf(TemplateMAUI.Controls.TreeViewNode)
+  - TemplateMAUI.Controls.TreeViewNodes.Insert(System.Int32,TemplateMAUI.Controls.TreeViewNode)
+  - TemplateMAUI.Controls.TreeViewNodes.IsReadOnly
+  - TemplateMAUI.Controls.TreeViewNodes.Item(System.Int32)
+  - TemplateMAUI.Controls.TreeViewNodes.OnBindingContextChanged
+  - TemplateMAUI.Controls.TreeViewNodes.Remove(TemplateMAUI.Controls.TreeViewNode)
+  - TemplateMAUI.Controls.TreeViewNodes.RemoveAt(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: TreeViewNodes
+  nameWithType: TreeViewNodes
+  fullName: TemplateMAUI.Controls.TreeViewNodes
+  type: Class
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/TreeView/TreeViewNodes.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: TreeViewNodes
+    path: ../src/TemplateMAUI/Controls/TreeView/TreeViewNodes.cs
+    startLine: 6
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: 'public class TreeViewNodes : Element, INotifyPropertyChanged, IElementController, IVisualTreeElement, IEffectControlProvider, IToolTipElement, IContextFlyoutElement, IElement, IList<TreeViewNode>, ICollection<TreeViewNode>, IEnumerable<TreeViewNode>, IEnumerable, INotifyCollectionChanged'
+    content.vb: Public Class TreeViewNodes Inherits Element Implements INotifyPropertyChanged, IElementController, IVisualTreeElement, IEffectControlProvider, IToolTipElement, IContextFlyoutElement, IElement, IList(Of TreeViewNode), ICollection(Of TreeViewNode), IEnumerable(Of TreeViewNode), IEnumerable, INotifyCollectionChanged
+  inheritance:
+  - System.Object
+  - Microsoft.Maui.Controls.BindableObject
+  - Microsoft.Maui.Controls.Element
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged
+  - Microsoft.Maui.Controls.IElementController
+  - Microsoft.Maui.IVisualTreeElement
+  - Microsoft.Maui.Controls.IEffectControlProvider
+  - Microsoft.Maui.IToolTipElement
+  - Microsoft.Maui.IContextFlyoutElement
+  - Microsoft.Maui.IElement
+  - System.Collections.Generic.IList{TemplateMAUI.Controls.TreeViewNode}
+  - System.Collections.Generic.ICollection{TemplateMAUI.Controls.TreeViewNode}
+  - System.Collections.Generic.IEnumerable{TemplateMAUI.Controls.TreeViewNode}
+  - System.Collections.IEnumerable
+  - System.Collections.Specialized.INotifyCollectionChanged
+  inheritedMembers:
+  - Microsoft.Maui.Controls.Element.AutomationIdProperty
+  - Microsoft.Maui.Controls.Element.ClassIdProperty
+  - Microsoft.Maui.Controls.Element.InsertLogicalChild(System.Int32,Microsoft.Maui.Controls.Element)
+  - Microsoft.Maui.Controls.Element.AddLogicalChild(Microsoft.Maui.Controls.Element)
+  - Microsoft.Maui.Controls.Element.RemoveLogicalChild(Microsoft.Maui.Controls.Element)
+  - Microsoft.Maui.Controls.Element.ClearLogicalChildren
+  - Microsoft.Maui.Controls.Element.FindByName(System.String)
+  - Microsoft.Maui.Controls.Element.RemoveDynamicResource(Microsoft.Maui.Controls.BindableProperty)
+  - Microsoft.Maui.Controls.Element.SetDynamicResource(Microsoft.Maui.Controls.BindableProperty,System.String)
+  - Microsoft.Maui.Controls.Element.OnChildAdded(Microsoft.Maui.Controls.Element)
+  - Microsoft.Maui.Controls.Element.OnChildRemoved(Microsoft.Maui.Controls.Element,System.Int32)
+  - Microsoft.Maui.Controls.Element.OnParentSet
+  - Microsoft.Maui.Controls.Element.OnPropertyChanged(System.String)
+  - Microsoft.Maui.Controls.Element.OnParentChanging(Microsoft.Maui.Controls.ParentChangingEventArgs)
+  - Microsoft.Maui.Controls.Element.OnParentChanged
+  - Microsoft.Maui.Controls.Element.OnHandlerChanging(Microsoft.Maui.Controls.HandlerChangingEventArgs)
+  - Microsoft.Maui.Controls.Element.OnHandlerChanged
+  - Microsoft.Maui.Controls.Element.MapAutomationPropertiesIsInAccessibleTree(Microsoft.Maui.IElementHandler,Microsoft.Maui.Controls.Element)
+  - Microsoft.Maui.Controls.Element.MapAutomationPropertiesExcludedWithChildren(Microsoft.Maui.IElementHandler,Microsoft.Maui.Controls.Element)
+  - Microsoft.Maui.Controls.Element.AutomationId
+  - Microsoft.Maui.Controls.Element.ClassId
+  - Microsoft.Maui.Controls.Element.Effects
+  - Microsoft.Maui.Controls.Element.Id
+  - Microsoft.Maui.Controls.Element.StyleId
+  - Microsoft.Maui.Controls.Element.Parent
+  - Microsoft.Maui.Controls.Element.Handler
+  - Microsoft.Maui.Controls.Element.ChildAdded
+  - Microsoft.Maui.Controls.Element.ChildRemoved
+  - Microsoft.Maui.Controls.Element.DescendantAdded
+  - Microsoft.Maui.Controls.Element.DescendantRemoved
+  - Microsoft.Maui.Controls.Element.ParentChanging
+  - Microsoft.Maui.Controls.Element.ParentChanged
+  - Microsoft.Maui.Controls.Element.HandlerChanging
+  - Microsoft.Maui.Controls.Element.HandlerChanged
+  - Microsoft.Maui.Controls.BindableObject.BindingContextProperty
+  - Microsoft.Maui.Controls.BindableObject.ClearValue(Microsoft.Maui.Controls.BindableProperty)
+  - Microsoft.Maui.Controls.BindableObject.ClearValue(Microsoft.Maui.Controls.BindablePropertyKey)
+  - Microsoft.Maui.Controls.BindableObject.GetValue(Microsoft.Maui.Controls.BindableProperty)
+  - Microsoft.Maui.Controls.BindableObject.IsSet(Microsoft.Maui.Controls.BindableProperty)
+  - Microsoft.Maui.Controls.BindableObject.RemoveBinding(Microsoft.Maui.Controls.BindableProperty)
+  - Microsoft.Maui.Controls.BindableObject.SetBinding(Microsoft.Maui.Controls.BindableProperty,Microsoft.Maui.Controls.BindingBase)
+  - Microsoft.Maui.Controls.BindableObject.ApplyBindings
+  - Microsoft.Maui.Controls.BindableObject.OnPropertyChanging(System.String)
+  - Microsoft.Maui.Controls.BindableObject.UnapplyBindings
+  - Microsoft.Maui.Controls.BindableObject.SetValue(Microsoft.Maui.Controls.BindableProperty,System.Object)
+  - Microsoft.Maui.Controls.BindableObject.SetValue(Microsoft.Maui.Controls.BindablePropertyKey,System.Object)
+  - Microsoft.Maui.Controls.BindableObject.CoerceValue(Microsoft.Maui.Controls.BindableProperty)
+  - Microsoft.Maui.Controls.BindableObject.CoerceValue(Microsoft.Maui.Controls.BindablePropertyKey)
+  - Microsoft.Maui.Controls.BindableObject.Dispatcher
+  - Microsoft.Maui.Controls.BindableObject.BindingContext
+  - Microsoft.Maui.Controls.BindableObject.PropertyChanged
+  - Microsoft.Maui.Controls.BindableObject.PropertyChanging
+  - Microsoft.Maui.Controls.BindableObject.BindingContextChanged
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - Microsoft.Maui.Controls.Element.TemplateMAUI.Helpers.VisualTreeHelper.GetParent``1
+  - System.Collections.Generic.IEnumerable{TemplateMAUI.Controls.TreeViewNode}.TemplateMAUI.Extensions.EnumerableExtension.Invoke``1(System.Action{TemplateMAUI.Controls.TreeViewNode})
+- uid: TemplateMAUI.Controls.TreeViewNodes.#ctor(System.Collections.Generic.IEnumerable{TemplateMAUI.Controls.TreeViewNode})
+  commentId: M:TemplateMAUI.Controls.TreeViewNodes.#ctor(System.Collections.Generic.IEnumerable{TemplateMAUI.Controls.TreeViewNode})
+  id: '#ctor(System.Collections.Generic.IEnumerable{TemplateMAUI.Controls.TreeViewNode})'
+  parent: TemplateMAUI.Controls.TreeViewNodes
+  langs:
+  - csharp
+  - vb
+  name: TreeViewNodes(IEnumerable<TreeViewNode>)
+  nameWithType: TreeViewNodes.TreeViewNodes(IEnumerable<TreeViewNode>)
+  fullName: TemplateMAUI.Controls.TreeViewNodes.TreeViewNodes(System.Collections.Generic.IEnumerable<TemplateMAUI.Controls.TreeViewNode>)
+  type: Constructor
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/TreeView/TreeViewNodes.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: .ctor
+    path: ../src/TemplateMAUI/Controls/TreeView/TreeViewNodes.cs
+    startLine: 10
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: public TreeViewNodes(IEnumerable<TreeViewNode> treeViewNodes)
+    parameters:
+    - id: treeViewNodes
+      type: System.Collections.Generic.IEnumerable{TemplateMAUI.Controls.TreeViewNode}
+    content.vb: Public Sub New(treeViewNodes As IEnumerable(Of TreeViewNode))
+  overload: TemplateMAUI.Controls.TreeViewNodes.#ctor*
+  nameWithType.vb: TreeViewNodes.New(IEnumerable(Of TreeViewNode))
+  fullName.vb: TemplateMAUI.Controls.TreeViewNodes.New(System.Collections.Generic.IEnumerable(Of TemplateMAUI.Controls.TreeViewNode))
+  name.vb: New(IEnumerable(Of TreeViewNode))
+- uid: TemplateMAUI.Controls.TreeViewNodes.#ctor
+  commentId: M:TemplateMAUI.Controls.TreeViewNodes.#ctor
+  id: '#ctor'
+  parent: TemplateMAUI.Controls.TreeViewNodes
+  langs:
+  - csharp
+  - vb
+  name: TreeViewNodes()
+  nameWithType: TreeViewNodes.TreeViewNodes()
+  fullName: TemplateMAUI.Controls.TreeViewNodes.TreeViewNodes()
+  type: Constructor
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/TreeView/TreeViewNodes.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: .ctor
+    path: ../src/TemplateMAUI/Controls/TreeView/TreeViewNodes.cs
+    startLine: 16
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: public TreeViewNodes()
+    content.vb: Public Sub New()
+  overload: TemplateMAUI.Controls.TreeViewNodes.#ctor*
+  nameWithType.vb: TreeViewNodes.New()
+  fullName.vb: TemplateMAUI.Controls.TreeViewNodes.New()
+  name.vb: New()
+- uid: TemplateMAUI.Controls.TreeViewNodes.CollectionChanged
+  commentId: E:TemplateMAUI.Controls.TreeViewNodes.CollectionChanged
+  id: CollectionChanged
+  parent: TemplateMAUI.Controls.TreeViewNodes
+  langs:
+  - csharp
+  - vb
+  name: CollectionChanged
+  nameWithType: TreeViewNodes.CollectionChanged
+  fullName: TemplateMAUI.Controls.TreeViewNodes.CollectionChanged
+  type: Event
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/TreeView/TreeViewNodes.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: CollectionChanged
+    path: ../src/TemplateMAUI/Controls/TreeView/TreeViewNodes.cs
+    startLine: 21
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  summary: Occurs when the collection changes.
+  example: []
+  syntax:
+    content: public event NotifyCollectionChangedEventHandler CollectionChanged
+    return:
+      type: System.Collections.Specialized.NotifyCollectionChangedEventHandler
+    content.vb: Public Event CollectionChanged As NotifyCollectionChangedEventHandler
+  implements:
+  - System.Collections.Specialized.INotifyCollectionChanged.CollectionChanged
+- uid: TemplateMAUI.Controls.TreeViewNodes.Item(System.Int32)
+  commentId: P:TemplateMAUI.Controls.TreeViewNodes.Item(System.Int32)
+  id: Item(System.Int32)
+  parent: TemplateMAUI.Controls.TreeViewNodes
+  langs:
+  - csharp
+  - vb
+  name: this[int]
+  nameWithType: TreeViewNodes.this[int]
+  fullName: TemplateMAUI.Controls.TreeViewNodes.this[int]
+  type: Property
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/TreeView/TreeViewNodes.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: this[]
+    path: ../src/TemplateMAUI/Controls/TreeView/TreeViewNodes.cs
+    startLine: 27
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  summary: Gets or sets the element at the specified index.
+  example: []
+  syntax:
+    content: public TreeViewNode this[int index] { get; set; }
+    parameters:
+    - id: index
+      type: System.Int32
+      description: The zero-based index of the element to get or set.
+    return:
+      type: TemplateMAUI.Controls.TreeViewNode
+      description: The element at the specified index.
+    content.vb: Public Default Property this[](index As Integer) As TreeViewNode
+  overload: TemplateMAUI.Controls.TreeViewNodes.Item*
+  exceptions:
+  - type: System.ArgumentOutOfRangeException
+    commentId: T:System.ArgumentOutOfRangeException
+    description: <code class="paramref">index</code> is not a valid index in the <xref href="System.Collections.Generic.IList%601" data-throw-if-not-resolved="false"></xref>.
+  - type: System.NotSupportedException
+    commentId: T:System.NotSupportedException
+    description: The property is set and the <xref href="System.Collections.Generic.IList%601" data-throw-if-not-resolved="false"></xref> is read-only.
+  implements:
+  - System.Collections.Generic.IList{TemplateMAUI.Controls.TreeViewNode}.Item(System.Int32)
+  nameWithType.vb: TreeViewNodes.this[](Integer)
+  fullName.vb: TemplateMAUI.Controls.TreeViewNodes.this[](Integer)
+  name.vb: this[](Integer)
+- uid: TemplateMAUI.Controls.TreeViewNodes.Count
+  commentId: P:TemplateMAUI.Controls.TreeViewNodes.Count
+  id: Count
+  parent: TemplateMAUI.Controls.TreeViewNodes
+  langs:
+  - csharp
+  - vb
+  name: Count
+  nameWithType: TreeViewNodes.Count
+  fullName: TemplateMAUI.Controls.TreeViewNodes.Count
+  type: Property
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/TreeView/TreeViewNodes.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: Count
+    path: ../src/TemplateMAUI/Controls/TreeView/TreeViewNodes.cs
+    startLine: 33
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  summary: Gets the number of elements contained in the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public int Count { get; }
+    parameters: []
+    return:
+      type: System.Int32
+      description: The number of elements contained in the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public ReadOnly Property Count As Integer
+  overload: TemplateMAUI.Controls.TreeViewNodes.Count*
+  implements:
+  - System.Collections.Generic.ICollection{TemplateMAUI.Controls.TreeViewNode}.Count
+- uid: TemplateMAUI.Controls.TreeViewNodes.IsReadOnly
+  commentId: P:TemplateMAUI.Controls.TreeViewNodes.IsReadOnly
+  id: IsReadOnly
+  parent: TemplateMAUI.Controls.TreeViewNodes
+  langs:
+  - csharp
+  - vb
+  name: IsReadOnly
+  nameWithType: TreeViewNodes.IsReadOnly
+  fullName: TemplateMAUI.Controls.TreeViewNodes.IsReadOnly
+  type: Property
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/TreeView/TreeViewNodes.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: IsReadOnly
+    path: ../src/TemplateMAUI/Controls/TreeView/TreeViewNodes.cs
+    startLine: 35
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  summary: Gets a value indicating whether the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> is read-only.
+  example: []
+  syntax:
+    content: public bool IsReadOnly { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> is read-only; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public ReadOnly Property IsReadOnly As Boolean
+  overload: TemplateMAUI.Controls.TreeViewNodes.IsReadOnly*
+  implements:
+  - System.Collections.Generic.ICollection{TemplateMAUI.Controls.TreeViewNode}.IsReadOnly
+- uid: TemplateMAUI.Controls.TreeViewNodes.Add(TemplateMAUI.Controls.TreeViewNode)
+  commentId: M:TemplateMAUI.Controls.TreeViewNodes.Add(TemplateMAUI.Controls.TreeViewNode)
+  id: Add(TemplateMAUI.Controls.TreeViewNode)
+  parent: TemplateMAUI.Controls.TreeViewNodes
+  langs:
+  - csharp
+  - vb
+  name: Add(TreeViewNode)
+  nameWithType: TreeViewNodes.Add(TreeViewNode)
+  fullName: TemplateMAUI.Controls.TreeViewNodes.Add(TemplateMAUI.Controls.TreeViewNode)
+  type: Method
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/TreeView/TreeViewNodes.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: Add
+    path: ../src/TemplateMAUI/Controls/TreeView/TreeViewNodes.cs
+    startLine: 37
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  summary: Adds an item to the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public void Add(TreeViewNode item)
+    parameters:
+    - id: item
+      type: TemplateMAUI.Controls.TreeViewNode
+      description: The object to add to the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Sub Add(item As TreeViewNode)
+  overload: TemplateMAUI.Controls.TreeViewNodes.Add*
+  exceptions:
+  - type: System.NotSupportedException
+    commentId: T:System.NotSupportedException
+    description: The <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> is read-only.
+  implements:
+  - System.Collections.Generic.ICollection{TemplateMAUI.Controls.TreeViewNode}.Add(TemplateMAUI.Controls.TreeViewNode)
+- uid: TemplateMAUI.Controls.TreeViewNodes.Clear
+  commentId: M:TemplateMAUI.Controls.TreeViewNodes.Clear
+  id: Clear
+  parent: TemplateMAUI.Controls.TreeViewNodes
+  langs:
+  - csharp
+  - vb
+  name: Clear()
+  nameWithType: TreeViewNodes.Clear()
+  fullName: TemplateMAUI.Controls.TreeViewNodes.Clear()
+  type: Method
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/TreeView/TreeViewNodes.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: Clear
+    path: ../src/TemplateMAUI/Controls/TreeView/TreeViewNodes.cs
+    startLine: 42
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  summary: Removes all items from the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public void Clear()
+    content.vb: Public Sub Clear()
+  overload: TemplateMAUI.Controls.TreeViewNodes.Clear*
+  exceptions:
+  - type: System.NotSupportedException
+    commentId: T:System.NotSupportedException
+    description: The <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> is read-only.
+  implements:
+  - System.Collections.Generic.ICollection{TemplateMAUI.Controls.TreeViewNode}.Clear
+- uid: TemplateMAUI.Controls.TreeViewNodes.Contains(TemplateMAUI.Controls.TreeViewNode)
+  commentId: M:TemplateMAUI.Controls.TreeViewNodes.Contains(TemplateMAUI.Controls.TreeViewNode)
+  id: Contains(TemplateMAUI.Controls.TreeViewNode)
+  parent: TemplateMAUI.Controls.TreeViewNodes
+  langs:
+  - csharp
+  - vb
+  name: Contains(TreeViewNode)
+  nameWithType: TreeViewNodes.Contains(TreeViewNode)
+  fullName: TemplateMAUI.Controls.TreeViewNodes.Contains(TemplateMAUI.Controls.TreeViewNode)
+  type: Method
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/TreeView/TreeViewNodes.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: Contains
+    path: ../src/TemplateMAUI/Controls/TreeView/TreeViewNodes.cs
+    startLine: 47
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  summary: Determines whether the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> contains a specific value.
+  example: []
+  syntax:
+    content: public bool Contains(TreeViewNode item)
+    parameters:
+    - id: item
+      type: TemplateMAUI.Controls.TreeViewNode
+      description: The object to locate in the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">item</code> is found in the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Function Contains(item As TreeViewNode) As Boolean
+  overload: TemplateMAUI.Controls.TreeViewNodes.Contains*
+  implements:
+  - System.Collections.Generic.ICollection{TemplateMAUI.Controls.TreeViewNode}.Contains(TemplateMAUI.Controls.TreeViewNode)
+- uid: TemplateMAUI.Controls.TreeViewNodes.CopyTo(TemplateMAUI.Controls.TreeViewNode[],System.Int32)
+  commentId: M:TemplateMAUI.Controls.TreeViewNodes.CopyTo(TemplateMAUI.Controls.TreeViewNode[],System.Int32)
+  id: CopyTo(TemplateMAUI.Controls.TreeViewNode[],System.Int32)
+  parent: TemplateMAUI.Controls.TreeViewNodes
+  langs:
+  - csharp
+  - vb
+  name: CopyTo(TreeViewNode[], int)
+  nameWithType: TreeViewNodes.CopyTo(TreeViewNode[], int)
+  fullName: TemplateMAUI.Controls.TreeViewNodes.CopyTo(TemplateMAUI.Controls.TreeViewNode[], int)
+  type: Method
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/TreeView/TreeViewNodes.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: CopyTo
+    path: ../src/TemplateMAUI/Controls/TreeView/TreeViewNodes.cs
+    startLine: 52
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  summary: Copies the elements of the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> to an <xref href="System.Array" data-throw-if-not-resolved="false"></xref>, starting at a particular <xref href="System.Array" data-throw-if-not-resolved="false"></xref> index.
+  example: []
+  syntax:
+    content: public void CopyTo(TreeViewNode[] array, int arrayIndex)
+    parameters:
+    - id: array
+      type: TemplateMAUI.Controls.TreeViewNode[]
+      description: The one-dimensional <xref href="System.Array" data-throw-if-not-resolved="false"></xref> that is the destination of the elements copied from <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>. The <xref href="System.Array" data-throw-if-not-resolved="false"></xref> must have zero-based indexing.
+    - id: arrayIndex
+      type: System.Int32
+      description: The zero-based index in <code class="paramref">array</code> at which copying begins.
+    content.vb: Public Sub CopyTo(array As TreeViewNode(), arrayIndex As Integer)
+  overload: TemplateMAUI.Controls.TreeViewNodes.CopyTo*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: <code class="paramref">array</code> is <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>.
+  - type: System.ArgumentOutOfRangeException
+    commentId: T:System.ArgumentOutOfRangeException
+    description: <code class="paramref">arrayIndex</code> is less than 0.
+  - type: System.ArgumentException
+    commentId: T:System.ArgumentException
+    description: The number of elements in the source <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> is greater than the available space from <code class="paramref">arrayIndex</code> to the end of the destination <code class="paramref">array</code>.
+  implements:
+  - System.Collections.Generic.ICollection{TemplateMAUI.Controls.TreeViewNode}.CopyTo(TemplateMAUI.Controls.TreeViewNode[],System.Int32)
+  nameWithType.vb: TreeViewNodes.CopyTo(TreeViewNode(), Integer)
+  fullName.vb: TemplateMAUI.Controls.TreeViewNodes.CopyTo(TemplateMAUI.Controls.TreeViewNode(), Integer)
+  name.vb: CopyTo(TreeViewNode(), Integer)
+- uid: TemplateMAUI.Controls.TreeViewNodes.GetEnumerator
+  commentId: M:TemplateMAUI.Controls.TreeViewNodes.GetEnumerator
+  id: GetEnumerator
+  parent: TemplateMAUI.Controls.TreeViewNodes
+  langs:
+  - csharp
+  - vb
+  name: GetEnumerator()
+  nameWithType: TreeViewNodes.GetEnumerator()
+  fullName: TemplateMAUI.Controls.TreeViewNodes.GetEnumerator()
+  type: Method
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/TreeView/TreeViewNodes.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: GetEnumerator
+    path: ../src/TemplateMAUI/Controls/TreeView/TreeViewNodes.cs
+    startLine: 57
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  summary: Returns an enumerator that iterates through the collection.
+  example: []
+  syntax:
+    content: public IEnumerator<TreeViewNode> GetEnumerator()
+    return:
+      type: System.Collections.Generic.IEnumerator{TemplateMAUI.Controls.TreeViewNode}
+      description: An enumerator that can be used to iterate through the collection.
+    content.vb: Public Function GetEnumerator() As IEnumerator(Of TreeViewNode)
+  overload: TemplateMAUI.Controls.TreeViewNodes.GetEnumerator*
+  implements:
+  - System.Collections.Generic.IEnumerable{TemplateMAUI.Controls.TreeViewNode}.GetEnumerator
+- uid: TemplateMAUI.Controls.TreeViewNodes.IndexOf(TemplateMAUI.Controls.TreeViewNode)
+  commentId: M:TemplateMAUI.Controls.TreeViewNodes.IndexOf(TemplateMAUI.Controls.TreeViewNode)
+  id: IndexOf(TemplateMAUI.Controls.TreeViewNode)
+  parent: TemplateMAUI.Controls.TreeViewNodes
+  langs:
+  - csharp
+  - vb
+  name: IndexOf(TreeViewNode)
+  nameWithType: TreeViewNodes.IndexOf(TreeViewNode)
+  fullName: TemplateMAUI.Controls.TreeViewNodes.IndexOf(TemplateMAUI.Controls.TreeViewNode)
+  type: Method
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/TreeView/TreeViewNodes.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: IndexOf
+    path: ../src/TemplateMAUI/Controls/TreeView/TreeViewNodes.cs
+    startLine: 62
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  summary: Determines the index of a specific item in the <xref href="System.Collections.Generic.IList%601" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public int IndexOf(TreeViewNode item)
+    parameters:
+    - id: item
+      type: TemplateMAUI.Controls.TreeViewNode
+      description: The object to locate in the <xref href="System.Collections.Generic.IList%601" data-throw-if-not-resolved="false"></xref>.
+    return:
+      type: System.Int32
+      description: The index of <code class="paramref">item</code> if found in the list; otherwise, -1.
+    content.vb: Public Function IndexOf(item As TreeViewNode) As Integer
+  overload: TemplateMAUI.Controls.TreeViewNodes.IndexOf*
+  implements:
+  - System.Collections.Generic.IList{TemplateMAUI.Controls.TreeViewNode}.IndexOf(TemplateMAUI.Controls.TreeViewNode)
+- uid: TemplateMAUI.Controls.TreeViewNodes.Insert(System.Int32,TemplateMAUI.Controls.TreeViewNode)
+  commentId: M:TemplateMAUI.Controls.TreeViewNodes.Insert(System.Int32,TemplateMAUI.Controls.TreeViewNode)
+  id: Insert(System.Int32,TemplateMAUI.Controls.TreeViewNode)
+  parent: TemplateMAUI.Controls.TreeViewNodes
+  langs:
+  - csharp
+  - vb
+  name: Insert(int, TreeViewNode)
+  nameWithType: TreeViewNodes.Insert(int, TreeViewNode)
+  fullName: TemplateMAUI.Controls.TreeViewNodes.Insert(int, TemplateMAUI.Controls.TreeViewNode)
+  type: Method
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/TreeView/TreeViewNodes.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: Insert
+    path: ../src/TemplateMAUI/Controls/TreeView/TreeViewNodes.cs
+    startLine: 67
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  summary: Inserts an item to the <xref href="System.Collections.Generic.IList%601" data-throw-if-not-resolved="false"></xref> at the specified index.
+  example: []
+  syntax:
+    content: public void Insert(int index, TreeViewNode item)
+    parameters:
+    - id: index
+      type: System.Int32
+      description: The zero-based index at which <code class="paramref">item</code> should be inserted.
+    - id: item
+      type: TemplateMAUI.Controls.TreeViewNode
+      description: The object to insert into the <xref href="System.Collections.Generic.IList%601" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Sub Insert(index As Integer, item As TreeViewNode)
+  overload: TemplateMAUI.Controls.TreeViewNodes.Insert*
+  exceptions:
+  - type: System.ArgumentOutOfRangeException
+    commentId: T:System.ArgumentOutOfRangeException
+    description: <code class="paramref">index</code> is not a valid index in the <xref href="System.Collections.Generic.IList%601" data-throw-if-not-resolved="false"></xref>.
+  - type: System.NotSupportedException
+    commentId: T:System.NotSupportedException
+    description: The <xref href="System.Collections.Generic.IList%601" data-throw-if-not-resolved="false"></xref> is read-only.
+  implements:
+  - System.Collections.Generic.IList{TemplateMAUI.Controls.TreeViewNode}.Insert(System.Int32,TemplateMAUI.Controls.TreeViewNode)
+  nameWithType.vb: TreeViewNodes.Insert(Integer, TreeViewNode)
+  fullName.vb: TemplateMAUI.Controls.TreeViewNodes.Insert(Integer, TemplateMAUI.Controls.TreeViewNode)
+  name.vb: Insert(Integer, TreeViewNode)
+- uid: TemplateMAUI.Controls.TreeViewNodes.Remove(TemplateMAUI.Controls.TreeViewNode)
+  commentId: M:TemplateMAUI.Controls.TreeViewNodes.Remove(TemplateMAUI.Controls.TreeViewNode)
+  id: Remove(TemplateMAUI.Controls.TreeViewNode)
+  parent: TemplateMAUI.Controls.TreeViewNodes
+  langs:
+  - csharp
+  - vb
+  name: Remove(TreeViewNode)
+  nameWithType: TreeViewNodes.Remove(TreeViewNode)
+  fullName: TemplateMAUI.Controls.TreeViewNodes.Remove(TemplateMAUI.Controls.TreeViewNode)
+  type: Method
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/TreeView/TreeViewNodes.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: Remove
+    path: ../src/TemplateMAUI/Controls/TreeView/TreeViewNodes.cs
+    startLine: 72
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  summary: Removes the first occurrence of a specific object from the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public bool Remove(TreeViewNode item)
+    parameters:
+    - id: item
+      type: TemplateMAUI.Controls.TreeViewNode
+      description: The object to remove from the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">item</code> was successfully removed from the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>. This method also returns <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a> if <code class="paramref">item</code> is not found in the original <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Function Remove(item As TreeViewNode) As Boolean
+  overload: TemplateMAUI.Controls.TreeViewNodes.Remove*
+  exceptions:
+  - type: System.NotSupportedException
+    commentId: T:System.NotSupportedException
+    description: The <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> is read-only.
+  implements:
+  - System.Collections.Generic.ICollection{TemplateMAUI.Controls.TreeViewNode}.Remove(TemplateMAUI.Controls.TreeViewNode)
+- uid: TemplateMAUI.Controls.TreeViewNodes.RemoveAt(System.Int32)
+  commentId: M:TemplateMAUI.Controls.TreeViewNodes.RemoveAt(System.Int32)
+  id: RemoveAt(System.Int32)
+  parent: TemplateMAUI.Controls.TreeViewNodes
+  langs:
+  - csharp
+  - vb
+  name: RemoveAt(int)
+  nameWithType: TreeViewNodes.RemoveAt(int)
+  fullName: TemplateMAUI.Controls.TreeViewNodes.RemoveAt(int)
+  type: Method
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/TreeView/TreeViewNodes.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: RemoveAt
+    path: ../src/TemplateMAUI/Controls/TreeView/TreeViewNodes.cs
+    startLine: 77
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  summary: Removes the <xref href="System.Collections.Generic.IList%601" data-throw-if-not-resolved="false"></xref> item at the specified index.
+  example: []
+  syntax:
+    content: public void RemoveAt(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+      description: The zero-based index of the item to remove.
+    content.vb: Public Sub RemoveAt(index As Integer)
+  overload: TemplateMAUI.Controls.TreeViewNodes.RemoveAt*
+  exceptions:
+  - type: System.ArgumentOutOfRangeException
+    commentId: T:System.ArgumentOutOfRangeException
+    description: <code class="paramref">index</code> is not a valid index in the <xref href="System.Collections.Generic.IList%601" data-throw-if-not-resolved="false"></xref>.
+  - type: System.NotSupportedException
+    commentId: T:System.NotSupportedException
+    description: The <xref href="System.Collections.Generic.IList%601" data-throw-if-not-resolved="false"></xref> is read-only.
+  implements:
+  - System.Collections.Generic.IList{TemplateMAUI.Controls.TreeViewNode}.RemoveAt(System.Int32)
+  nameWithType.vb: TreeViewNodes.RemoveAt(Integer)
+  fullName.vb: TemplateMAUI.Controls.TreeViewNodes.RemoveAt(Integer)
+  name.vb: RemoveAt(Integer)
+- uid: TemplateMAUI.Controls.TreeViewNodes.OnBindingContextChanged
+  commentId: M:TemplateMAUI.Controls.TreeViewNodes.OnBindingContextChanged
+  id: OnBindingContextChanged
+  parent: TemplateMAUI.Controls.TreeViewNodes
+  langs:
+  - csharp
+  - vb
+  name: OnBindingContextChanged()
+  nameWithType: TreeViewNodes.OnBindingContextChanged()
+  fullName: TemplateMAUI.Controls.TreeViewNodes.OnBindingContextChanged()
+  type: Method
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/TreeView/TreeViewNodes.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: OnBindingContextChanged
+    path: ../src/TemplateMAUI/Controls/TreeView/TreeViewNodes.cs
+    startLine: 82
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  summary: Invoked whenever the binding context of the element changes. Implement this method to add class handling for this event.
+  remarks: Implementors must call the base method.
+  example: []
+  syntax:
+    content: protected override void OnBindingContextChanged()
+    content.vb: Protected Overrides Sub OnBindingContextChanged()
+  overridden: Microsoft.Maui.Controls.Element.OnBindingContextChanged
+  overload: TemplateMAUI.Controls.TreeViewNodes.OnBindingContextChanged*
+references:
+- uid: TemplateMAUI.Controls
+  commentId: N:TemplateMAUI.Controls
+  href: TemplateMAUI.html
+  name: TemplateMAUI.Controls
+  nameWithType: TemplateMAUI.Controls
+  fullName: TemplateMAUI.Controls
+  spec.csharp:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Controls
+    name: Controls
+    href: TemplateMAUI.Controls.html
+  spec.vb:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Controls
+    name: Controls
+    href: TemplateMAUI.Controls.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Microsoft.Maui.Controls.BindableObject
+  commentId: T:Microsoft.Maui.Controls.BindableObject
+  parent: Microsoft.Maui.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject
+  name: BindableObject
+  nameWithType: BindableObject
+  fullName: Microsoft.Maui.Controls.BindableObject
+- uid: Microsoft.Maui.Controls.Element
+  commentId: T:Microsoft.Maui.Controls.Element
+  parent: Microsoft.Maui.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element
+  name: Element
+  nameWithType: Element
+  fullName: Microsoft.Maui.Controls.Element
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: Microsoft.Maui.Controls.IElementController
+  commentId: T:Microsoft.Maui.Controls.IElementController
+  parent: Microsoft.Maui.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.ielementcontroller
+  name: IElementController
+  nameWithType: IElementController
+  fullName: Microsoft.Maui.Controls.IElementController
+- uid: Microsoft.Maui.IVisualTreeElement
+  commentId: T:Microsoft.Maui.IVisualTreeElement
+  parent: Microsoft.Maui
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.ivisualtreeelement
+  name: IVisualTreeElement
+  nameWithType: IVisualTreeElement
+  fullName: Microsoft.Maui.IVisualTreeElement
+- uid: Microsoft.Maui.Controls.IEffectControlProvider
+  commentId: T:Microsoft.Maui.Controls.IEffectControlProvider
+  parent: Microsoft.Maui.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.ieffectcontrolprovider
+  name: IEffectControlProvider
+  nameWithType: IEffectControlProvider
+  fullName: Microsoft.Maui.Controls.IEffectControlProvider
+- uid: Microsoft.Maui.IToolTipElement
+  commentId: T:Microsoft.Maui.IToolTipElement
+  parent: Microsoft.Maui
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.itooltipelement
+  name: IToolTipElement
+  nameWithType: IToolTipElement
+  fullName: Microsoft.Maui.IToolTipElement
+- uid: Microsoft.Maui.IContextFlyoutElement
+  commentId: T:Microsoft.Maui.IContextFlyoutElement
+  parent: Microsoft.Maui
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.icontextflyoutelement
+  name: IContextFlyoutElement
+  nameWithType: IContextFlyoutElement
+  fullName: Microsoft.Maui.IContextFlyoutElement
+- uid: Microsoft.Maui.IElement
+  commentId: T:Microsoft.Maui.IElement
+  parent: Microsoft.Maui
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.ielement
+  name: IElement
+  nameWithType: IElement
+  fullName: Microsoft.Maui.IElement
+- uid: System.Collections.Generic.IList{TemplateMAUI.Controls.TreeViewNode}
+  commentId: T:System.Collections.Generic.IList{TemplateMAUI.Controls.TreeViewNode}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  name: IList<TreeViewNode>
+  nameWithType: IList<TreeViewNode>
+  fullName: System.Collections.Generic.IList<TemplateMAUI.Controls.TreeViewNode>
+  nameWithType.vb: IList(Of TreeViewNode)
+  fullName.vb: System.Collections.Generic.IList(Of TemplateMAUI.Controls.TreeViewNode)
+  name.vb: IList(Of TreeViewNode)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: <
+  - uid: TemplateMAUI.Controls.TreeViewNode
+    name: TreeViewNode
+    href: TemplateMAUI.Controls.TreeViewNode.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: TemplateMAUI.Controls.TreeViewNode
+    name: TreeViewNode
+    href: TemplateMAUI.Controls.TreeViewNode.html
+  - name: )
+- uid: System.Collections.Generic.ICollection{TemplateMAUI.Controls.TreeViewNode}
+  commentId: T:System.Collections.Generic.ICollection{TemplateMAUI.Controls.TreeViewNode}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<TreeViewNode>
+  nameWithType: ICollection<TreeViewNode>
+  fullName: System.Collections.Generic.ICollection<TemplateMAUI.Controls.TreeViewNode>
+  nameWithType.vb: ICollection(Of TreeViewNode)
+  fullName.vb: System.Collections.Generic.ICollection(Of TemplateMAUI.Controls.TreeViewNode)
+  name.vb: ICollection(Of TreeViewNode)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - uid: TemplateMAUI.Controls.TreeViewNode
+    name: TreeViewNode
+    href: TemplateMAUI.Controls.TreeViewNode.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: TemplateMAUI.Controls.TreeViewNode
+    name: TreeViewNode
+    href: TemplateMAUI.Controls.TreeViewNode.html
+  - name: )
+- uid: System.Collections.Generic.IEnumerable{TemplateMAUI.Controls.TreeViewNode}
+  commentId: T:System.Collections.Generic.IEnumerable{TemplateMAUI.Controls.TreeViewNode}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<TreeViewNode>
+  nameWithType: IEnumerable<TreeViewNode>
+  fullName: System.Collections.Generic.IEnumerable<TemplateMAUI.Controls.TreeViewNode>
+  nameWithType.vb: IEnumerable(Of TreeViewNode)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of TemplateMAUI.Controls.TreeViewNode)
+  name.vb: IEnumerable(Of TreeViewNode)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: TemplateMAUI.Controls.TreeViewNode
+    name: TreeViewNode
+    href: TemplateMAUI.Controls.TreeViewNode.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: TemplateMAUI.Controls.TreeViewNode
+    name: TreeViewNode
+    href: TemplateMAUI.Controls.TreeViewNode.html
+  - name: )
+- uid: System.Collections.IEnumerable
+  commentId: T:System.Collections.IEnumerable
+  parent: System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable
+  name: IEnumerable
+  nameWithType: IEnumerable
+  fullName: System.Collections.IEnumerable
+- uid: System.Collections.Specialized.INotifyCollectionChanged
+  commentId: T:System.Collections.Specialized.INotifyCollectionChanged
+  parent: System.Collections.Specialized
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.specialized.inotifycollectionchanged
+  name: INotifyCollectionChanged
+  nameWithType: INotifyCollectionChanged
+  fullName: System.Collections.Specialized.INotifyCollectionChanged
+- uid: Microsoft.Maui.Controls.Element.AutomationIdProperty
+  commentId: F:Microsoft.Maui.Controls.Element.AutomationIdProperty
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.automationidproperty
+  name: AutomationIdProperty
+  nameWithType: Element.AutomationIdProperty
+  fullName: Microsoft.Maui.Controls.Element.AutomationIdProperty
+- uid: Microsoft.Maui.Controls.Element.ClassIdProperty
+  commentId: F:Microsoft.Maui.Controls.Element.ClassIdProperty
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.classidproperty
+  name: ClassIdProperty
+  nameWithType: Element.ClassIdProperty
+  fullName: Microsoft.Maui.Controls.Element.ClassIdProperty
+- uid: Microsoft.Maui.Controls.Element.InsertLogicalChild(System.Int32,Microsoft.Maui.Controls.Element)
+  commentId: M:Microsoft.Maui.Controls.Element.InsertLogicalChild(System.Int32,Microsoft.Maui.Controls.Element)
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.insertlogicalchild
+  name: InsertLogicalChild(int, Element)
+  nameWithType: Element.InsertLogicalChild(int, Element)
+  fullName: Microsoft.Maui.Controls.Element.InsertLogicalChild(int, Microsoft.Maui.Controls.Element)
+  nameWithType.vb: Element.InsertLogicalChild(Integer, Element)
+  fullName.vb: Microsoft.Maui.Controls.Element.InsertLogicalChild(Integer, Microsoft.Maui.Controls.Element)
+  name.vb: InsertLogicalChild(Integer, Element)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Element.InsertLogicalChild(System.Int32,Microsoft.Maui.Controls.Element)
+    name: InsertLogicalChild
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.insertlogicalchild
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: Microsoft.Maui.Controls.Element
+    name: Element
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Element.InsertLogicalChild(System.Int32,Microsoft.Maui.Controls.Element)
+    name: InsertLogicalChild
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.insertlogicalchild
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: Microsoft.Maui.Controls.Element
+    name: Element
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element
+  - name: )
+- uid: Microsoft.Maui.Controls.Element.AddLogicalChild(Microsoft.Maui.Controls.Element)
+  commentId: M:Microsoft.Maui.Controls.Element.AddLogicalChild(Microsoft.Maui.Controls.Element)
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.addlogicalchild
+  name: AddLogicalChild(Element)
+  nameWithType: Element.AddLogicalChild(Element)
+  fullName: Microsoft.Maui.Controls.Element.AddLogicalChild(Microsoft.Maui.Controls.Element)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Element.AddLogicalChild(Microsoft.Maui.Controls.Element)
+    name: AddLogicalChild
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.addlogicalchild
+  - name: (
+  - uid: Microsoft.Maui.Controls.Element
+    name: Element
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Element.AddLogicalChild(Microsoft.Maui.Controls.Element)
+    name: AddLogicalChild
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.addlogicalchild
+  - name: (
+  - uid: Microsoft.Maui.Controls.Element
+    name: Element
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element
+  - name: )
+- uid: Microsoft.Maui.Controls.Element.RemoveLogicalChild(Microsoft.Maui.Controls.Element)
+  commentId: M:Microsoft.Maui.Controls.Element.RemoveLogicalChild(Microsoft.Maui.Controls.Element)
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.removelogicalchild
+  name: RemoveLogicalChild(Element)
+  nameWithType: Element.RemoveLogicalChild(Element)
+  fullName: Microsoft.Maui.Controls.Element.RemoveLogicalChild(Microsoft.Maui.Controls.Element)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Element.RemoveLogicalChild(Microsoft.Maui.Controls.Element)
+    name: RemoveLogicalChild
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.removelogicalchild
+  - name: (
+  - uid: Microsoft.Maui.Controls.Element
+    name: Element
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Element.RemoveLogicalChild(Microsoft.Maui.Controls.Element)
+    name: RemoveLogicalChild
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.removelogicalchild
+  - name: (
+  - uid: Microsoft.Maui.Controls.Element
+    name: Element
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element
+  - name: )
+- uid: Microsoft.Maui.Controls.Element.ClearLogicalChildren
+  commentId: M:Microsoft.Maui.Controls.Element.ClearLogicalChildren
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.clearlogicalchildren
+  name: ClearLogicalChildren()
+  nameWithType: Element.ClearLogicalChildren()
+  fullName: Microsoft.Maui.Controls.Element.ClearLogicalChildren()
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Element.ClearLogicalChildren
+    name: ClearLogicalChildren
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.clearlogicalchildren
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Element.ClearLogicalChildren
+    name: ClearLogicalChildren
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.clearlogicalchildren
+  - name: (
+  - name: )
+- uid: Microsoft.Maui.Controls.Element.FindByName(System.String)
+  commentId: M:Microsoft.Maui.Controls.Element.FindByName(System.String)
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.findbyname
+  name: FindByName(string)
+  nameWithType: Element.FindByName(string)
+  fullName: Microsoft.Maui.Controls.Element.FindByName(string)
+  nameWithType.vb: Element.FindByName(String)
+  fullName.vb: Microsoft.Maui.Controls.Element.FindByName(String)
+  name.vb: FindByName(String)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Element.FindByName(System.String)
+    name: FindByName
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.findbyname
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Element.FindByName(System.String)
+    name: FindByName
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.findbyname
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Microsoft.Maui.Controls.Element.RemoveDynamicResource(Microsoft.Maui.Controls.BindableProperty)
+  commentId: M:Microsoft.Maui.Controls.Element.RemoveDynamicResource(Microsoft.Maui.Controls.BindableProperty)
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.removedynamicresource
+  name: RemoveDynamicResource(BindableProperty)
+  nameWithType: Element.RemoveDynamicResource(BindableProperty)
+  fullName: Microsoft.Maui.Controls.Element.RemoveDynamicResource(Microsoft.Maui.Controls.BindableProperty)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Element.RemoveDynamicResource(Microsoft.Maui.Controls.BindableProperty)
+    name: RemoveDynamicResource
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.removedynamicresource
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableProperty
+    name: BindableProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableproperty
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Element.RemoveDynamicResource(Microsoft.Maui.Controls.BindableProperty)
+    name: RemoveDynamicResource
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.removedynamicresource
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableProperty
+    name: BindableProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableproperty
+  - name: )
+- uid: Microsoft.Maui.Controls.Element.SetDynamicResource(Microsoft.Maui.Controls.BindableProperty,System.String)
+  commentId: M:Microsoft.Maui.Controls.Element.SetDynamicResource(Microsoft.Maui.Controls.BindableProperty,System.String)
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.setdynamicresource
+  name: SetDynamicResource(BindableProperty, string)
+  nameWithType: Element.SetDynamicResource(BindableProperty, string)
+  fullName: Microsoft.Maui.Controls.Element.SetDynamicResource(Microsoft.Maui.Controls.BindableProperty, string)
+  nameWithType.vb: Element.SetDynamicResource(BindableProperty, String)
+  fullName.vb: Microsoft.Maui.Controls.Element.SetDynamicResource(Microsoft.Maui.Controls.BindableProperty, String)
+  name.vb: SetDynamicResource(BindableProperty, String)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Element.SetDynamicResource(Microsoft.Maui.Controls.BindableProperty,System.String)
+    name: SetDynamicResource
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.setdynamicresource
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableProperty
+    name: BindableProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableproperty
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Element.SetDynamicResource(Microsoft.Maui.Controls.BindableProperty,System.String)
+    name: SetDynamicResource
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.setdynamicresource
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableProperty
+    name: BindableProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableproperty
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Microsoft.Maui.Controls.Element.OnChildAdded(Microsoft.Maui.Controls.Element)
+  commentId: M:Microsoft.Maui.Controls.Element.OnChildAdded(Microsoft.Maui.Controls.Element)
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.onchildadded
+  name: OnChildAdded(Element)
+  nameWithType: Element.OnChildAdded(Element)
+  fullName: Microsoft.Maui.Controls.Element.OnChildAdded(Microsoft.Maui.Controls.Element)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Element.OnChildAdded(Microsoft.Maui.Controls.Element)
+    name: OnChildAdded
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.onchildadded
+  - name: (
+  - uid: Microsoft.Maui.Controls.Element
+    name: Element
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Element.OnChildAdded(Microsoft.Maui.Controls.Element)
+    name: OnChildAdded
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.onchildadded
+  - name: (
+  - uid: Microsoft.Maui.Controls.Element
+    name: Element
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element
+  - name: )
+- uid: Microsoft.Maui.Controls.Element.OnChildRemoved(Microsoft.Maui.Controls.Element,System.Int32)
+  commentId: M:Microsoft.Maui.Controls.Element.OnChildRemoved(Microsoft.Maui.Controls.Element,System.Int32)
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.onchildremoved
+  name: OnChildRemoved(Element, int)
+  nameWithType: Element.OnChildRemoved(Element, int)
+  fullName: Microsoft.Maui.Controls.Element.OnChildRemoved(Microsoft.Maui.Controls.Element, int)
+  nameWithType.vb: Element.OnChildRemoved(Element, Integer)
+  fullName.vb: Microsoft.Maui.Controls.Element.OnChildRemoved(Microsoft.Maui.Controls.Element, Integer)
+  name.vb: OnChildRemoved(Element, Integer)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Element.OnChildRemoved(Microsoft.Maui.Controls.Element,System.Int32)
+    name: OnChildRemoved
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.onchildremoved
+  - name: (
+  - uid: Microsoft.Maui.Controls.Element
+    name: Element
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Element.OnChildRemoved(Microsoft.Maui.Controls.Element,System.Int32)
+    name: OnChildRemoved
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.onchildremoved
+  - name: (
+  - uid: Microsoft.Maui.Controls.Element
+    name: Element
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Microsoft.Maui.Controls.Element.OnParentSet
+  commentId: M:Microsoft.Maui.Controls.Element.OnParentSet
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.onparentset
+  name: OnParentSet()
+  nameWithType: Element.OnParentSet()
+  fullName: Microsoft.Maui.Controls.Element.OnParentSet()
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Element.OnParentSet
+    name: OnParentSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.onparentset
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Element.OnParentSet
+    name: OnParentSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.onparentset
+  - name: (
+  - name: )
+- uid: Microsoft.Maui.Controls.Element.OnPropertyChanged(System.String)
+  commentId: M:Microsoft.Maui.Controls.Element.OnPropertyChanged(System.String)
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.onpropertychanged
+  name: OnPropertyChanged(string)
+  nameWithType: Element.OnPropertyChanged(string)
+  fullName: Microsoft.Maui.Controls.Element.OnPropertyChanged(string)
+  nameWithType.vb: Element.OnPropertyChanged(String)
+  fullName.vb: Microsoft.Maui.Controls.Element.OnPropertyChanged(String)
+  name.vb: OnPropertyChanged(String)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Element.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.onpropertychanged
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Element.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.onpropertychanged
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Microsoft.Maui.Controls.Element.OnParentChanging(Microsoft.Maui.Controls.ParentChangingEventArgs)
+  commentId: M:Microsoft.Maui.Controls.Element.OnParentChanging(Microsoft.Maui.Controls.ParentChangingEventArgs)
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.onparentchanging
+  name: OnParentChanging(ParentChangingEventArgs)
+  nameWithType: Element.OnParentChanging(ParentChangingEventArgs)
+  fullName: Microsoft.Maui.Controls.Element.OnParentChanging(Microsoft.Maui.Controls.ParentChangingEventArgs)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Element.OnParentChanging(Microsoft.Maui.Controls.ParentChangingEventArgs)
+    name: OnParentChanging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.onparentchanging
+  - name: (
+  - uid: Microsoft.Maui.Controls.ParentChangingEventArgs
+    name: ParentChangingEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.parentchangingeventargs
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Element.OnParentChanging(Microsoft.Maui.Controls.ParentChangingEventArgs)
+    name: OnParentChanging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.onparentchanging
+  - name: (
+  - uid: Microsoft.Maui.Controls.ParentChangingEventArgs
+    name: ParentChangingEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.parentchangingeventargs
+  - name: )
+- uid: Microsoft.Maui.Controls.Element.OnParentChanged
+  commentId: M:Microsoft.Maui.Controls.Element.OnParentChanged
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.onparentchanged
+  name: OnParentChanged()
+  nameWithType: Element.OnParentChanged()
+  fullName: Microsoft.Maui.Controls.Element.OnParentChanged()
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Element.OnParentChanged
+    name: OnParentChanged
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.onparentchanged
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Element.OnParentChanged
+    name: OnParentChanged
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.onparentchanged
+  - name: (
+  - name: )
+- uid: Microsoft.Maui.Controls.Element.OnHandlerChanging(Microsoft.Maui.Controls.HandlerChangingEventArgs)
+  commentId: M:Microsoft.Maui.Controls.Element.OnHandlerChanging(Microsoft.Maui.Controls.HandlerChangingEventArgs)
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.onhandlerchanging
+  name: OnHandlerChanging(HandlerChangingEventArgs)
+  nameWithType: Element.OnHandlerChanging(HandlerChangingEventArgs)
+  fullName: Microsoft.Maui.Controls.Element.OnHandlerChanging(Microsoft.Maui.Controls.HandlerChangingEventArgs)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Element.OnHandlerChanging(Microsoft.Maui.Controls.HandlerChangingEventArgs)
+    name: OnHandlerChanging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.onhandlerchanging
+  - name: (
+  - uid: Microsoft.Maui.Controls.HandlerChangingEventArgs
+    name: HandlerChangingEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.handlerchangingeventargs
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Element.OnHandlerChanging(Microsoft.Maui.Controls.HandlerChangingEventArgs)
+    name: OnHandlerChanging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.onhandlerchanging
+  - name: (
+  - uid: Microsoft.Maui.Controls.HandlerChangingEventArgs
+    name: HandlerChangingEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.handlerchangingeventargs
+  - name: )
+- uid: Microsoft.Maui.Controls.Element.OnHandlerChanged
+  commentId: M:Microsoft.Maui.Controls.Element.OnHandlerChanged
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.onhandlerchanged
+  name: OnHandlerChanged()
+  nameWithType: Element.OnHandlerChanged()
+  fullName: Microsoft.Maui.Controls.Element.OnHandlerChanged()
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Element.OnHandlerChanged
+    name: OnHandlerChanged
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.onhandlerchanged
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Element.OnHandlerChanged
+    name: OnHandlerChanged
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.onhandlerchanged
+  - name: (
+  - name: )
+- uid: Microsoft.Maui.Controls.Element.MapAutomationPropertiesIsInAccessibleTree(Microsoft.Maui.IElementHandler,Microsoft.Maui.Controls.Element)
+  commentId: M:Microsoft.Maui.Controls.Element.MapAutomationPropertiesIsInAccessibleTree(Microsoft.Maui.IElementHandler,Microsoft.Maui.Controls.Element)
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.mapautomationpropertiesisinaccessibletree
+  name: MapAutomationPropertiesIsInAccessibleTree(IElementHandler, Element)
+  nameWithType: Element.MapAutomationPropertiesIsInAccessibleTree(IElementHandler, Element)
+  fullName: Microsoft.Maui.Controls.Element.MapAutomationPropertiesIsInAccessibleTree(Microsoft.Maui.IElementHandler, Microsoft.Maui.Controls.Element)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Element.MapAutomationPropertiesIsInAccessibleTree(Microsoft.Maui.IElementHandler,Microsoft.Maui.Controls.Element)
+    name: MapAutomationPropertiesIsInAccessibleTree
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.mapautomationpropertiesisinaccessibletree
+  - name: (
+  - uid: Microsoft.Maui.IElementHandler
+    name: IElementHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.ielementhandler
+  - name: ','
+  - name: " "
+  - uid: Microsoft.Maui.Controls.Element
+    name: Element
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Element.MapAutomationPropertiesIsInAccessibleTree(Microsoft.Maui.IElementHandler,Microsoft.Maui.Controls.Element)
+    name: MapAutomationPropertiesIsInAccessibleTree
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.mapautomationpropertiesisinaccessibletree
+  - name: (
+  - uid: Microsoft.Maui.IElementHandler
+    name: IElementHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.ielementhandler
+  - name: ','
+  - name: " "
+  - uid: Microsoft.Maui.Controls.Element
+    name: Element
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element
+  - name: )
+- uid: Microsoft.Maui.Controls.Element.MapAutomationPropertiesExcludedWithChildren(Microsoft.Maui.IElementHandler,Microsoft.Maui.Controls.Element)
+  commentId: M:Microsoft.Maui.Controls.Element.MapAutomationPropertiesExcludedWithChildren(Microsoft.Maui.IElementHandler,Microsoft.Maui.Controls.Element)
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.mapautomationpropertiesexcludedwithchildren
+  name: MapAutomationPropertiesExcludedWithChildren(IElementHandler, Element)
+  nameWithType: Element.MapAutomationPropertiesExcludedWithChildren(IElementHandler, Element)
+  fullName: Microsoft.Maui.Controls.Element.MapAutomationPropertiesExcludedWithChildren(Microsoft.Maui.IElementHandler, Microsoft.Maui.Controls.Element)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Element.MapAutomationPropertiesExcludedWithChildren(Microsoft.Maui.IElementHandler,Microsoft.Maui.Controls.Element)
+    name: MapAutomationPropertiesExcludedWithChildren
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.mapautomationpropertiesexcludedwithchildren
+  - name: (
+  - uid: Microsoft.Maui.IElementHandler
+    name: IElementHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.ielementhandler
+  - name: ','
+  - name: " "
+  - uid: Microsoft.Maui.Controls.Element
+    name: Element
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Element.MapAutomationPropertiesExcludedWithChildren(Microsoft.Maui.IElementHandler,Microsoft.Maui.Controls.Element)
+    name: MapAutomationPropertiesExcludedWithChildren
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.mapautomationpropertiesexcludedwithchildren
+  - name: (
+  - uid: Microsoft.Maui.IElementHandler
+    name: IElementHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.ielementhandler
+  - name: ','
+  - name: " "
+  - uid: Microsoft.Maui.Controls.Element
+    name: Element
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element
+  - name: )
+- uid: Microsoft.Maui.Controls.Element.AutomationId
+  commentId: P:Microsoft.Maui.Controls.Element.AutomationId
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.automationid
+  name: AutomationId
+  nameWithType: Element.AutomationId
+  fullName: Microsoft.Maui.Controls.Element.AutomationId
+- uid: Microsoft.Maui.Controls.Element.ClassId
+  commentId: P:Microsoft.Maui.Controls.Element.ClassId
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.classid
+  name: ClassId
+  nameWithType: Element.ClassId
+  fullName: Microsoft.Maui.Controls.Element.ClassId
+- uid: Microsoft.Maui.Controls.Element.Effects
+  commentId: P:Microsoft.Maui.Controls.Element.Effects
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.effects
+  name: Effects
+  nameWithType: Element.Effects
+  fullName: Microsoft.Maui.Controls.Element.Effects
+- uid: Microsoft.Maui.Controls.Element.Id
+  commentId: P:Microsoft.Maui.Controls.Element.Id
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.id
+  name: Id
+  nameWithType: Element.Id
+  fullName: Microsoft.Maui.Controls.Element.Id
+- uid: Microsoft.Maui.Controls.Element.StyleId
+  commentId: P:Microsoft.Maui.Controls.Element.StyleId
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.styleid
+  name: StyleId
+  nameWithType: Element.StyleId
+  fullName: Microsoft.Maui.Controls.Element.StyleId
+- uid: Microsoft.Maui.Controls.Element.Parent
+  commentId: P:Microsoft.Maui.Controls.Element.Parent
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.parent
+  name: Parent
+  nameWithType: Element.Parent
+  fullName: Microsoft.Maui.Controls.Element.Parent
+- uid: Microsoft.Maui.Controls.Element.Handler
+  commentId: P:Microsoft.Maui.Controls.Element.Handler
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.handler
+  name: Handler
+  nameWithType: Element.Handler
+  fullName: Microsoft.Maui.Controls.Element.Handler
+- uid: Microsoft.Maui.Controls.Element.ChildAdded
+  commentId: E:Microsoft.Maui.Controls.Element.ChildAdded
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.childadded
+  name: ChildAdded
+  nameWithType: Element.ChildAdded
+  fullName: Microsoft.Maui.Controls.Element.ChildAdded
+- uid: Microsoft.Maui.Controls.Element.ChildRemoved
+  commentId: E:Microsoft.Maui.Controls.Element.ChildRemoved
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.childremoved
+  name: ChildRemoved
+  nameWithType: Element.ChildRemoved
+  fullName: Microsoft.Maui.Controls.Element.ChildRemoved
+- uid: Microsoft.Maui.Controls.Element.DescendantAdded
+  commentId: E:Microsoft.Maui.Controls.Element.DescendantAdded
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.descendantadded
+  name: DescendantAdded
+  nameWithType: Element.DescendantAdded
+  fullName: Microsoft.Maui.Controls.Element.DescendantAdded
+- uid: Microsoft.Maui.Controls.Element.DescendantRemoved
+  commentId: E:Microsoft.Maui.Controls.Element.DescendantRemoved
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.descendantremoved
+  name: DescendantRemoved
+  nameWithType: Element.DescendantRemoved
+  fullName: Microsoft.Maui.Controls.Element.DescendantRemoved
+- uid: Microsoft.Maui.Controls.Element.ParentChanging
+  commentId: E:Microsoft.Maui.Controls.Element.ParentChanging
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.parentchanging
+  name: ParentChanging
+  nameWithType: Element.ParentChanging
+  fullName: Microsoft.Maui.Controls.Element.ParentChanging
+- uid: Microsoft.Maui.Controls.Element.ParentChanged
+  commentId: E:Microsoft.Maui.Controls.Element.ParentChanged
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.parentchanged
+  name: ParentChanged
+  nameWithType: Element.ParentChanged
+  fullName: Microsoft.Maui.Controls.Element.ParentChanged
+- uid: Microsoft.Maui.Controls.Element.HandlerChanging
+  commentId: E:Microsoft.Maui.Controls.Element.HandlerChanging
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.handlerchanging
+  name: HandlerChanging
+  nameWithType: Element.HandlerChanging
+  fullName: Microsoft.Maui.Controls.Element.HandlerChanging
+- uid: Microsoft.Maui.Controls.Element.HandlerChanged
+  commentId: E:Microsoft.Maui.Controls.Element.HandlerChanged
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.handlerchanged
+  name: HandlerChanged
+  nameWithType: Element.HandlerChanged
+  fullName: Microsoft.Maui.Controls.Element.HandlerChanged
+- uid: Microsoft.Maui.Controls.BindableObject.BindingContextProperty
+  commentId: F:Microsoft.Maui.Controls.BindableObject.BindingContextProperty
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.bindingcontextproperty
+  name: BindingContextProperty
+  nameWithType: BindableObject.BindingContextProperty
+  fullName: Microsoft.Maui.Controls.BindableObject.BindingContextProperty
+- uid: Microsoft.Maui.Controls.BindableObject.ClearValue(Microsoft.Maui.Controls.BindableProperty)
+  commentId: M:Microsoft.Maui.Controls.BindableObject.ClearValue(Microsoft.Maui.Controls.BindableProperty)
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.clearvalue#microsoft-maui-controls-bindableobject-clearvalue(microsoft-maui-controls-bindableproperty)
+  name: ClearValue(BindableProperty)
+  nameWithType: BindableObject.ClearValue(BindableProperty)
+  fullName: Microsoft.Maui.Controls.BindableObject.ClearValue(Microsoft.Maui.Controls.BindableProperty)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.BindableObject.ClearValue(Microsoft.Maui.Controls.BindableProperty)
+    name: ClearValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.clearvalue#microsoft-maui-controls-bindableobject-clearvalue(microsoft-maui-controls-bindableproperty)
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableProperty
+    name: BindableProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableproperty
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.BindableObject.ClearValue(Microsoft.Maui.Controls.BindableProperty)
+    name: ClearValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.clearvalue#microsoft-maui-controls-bindableobject-clearvalue(microsoft-maui-controls-bindableproperty)
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableProperty
+    name: BindableProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableproperty
+  - name: )
+- uid: Microsoft.Maui.Controls.BindableObject.ClearValue(Microsoft.Maui.Controls.BindablePropertyKey)
+  commentId: M:Microsoft.Maui.Controls.BindableObject.ClearValue(Microsoft.Maui.Controls.BindablePropertyKey)
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.clearvalue#microsoft-maui-controls-bindableobject-clearvalue(microsoft-maui-controls-bindablepropertykey)
+  name: ClearValue(BindablePropertyKey)
+  nameWithType: BindableObject.ClearValue(BindablePropertyKey)
+  fullName: Microsoft.Maui.Controls.BindableObject.ClearValue(Microsoft.Maui.Controls.BindablePropertyKey)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.BindableObject.ClearValue(Microsoft.Maui.Controls.BindablePropertyKey)
+    name: ClearValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.clearvalue#microsoft-maui-controls-bindableobject-clearvalue(microsoft-maui-controls-bindablepropertykey)
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindablePropertyKey
+    name: BindablePropertyKey
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindablepropertykey
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.BindableObject.ClearValue(Microsoft.Maui.Controls.BindablePropertyKey)
+    name: ClearValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.clearvalue#microsoft-maui-controls-bindableobject-clearvalue(microsoft-maui-controls-bindablepropertykey)
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindablePropertyKey
+    name: BindablePropertyKey
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindablepropertykey
+  - name: )
+- uid: Microsoft.Maui.Controls.BindableObject.GetValue(Microsoft.Maui.Controls.BindableProperty)
+  commentId: M:Microsoft.Maui.Controls.BindableObject.GetValue(Microsoft.Maui.Controls.BindableProperty)
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.getvalue
+  name: GetValue(BindableProperty)
+  nameWithType: BindableObject.GetValue(BindableProperty)
+  fullName: Microsoft.Maui.Controls.BindableObject.GetValue(Microsoft.Maui.Controls.BindableProperty)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.BindableObject.GetValue(Microsoft.Maui.Controls.BindableProperty)
+    name: GetValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.getvalue
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableProperty
+    name: BindableProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableproperty
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.BindableObject.GetValue(Microsoft.Maui.Controls.BindableProperty)
+    name: GetValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.getvalue
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableProperty
+    name: BindableProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableproperty
+  - name: )
+- uid: Microsoft.Maui.Controls.BindableObject.IsSet(Microsoft.Maui.Controls.BindableProperty)
+  commentId: M:Microsoft.Maui.Controls.BindableObject.IsSet(Microsoft.Maui.Controls.BindableProperty)
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.isset
+  name: IsSet(BindableProperty)
+  nameWithType: BindableObject.IsSet(BindableProperty)
+  fullName: Microsoft.Maui.Controls.BindableObject.IsSet(Microsoft.Maui.Controls.BindableProperty)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.BindableObject.IsSet(Microsoft.Maui.Controls.BindableProperty)
+    name: IsSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.isset
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableProperty
+    name: BindableProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableproperty
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.BindableObject.IsSet(Microsoft.Maui.Controls.BindableProperty)
+    name: IsSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.isset
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableProperty
+    name: BindableProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableproperty
+  - name: )
+- uid: Microsoft.Maui.Controls.BindableObject.RemoveBinding(Microsoft.Maui.Controls.BindableProperty)
+  commentId: M:Microsoft.Maui.Controls.BindableObject.RemoveBinding(Microsoft.Maui.Controls.BindableProperty)
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.removebinding
+  name: RemoveBinding(BindableProperty)
+  nameWithType: BindableObject.RemoveBinding(BindableProperty)
+  fullName: Microsoft.Maui.Controls.BindableObject.RemoveBinding(Microsoft.Maui.Controls.BindableProperty)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.BindableObject.RemoveBinding(Microsoft.Maui.Controls.BindableProperty)
+    name: RemoveBinding
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.removebinding
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableProperty
+    name: BindableProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableproperty
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.BindableObject.RemoveBinding(Microsoft.Maui.Controls.BindableProperty)
+    name: RemoveBinding
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.removebinding
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableProperty
+    name: BindableProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableproperty
+  - name: )
+- uid: Microsoft.Maui.Controls.BindableObject.SetBinding(Microsoft.Maui.Controls.BindableProperty,Microsoft.Maui.Controls.BindingBase)
+  commentId: M:Microsoft.Maui.Controls.BindableObject.SetBinding(Microsoft.Maui.Controls.BindableProperty,Microsoft.Maui.Controls.BindingBase)
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.setbinding
+  name: SetBinding(BindableProperty, BindingBase)
+  nameWithType: BindableObject.SetBinding(BindableProperty, BindingBase)
+  fullName: Microsoft.Maui.Controls.BindableObject.SetBinding(Microsoft.Maui.Controls.BindableProperty, Microsoft.Maui.Controls.BindingBase)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.BindableObject.SetBinding(Microsoft.Maui.Controls.BindableProperty,Microsoft.Maui.Controls.BindingBase)
+    name: SetBinding
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.setbinding
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableProperty
+    name: BindableProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableproperty
+  - name: ','
+  - name: " "
+  - uid: Microsoft.Maui.Controls.BindingBase
+    name: BindingBase
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindingbase
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.BindableObject.SetBinding(Microsoft.Maui.Controls.BindableProperty,Microsoft.Maui.Controls.BindingBase)
+    name: SetBinding
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.setbinding
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableProperty
+    name: BindableProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableproperty
+  - name: ','
+  - name: " "
+  - uid: Microsoft.Maui.Controls.BindingBase
+    name: BindingBase
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindingbase
+  - name: )
+- uid: Microsoft.Maui.Controls.BindableObject.ApplyBindings
+  commentId: M:Microsoft.Maui.Controls.BindableObject.ApplyBindings
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.applybindings
+  name: ApplyBindings()
+  nameWithType: BindableObject.ApplyBindings()
+  fullName: Microsoft.Maui.Controls.BindableObject.ApplyBindings()
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.BindableObject.ApplyBindings
+    name: ApplyBindings
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.applybindings
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.BindableObject.ApplyBindings
+    name: ApplyBindings
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.applybindings
+  - name: (
+  - name: )
+- uid: Microsoft.Maui.Controls.BindableObject.OnPropertyChanging(System.String)
+  commentId: M:Microsoft.Maui.Controls.BindableObject.OnPropertyChanging(System.String)
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.onpropertychanging
+  name: OnPropertyChanging(string)
+  nameWithType: BindableObject.OnPropertyChanging(string)
+  fullName: Microsoft.Maui.Controls.BindableObject.OnPropertyChanging(string)
+  nameWithType.vb: BindableObject.OnPropertyChanging(String)
+  fullName.vb: Microsoft.Maui.Controls.BindableObject.OnPropertyChanging(String)
+  name.vb: OnPropertyChanging(String)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.BindableObject.OnPropertyChanging(System.String)
+    name: OnPropertyChanging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.onpropertychanging
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.BindableObject.OnPropertyChanging(System.String)
+    name: OnPropertyChanging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.onpropertychanging
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Microsoft.Maui.Controls.BindableObject.UnapplyBindings
+  commentId: M:Microsoft.Maui.Controls.BindableObject.UnapplyBindings
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.unapplybindings
+  name: UnapplyBindings()
+  nameWithType: BindableObject.UnapplyBindings()
+  fullName: Microsoft.Maui.Controls.BindableObject.UnapplyBindings()
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.BindableObject.UnapplyBindings
+    name: UnapplyBindings
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.unapplybindings
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.BindableObject.UnapplyBindings
+    name: UnapplyBindings
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.unapplybindings
+  - name: (
+  - name: )
+- uid: Microsoft.Maui.Controls.BindableObject.SetValue(Microsoft.Maui.Controls.BindableProperty,System.Object)
+  commentId: M:Microsoft.Maui.Controls.BindableObject.SetValue(Microsoft.Maui.Controls.BindableProperty,System.Object)
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.setvalue#microsoft-maui-controls-bindableobject-setvalue(microsoft-maui-controls-bindableproperty-system-object)
+  name: SetValue(BindableProperty, object)
+  nameWithType: BindableObject.SetValue(BindableProperty, object)
+  fullName: Microsoft.Maui.Controls.BindableObject.SetValue(Microsoft.Maui.Controls.BindableProperty, object)
+  nameWithType.vb: BindableObject.SetValue(BindableProperty, Object)
+  fullName.vb: Microsoft.Maui.Controls.BindableObject.SetValue(Microsoft.Maui.Controls.BindableProperty, Object)
+  name.vb: SetValue(BindableProperty, Object)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.BindableObject.SetValue(Microsoft.Maui.Controls.BindableProperty,System.Object)
+    name: SetValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.setvalue#microsoft-maui-controls-bindableobject-setvalue(microsoft-maui-controls-bindableproperty-system-object)
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableProperty
+    name: BindableProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableproperty
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.BindableObject.SetValue(Microsoft.Maui.Controls.BindableProperty,System.Object)
+    name: SetValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.setvalue#microsoft-maui-controls-bindableobject-setvalue(microsoft-maui-controls-bindableproperty-system-object)
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableProperty
+    name: BindableProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableproperty
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Microsoft.Maui.Controls.BindableObject.SetValue(Microsoft.Maui.Controls.BindablePropertyKey,System.Object)
+  commentId: M:Microsoft.Maui.Controls.BindableObject.SetValue(Microsoft.Maui.Controls.BindablePropertyKey,System.Object)
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.setvalue#microsoft-maui-controls-bindableobject-setvalue(microsoft-maui-controls-bindablepropertykey-system-object)
+  name: SetValue(BindablePropertyKey, object)
+  nameWithType: BindableObject.SetValue(BindablePropertyKey, object)
+  fullName: Microsoft.Maui.Controls.BindableObject.SetValue(Microsoft.Maui.Controls.BindablePropertyKey, object)
+  nameWithType.vb: BindableObject.SetValue(BindablePropertyKey, Object)
+  fullName.vb: Microsoft.Maui.Controls.BindableObject.SetValue(Microsoft.Maui.Controls.BindablePropertyKey, Object)
+  name.vb: SetValue(BindablePropertyKey, Object)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.BindableObject.SetValue(Microsoft.Maui.Controls.BindablePropertyKey,System.Object)
+    name: SetValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.setvalue#microsoft-maui-controls-bindableobject-setvalue(microsoft-maui-controls-bindablepropertykey-system-object)
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindablePropertyKey
+    name: BindablePropertyKey
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindablepropertykey
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.BindableObject.SetValue(Microsoft.Maui.Controls.BindablePropertyKey,System.Object)
+    name: SetValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.setvalue#microsoft-maui-controls-bindableobject-setvalue(microsoft-maui-controls-bindablepropertykey-system-object)
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindablePropertyKey
+    name: BindablePropertyKey
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindablepropertykey
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Microsoft.Maui.Controls.BindableObject.CoerceValue(Microsoft.Maui.Controls.BindableProperty)
+  commentId: M:Microsoft.Maui.Controls.BindableObject.CoerceValue(Microsoft.Maui.Controls.BindableProperty)
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.coercevalue#microsoft-maui-controls-bindableobject-coercevalue(microsoft-maui-controls-bindableproperty)
+  name: CoerceValue(BindableProperty)
+  nameWithType: BindableObject.CoerceValue(BindableProperty)
+  fullName: Microsoft.Maui.Controls.BindableObject.CoerceValue(Microsoft.Maui.Controls.BindableProperty)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.BindableObject.CoerceValue(Microsoft.Maui.Controls.BindableProperty)
+    name: CoerceValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.coercevalue#microsoft-maui-controls-bindableobject-coercevalue(microsoft-maui-controls-bindableproperty)
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableProperty
+    name: BindableProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableproperty
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.BindableObject.CoerceValue(Microsoft.Maui.Controls.BindableProperty)
+    name: CoerceValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.coercevalue#microsoft-maui-controls-bindableobject-coercevalue(microsoft-maui-controls-bindableproperty)
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableProperty
+    name: BindableProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableproperty
+  - name: )
+- uid: Microsoft.Maui.Controls.BindableObject.CoerceValue(Microsoft.Maui.Controls.BindablePropertyKey)
+  commentId: M:Microsoft.Maui.Controls.BindableObject.CoerceValue(Microsoft.Maui.Controls.BindablePropertyKey)
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.coercevalue#microsoft-maui-controls-bindableobject-coercevalue(microsoft-maui-controls-bindablepropertykey)
+  name: CoerceValue(BindablePropertyKey)
+  nameWithType: BindableObject.CoerceValue(BindablePropertyKey)
+  fullName: Microsoft.Maui.Controls.BindableObject.CoerceValue(Microsoft.Maui.Controls.BindablePropertyKey)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.BindableObject.CoerceValue(Microsoft.Maui.Controls.BindablePropertyKey)
+    name: CoerceValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.coercevalue#microsoft-maui-controls-bindableobject-coercevalue(microsoft-maui-controls-bindablepropertykey)
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindablePropertyKey
+    name: BindablePropertyKey
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindablepropertykey
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.BindableObject.CoerceValue(Microsoft.Maui.Controls.BindablePropertyKey)
+    name: CoerceValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.coercevalue#microsoft-maui-controls-bindableobject-coercevalue(microsoft-maui-controls-bindablepropertykey)
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindablePropertyKey
+    name: BindablePropertyKey
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindablepropertykey
+  - name: )
+- uid: Microsoft.Maui.Controls.BindableObject.Dispatcher
+  commentId: P:Microsoft.Maui.Controls.BindableObject.Dispatcher
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.dispatcher
+  name: Dispatcher
+  nameWithType: BindableObject.Dispatcher
+  fullName: Microsoft.Maui.Controls.BindableObject.Dispatcher
+- uid: Microsoft.Maui.Controls.BindableObject.BindingContext
+  commentId: P:Microsoft.Maui.Controls.BindableObject.BindingContext
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.bindingcontext
+  name: BindingContext
+  nameWithType: BindableObject.BindingContext
+  fullName: Microsoft.Maui.Controls.BindableObject.BindingContext
+- uid: Microsoft.Maui.Controls.BindableObject.PropertyChanged
+  commentId: E:Microsoft.Maui.Controls.BindableObject.PropertyChanged
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.propertychanged
+  name: PropertyChanged
+  nameWithType: BindableObject.PropertyChanged
+  fullName: Microsoft.Maui.Controls.BindableObject.PropertyChanged
+- uid: Microsoft.Maui.Controls.BindableObject.PropertyChanging
+  commentId: E:Microsoft.Maui.Controls.BindableObject.PropertyChanging
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.propertychanging
+  name: PropertyChanging
+  nameWithType: BindableObject.PropertyChanging
+  fullName: Microsoft.Maui.Controls.BindableObject.PropertyChanging
+- uid: Microsoft.Maui.Controls.BindableObject.BindingContextChanged
+  commentId: E:Microsoft.Maui.Controls.BindableObject.BindingContextChanged
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.bindingcontextchanged
+  name: BindingContextChanged
+  nameWithType: BindableObject.BindingContextChanged
+  fullName: Microsoft.Maui.Controls.BindableObject.BindingContextChanged
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: Microsoft.Maui.Controls.Element.TemplateMAUI.Helpers.VisualTreeHelper.GetParent``1
+  commentId: M:TemplateMAUI.Helpers.VisualTreeHelper.GetParent``1(Microsoft.Maui.Controls.Element)
+  parent: TemplateMAUI.Helpers.VisualTreeHelper
+  definition: TemplateMAUI.Helpers.VisualTreeHelper.GetParent``1(Microsoft.Maui.Controls.Element)
+  href: TemplateMAUI.Helpers.VisualTreeHelper.html#TemplateMAUI_Helpers_VisualTreeHelper_GetParent__1_Microsoft_Maui_Controls_Element_
+  name: GetParent<T>(Element)
+  nameWithType: VisualTreeHelper.GetParent<T>(Element)
+  fullName: TemplateMAUI.Helpers.VisualTreeHelper.GetParent<T>(Microsoft.Maui.Controls.Element)
+  nameWithType.vb: VisualTreeHelper.GetParent(Of T)(Element)
+  fullName.vb: TemplateMAUI.Helpers.VisualTreeHelper.GetParent(Of T)(Microsoft.Maui.Controls.Element)
+  name.vb: GetParent(Of T)(Element)
+  spec.csharp:
+  - uid: TemplateMAUI.Helpers.VisualTreeHelper.GetParent``1(Microsoft.Maui.Controls.Element)
+    name: GetParent
+    href: TemplateMAUI.Helpers.VisualTreeHelper.html#TemplateMAUI_Helpers_VisualTreeHelper_GetParent__1_Microsoft_Maui_Controls_Element_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: Microsoft.Maui.Controls.Element
+    name: Element
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element
+  - name: )
+  spec.vb:
+  - uid: TemplateMAUI.Helpers.VisualTreeHelper.GetParent``1(Microsoft.Maui.Controls.Element)
+    name: GetParent
+    href: TemplateMAUI.Helpers.VisualTreeHelper.html#TemplateMAUI_Helpers_VisualTreeHelper_GetParent__1_Microsoft_Maui_Controls_Element_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: Microsoft.Maui.Controls.Element
+    name: Element
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element
+  - name: )
+- uid: System.Collections.Generic.IEnumerable{TemplateMAUI.Controls.TreeViewNode}.TemplateMAUI.Extensions.EnumerableExtension.Invoke``1(System.Action{TemplateMAUI.Controls.TreeViewNode})
+  commentId: M:TemplateMAUI.Extensions.EnumerableExtension.Invoke``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  parent: TemplateMAUI.Extensions.EnumerableExtension
+  definition: TemplateMAUI.Extensions.EnumerableExtension.Invoke``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  href: TemplateMAUI.Extensions.EnumerableExtension.html#TemplateMAUI_Extensions_EnumerableExtension_Invoke__1_System_Collections_Generic_IEnumerable___0__System_Action___0__
+  name: Invoke<TreeViewNode>(IEnumerable<TreeViewNode>, Action<TreeViewNode>)
+  nameWithType: EnumerableExtension.Invoke<TreeViewNode>(IEnumerable<TreeViewNode>, Action<TreeViewNode>)
+  fullName: TemplateMAUI.Extensions.EnumerableExtension.Invoke<TemplateMAUI.Controls.TreeViewNode>(System.Collections.Generic.IEnumerable<TemplateMAUI.Controls.TreeViewNode>, System.Action<TemplateMAUI.Controls.TreeViewNode>)
+  nameWithType.vb: EnumerableExtension.Invoke(Of TreeViewNode)(IEnumerable(Of TreeViewNode), Action(Of TreeViewNode))
+  fullName.vb: TemplateMAUI.Extensions.EnumerableExtension.Invoke(Of TemplateMAUI.Controls.TreeViewNode)(System.Collections.Generic.IEnumerable(Of TemplateMAUI.Controls.TreeViewNode), System.Action(Of TemplateMAUI.Controls.TreeViewNode))
+  name.vb: Invoke(Of TreeViewNode)(IEnumerable(Of TreeViewNode), Action(Of TreeViewNode))
+  spec.csharp:
+  - uid: TemplateMAUI.Extensions.EnumerableExtension.Invoke``1(System.Collections.Generic.IEnumerable{TemplateMAUI.Controls.TreeViewNode},System.Action{TemplateMAUI.Controls.TreeViewNode})
+    name: Invoke
+    href: TemplateMAUI.Extensions.EnumerableExtension.html#TemplateMAUI_Extensions_EnumerableExtension_Invoke__1_System_Collections_Generic_IEnumerable___0__System_Action___0__
+  - name: <
+  - uid: TemplateMAUI.Controls.TreeViewNode
+    name: TreeViewNode
+    href: TemplateMAUI.Controls.TreeViewNode.html
+  - name: '>'
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: TemplateMAUI.Controls.TreeViewNode
+    name: TreeViewNode
+    href: TemplateMAUI.Controls.TreeViewNode.html
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: TemplateMAUI.Controls.TreeViewNode
+    name: TreeViewNode
+    href: TemplateMAUI.Controls.TreeViewNode.html
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: TemplateMAUI.Extensions.EnumerableExtension.Invoke``1(System.Collections.Generic.IEnumerable{TemplateMAUI.Controls.TreeViewNode},System.Action{TemplateMAUI.Controls.TreeViewNode})
+    name: Invoke
+    href: TemplateMAUI.Extensions.EnumerableExtension.html#TemplateMAUI_Extensions_EnumerableExtension_Invoke__1_System_Collections_Generic_IEnumerable___0__System_Action___0__
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: TemplateMAUI.Controls.TreeViewNode
+    name: TreeViewNode
+    href: TemplateMAUI.Controls.TreeViewNode.html
+  - name: )
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: TemplateMAUI.Controls.TreeViewNode
+    name: TreeViewNode
+    href: TemplateMAUI.Controls.TreeViewNode.html
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: TemplateMAUI.Controls.TreeViewNode
+    name: TreeViewNode
+    href: TemplateMAUI.Controls.TreeViewNode.html
+  - name: )
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.Maui.Controls
+  commentId: N:Microsoft.Maui.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Maui.Controls
+  nameWithType: Microsoft.Maui.Controls
+  fullName: Microsoft.Maui.Controls
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Maui
+    name: Maui
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui
+  - name: .
+  - uid: Microsoft.Maui.Controls
+    name: Controls
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Maui
+    name: Maui
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui
+  - name: .
+  - uid: Microsoft.Maui.Controls
+    name: Controls
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+- uid: Microsoft.Maui
+  commentId: N:Microsoft.Maui
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Maui
+  nameWithType: Microsoft.Maui
+  fullName: Microsoft.Maui
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Maui
+    name: Maui
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Maui
+    name: Maui
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System.Collections.Generic.ICollection`1
+  commentId: T:System.Collections.Generic.ICollection`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<T>
+  nameWithType: ICollection<T>
+  fullName: System.Collections.Generic.ICollection<T>
+  nameWithType.vb: ICollection(Of T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T)
+  name.vb: ICollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+- uid: System.Collections.Specialized
+  commentId: N:System.Collections.Specialized
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Specialized
+  nameWithType: System.Collections.Specialized
+  fullName: System.Collections.Specialized
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Specialized
+    name: Specialized
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.specialized
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Specialized
+    name: Specialized
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.specialized
+- uid: TemplateMAUI.Helpers.VisualTreeHelper.GetParent``1(Microsoft.Maui.Controls.Element)
+  commentId: M:TemplateMAUI.Helpers.VisualTreeHelper.GetParent``1(Microsoft.Maui.Controls.Element)
+  isExternal: true
+  href: TemplateMAUI.Helpers.VisualTreeHelper.html#TemplateMAUI_Helpers_VisualTreeHelper_GetParent__1_Microsoft_Maui_Controls_Element_
+  name: GetParent<T>(Element)
+  nameWithType: VisualTreeHelper.GetParent<T>(Element)
+  fullName: TemplateMAUI.Helpers.VisualTreeHelper.GetParent<T>(Microsoft.Maui.Controls.Element)
+  nameWithType.vb: VisualTreeHelper.GetParent(Of T)(Element)
+  fullName.vb: TemplateMAUI.Helpers.VisualTreeHelper.GetParent(Of T)(Microsoft.Maui.Controls.Element)
+  name.vb: GetParent(Of T)(Element)
+  spec.csharp:
+  - uid: TemplateMAUI.Helpers.VisualTreeHelper.GetParent``1(Microsoft.Maui.Controls.Element)
+    name: GetParent
+    href: TemplateMAUI.Helpers.VisualTreeHelper.html#TemplateMAUI_Helpers_VisualTreeHelper_GetParent__1_Microsoft_Maui_Controls_Element_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: Microsoft.Maui.Controls.Element
+    name: Element
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element
+  - name: )
+  spec.vb:
+  - uid: TemplateMAUI.Helpers.VisualTreeHelper.GetParent``1(Microsoft.Maui.Controls.Element)
+    name: GetParent
+    href: TemplateMAUI.Helpers.VisualTreeHelper.html#TemplateMAUI_Helpers_VisualTreeHelper_GetParent__1_Microsoft_Maui_Controls_Element_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: Microsoft.Maui.Controls.Element
+    name: Element
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element
+  - name: )
+- uid: TemplateMAUI.Helpers.VisualTreeHelper
+  commentId: T:TemplateMAUI.Helpers.VisualTreeHelper
+  parent: TemplateMAUI.Helpers
+  href: TemplateMAUI.Helpers.VisualTreeHelper.html
+  name: VisualTreeHelper
+  nameWithType: VisualTreeHelper
+  fullName: TemplateMAUI.Helpers.VisualTreeHelper
+- uid: TemplateMAUI.Extensions.EnumerableExtension.Invoke``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  commentId: M:TemplateMAUI.Extensions.EnumerableExtension.Invoke``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  isExternal: true
+  href: TemplateMAUI.Extensions.EnumerableExtension.html#TemplateMAUI_Extensions_EnumerableExtension_Invoke__1_System_Collections_Generic_IEnumerable___0__System_Action___0__
+  name: Invoke<TSource>(IEnumerable<TSource>, Action<TSource>)
+  nameWithType: EnumerableExtension.Invoke<TSource>(IEnumerable<TSource>, Action<TSource>)
+  fullName: TemplateMAUI.Extensions.EnumerableExtension.Invoke<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Action<TSource>)
+  nameWithType.vb: EnumerableExtension.Invoke(Of TSource)(IEnumerable(Of TSource), Action(Of TSource))
+  fullName.vb: TemplateMAUI.Extensions.EnumerableExtension.Invoke(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Action(Of TSource))
+  name.vb: Invoke(Of TSource)(IEnumerable(Of TSource), Action(Of TSource))
+  spec.csharp:
+  - uid: TemplateMAUI.Extensions.EnumerableExtension.Invoke``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+    name: Invoke
+    href: TemplateMAUI.Extensions.EnumerableExtension.html#TemplateMAUI_Extensions_EnumerableExtension_Invoke__1_System_Collections_Generic_IEnumerable___0__System_Action___0__
+  - name: <
+  - name: TSource
+  - name: '>'
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: TSource
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: TSource
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: TemplateMAUI.Extensions.EnumerableExtension.Invoke``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+    name: Invoke
+    href: TemplateMAUI.Extensions.EnumerableExtension.html#TemplateMAUI_Extensions_EnumerableExtension_Invoke__1_System_Collections_Generic_IEnumerable___0__System_Action___0__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: )
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: )
+  - name: )
+- uid: TemplateMAUI.Extensions.EnumerableExtension
+  commentId: T:TemplateMAUI.Extensions.EnumerableExtension
+  parent: TemplateMAUI.Extensions
+  href: TemplateMAUI.Extensions.EnumerableExtension.html
+  name: EnumerableExtension
+  nameWithType: EnumerableExtension
+  fullName: TemplateMAUI.Extensions.EnumerableExtension
+- uid: TemplateMAUI.Helpers
+  commentId: N:TemplateMAUI.Helpers
+  href: TemplateMAUI.html
+  name: TemplateMAUI.Helpers
+  nameWithType: TemplateMAUI.Helpers
+  fullName: TemplateMAUI.Helpers
+  spec.csharp:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Helpers
+    name: Helpers
+    href: TemplateMAUI.Helpers.html
+  spec.vb:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Helpers
+    name: Helpers
+    href: TemplateMAUI.Helpers.html
+- uid: TemplateMAUI.Extensions
+  commentId: N:TemplateMAUI.Extensions
+  href: TemplateMAUI.html
+  name: TemplateMAUI.Extensions
+  nameWithType: TemplateMAUI.Extensions
+  fullName: TemplateMAUI.Extensions
+  spec.csharp:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Extensions
+    name: Extensions
+    href: TemplateMAUI.Extensions.html
+  spec.vb:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Extensions
+    name: Extensions
+    href: TemplateMAUI.Extensions.html
+- uid: TemplateMAUI.Controls.TreeViewNodes.#ctor*
+  commentId: Overload:TemplateMAUI.Controls.TreeViewNodes.#ctor
+  href: TemplateMAUI.Controls.TreeViewNodes.html#TemplateMAUI_Controls_TreeViewNodes__ctor_System_Collections_Generic_IEnumerable_TemplateMAUI_Controls_TreeViewNode__
+  name: TreeViewNodes
+  nameWithType: TreeViewNodes.TreeViewNodes
+  fullName: TemplateMAUI.Controls.TreeViewNodes.TreeViewNodes
+  nameWithType.vb: TreeViewNodes.New
+  fullName.vb: TemplateMAUI.Controls.TreeViewNodes.New
+  name.vb: New
+- uid: System.Collections.Specialized.INotifyCollectionChanged.CollectionChanged
+  commentId: E:System.Collections.Specialized.INotifyCollectionChanged.CollectionChanged
+  parent: System.Collections.Specialized.INotifyCollectionChanged
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.specialized.inotifycollectionchanged.collectionchanged
+  name: CollectionChanged
+  nameWithType: INotifyCollectionChanged.CollectionChanged
+  fullName: System.Collections.Specialized.INotifyCollectionChanged.CollectionChanged
+- uid: System.Collections.Specialized.NotifyCollectionChangedEventHandler
+  commentId: T:System.Collections.Specialized.NotifyCollectionChangedEventHandler
+  parent: System.Collections.Specialized
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.specialized.notifycollectionchangedeventhandler
+  name: NotifyCollectionChangedEventHandler
+  nameWithType: NotifyCollectionChangedEventHandler
+  fullName: System.Collections.Specialized.NotifyCollectionChangedEventHandler
+- uid: System.ArgumentOutOfRangeException
+  commentId: T:System.ArgumentOutOfRangeException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception
+  name: ArgumentOutOfRangeException
+  nameWithType: ArgumentOutOfRangeException
+  fullName: System.ArgumentOutOfRangeException
+- uid: System.NotSupportedException
+  commentId: T:System.NotSupportedException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.notsupportedexception
+  name: NotSupportedException
+  nameWithType: NotSupportedException
+  fullName: System.NotSupportedException
+- uid: TemplateMAUI.Controls.TreeViewNodes.Item*
+  commentId: Overload:TemplateMAUI.Controls.TreeViewNodes.Item
+  href: TemplateMAUI.Controls.TreeViewNodes.html#TemplateMAUI_Controls_TreeViewNodes_Item_System_Int32_
+  name: this
+  nameWithType: TreeViewNodes.this
+  fullName: TemplateMAUI.Controls.TreeViewNodes.this
+  nameWithType.vb: TreeViewNodes.this[]
+  fullName.vb: TemplateMAUI.Controls.TreeViewNodes.this[]
+  name.vb: this[]
+- uid: System.Collections.Generic.IList{TemplateMAUI.Controls.TreeViewNode}.Item(System.Int32)
+  commentId: P:System.Collections.Generic.IList{TemplateMAUI.Controls.TreeViewNode}.Item(System.Int32)
+  parent: System.Collections.Generic.IList{TemplateMAUI.Controls.TreeViewNode}
+  definition: System.Collections.Generic.IList`1.Item(System.Int32)
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: this[int]
+  nameWithType: IList<TreeViewNode>.this[int]
+  fullName: System.Collections.Generic.IList<TemplateMAUI.Controls.TreeViewNode>.this[int]
+  nameWithType.vb: IList(Of TreeViewNode).this[](Integer)
+  fullName.vb: System.Collections.Generic.IList(Of TemplateMAUI.Controls.TreeViewNode).this[](Integer)
+  name.vb: this[](Integer)
+  spec.csharp:
+  - name: this
+  - name: '['
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ']'
+  spec.vb:
+  - uid: System.Collections.Generic.IList{TemplateMAUI.Controls.TreeViewNode}.Item(System.Int32)
+    name: this[]
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1.item
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: TemplateMAUI.Controls.TreeViewNode
+  commentId: T:TemplateMAUI.Controls.TreeViewNode
+  parent: TemplateMAUI.Controls
+  href: TemplateMAUI.Controls.TreeViewNode.html
+  name: TreeViewNode
+  nameWithType: TreeViewNode
+  fullName: TemplateMAUI.Controls.TreeViewNode
+- uid: System.Collections.Generic.IList`1.Item(System.Int32)
+  commentId: P:System.Collections.Generic.IList`1.Item(System.Int32)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: this[int]
+  nameWithType: IList<T>.this[int]
+  fullName: System.Collections.Generic.IList<T>.this[int]
+  nameWithType.vb: IList(Of T).this[](Integer)
+  fullName.vb: System.Collections.Generic.IList(Of T).this[](Integer)
+  name.vb: this[](Integer)
+  spec.csharp:
+  - name: this
+  - name: '['
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ']'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1.Item(System.Int32)
+    name: this[]
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1.item
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: TemplateMAUI.Controls.TreeViewNodes.Count*
+  commentId: Overload:TemplateMAUI.Controls.TreeViewNodes.Count
+  href: TemplateMAUI.Controls.TreeViewNodes.html#TemplateMAUI_Controls_TreeViewNodes_Count
+  name: Count
+  nameWithType: TreeViewNodes.Count
+  fullName: TemplateMAUI.Controls.TreeViewNodes.Count
+- uid: System.Collections.Generic.ICollection{TemplateMAUI.Controls.TreeViewNode}.Count
+  commentId: P:System.Collections.Generic.ICollection{TemplateMAUI.Controls.TreeViewNode}.Count
+  parent: System.Collections.Generic.ICollection{TemplateMAUI.Controls.TreeViewNode}
+  definition: System.Collections.Generic.ICollection`1.Count
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.count
+  name: Count
+  nameWithType: ICollection<TreeViewNode>.Count
+  fullName: System.Collections.Generic.ICollection<TemplateMAUI.Controls.TreeViewNode>.Count
+  nameWithType.vb: ICollection(Of TreeViewNode).Count
+  fullName.vb: System.Collections.Generic.ICollection(Of TemplateMAUI.Controls.TreeViewNode).Count
+- uid: System.Collections.Generic.ICollection`1.Count
+  commentId: P:System.Collections.Generic.ICollection`1.Count
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.count
+  name: Count
+  nameWithType: ICollection<T>.Count
+  fullName: System.Collections.Generic.ICollection<T>.Count
+  nameWithType.vb: ICollection(Of T).Count
+  fullName.vb: System.Collections.Generic.ICollection(Of T).Count
+- uid: TemplateMAUI.Controls.TreeViewNodes.IsReadOnly*
+  commentId: Overload:TemplateMAUI.Controls.TreeViewNodes.IsReadOnly
+  href: TemplateMAUI.Controls.TreeViewNodes.html#TemplateMAUI_Controls_TreeViewNodes_IsReadOnly
+  name: IsReadOnly
+  nameWithType: TreeViewNodes.IsReadOnly
+  fullName: TemplateMAUI.Controls.TreeViewNodes.IsReadOnly
+- uid: System.Collections.Generic.ICollection{TemplateMAUI.Controls.TreeViewNode}.IsReadOnly
+  commentId: P:System.Collections.Generic.ICollection{TemplateMAUI.Controls.TreeViewNode}.IsReadOnly
+  parent: System.Collections.Generic.ICollection{TemplateMAUI.Controls.TreeViewNode}
+  definition: System.Collections.Generic.ICollection`1.IsReadOnly
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.isreadonly
+  name: IsReadOnly
+  nameWithType: ICollection<TreeViewNode>.IsReadOnly
+  fullName: System.Collections.Generic.ICollection<TemplateMAUI.Controls.TreeViewNode>.IsReadOnly
+  nameWithType.vb: ICollection(Of TreeViewNode).IsReadOnly
+  fullName.vb: System.Collections.Generic.ICollection(Of TemplateMAUI.Controls.TreeViewNode).IsReadOnly
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Collections.Generic.ICollection`1.IsReadOnly
+  commentId: P:System.Collections.Generic.ICollection`1.IsReadOnly
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.isreadonly
+  name: IsReadOnly
+  nameWithType: ICollection<T>.IsReadOnly
+  fullName: System.Collections.Generic.ICollection<T>.IsReadOnly
+  nameWithType.vb: ICollection(Of T).IsReadOnly
+  fullName.vb: System.Collections.Generic.ICollection(Of T).IsReadOnly
+- uid: TemplateMAUI.Controls.TreeViewNodes.Add*
+  commentId: Overload:TemplateMAUI.Controls.TreeViewNodes.Add
+  href: TemplateMAUI.Controls.TreeViewNodes.html#TemplateMAUI_Controls_TreeViewNodes_Add_TemplateMAUI_Controls_TreeViewNode_
+  name: Add
+  nameWithType: TreeViewNodes.Add
+  fullName: TemplateMAUI.Controls.TreeViewNodes.Add
+- uid: System.Collections.Generic.ICollection{TemplateMAUI.Controls.TreeViewNode}.Add(TemplateMAUI.Controls.TreeViewNode)
+  commentId: M:System.Collections.Generic.ICollection{TemplateMAUI.Controls.TreeViewNode}.Add(TemplateMAUI.Controls.TreeViewNode)
+  parent: System.Collections.Generic.ICollection{TemplateMAUI.Controls.TreeViewNode}
+  definition: System.Collections.Generic.ICollection`1.Add(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.add
+  name: Add(TreeViewNode)
+  nameWithType: ICollection<TreeViewNode>.Add(TreeViewNode)
+  fullName: System.Collections.Generic.ICollection<TemplateMAUI.Controls.TreeViewNode>.Add(TemplateMAUI.Controls.TreeViewNode)
+  nameWithType.vb: ICollection(Of TreeViewNode).Add(TreeViewNode)
+  fullName.vb: System.Collections.Generic.ICollection(Of TemplateMAUI.Controls.TreeViewNode).Add(TemplateMAUI.Controls.TreeViewNode)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection{TemplateMAUI.Controls.TreeViewNode}.Add(TemplateMAUI.Controls.TreeViewNode)
+    name: Add
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.add
+  - name: (
+  - uid: TemplateMAUI.Controls.TreeViewNode
+    name: TreeViewNode
+    href: TemplateMAUI.Controls.TreeViewNode.html
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection{TemplateMAUI.Controls.TreeViewNode}.Add(TemplateMAUI.Controls.TreeViewNode)
+    name: Add
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.add
+  - name: (
+  - uid: TemplateMAUI.Controls.TreeViewNode
+    name: TreeViewNode
+    href: TemplateMAUI.Controls.TreeViewNode.html
+  - name: )
+- uid: System.Collections.Generic.ICollection`1.Add(`0)
+  commentId: M:System.Collections.Generic.ICollection`1.Add(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.add
+  name: Add(T)
+  nameWithType: ICollection<T>.Add(T)
+  fullName: System.Collections.Generic.ICollection<T>.Add(T)
+  nameWithType.vb: ICollection(Of T).Add(T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T).Add(T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1.Add(`0)
+    name: Add
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.add
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1.Add(`0)
+    name: Add
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.add
+  - name: (
+  - name: T
+  - name: )
+- uid: TemplateMAUI.Controls.TreeViewNodes.Clear*
+  commentId: Overload:TemplateMAUI.Controls.TreeViewNodes.Clear
+  href: TemplateMAUI.Controls.TreeViewNodes.html#TemplateMAUI_Controls_TreeViewNodes_Clear
+  name: Clear
+  nameWithType: TreeViewNodes.Clear
+  fullName: TemplateMAUI.Controls.TreeViewNodes.Clear
+- uid: System.Collections.Generic.ICollection{TemplateMAUI.Controls.TreeViewNode}.Clear
+  commentId: M:System.Collections.Generic.ICollection{TemplateMAUI.Controls.TreeViewNode}.Clear
+  parent: System.Collections.Generic.ICollection{TemplateMAUI.Controls.TreeViewNode}
+  definition: System.Collections.Generic.ICollection`1.Clear
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.clear
+  name: Clear()
+  nameWithType: ICollection<TreeViewNode>.Clear()
+  fullName: System.Collections.Generic.ICollection<TemplateMAUI.Controls.TreeViewNode>.Clear()
+  nameWithType.vb: ICollection(Of TreeViewNode).Clear()
+  fullName.vb: System.Collections.Generic.ICollection(Of TemplateMAUI.Controls.TreeViewNode).Clear()
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection{TemplateMAUI.Controls.TreeViewNode}.Clear
+    name: Clear
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.clear
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection{TemplateMAUI.Controls.TreeViewNode}.Clear
+    name: Clear
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.clear
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.ICollection`1.Clear
+  commentId: M:System.Collections.Generic.ICollection`1.Clear
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.clear
+  name: Clear()
+  nameWithType: ICollection<T>.Clear()
+  fullName: System.Collections.Generic.ICollection<T>.Clear()
+  nameWithType.vb: ICollection(Of T).Clear()
+  fullName.vb: System.Collections.Generic.ICollection(Of T).Clear()
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1.Clear
+    name: Clear
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.clear
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1.Clear
+    name: Clear
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.clear
+  - name: (
+  - name: )
+- uid: TemplateMAUI.Controls.TreeViewNodes.Contains*
+  commentId: Overload:TemplateMAUI.Controls.TreeViewNodes.Contains
+  href: TemplateMAUI.Controls.TreeViewNodes.html#TemplateMAUI_Controls_TreeViewNodes_Contains_TemplateMAUI_Controls_TreeViewNode_
+  name: Contains
+  nameWithType: TreeViewNodes.Contains
+  fullName: TemplateMAUI.Controls.TreeViewNodes.Contains
+- uid: System.Collections.Generic.ICollection{TemplateMAUI.Controls.TreeViewNode}.Contains(TemplateMAUI.Controls.TreeViewNode)
+  commentId: M:System.Collections.Generic.ICollection{TemplateMAUI.Controls.TreeViewNode}.Contains(TemplateMAUI.Controls.TreeViewNode)
+  parent: System.Collections.Generic.ICollection{TemplateMAUI.Controls.TreeViewNode}
+  definition: System.Collections.Generic.ICollection`1.Contains(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.contains
+  name: Contains(TreeViewNode)
+  nameWithType: ICollection<TreeViewNode>.Contains(TreeViewNode)
+  fullName: System.Collections.Generic.ICollection<TemplateMAUI.Controls.TreeViewNode>.Contains(TemplateMAUI.Controls.TreeViewNode)
+  nameWithType.vb: ICollection(Of TreeViewNode).Contains(TreeViewNode)
+  fullName.vb: System.Collections.Generic.ICollection(Of TemplateMAUI.Controls.TreeViewNode).Contains(TemplateMAUI.Controls.TreeViewNode)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection{TemplateMAUI.Controls.TreeViewNode}.Contains(TemplateMAUI.Controls.TreeViewNode)
+    name: Contains
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.contains
+  - name: (
+  - uid: TemplateMAUI.Controls.TreeViewNode
+    name: TreeViewNode
+    href: TemplateMAUI.Controls.TreeViewNode.html
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection{TemplateMAUI.Controls.TreeViewNode}.Contains(TemplateMAUI.Controls.TreeViewNode)
+    name: Contains
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.contains
+  - name: (
+  - uid: TemplateMAUI.Controls.TreeViewNode
+    name: TreeViewNode
+    href: TemplateMAUI.Controls.TreeViewNode.html
+  - name: )
+- uid: System.Collections.Generic.ICollection`1.Contains(`0)
+  commentId: M:System.Collections.Generic.ICollection`1.Contains(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.contains
+  name: Contains(T)
+  nameWithType: ICollection<T>.Contains(T)
+  fullName: System.Collections.Generic.ICollection<T>.Contains(T)
+  nameWithType.vb: ICollection(Of T).Contains(T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T).Contains(T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1.Contains(`0)
+    name: Contains
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.contains
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1.Contains(`0)
+    name: Contains
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.contains
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Array
+  commentId: T:System.Array
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.array
+  name: Array
+  nameWithType: Array
+  fullName: System.Array
+- uid: System.ArgumentNullException
+  commentId: T:System.ArgumentNullException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.argumentnullexception
+  name: ArgumentNullException
+  nameWithType: ArgumentNullException
+  fullName: System.ArgumentNullException
+- uid: System.ArgumentException
+  commentId: T:System.ArgumentException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.argumentexception
+  name: ArgumentException
+  nameWithType: ArgumentException
+  fullName: System.ArgumentException
+- uid: TemplateMAUI.Controls.TreeViewNodes.CopyTo*
+  commentId: Overload:TemplateMAUI.Controls.TreeViewNodes.CopyTo
+  href: TemplateMAUI.Controls.TreeViewNodes.html#TemplateMAUI_Controls_TreeViewNodes_CopyTo_TemplateMAUI_Controls_TreeViewNode___System_Int32_
+  name: CopyTo
+  nameWithType: TreeViewNodes.CopyTo
+  fullName: TemplateMAUI.Controls.TreeViewNodes.CopyTo
+- uid: System.Collections.Generic.ICollection{TemplateMAUI.Controls.TreeViewNode}.CopyTo(TemplateMAUI.Controls.TreeViewNode[],System.Int32)
+  commentId: M:System.Collections.Generic.ICollection{TemplateMAUI.Controls.TreeViewNode}.CopyTo(TemplateMAUI.Controls.TreeViewNode[],System.Int32)
+  parent: System.Collections.Generic.ICollection{TemplateMAUI.Controls.TreeViewNode}
+  definition: System.Collections.Generic.ICollection`1.CopyTo(`0[],System.Int32)
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.copyto
+  name: CopyTo(TreeViewNode[], int)
+  nameWithType: ICollection<TreeViewNode>.CopyTo(TreeViewNode[], int)
+  fullName: System.Collections.Generic.ICollection<TemplateMAUI.Controls.TreeViewNode>.CopyTo(TemplateMAUI.Controls.TreeViewNode[], int)
+  nameWithType.vb: ICollection(Of TreeViewNode).CopyTo(TreeViewNode(), Integer)
+  fullName.vb: System.Collections.Generic.ICollection(Of TemplateMAUI.Controls.TreeViewNode).CopyTo(TemplateMAUI.Controls.TreeViewNode(), Integer)
+  name.vb: CopyTo(TreeViewNode(), Integer)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection{TemplateMAUI.Controls.TreeViewNode}.CopyTo(TemplateMAUI.Controls.TreeViewNode[],System.Int32)
+    name: CopyTo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.copyto
+  - name: (
+  - uid: TemplateMAUI.Controls.TreeViewNode
+    name: TreeViewNode
+    href: TemplateMAUI.Controls.TreeViewNode.html
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection{TemplateMAUI.Controls.TreeViewNode}.CopyTo(TemplateMAUI.Controls.TreeViewNode[],System.Int32)
+    name: CopyTo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.copyto
+  - name: (
+  - uid: TemplateMAUI.Controls.TreeViewNode
+    name: TreeViewNode
+    href: TemplateMAUI.Controls.TreeViewNode.html
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: TemplateMAUI.Controls.TreeViewNode[]
+  isExternal: true
+  href: TemplateMAUI.Controls.TreeViewNode.html
+  name: TreeViewNode[]
+  nameWithType: TreeViewNode[]
+  fullName: TemplateMAUI.Controls.TreeViewNode[]
+  nameWithType.vb: TreeViewNode()
+  fullName.vb: TemplateMAUI.Controls.TreeViewNode()
+  name.vb: TreeViewNode()
+  spec.csharp:
+  - uid: TemplateMAUI.Controls.TreeViewNode
+    name: TreeViewNode
+    href: TemplateMAUI.Controls.TreeViewNode.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: TemplateMAUI.Controls.TreeViewNode
+    name: TreeViewNode
+    href: TemplateMAUI.Controls.TreeViewNode.html
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.ICollection`1.CopyTo(`0[],System.Int32)
+  commentId: M:System.Collections.Generic.ICollection`1.CopyTo(`0[],System.Int32)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.copyto
+  name: CopyTo(T[], int)
+  nameWithType: ICollection<T>.CopyTo(T[], int)
+  fullName: System.Collections.Generic.ICollection<T>.CopyTo(T[], int)
+  nameWithType.vb: ICollection(Of T).CopyTo(T(), Integer)
+  fullName.vb: System.Collections.Generic.ICollection(Of T).CopyTo(T(), Integer)
+  name.vb: CopyTo(T(), Integer)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1.CopyTo(`0[],System.Int32)
+    name: CopyTo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.copyto
+  - name: (
+  - name: T
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1.CopyTo(`0[],System.Int32)
+    name: CopyTo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.copyto
+  - name: (
+  - name: T
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: TemplateMAUI.Controls.TreeViewNodes.GetEnumerator*
+  commentId: Overload:TemplateMAUI.Controls.TreeViewNodes.GetEnumerator
+  href: TemplateMAUI.Controls.TreeViewNodes.html#TemplateMAUI_Controls_TreeViewNodes_GetEnumerator
+  name: GetEnumerator
+  nameWithType: TreeViewNodes.GetEnumerator
+  fullName: TemplateMAUI.Controls.TreeViewNodes.GetEnumerator
+- uid: System.Collections.Generic.IEnumerable{TemplateMAUI.Controls.TreeViewNode}.GetEnumerator
+  commentId: M:System.Collections.Generic.IEnumerable{TemplateMAUI.Controls.TreeViewNode}.GetEnumerator
+  parent: System.Collections.Generic.IEnumerable{TemplateMAUI.Controls.TreeViewNode}
+  definition: System.Collections.Generic.IEnumerable`1.GetEnumerator
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  name: GetEnumerator()
+  nameWithType: IEnumerable<TreeViewNode>.GetEnumerator()
+  fullName: System.Collections.Generic.IEnumerable<TemplateMAUI.Controls.TreeViewNode>.GetEnumerator()
+  nameWithType.vb: IEnumerable(Of TreeViewNode).GetEnumerator()
+  fullName.vb: System.Collections.Generic.IEnumerable(Of TemplateMAUI.Controls.TreeViewNode).GetEnumerator()
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable{TemplateMAUI.Controls.TreeViewNode}.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable{TemplateMAUI.Controls.TreeViewNode}.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.IEnumerator{TemplateMAUI.Controls.TreeViewNode}
+  commentId: T:System.Collections.Generic.IEnumerator{TemplateMAUI.Controls.TreeViewNode}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerator`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  name: IEnumerator<TreeViewNode>
+  nameWithType: IEnumerator<TreeViewNode>
+  fullName: System.Collections.Generic.IEnumerator<TemplateMAUI.Controls.TreeViewNode>
+  nameWithType.vb: IEnumerator(Of TreeViewNode)
+  fullName.vb: System.Collections.Generic.IEnumerator(Of TemplateMAUI.Controls.TreeViewNode)
+  name.vb: IEnumerator(Of TreeViewNode)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: <
+  - uid: TemplateMAUI.Controls.TreeViewNode
+    name: TreeViewNode
+    href: TemplateMAUI.Controls.TreeViewNode.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: TemplateMAUI.Controls.TreeViewNode
+    name: TreeViewNode
+    href: TemplateMAUI.Controls.TreeViewNode.html
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
+  commentId: M:System.Collections.Generic.IEnumerable`1.GetEnumerator
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  name: GetEnumerator()
+  nameWithType: IEnumerable<T>.GetEnumerator()
+  fullName: System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+  nameWithType.vb: IEnumerable(Of T).GetEnumerator()
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T).GetEnumerator()
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.IEnumerator`1
+  commentId: T:System.Collections.Generic.IEnumerator`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  name: IEnumerator<T>
+  nameWithType: IEnumerator<T>
+  fullName: System.Collections.Generic.IEnumerator<T>
+  nameWithType.vb: IEnumerator(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerator(Of T)
+  name.vb: IEnumerator(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: TemplateMAUI.Controls.TreeViewNodes.IndexOf*
+  commentId: Overload:TemplateMAUI.Controls.TreeViewNodes.IndexOf
+  href: TemplateMAUI.Controls.TreeViewNodes.html#TemplateMAUI_Controls_TreeViewNodes_IndexOf_TemplateMAUI_Controls_TreeViewNode_
+  name: IndexOf
+  nameWithType: TreeViewNodes.IndexOf
+  fullName: TemplateMAUI.Controls.TreeViewNodes.IndexOf
+- uid: System.Collections.Generic.IList{TemplateMAUI.Controls.TreeViewNode}.IndexOf(TemplateMAUI.Controls.TreeViewNode)
+  commentId: M:System.Collections.Generic.IList{TemplateMAUI.Controls.TreeViewNode}.IndexOf(TemplateMAUI.Controls.TreeViewNode)
+  parent: System.Collections.Generic.IList{TemplateMAUI.Controls.TreeViewNode}
+  definition: System.Collections.Generic.IList`1.IndexOf(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1.indexof
+  name: IndexOf(TreeViewNode)
+  nameWithType: IList<TreeViewNode>.IndexOf(TreeViewNode)
+  fullName: System.Collections.Generic.IList<TemplateMAUI.Controls.TreeViewNode>.IndexOf(TemplateMAUI.Controls.TreeViewNode)
+  nameWithType.vb: IList(Of TreeViewNode).IndexOf(TreeViewNode)
+  fullName.vb: System.Collections.Generic.IList(Of TemplateMAUI.Controls.TreeViewNode).IndexOf(TemplateMAUI.Controls.TreeViewNode)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList{TemplateMAUI.Controls.TreeViewNode}.IndexOf(TemplateMAUI.Controls.TreeViewNode)
+    name: IndexOf
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1.indexof
+  - name: (
+  - uid: TemplateMAUI.Controls.TreeViewNode
+    name: TreeViewNode
+    href: TemplateMAUI.Controls.TreeViewNode.html
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.IList{TemplateMAUI.Controls.TreeViewNode}.IndexOf(TemplateMAUI.Controls.TreeViewNode)
+    name: IndexOf
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1.indexof
+  - name: (
+  - uid: TemplateMAUI.Controls.TreeViewNode
+    name: TreeViewNode
+    href: TemplateMAUI.Controls.TreeViewNode.html
+  - name: )
+- uid: System.Collections.Generic.IList`1.IndexOf(`0)
+  commentId: M:System.Collections.Generic.IList`1.IndexOf(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1.indexof
+  name: IndexOf(T)
+  nameWithType: IList<T>.IndexOf(T)
+  fullName: System.Collections.Generic.IList<T>.IndexOf(T)
+  nameWithType.vb: IList(Of T).IndexOf(T)
+  fullName.vb: System.Collections.Generic.IList(Of T).IndexOf(T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1.IndexOf(`0)
+    name: IndexOf
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1.indexof
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1.IndexOf(`0)
+    name: IndexOf
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1.indexof
+  - name: (
+  - name: T
+  - name: )
+- uid: TemplateMAUI.Controls.TreeViewNodes.Insert*
+  commentId: Overload:TemplateMAUI.Controls.TreeViewNodes.Insert
+  href: TemplateMAUI.Controls.TreeViewNodes.html#TemplateMAUI_Controls_TreeViewNodes_Insert_System_Int32_TemplateMAUI_Controls_TreeViewNode_
+  name: Insert
+  nameWithType: TreeViewNodes.Insert
+  fullName: TemplateMAUI.Controls.TreeViewNodes.Insert
+- uid: System.Collections.Generic.IList{TemplateMAUI.Controls.TreeViewNode}.Insert(System.Int32,TemplateMAUI.Controls.TreeViewNode)
+  commentId: M:System.Collections.Generic.IList{TemplateMAUI.Controls.TreeViewNode}.Insert(System.Int32,TemplateMAUI.Controls.TreeViewNode)
+  parent: System.Collections.Generic.IList{TemplateMAUI.Controls.TreeViewNode}
+  definition: System.Collections.Generic.IList`1.Insert(System.Int32,`0)
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1.insert
+  name: Insert(int, TreeViewNode)
+  nameWithType: IList<TreeViewNode>.Insert(int, TreeViewNode)
+  fullName: System.Collections.Generic.IList<TemplateMAUI.Controls.TreeViewNode>.Insert(int, TemplateMAUI.Controls.TreeViewNode)
+  nameWithType.vb: IList(Of TreeViewNode).Insert(Integer, TreeViewNode)
+  fullName.vb: System.Collections.Generic.IList(Of TemplateMAUI.Controls.TreeViewNode).Insert(Integer, TemplateMAUI.Controls.TreeViewNode)
+  name.vb: Insert(Integer, TreeViewNode)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList{TemplateMAUI.Controls.TreeViewNode}.Insert(System.Int32,TemplateMAUI.Controls.TreeViewNode)
+    name: Insert
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1.insert
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: TemplateMAUI.Controls.TreeViewNode
+    name: TreeViewNode
+    href: TemplateMAUI.Controls.TreeViewNode.html
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.IList{TemplateMAUI.Controls.TreeViewNode}.Insert(System.Int32,TemplateMAUI.Controls.TreeViewNode)
+    name: Insert
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1.insert
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: TemplateMAUI.Controls.TreeViewNode
+    name: TreeViewNode
+    href: TemplateMAUI.Controls.TreeViewNode.html
+  - name: )
+- uid: System.Collections.Generic.IList`1.Insert(System.Int32,`0)
+  commentId: M:System.Collections.Generic.IList`1.Insert(System.Int32,`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1.insert
+  name: Insert(int, T)
+  nameWithType: IList<T>.Insert(int, T)
+  fullName: System.Collections.Generic.IList<T>.Insert(int, T)
+  nameWithType.vb: IList(Of T).Insert(Integer, T)
+  fullName.vb: System.Collections.Generic.IList(Of T).Insert(Integer, T)
+  name.vb: Insert(Integer, T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1.Insert(System.Int32,`0)
+    name: Insert
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1.insert
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1.Insert(System.Int32,`0)
+    name: Insert
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1.insert
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: TemplateMAUI.Controls.TreeViewNodes.Remove*
+  commentId: Overload:TemplateMAUI.Controls.TreeViewNodes.Remove
+  href: TemplateMAUI.Controls.TreeViewNodes.html#TemplateMAUI_Controls_TreeViewNodes_Remove_TemplateMAUI_Controls_TreeViewNode_
+  name: Remove
+  nameWithType: TreeViewNodes.Remove
+  fullName: TemplateMAUI.Controls.TreeViewNodes.Remove
+- uid: System.Collections.Generic.ICollection{TemplateMAUI.Controls.TreeViewNode}.Remove(TemplateMAUI.Controls.TreeViewNode)
+  commentId: M:System.Collections.Generic.ICollection{TemplateMAUI.Controls.TreeViewNode}.Remove(TemplateMAUI.Controls.TreeViewNode)
+  parent: System.Collections.Generic.ICollection{TemplateMAUI.Controls.TreeViewNode}
+  definition: System.Collections.Generic.ICollection`1.Remove(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.remove
+  name: Remove(TreeViewNode)
+  nameWithType: ICollection<TreeViewNode>.Remove(TreeViewNode)
+  fullName: System.Collections.Generic.ICollection<TemplateMAUI.Controls.TreeViewNode>.Remove(TemplateMAUI.Controls.TreeViewNode)
+  nameWithType.vb: ICollection(Of TreeViewNode).Remove(TreeViewNode)
+  fullName.vb: System.Collections.Generic.ICollection(Of TemplateMAUI.Controls.TreeViewNode).Remove(TemplateMAUI.Controls.TreeViewNode)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection{TemplateMAUI.Controls.TreeViewNode}.Remove(TemplateMAUI.Controls.TreeViewNode)
+    name: Remove
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.remove
+  - name: (
+  - uid: TemplateMAUI.Controls.TreeViewNode
+    name: TreeViewNode
+    href: TemplateMAUI.Controls.TreeViewNode.html
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection{TemplateMAUI.Controls.TreeViewNode}.Remove(TemplateMAUI.Controls.TreeViewNode)
+    name: Remove
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.remove
+  - name: (
+  - uid: TemplateMAUI.Controls.TreeViewNode
+    name: TreeViewNode
+    href: TemplateMAUI.Controls.TreeViewNode.html
+  - name: )
+- uid: System.Collections.Generic.ICollection`1.Remove(`0)
+  commentId: M:System.Collections.Generic.ICollection`1.Remove(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.remove
+  name: Remove(T)
+  nameWithType: ICollection<T>.Remove(T)
+  fullName: System.Collections.Generic.ICollection<T>.Remove(T)
+  nameWithType.vb: ICollection(Of T).Remove(T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T).Remove(T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1.Remove(`0)
+    name: Remove
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.remove
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1.Remove(`0)
+    name: Remove
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.remove
+  - name: (
+  - name: T
+  - name: )
+- uid: TemplateMAUI.Controls.TreeViewNodes.RemoveAt*
+  commentId: Overload:TemplateMAUI.Controls.TreeViewNodes.RemoveAt
+  href: TemplateMAUI.Controls.TreeViewNodes.html#TemplateMAUI_Controls_TreeViewNodes_RemoveAt_System_Int32_
+  name: RemoveAt
+  nameWithType: TreeViewNodes.RemoveAt
+  fullName: TemplateMAUI.Controls.TreeViewNodes.RemoveAt
+- uid: System.Collections.Generic.IList{TemplateMAUI.Controls.TreeViewNode}.RemoveAt(System.Int32)
+  commentId: M:System.Collections.Generic.IList{TemplateMAUI.Controls.TreeViewNode}.RemoveAt(System.Int32)
+  parent: System.Collections.Generic.IList{TemplateMAUI.Controls.TreeViewNode}
+  definition: System.Collections.Generic.IList`1.RemoveAt(System.Int32)
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1.removeat
+  name: RemoveAt(int)
+  nameWithType: IList<TreeViewNode>.RemoveAt(int)
+  fullName: System.Collections.Generic.IList<TemplateMAUI.Controls.TreeViewNode>.RemoveAt(int)
+  nameWithType.vb: IList(Of TreeViewNode).RemoveAt(Integer)
+  fullName.vb: System.Collections.Generic.IList(Of TemplateMAUI.Controls.TreeViewNode).RemoveAt(Integer)
+  name.vb: RemoveAt(Integer)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList{TemplateMAUI.Controls.TreeViewNode}.RemoveAt(System.Int32)
+    name: RemoveAt
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1.removeat
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.IList{TemplateMAUI.Controls.TreeViewNode}.RemoveAt(System.Int32)
+    name: RemoveAt
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1.removeat
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Collections.Generic.IList`1.RemoveAt(System.Int32)
+  commentId: M:System.Collections.Generic.IList`1.RemoveAt(System.Int32)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1.removeat
+  name: RemoveAt(int)
+  nameWithType: IList<T>.RemoveAt(int)
+  fullName: System.Collections.Generic.IList<T>.RemoveAt(int)
+  nameWithType.vb: IList(Of T).RemoveAt(Integer)
+  fullName.vb: System.Collections.Generic.IList(Of T).RemoveAt(Integer)
+  name.vb: RemoveAt(Integer)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1.RemoveAt(System.Int32)
+    name: RemoveAt
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1.removeat
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1.RemoveAt(System.Int32)
+    name: RemoveAt
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1.removeat
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Microsoft.Maui.Controls.Element.OnBindingContextChanged
+  commentId: M:Microsoft.Maui.Controls.Element.OnBindingContextChanged
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.onbindingcontextchanged
+  name: OnBindingContextChanged()
+  nameWithType: Element.OnBindingContextChanged()
+  fullName: Microsoft.Maui.Controls.Element.OnBindingContextChanged()
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Element.OnBindingContextChanged
+    name: OnBindingContextChanged
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.onbindingcontextchanged
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Element.OnBindingContextChanged
+    name: OnBindingContextChanged
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.onbindingcontextchanged
+  - name: (
+  - name: )
+- uid: TemplateMAUI.Controls.TreeViewNodes.OnBindingContextChanged*
+  commentId: Overload:TemplateMAUI.Controls.TreeViewNodes.OnBindingContextChanged
+  href: TemplateMAUI.Controls.TreeViewNodes.html#TemplateMAUI_Controls_TreeViewNodes_OnBindingContextChanged
+  name: OnBindingContextChanged
+  nameWithType: TreeViewNodes.OnBindingContextChanged
+  fullName: TemplateMAUI.Controls.TreeViewNodes.OnBindingContextChanged

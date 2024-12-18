@@ -1,0 +1,168 @@
+### YamlMime:ManagedReference
+items:
+- uid: TemplateMAUI.Controls.BadgePosition
+  commentId: T:TemplateMAUI.Controls.BadgePosition
+  id: BadgePosition
+  parent: TemplateMAUI.Controls
+  children:
+  - TemplateMAUI.Controls.BadgePosition.BottomLeft
+  - TemplateMAUI.Controls.BadgePosition.BottomRight
+  - TemplateMAUI.Controls.BadgePosition.TopLeft
+  - TemplateMAUI.Controls.BadgePosition.TopRight
+  langs:
+  - csharp
+  - vb
+  name: BadgePosition
+  nameWithType: BadgePosition
+  fullName: TemplateMAUI.Controls.BadgePosition
+  type: Enum
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/BadgeView/BadgePosition.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: BadgePosition
+    path: ../src/TemplateMAUI/Controls/BadgeView/BadgePosition.cs
+    startLine: 5
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  summary: Represents the possible positions for a badge within a user interface element.
+  example: []
+  syntax:
+    content: public enum BadgePosition
+    content.vb: Public Enum BadgePosition
+- uid: TemplateMAUI.Controls.BadgePosition.TopLeft
+  commentId: F:TemplateMAUI.Controls.BadgePosition.TopLeft
+  id: TopLeft
+  parent: TemplateMAUI.Controls.BadgePosition
+  langs:
+  - csharp
+  - vb
+  name: TopLeft
+  nameWithType: BadgePosition.TopLeft
+  fullName: TemplateMAUI.Controls.BadgePosition.TopLeft
+  type: Field
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/BadgeView/BadgePosition.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: TopLeft
+    path: ../src/TemplateMAUI/Controls/BadgeView/BadgePosition.cs
+    startLine: 7
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: TopLeft = 0
+    return:
+      type: TemplateMAUI.Controls.BadgePosition
+- uid: TemplateMAUI.Controls.BadgePosition.TopRight
+  commentId: F:TemplateMAUI.Controls.BadgePosition.TopRight
+  id: TopRight
+  parent: TemplateMAUI.Controls.BadgePosition
+  langs:
+  - csharp
+  - vb
+  name: TopRight
+  nameWithType: BadgePosition.TopRight
+  fullName: TemplateMAUI.Controls.BadgePosition.TopRight
+  type: Field
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/BadgeView/BadgePosition.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: TopRight
+    path: ../src/TemplateMAUI/Controls/BadgeView/BadgePosition.cs
+    startLine: 8
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: TopRight = 1
+    return:
+      type: TemplateMAUI.Controls.BadgePosition
+- uid: TemplateMAUI.Controls.BadgePosition.BottomLeft
+  commentId: F:TemplateMAUI.Controls.BadgePosition.BottomLeft
+  id: BottomLeft
+  parent: TemplateMAUI.Controls.BadgePosition
+  langs:
+  - csharp
+  - vb
+  name: BottomLeft
+  nameWithType: BadgePosition.BottomLeft
+  fullName: TemplateMAUI.Controls.BadgePosition.BottomLeft
+  type: Field
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/BadgeView/BadgePosition.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: BottomLeft
+    path: ../src/TemplateMAUI/Controls/BadgeView/BadgePosition.cs
+    startLine: 9
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: BottomLeft = 2
+    return:
+      type: TemplateMAUI.Controls.BadgePosition
+- uid: TemplateMAUI.Controls.BadgePosition.BottomRight
+  commentId: F:TemplateMAUI.Controls.BadgePosition.BottomRight
+  id: BottomRight
+  parent: TemplateMAUI.Controls.BadgePosition
+  langs:
+  - csharp
+  - vb
+  name: BottomRight
+  nameWithType: BadgePosition.BottomRight
+  fullName: TemplateMAUI.Controls.BadgePosition.BottomRight
+  type: Field
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/BadgeView/BadgePosition.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: BottomRight
+    path: ../src/TemplateMAUI/Controls/BadgeView/BadgePosition.cs
+    startLine: 10
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: BottomRight = 3
+    return:
+      type: TemplateMAUI.Controls.BadgePosition
+references:
+- uid: TemplateMAUI.Controls
+  commentId: N:TemplateMAUI.Controls
+  href: TemplateMAUI.html
+  name: TemplateMAUI.Controls
+  nameWithType: TemplateMAUI.Controls
+  fullName: TemplateMAUI.Controls
+  spec.csharp:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Controls
+    name: Controls
+    href: TemplateMAUI.Controls.html
+  spec.vb:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Controls
+    name: Controls
+    href: TemplateMAUI.Controls.html
+- uid: TemplateMAUI.Controls.BadgePosition
+  commentId: T:TemplateMAUI.Controls.BadgePosition
+  parent: TemplateMAUI.Controls
+  href: TemplateMAUI.Controls.BadgePosition.html
+  name: BadgePosition
+  nameWithType: BadgePosition
+  fullName: TemplateMAUI.Controls.BadgePosition

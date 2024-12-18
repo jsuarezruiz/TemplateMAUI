@@ -1,0 +1,141 @@
+### YamlMime:ManagedReference
+items:
+- uid: TemplateMAUI.Controls.GridResizeDirection
+  commentId: T:TemplateMAUI.Controls.GridResizeDirection
+  id: GridResizeDirection
+  parent: TemplateMAUI.Controls
+  children:
+  - TemplateMAUI.Controls.GridResizeDirection.Auto
+  - TemplateMAUI.Controls.GridResizeDirection.Columns
+  - TemplateMAUI.Controls.GridResizeDirection.Rows
+  langs:
+  - csharp
+  - vb
+  name: GridResizeDirection
+  nameWithType: GridResizeDirection
+  fullName: TemplateMAUI.Controls.GridResizeDirection
+  type: Enum
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/GridSplitter/GridResizeDirection.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: GridResizeDirection
+    path: ../src/TemplateMAUI/Controls/GridSplitter/GridResizeDirection.cs
+    startLine: 5
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  summary: Represents the possible directions in which a grid can be resized.
+  example: []
+  syntax:
+    content: public enum GridResizeDirection
+    content.vb: Public Enum GridResizeDirection
+- uid: TemplateMAUI.Controls.GridResizeDirection.Auto
+  commentId: F:TemplateMAUI.Controls.GridResizeDirection.Auto
+  id: Auto
+  parent: TemplateMAUI.Controls.GridResizeDirection
+  langs:
+  - csharp
+  - vb
+  name: Auto
+  nameWithType: GridResizeDirection.Auto
+  fullName: TemplateMAUI.Controls.GridResizeDirection.Auto
+  type: Field
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/GridSplitter/GridResizeDirection.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: Auto
+    path: ../src/TemplateMAUI/Controls/GridSplitter/GridResizeDirection.cs
+    startLine: 7
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: Auto = 0
+    return:
+      type: TemplateMAUI.Controls.GridResizeDirection
+- uid: TemplateMAUI.Controls.GridResizeDirection.Columns
+  commentId: F:TemplateMAUI.Controls.GridResizeDirection.Columns
+  id: Columns
+  parent: TemplateMAUI.Controls.GridResizeDirection
+  langs:
+  - csharp
+  - vb
+  name: Columns
+  nameWithType: GridResizeDirection.Columns
+  fullName: TemplateMAUI.Controls.GridResizeDirection.Columns
+  type: Field
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/GridSplitter/GridResizeDirection.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: Columns
+    path: ../src/TemplateMAUI/Controls/GridSplitter/GridResizeDirection.cs
+    startLine: 8
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: Columns = 1
+    return:
+      type: TemplateMAUI.Controls.GridResizeDirection
+- uid: TemplateMAUI.Controls.GridResizeDirection.Rows
+  commentId: F:TemplateMAUI.Controls.GridResizeDirection.Rows
+  id: Rows
+  parent: TemplateMAUI.Controls.GridResizeDirection
+  langs:
+  - csharp
+  - vb
+  name: Rows
+  nameWithType: GridResizeDirection.Rows
+  fullName: TemplateMAUI.Controls.GridResizeDirection.Rows
+  type: Field
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/GridSplitter/GridResizeDirection.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: Rows
+    path: ../src/TemplateMAUI/Controls/GridSplitter/GridResizeDirection.cs
+    startLine: 9
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: Rows = 2
+    return:
+      type: TemplateMAUI.Controls.GridResizeDirection
+references:
+- uid: TemplateMAUI.Controls
+  commentId: N:TemplateMAUI.Controls
+  href: TemplateMAUI.html
+  name: TemplateMAUI.Controls
+  nameWithType: TemplateMAUI.Controls
+  fullName: TemplateMAUI.Controls
+  spec.csharp:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Controls
+    name: Controls
+    href: TemplateMAUI.Controls.html
+  spec.vb:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Controls
+    name: Controls
+    href: TemplateMAUI.Controls.html
+- uid: TemplateMAUI.Controls.GridResizeDirection
+  commentId: T:TemplateMAUI.Controls.GridResizeDirection
+  parent: TemplateMAUI.Controls
+  href: TemplateMAUI.Controls.GridResizeDirection.html
+  name: GridResizeDirection
+  nameWithType: GridResizeDirection
+  fullName: TemplateMAUI.Controls.GridResizeDirection

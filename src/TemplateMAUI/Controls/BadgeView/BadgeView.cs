@@ -2,6 +2,11 @@
 
 namespace TemplateMAUI.Controls
 {
+    /// <summary>
+    /// The BadgeView is a custom templated control used to display badges. 
+    /// Badges are commonly used to convey additional information or highlight important content within an application. 
+    /// This control allows for flexible customization and easy integration of badge elements.
+    /// </summary>
     [ContentProperty(nameof(Content))]
     public class BadgeView : TemplatedView
     {

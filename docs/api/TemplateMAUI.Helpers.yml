@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: TemplateMAUI.Helpers
+  commentId: N:TemplateMAUI.Helpers
+  id: TemplateMAUI.Helpers
+  children:
+  - TemplateMAUI.Helpers.VisualTreeHelper
+  langs:
+  - csharp
+  - vb
+  name: TemplateMAUI.Helpers
+  nameWithType: TemplateMAUI.Helpers
+  fullName: TemplateMAUI.Helpers
+  type: Namespace
+  assemblies:
+  - TemplateMAUI
+references:
+- uid: TemplateMAUI.Helpers.VisualTreeHelper
+  commentId: T:TemplateMAUI.Helpers.VisualTreeHelper
+  parent: TemplateMAUI.Helpers
+  href: TemplateMAUI.Helpers.VisualTreeHelper.html
+  name: VisualTreeHelper
+  nameWithType: VisualTreeHelper
+  fullName: TemplateMAUI.Helpers.VisualTreeHelper
+- uid: TemplateMAUI.Helpers
+  commentId: N:TemplateMAUI.Helpers
+  href: TemplateMAUI.html
+  name: TemplateMAUI.Helpers
+  nameWithType: TemplateMAUI.Helpers
+  fullName: TemplateMAUI.Helpers
+  spec.csharp:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Helpers
+    name: Helpers
+    href: TemplateMAUI.Helpers.html
+  spec.vb:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Helpers
+    name: Helpers
+    href: TemplateMAUI.Helpers.html

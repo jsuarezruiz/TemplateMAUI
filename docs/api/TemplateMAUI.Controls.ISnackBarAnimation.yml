@@ -1,0 +1,222 @@
+### YamlMime:ManagedReference
+items:
+- uid: TemplateMAUI.Controls.ISnackBarAnimation
+  commentId: T:TemplateMAUI.Controls.ISnackBarAnimation
+  id: ISnackBarAnimation
+  parent: TemplateMAUI.Controls
+  children:
+  - TemplateMAUI.Controls.ISnackBarAnimation.OnClose(Microsoft.Maui.Controls.View)
+  - TemplateMAUI.Controls.ISnackBarAnimation.OnOpen(Microsoft.Maui.Controls.View)
+  langs:
+  - csharp
+  - vb
+  name: ISnackBarAnimation
+  nameWithType: ISnackBarAnimation
+  fullName: TemplateMAUI.Controls.ISnackBarAnimation
+  type: Interface
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/SnackBar/ISnackBarAnimation.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: ISnackBarAnimation
+    path: ../src/TemplateMAUI/Controls/SnackBar/ISnackBarAnimation.cs
+    startLine: 6
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  summary: >-
+    The ISnackBarAnimation interface defines the methods required to implement animations for snack bars. 
+
+    This interface allows for custom animations to be applied when a snack bar opens and closes.
+  example: []
+  syntax:
+    content: public interface ISnackBarAnimation
+    content.vb: Public Interface ISnackBarAnimation
+- uid: TemplateMAUI.Controls.ISnackBarAnimation.OnOpen(Microsoft.Maui.Controls.View)
+  commentId: M:TemplateMAUI.Controls.ISnackBarAnimation.OnOpen(Microsoft.Maui.Controls.View)
+  id: OnOpen(Microsoft.Maui.Controls.View)
+  parent: TemplateMAUI.Controls.ISnackBarAnimation
+  langs:
+  - csharp
+  - vb
+  name: OnOpen(View)
+  nameWithType: ISnackBarAnimation.OnOpen(View)
+  fullName: TemplateMAUI.Controls.ISnackBarAnimation.OnOpen(Microsoft.Maui.Controls.View)
+  type: Method
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/SnackBar/ISnackBarAnimation.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: OnOpen
+    path: ../src/TemplateMAUI/Controls/SnackBar/ISnackBarAnimation.cs
+    startLine: 8
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: Task OnOpen(View snackBar)
+    parameters:
+    - id: snackBar
+      type: Microsoft.Maui.Controls.View
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function OnOpen(snackBar As View) As Task
+  overload: TemplateMAUI.Controls.ISnackBarAnimation.OnOpen*
+- uid: TemplateMAUI.Controls.ISnackBarAnimation.OnClose(Microsoft.Maui.Controls.View)
+  commentId: M:TemplateMAUI.Controls.ISnackBarAnimation.OnClose(Microsoft.Maui.Controls.View)
+  id: OnClose(Microsoft.Maui.Controls.View)
+  parent: TemplateMAUI.Controls.ISnackBarAnimation
+  langs:
+  - csharp
+  - vb
+  name: OnClose(View)
+  nameWithType: ISnackBarAnimation.OnClose(View)
+  fullName: TemplateMAUI.Controls.ISnackBarAnimation.OnClose(Microsoft.Maui.Controls.View)
+  type: Method
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/SnackBar/ISnackBarAnimation.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: OnClose
+    path: ../src/TemplateMAUI/Controls/SnackBar/ISnackBarAnimation.cs
+    startLine: 9
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: Task OnClose(View snackBar)
+    parameters:
+    - id: snackBar
+      type: Microsoft.Maui.Controls.View
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function OnClose(snackBar As View) As Task
+  overload: TemplateMAUI.Controls.ISnackBarAnimation.OnClose*
+references:
+- uid: TemplateMAUI.Controls
+  commentId: N:TemplateMAUI.Controls
+  href: TemplateMAUI.html
+  name: TemplateMAUI.Controls
+  nameWithType: TemplateMAUI.Controls
+  fullName: TemplateMAUI.Controls
+  spec.csharp:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Controls
+    name: Controls
+    href: TemplateMAUI.Controls.html
+  spec.vb:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Controls
+    name: Controls
+    href: TemplateMAUI.Controls.html
+- uid: TemplateMAUI.Controls.ISnackBarAnimation.OnOpen*
+  commentId: Overload:TemplateMAUI.Controls.ISnackBarAnimation.OnOpen
+  href: TemplateMAUI.Controls.ISnackBarAnimation.html#TemplateMAUI_Controls_ISnackBarAnimation_OnOpen_Microsoft_Maui_Controls_View_
+  name: OnOpen
+  nameWithType: ISnackBarAnimation.OnOpen
+  fullName: TemplateMAUI.Controls.ISnackBarAnimation.OnOpen
+- uid: Microsoft.Maui.Controls.View
+  commentId: T:Microsoft.Maui.Controls.View
+  parent: Microsoft.Maui.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.view
+  name: View
+  nameWithType: View
+  fullName: Microsoft.Maui.Controls.View
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: Microsoft.Maui.Controls
+  commentId: N:Microsoft.Maui.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Maui.Controls
+  nameWithType: Microsoft.Maui.Controls
+  fullName: Microsoft.Maui.Controls
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Maui
+    name: Maui
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui
+  - name: .
+  - uid: Microsoft.Maui.Controls
+    name: Controls
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Maui
+    name: Maui
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui
+  - name: .
+  - uid: Microsoft.Maui.Controls
+    name: Controls
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: TemplateMAUI.Controls.ISnackBarAnimation.OnClose*
+  commentId: Overload:TemplateMAUI.Controls.ISnackBarAnimation.OnClose
+  href: TemplateMAUI.Controls.ISnackBarAnimation.html#TemplateMAUI_Controls_ISnackBarAnimation_OnClose_Microsoft_Maui_Controls_View_
+  name: OnClose
+  nameWithType: ISnackBarAnimation.OnClose
+  fullName: TemplateMAUI.Controls.ISnackBarAnimation.OnClose

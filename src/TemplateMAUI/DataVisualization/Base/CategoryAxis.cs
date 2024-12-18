@@ -2,6 +2,10 @@
 
 namespace TemplateMAUI.DataVisualization
 {
+    /// <summary>
+    /// The CategoryAxis is a custom templated view designed to represent a categorical axis within a chart. 
+    /// It provides the visual representation and functionality for displaying and managing categories along the axis, such as labels or ticks.
+    /// </summary>
     public class CategoryAxis : TemplatedView
     {
         const string ElementValues = "PART_ValuesPanel";

@@ -1,0 +1,618 @@
+### YamlMime:ManagedReference
+items:
+- uid: TemplateMAUI.Controls.BadgeAnimation
+  commentId: T:TemplateMAUI.Controls.BadgeAnimation
+  id: BadgeAnimation
+  parent: TemplateMAUI.Controls
+  children:
+  - TemplateMAUI.Controls.BadgeAnimation.AnimationLength
+  - TemplateMAUI.Controls.BadgeAnimation.Offset
+  - TemplateMAUI.Controls.BadgeAnimation.OnAppearing(Microsoft.Maui.Controls.View)
+  - TemplateMAUI.Controls.BadgeAnimation.OnDisappering(Microsoft.Maui.Controls.View)
+  langs:
+  - csharp
+  - vb
+  name: BadgeAnimation
+  nameWithType: BadgeAnimation
+  fullName: TemplateMAUI.Controls.BadgeAnimation
+  type: Class
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/BadgeView/BadgeAnimation.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: BadgeAnimation
+    path: ../src/TemplateMAUI/Controls/BadgeView/BadgeAnimation.cs
+    startLine: 2
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: 'public class BadgeAnimation : IBadgeAnimation'
+    content.vb: Public Class BadgeAnimation Implements IBadgeAnimation
+  inheritance:
+  - System.Object
+  implements:
+  - TemplateMAUI.Controls.IBadgeAnimation
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: TemplateMAUI.Controls.BadgeAnimation.AnimationLength
+  commentId: P:TemplateMAUI.Controls.BadgeAnimation.AnimationLength
+  id: AnimationLength
+  parent: TemplateMAUI.Controls.BadgeAnimation
+  langs:
+  - csharp
+  - vb
+  name: AnimationLength
+  nameWithType: BadgeAnimation.AnimationLength
+  fullName: TemplateMAUI.Controls.BadgeAnimation.AnimationLength
+  type: Property
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/BadgeView/BadgeAnimation.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: AnimationLength
+    path: ../src/TemplateMAUI/Controls/BadgeView/BadgeAnimation.cs
+    startLine: 4
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: protected uint AnimationLength { get; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Protected ReadOnly Property AnimationLength As UInteger
+  overload: TemplateMAUI.Controls.BadgeAnimation.AnimationLength*
+- uid: TemplateMAUI.Controls.BadgeAnimation.Offset
+  commentId: P:TemplateMAUI.Controls.BadgeAnimation.Offset
+  id: Offset
+  parent: TemplateMAUI.Controls.BadgeAnimation
+  langs:
+  - csharp
+  - vb
+  name: Offset
+  nameWithType: BadgeAnimation.Offset
+  fullName: TemplateMAUI.Controls.BadgeAnimation.Offset
+  type: Property
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/BadgeView/BadgeAnimation.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: Offset
+    path: ../src/TemplateMAUI/Controls/BadgeView/BadgeAnimation.cs
+    startLine: 5
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: protected uint Offset { get; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Protected ReadOnly Property Offset As UInteger
+  overload: TemplateMAUI.Controls.BadgeAnimation.Offset*
+- uid: TemplateMAUI.Controls.BadgeAnimation.OnAppearing(Microsoft.Maui.Controls.View)
+  commentId: M:TemplateMAUI.Controls.BadgeAnimation.OnAppearing(Microsoft.Maui.Controls.View)
+  id: OnAppearing(Microsoft.Maui.Controls.View)
+  parent: TemplateMAUI.Controls.BadgeAnimation
+  langs:
+  - csharp
+  - vb
+  name: OnAppearing(View)
+  nameWithType: BadgeAnimation.OnAppearing(View)
+  fullName: TemplateMAUI.Controls.BadgeAnimation.OnAppearing(Microsoft.Maui.Controls.View)
+  type: Method
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/BadgeView/BadgeAnimation.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: OnAppearing
+    path: ../src/TemplateMAUI/Controls/BadgeView/BadgeAnimation.cs
+    startLine: 9
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  example: []
+  syntax:
+    content: public Task OnAppearing(View badgeView)
+    parameters:
+    - id: badgeView
+      type: Microsoft.Maui.Controls.View
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function OnAppearing(badgeView As View) As Task
+  overload: TemplateMAUI.Controls.BadgeAnimation.OnAppearing*
+  implements:
+  - TemplateMAUI.Controls.IBadgeAnimation.OnAppearing(Microsoft.Maui.Controls.View)
+- uid: TemplateMAUI.Controls.BadgeAnimation.OnDisappering(Microsoft.Maui.Controls.View)
+  commentId: M:TemplateMAUI.Controls.BadgeAnimation.OnDisappering(Microsoft.Maui.Controls.View)
+  id: OnDisappering(Microsoft.Maui.Controls.View)
+  parent: TemplateMAUI.Controls.BadgeAnimation
+  langs:
+  - csharp
+  - vb
+  name: OnDisappering(View)
+  nameWithType: BadgeAnimation.OnDisappering(View)
+  fullName: TemplateMAUI.Controls.BadgeAnimation.OnDisappering(Microsoft.Maui.Controls.View)
+  type: Method
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/BadgeView/BadgeAnimation.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: OnDisappering
+    path: ../src/TemplateMAUI/Controls/BadgeView/BadgeAnimation.cs
+    startLine: 32
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  example: []
+  syntax:
+    content: public Task OnDisappering(View badgeView)
+    parameters:
+    - id: badgeView
+      type: Microsoft.Maui.Controls.View
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function OnDisappering(badgeView As View) As Task
+  overload: TemplateMAUI.Controls.BadgeAnimation.OnDisappering*
+  implements:
+  - TemplateMAUI.Controls.IBadgeAnimation.OnDisappering(Microsoft.Maui.Controls.View)
+references:
+- uid: TemplateMAUI.Controls
+  commentId: N:TemplateMAUI.Controls
+  href: TemplateMAUI.html
+  name: TemplateMAUI.Controls
+  nameWithType: TemplateMAUI.Controls
+  fullName: TemplateMAUI.Controls
+  spec.csharp:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Controls
+    name: Controls
+    href: TemplateMAUI.Controls.html
+  spec.vb:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Controls
+    name: Controls
+    href: TemplateMAUI.Controls.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: TemplateMAUI.Controls.IBadgeAnimation
+  commentId: T:TemplateMAUI.Controls.IBadgeAnimation
+  parent: TemplateMAUI.Controls
+  href: TemplateMAUI.Controls.IBadgeAnimation.html
+  name: IBadgeAnimation
+  nameWithType: IBadgeAnimation
+  fullName: TemplateMAUI.Controls.IBadgeAnimation
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TemplateMAUI.Controls.BadgeAnimation.AnimationLength*
+  commentId: Overload:TemplateMAUI.Controls.BadgeAnimation.AnimationLength
+  href: TemplateMAUI.Controls.BadgeAnimation.html#TemplateMAUI_Controls_BadgeAnimation_AnimationLength
+  name: AnimationLength
+  nameWithType: BadgeAnimation.AnimationLength
+  fullName: TemplateMAUI.Controls.BadgeAnimation.AnimationLength
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: TemplateMAUI.Controls.BadgeAnimation.Offset*
+  commentId: Overload:TemplateMAUI.Controls.BadgeAnimation.Offset
+  href: TemplateMAUI.Controls.BadgeAnimation.html#TemplateMAUI_Controls_BadgeAnimation_Offset
+  name: Offset
+  nameWithType: BadgeAnimation.Offset
+  fullName: TemplateMAUI.Controls.BadgeAnimation.Offset
+- uid: TemplateMAUI.Controls.BadgeAnimation.OnAppearing*
+  commentId: Overload:TemplateMAUI.Controls.BadgeAnimation.OnAppearing
+  href: TemplateMAUI.Controls.BadgeAnimation.html#TemplateMAUI_Controls_BadgeAnimation_OnAppearing_Microsoft_Maui_Controls_View_
+  name: OnAppearing
+  nameWithType: BadgeAnimation.OnAppearing
+  fullName: TemplateMAUI.Controls.BadgeAnimation.OnAppearing
+- uid: TemplateMAUI.Controls.IBadgeAnimation.OnAppearing(Microsoft.Maui.Controls.View)
+  commentId: M:TemplateMAUI.Controls.IBadgeAnimation.OnAppearing(Microsoft.Maui.Controls.View)
+  parent: TemplateMAUI.Controls.IBadgeAnimation
+  isExternal: true
+  href: TemplateMAUI.Controls.IBadgeAnimation.html#TemplateMAUI_Controls_IBadgeAnimation_OnAppearing_Microsoft_Maui_Controls_View_
+  name: OnAppearing(View)
+  nameWithType: IBadgeAnimation.OnAppearing(View)
+  fullName: TemplateMAUI.Controls.IBadgeAnimation.OnAppearing(Microsoft.Maui.Controls.View)
+  spec.csharp:
+  - uid: TemplateMAUI.Controls.IBadgeAnimation.OnAppearing(Microsoft.Maui.Controls.View)
+    name: OnAppearing
+    href: TemplateMAUI.Controls.IBadgeAnimation.html#TemplateMAUI_Controls_IBadgeAnimation_OnAppearing_Microsoft_Maui_Controls_View_
+  - name: (
+  - uid: Microsoft.Maui.Controls.View
+    name: View
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.view
+  - name: )
+  spec.vb:
+  - uid: TemplateMAUI.Controls.IBadgeAnimation.OnAppearing(Microsoft.Maui.Controls.View)
+    name: OnAppearing
+    href: TemplateMAUI.Controls.IBadgeAnimation.html#TemplateMAUI_Controls_IBadgeAnimation_OnAppearing_Microsoft_Maui_Controls_View_
+  - name: (
+  - uid: Microsoft.Maui.Controls.View
+    name: View
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.view
+  - name: )
+- uid: Microsoft.Maui.Controls.View
+  commentId: T:Microsoft.Maui.Controls.View
+  parent: Microsoft.Maui.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.view
+  name: View
+  nameWithType: View
+  fullName: Microsoft.Maui.Controls.View
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: Microsoft.Maui.Controls
+  commentId: N:Microsoft.Maui.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Maui.Controls
+  nameWithType: Microsoft.Maui.Controls
+  fullName: Microsoft.Maui.Controls
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Maui
+    name: Maui
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui
+  - name: .
+  - uid: Microsoft.Maui.Controls
+    name: Controls
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Maui
+    name: Maui
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui
+  - name: .
+  - uid: Microsoft.Maui.Controls
+    name: Controls
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: TemplateMAUI.Controls.BadgeAnimation.OnDisappering*
+  commentId: Overload:TemplateMAUI.Controls.BadgeAnimation.OnDisappering
+  href: TemplateMAUI.Controls.BadgeAnimation.html#TemplateMAUI_Controls_BadgeAnimation_OnDisappering_Microsoft_Maui_Controls_View_
+  name: OnDisappering
+  nameWithType: BadgeAnimation.OnDisappering
+  fullName: TemplateMAUI.Controls.BadgeAnimation.OnDisappering
+- uid: TemplateMAUI.Controls.IBadgeAnimation.OnDisappering(Microsoft.Maui.Controls.View)
+  commentId: M:TemplateMAUI.Controls.IBadgeAnimation.OnDisappering(Microsoft.Maui.Controls.View)
+  parent: TemplateMAUI.Controls.IBadgeAnimation
+  isExternal: true
+  href: TemplateMAUI.Controls.IBadgeAnimation.html#TemplateMAUI_Controls_IBadgeAnimation_OnDisappering_Microsoft_Maui_Controls_View_
+  name: OnDisappering(View)
+  nameWithType: IBadgeAnimation.OnDisappering(View)
+  fullName: TemplateMAUI.Controls.IBadgeAnimation.OnDisappering(Microsoft.Maui.Controls.View)
+  spec.csharp:
+  - uid: TemplateMAUI.Controls.IBadgeAnimation.OnDisappering(Microsoft.Maui.Controls.View)
+    name: OnDisappering
+    href: TemplateMAUI.Controls.IBadgeAnimation.html#TemplateMAUI_Controls_IBadgeAnimation_OnDisappering_Microsoft_Maui_Controls_View_
+  - name: (
+  - uid: Microsoft.Maui.Controls.View
+    name: View
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.view
+  - name: )
+  spec.vb:
+  - uid: TemplateMAUI.Controls.IBadgeAnimation.OnDisappering(Microsoft.Maui.Controls.View)
+    name: OnDisappering
+    href: TemplateMAUI.Controls.IBadgeAnimation.html#TemplateMAUI_Controls_IBadgeAnimation_OnDisappering_Microsoft_Maui_Controls_View_
+  - name: (
+  - uid: Microsoft.Maui.Controls.View
+    name: View
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.view
+  - name: )

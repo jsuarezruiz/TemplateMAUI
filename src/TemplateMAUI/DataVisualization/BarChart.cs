@@ -3,6 +3,10 @@ using Path = Microsoft.Maui.Controls.Shapes.Path;
 
 namespace TemplateMAUI.DataVisualization
 {
+    /// <summary>
+    /// The BarChart is a custom charting control that inherits from SerialChart. 
+    /// It is designed to display data using rectangular bars, making it ideal for comparing different categories or showing changes over time.
+    /// </summary>
     // TODO: Move code to SerialChart class
     public class BarChart : SerialChart
     {

@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: TemplateMAUI.Gallery.ViewModels
+  commentId: N:TemplateMAUI.Gallery.ViewModels
+  id: TemplateMAUI.Gallery.ViewModels
+  children:
+  - TemplateMAUI.Gallery.ViewModels.BadgeViewModel
+  - TemplateMAUI.Gallery.ViewModels.CarouselViewModel
+  - TemplateMAUI.Gallery.ViewModels.MainViewModel
+  langs:
+  - csharp
+  - vb
+  name: TemplateMAUI.Gallery.ViewModels
+  nameWithType: TemplateMAUI.Gallery.ViewModels
+  fullName: TemplateMAUI.Gallery.ViewModels
+  type: Namespace
+  assemblies:
+  - TemplateMAUI.Gallery
+references:
+- uid: TemplateMAUI.Gallery.ViewModels.BadgeViewModel
+  commentId: T:TemplateMAUI.Gallery.ViewModels.BadgeViewModel
+  href: TemplateMAUI.Gallery.ViewModels.BadgeViewModel.html
+  name: BadgeViewModel
+  nameWithType: BadgeViewModel
+  fullName: TemplateMAUI.Gallery.ViewModels.BadgeViewModel
+- uid: TemplateMAUI.Gallery.ViewModels.CarouselViewModel
+  commentId: T:TemplateMAUI.Gallery.ViewModels.CarouselViewModel
+  href: TemplateMAUI.Gallery.ViewModels.CarouselViewModel.html
+  name: CarouselViewModel
+  nameWithType: CarouselViewModel
+  fullName: TemplateMAUI.Gallery.ViewModels.CarouselViewModel
+- uid: TemplateMAUI.Gallery.ViewModels.MainViewModel
+  commentId: T:TemplateMAUI.Gallery.ViewModels.MainViewModel
+  href: TemplateMAUI.Gallery.ViewModels.MainViewModel.html
+  name: MainViewModel
+  nameWithType: MainViewModel
+  fullName: TemplateMAUI.Gallery.ViewModels.MainViewModel

@@ -1,0 +1,174 @@
+### YamlMime:ManagedReference
+items:
+- uid: TemplateMAUI.Gallery.Models.GalleryItemStatus
+  commentId: T:TemplateMAUI.Gallery.Models.GalleryItemStatus
+  id: GalleryItemStatus
+  parent: TemplateMAUI.Gallery.Models
+  children:
+  - TemplateMAUI.Gallery.Models.GalleryItemStatus.InProgress
+  - TemplateMAUI.Gallery.Models.GalleryItemStatus.New
+  - TemplateMAUI.Gallery.Models.GalleryItemStatus.Preview
+  - TemplateMAUI.Gallery.Models.GalleryItemStatus.Ready
+  langs:
+  - csharp
+  - vb
+  name: GalleryItemStatus
+  nameWithType: GalleryItemStatus
+  fullName: TemplateMAUI.Gallery.Models.GalleryItemStatus
+  type: Enum
+  source:
+    remote:
+      path: src/TemplateMAUI.Gallery/Models/GalleryItemStatus.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: GalleryItemStatus
+    path: ../src/TemplateMAUI.Gallery/Models/GalleryItemStatus.cs
+    startLine: 2
+  assemblies:
+  - TemplateMAUI.Gallery
+  namespace: TemplateMAUI.Gallery.Models
+  syntax:
+    content: public enum GalleryItemStatus
+    content.vb: Public Enum GalleryItemStatus
+- uid: TemplateMAUI.Gallery.Models.GalleryItemStatus.Ready
+  commentId: F:TemplateMAUI.Gallery.Models.GalleryItemStatus.Ready
+  id: Ready
+  parent: TemplateMAUI.Gallery.Models.GalleryItemStatus
+  langs:
+  - csharp
+  - vb
+  name: Ready
+  nameWithType: GalleryItemStatus.Ready
+  fullName: TemplateMAUI.Gallery.Models.GalleryItemStatus.Ready
+  type: Field
+  source:
+    remote:
+      path: src/TemplateMAUI.Gallery/Models/GalleryItemStatus.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: Ready
+    path: ../src/TemplateMAUI.Gallery/Models/GalleryItemStatus.cs
+    startLine: 4
+  assemblies:
+  - TemplateMAUI.Gallery
+  namespace: TemplateMAUI.Gallery.Models
+  syntax:
+    content: Ready = 0
+    return:
+      type: TemplateMAUI.Gallery.Models.GalleryItemStatus
+- uid: TemplateMAUI.Gallery.Models.GalleryItemStatus.Preview
+  commentId: F:TemplateMAUI.Gallery.Models.GalleryItemStatus.Preview
+  id: Preview
+  parent: TemplateMAUI.Gallery.Models.GalleryItemStatus
+  langs:
+  - csharp
+  - vb
+  name: Preview
+  nameWithType: GalleryItemStatus.Preview
+  fullName: TemplateMAUI.Gallery.Models.GalleryItemStatus.Preview
+  type: Field
+  source:
+    remote:
+      path: src/TemplateMAUI.Gallery/Models/GalleryItemStatus.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: Preview
+    path: ../src/TemplateMAUI.Gallery/Models/GalleryItemStatus.cs
+    startLine: 5
+  assemblies:
+  - TemplateMAUI.Gallery
+  namespace: TemplateMAUI.Gallery.Models
+  syntax:
+    content: Preview = 1
+    return:
+      type: TemplateMAUI.Gallery.Models.GalleryItemStatus
+- uid: TemplateMAUI.Gallery.Models.GalleryItemStatus.InProgress
+  commentId: F:TemplateMAUI.Gallery.Models.GalleryItemStatus.InProgress
+  id: InProgress
+  parent: TemplateMAUI.Gallery.Models.GalleryItemStatus
+  langs:
+  - csharp
+  - vb
+  name: InProgress
+  nameWithType: GalleryItemStatus.InProgress
+  fullName: TemplateMAUI.Gallery.Models.GalleryItemStatus.InProgress
+  type: Field
+  source:
+    remote:
+      path: src/TemplateMAUI.Gallery/Models/GalleryItemStatus.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: InProgress
+    path: ../src/TemplateMAUI.Gallery/Models/GalleryItemStatus.cs
+    startLine: 6
+  assemblies:
+  - TemplateMAUI.Gallery
+  namespace: TemplateMAUI.Gallery.Models
+  syntax:
+    content: InProgress = 2
+    return:
+      type: TemplateMAUI.Gallery.Models.GalleryItemStatus
+- uid: TemplateMAUI.Gallery.Models.GalleryItemStatus.New
+  commentId: F:TemplateMAUI.Gallery.Models.GalleryItemStatus.New
+  id: New
+  parent: TemplateMAUI.Gallery.Models.GalleryItemStatus
+  langs:
+  - csharp
+  - vb
+  name: New
+  nameWithType: GalleryItemStatus.New
+  fullName: TemplateMAUI.Gallery.Models.GalleryItemStatus.New
+  type: Field
+  source:
+    remote:
+      path: src/TemplateMAUI.Gallery/Models/GalleryItemStatus.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: New
+    path: ../src/TemplateMAUI.Gallery/Models/GalleryItemStatus.cs
+    startLine: 7
+  assemblies:
+  - TemplateMAUI.Gallery
+  namespace: TemplateMAUI.Gallery.Models
+  syntax:
+    content: New = 3
+    return:
+      type: TemplateMAUI.Gallery.Models.GalleryItemStatus
+references:
+- uid: TemplateMAUI.Gallery.Models
+  commentId: N:TemplateMAUI.Gallery.Models
+  href: TemplateMAUI.html
+  name: TemplateMAUI.Gallery.Models
+  nameWithType: TemplateMAUI.Gallery.Models
+  fullName: TemplateMAUI.Gallery.Models
+  spec.csharp:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Gallery
+    name: Gallery
+    href: TemplateMAUI.Gallery.html
+  - name: .
+  - uid: TemplateMAUI.Gallery.Models
+    name: Models
+    href: TemplateMAUI.Gallery.Models.html
+  spec.vb:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Gallery
+    name: Gallery
+    href: TemplateMAUI.Gallery.html
+  - name: .
+  - uid: TemplateMAUI.Gallery.Models
+    name: Models
+    href: TemplateMAUI.Gallery.Models.html
+- uid: TemplateMAUI.Gallery.Models.GalleryItemStatus
+  commentId: T:TemplateMAUI.Gallery.Models.GalleryItemStatus
+  parent: TemplateMAUI.Gallery.Models
+  href: TemplateMAUI.Gallery.Models.GalleryItemStatus.html
+  name: GalleryItemStatus
+  nameWithType: GalleryItemStatus
+  fullName: TemplateMAUI.Gallery.Models.GalleryItemStatus

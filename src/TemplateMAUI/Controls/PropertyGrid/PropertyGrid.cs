@@ -4,6 +4,10 @@ using TemplateMAUI.Extensions;
 
 namespace TemplateMAUI.Controls
 {
+    /// <summary>
+    /// The PropertyGrid control allows you inspect and edit properties of an object. 
+    /// Allows you to autogenerate all properties or specify the specific properties you want to display. 
+    /// </summary>
     public class PropertyGrid : TemplatedView
     {
         const int SearchDelay = 500;

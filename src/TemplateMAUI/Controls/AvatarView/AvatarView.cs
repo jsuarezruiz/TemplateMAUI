@@ -5,6 +5,11 @@ using System.Text.RegularExpressions;
 
 namespace TemplateMAUI.Controls
 {
+    /// <summary>
+    /// The AvatarView is a custom templated control used to display avatars with various customizable properties such as image source, 
+    /// size, shape, border color, border width, and background color. 
+    /// It provides a flexible and visually appealing way to represent user avatars in your application.
+    /// </summary>
     // TODO: Add Predefined Symbols (Dot, Busy, etc)
     public class AvatarView : TemplatedView
     {

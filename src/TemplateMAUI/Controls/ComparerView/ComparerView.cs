@@ -2,6 +2,9 @@
 
 namespace TemplateMAUI.Controls
 {
+    /// <summary>
+    /// The ComparerView is a custom templated control designed to facilitate the comparison of two items in a visually structured format. 
+    /// </summary>
     public class ComparerView : TemplatedView
     {
         const double ComparerThumbSize = 40;

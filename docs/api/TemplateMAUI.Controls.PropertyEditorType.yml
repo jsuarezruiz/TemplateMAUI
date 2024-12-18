@@ -1,0 +1,384 @@
+### YamlMime:ManagedReference
+items:
+- uid: TemplateMAUI.Controls.PropertyEditorType
+  commentId: T:TemplateMAUI.Controls.PropertyEditorType
+  id: PropertyEditorType
+  parent: TemplateMAUI.Controls
+  children:
+  - TemplateMAUI.Controls.PropertyEditorType.Bool
+  - TemplateMAUI.Controls.PropertyEditorType.ByteNumber
+  - TemplateMAUI.Controls.PropertyEditorType.Date
+  - TemplateMAUI.Controls.PropertyEditorType.DoubleNumber
+  - TemplateMAUI.Controls.PropertyEditorType.HorizontalAlignment
+  - TemplateMAUI.Controls.PropertyEditorType.Int16Number
+  - TemplateMAUI.Controls.PropertyEditorType.Int32Number
+  - TemplateMAUI.Controls.PropertyEditorType.Int64Number
+  - TemplateMAUI.Controls.PropertyEditorType.SingleNumber
+  - TemplateMAUI.Controls.PropertyEditorType.String
+  - TemplateMAUI.Controls.PropertyEditorType.Time
+  - TemplateMAUI.Controls.PropertyEditorType.VerticalAlignment
+  langs:
+  - csharp
+  - vb
+  name: PropertyEditorType
+  nameWithType: PropertyEditorType
+  fullName: TemplateMAUI.Controls.PropertyEditorType
+  type: Enum
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/PropertyGrid/PropertyEditorType.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: PropertyEditorType
+    path: ../src/TemplateMAUI/Controls/PropertyGrid/PropertyEditorType.cs
+    startLine: 5
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  summary: Represents the different types of property editors that can be used in a PropertyGrid.
+  example: []
+  syntax:
+    content: public enum PropertyEditorType
+    content.vb: Public Enum PropertyEditorType
+- uid: TemplateMAUI.Controls.PropertyEditorType.String
+  commentId: F:TemplateMAUI.Controls.PropertyEditorType.String
+  id: String
+  parent: TemplateMAUI.Controls.PropertyEditorType
+  langs:
+  - csharp
+  - vb
+  name: String
+  nameWithType: PropertyEditorType.String
+  fullName: TemplateMAUI.Controls.PropertyEditorType.String
+  type: Field
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/PropertyGrid/PropertyEditorType.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: String
+    path: ../src/TemplateMAUI/Controls/PropertyGrid/PropertyEditorType.cs
+    startLine: 7
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: String = 0
+    return:
+      type: TemplateMAUI.Controls.PropertyEditorType
+- uid: TemplateMAUI.Controls.PropertyEditorType.ByteNumber
+  commentId: F:TemplateMAUI.Controls.PropertyEditorType.ByteNumber
+  id: ByteNumber
+  parent: TemplateMAUI.Controls.PropertyEditorType
+  langs:
+  - csharp
+  - vb
+  name: ByteNumber
+  nameWithType: PropertyEditorType.ByteNumber
+  fullName: TemplateMAUI.Controls.PropertyEditorType.ByteNumber
+  type: Field
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/PropertyGrid/PropertyEditorType.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: ByteNumber
+    path: ../src/TemplateMAUI/Controls/PropertyGrid/PropertyEditorType.cs
+    startLine: 8
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: ByteNumber = 1
+    return:
+      type: TemplateMAUI.Controls.PropertyEditorType
+- uid: TemplateMAUI.Controls.PropertyEditorType.Int16Number
+  commentId: F:TemplateMAUI.Controls.PropertyEditorType.Int16Number
+  id: Int16Number
+  parent: TemplateMAUI.Controls.PropertyEditorType
+  langs:
+  - csharp
+  - vb
+  name: Int16Number
+  nameWithType: PropertyEditorType.Int16Number
+  fullName: TemplateMAUI.Controls.PropertyEditorType.Int16Number
+  type: Field
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/PropertyGrid/PropertyEditorType.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: Int16Number
+    path: ../src/TemplateMAUI/Controls/PropertyGrid/PropertyEditorType.cs
+    startLine: 9
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: Int16Number = 2
+    return:
+      type: TemplateMAUI.Controls.PropertyEditorType
+- uid: TemplateMAUI.Controls.PropertyEditorType.Int32Number
+  commentId: F:TemplateMAUI.Controls.PropertyEditorType.Int32Number
+  id: Int32Number
+  parent: TemplateMAUI.Controls.PropertyEditorType
+  langs:
+  - csharp
+  - vb
+  name: Int32Number
+  nameWithType: PropertyEditorType.Int32Number
+  fullName: TemplateMAUI.Controls.PropertyEditorType.Int32Number
+  type: Field
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/PropertyGrid/PropertyEditorType.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: Int32Number
+    path: ../src/TemplateMAUI/Controls/PropertyGrid/PropertyEditorType.cs
+    startLine: 10
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: Int32Number = 3
+    return:
+      type: TemplateMAUI.Controls.PropertyEditorType
+- uid: TemplateMAUI.Controls.PropertyEditorType.Int64Number
+  commentId: F:TemplateMAUI.Controls.PropertyEditorType.Int64Number
+  id: Int64Number
+  parent: TemplateMAUI.Controls.PropertyEditorType
+  langs:
+  - csharp
+  - vb
+  name: Int64Number
+  nameWithType: PropertyEditorType.Int64Number
+  fullName: TemplateMAUI.Controls.PropertyEditorType.Int64Number
+  type: Field
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/PropertyGrid/PropertyEditorType.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: Int64Number
+    path: ../src/TemplateMAUI/Controls/PropertyGrid/PropertyEditorType.cs
+    startLine: 11
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: Int64Number = 4
+    return:
+      type: TemplateMAUI.Controls.PropertyEditorType
+- uid: TemplateMAUI.Controls.PropertyEditorType.SingleNumber
+  commentId: F:TemplateMAUI.Controls.PropertyEditorType.SingleNumber
+  id: SingleNumber
+  parent: TemplateMAUI.Controls.PropertyEditorType
+  langs:
+  - csharp
+  - vb
+  name: SingleNumber
+  nameWithType: PropertyEditorType.SingleNumber
+  fullName: TemplateMAUI.Controls.PropertyEditorType.SingleNumber
+  type: Field
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/PropertyGrid/PropertyEditorType.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: SingleNumber
+    path: ../src/TemplateMAUI/Controls/PropertyGrid/PropertyEditorType.cs
+    startLine: 12
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: SingleNumber = 5
+    return:
+      type: TemplateMAUI.Controls.PropertyEditorType
+- uid: TemplateMAUI.Controls.PropertyEditorType.DoubleNumber
+  commentId: F:TemplateMAUI.Controls.PropertyEditorType.DoubleNumber
+  id: DoubleNumber
+  parent: TemplateMAUI.Controls.PropertyEditorType
+  langs:
+  - csharp
+  - vb
+  name: DoubleNumber
+  nameWithType: PropertyEditorType.DoubleNumber
+  fullName: TemplateMAUI.Controls.PropertyEditorType.DoubleNumber
+  type: Field
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/PropertyGrid/PropertyEditorType.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: DoubleNumber
+    path: ../src/TemplateMAUI/Controls/PropertyGrid/PropertyEditorType.cs
+    startLine: 13
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: DoubleNumber = 6
+    return:
+      type: TemplateMAUI.Controls.PropertyEditorType
+- uid: TemplateMAUI.Controls.PropertyEditorType.Bool
+  commentId: F:TemplateMAUI.Controls.PropertyEditorType.Bool
+  id: Bool
+  parent: TemplateMAUI.Controls.PropertyEditorType
+  langs:
+  - csharp
+  - vb
+  name: Bool
+  nameWithType: PropertyEditorType.Bool
+  fullName: TemplateMAUI.Controls.PropertyEditorType.Bool
+  type: Field
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/PropertyGrid/PropertyEditorType.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: Bool
+    path: ../src/TemplateMAUI/Controls/PropertyGrid/PropertyEditorType.cs
+    startLine: 14
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: Bool = 7
+    return:
+      type: TemplateMAUI.Controls.PropertyEditorType
+- uid: TemplateMAUI.Controls.PropertyEditorType.Date
+  commentId: F:TemplateMAUI.Controls.PropertyEditorType.Date
+  id: Date
+  parent: TemplateMAUI.Controls.PropertyEditorType
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: PropertyEditorType.Date
+  fullName: TemplateMAUI.Controls.PropertyEditorType.Date
+  type: Field
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/PropertyGrid/PropertyEditorType.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: Date
+    path: ../src/TemplateMAUI/Controls/PropertyGrid/PropertyEditorType.cs
+    startLine: 15
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: Date = 8
+    return:
+      type: TemplateMAUI.Controls.PropertyEditorType
+- uid: TemplateMAUI.Controls.PropertyEditorType.Time
+  commentId: F:TemplateMAUI.Controls.PropertyEditorType.Time
+  id: Time
+  parent: TemplateMAUI.Controls.PropertyEditorType
+  langs:
+  - csharp
+  - vb
+  name: Time
+  nameWithType: PropertyEditorType.Time
+  fullName: TemplateMAUI.Controls.PropertyEditorType.Time
+  type: Field
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/PropertyGrid/PropertyEditorType.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: Time
+    path: ../src/TemplateMAUI/Controls/PropertyGrid/PropertyEditorType.cs
+    startLine: 16
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: Time = 9
+    return:
+      type: TemplateMAUI.Controls.PropertyEditorType
+- uid: TemplateMAUI.Controls.PropertyEditorType.HorizontalAlignment
+  commentId: F:TemplateMAUI.Controls.PropertyEditorType.HorizontalAlignment
+  id: HorizontalAlignment
+  parent: TemplateMAUI.Controls.PropertyEditorType
+  langs:
+  - csharp
+  - vb
+  name: HorizontalAlignment
+  nameWithType: PropertyEditorType.HorizontalAlignment
+  fullName: TemplateMAUI.Controls.PropertyEditorType.HorizontalAlignment
+  type: Field
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/PropertyGrid/PropertyEditorType.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: HorizontalAlignment
+    path: ../src/TemplateMAUI/Controls/PropertyGrid/PropertyEditorType.cs
+    startLine: 17
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: HorizontalAlignment = 10
+    return:
+      type: TemplateMAUI.Controls.PropertyEditorType
+- uid: TemplateMAUI.Controls.PropertyEditorType.VerticalAlignment
+  commentId: F:TemplateMAUI.Controls.PropertyEditorType.VerticalAlignment
+  id: VerticalAlignment
+  parent: TemplateMAUI.Controls.PropertyEditorType
+  langs:
+  - csharp
+  - vb
+  name: VerticalAlignment
+  nameWithType: PropertyEditorType.VerticalAlignment
+  fullName: TemplateMAUI.Controls.PropertyEditorType.VerticalAlignment
+  type: Field
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/PropertyGrid/PropertyEditorType.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: VerticalAlignment
+    path: ../src/TemplateMAUI/Controls/PropertyGrid/PropertyEditorType.cs
+    startLine: 18
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: VerticalAlignment = 11
+    return:
+      type: TemplateMAUI.Controls.PropertyEditorType
+references:
+- uid: TemplateMAUI.Controls
+  commentId: N:TemplateMAUI.Controls
+  href: TemplateMAUI.html
+  name: TemplateMAUI.Controls
+  nameWithType: TemplateMAUI.Controls
+  fullName: TemplateMAUI.Controls
+  spec.csharp:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Controls
+    name: Controls
+    href: TemplateMAUI.Controls.html
+  spec.vb:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Controls
+    name: Controls
+    href: TemplateMAUI.Controls.html
+- uid: TemplateMAUI.Controls.PropertyEditorType
+  commentId: T:TemplateMAUI.Controls.PropertyEditorType
+  parent: TemplateMAUI.Controls
+  href: TemplateMAUI.Controls.PropertyEditorType.html
+  name: PropertyEditorType
+  nameWithType: PropertyEditorType
+  fullName: TemplateMAUI.Controls.PropertyEditorType

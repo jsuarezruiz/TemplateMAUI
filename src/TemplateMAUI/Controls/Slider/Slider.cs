@@ -8,6 +8,8 @@ namespace TemplateMAUI.Controls
     /// </summary>
     public class Slider : TemplatedView
     {
+        const int DefaultThumbSize = 20;
+
         const string ElementTrackBackground = "PART_TrackBackground";
         const string ElementProgress = "PART_Progress";
         const string ElementThumb = "PART_Thumb";
@@ -20,7 +22,18 @@ namespace TemplateMAUI.Controls
 
         public event EventHandler<ValueChangedEventArgs> ValueChanged;
 
-        double ThumbHalfWidth => (_thumb?.Width ?? 0) / 2;
+        double ThumbHalfWidth
+        {
+            get
+            {
+                double thumbWidth = DefaultThumbSize;
+
+                if (_thumb is not null && _thumb.Width > 0)
+                    thumbWidth = _thumb.Width;
+
+                return thumbWidth / 2;
+            }
+        }
 
         public static readonly BindableProperty ValueProperty =
             BindableProperty.Create(nameof(Value), typeof(double), typeof(Slider), 0.0d, propertyChanged: OnValueChanged);
@@ -154,7 +167,8 @@ namespace TemplateMAUI.Controls
 
             var half = ThumbHalfWidth;
 
-            var thumbCenterPosition = ConvertRangeValue(val, min, max, half, _trackBackground.Width -half);
+            var thumbCenterPosition = ConvertRangeValue(val, min, max, half, _trackBackground.Width - half);
+
             SetThumbPosition(thumbCenterPosition - half, thumbCenterPosition, val);
         }
 

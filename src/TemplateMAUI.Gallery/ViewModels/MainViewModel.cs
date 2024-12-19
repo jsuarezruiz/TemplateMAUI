@@ -59,6 +59,7 @@ namespace TemplateMAUI.Gallery.ViewModels
                 new GalleryItem { Title = "ComparerView", SubTitle = "Provides an option for displaying a split-screen of two views, which can help you to make comparisons.", Icon = "comparerview.png", Color = Colors.DarkViolet, Status = GalleryItemStatus.InProgress },
                 new GalleryItem { Title = "DataVisualization", SubTitle = "Several series graphs.", Icon = "chart.png", Color = Colors.LightCoral, Status = GalleryItemStatus.Preview  },
                 new GalleryItem { Title = "Divider", SubTitle = "Displays a separator between views.", Icon = "divider.png", Color = Colors.Orchid  },
+                new GalleryItem { Title = "ExpanderView", SubTitle = "Provide content in an expandable area and includes a header.", Icon = "expanderview.png", Color = Colors.HotPink  },
                 new GalleryItem { Title = "GridSplitter", SubTitle = "Represents the control that redistributes space between columns or rows of a Grid control.", Icon = "gridsplitter.png", Color = Colors.DarkOrchid },
                 new GalleryItem { Title = "Marquee", SubTitle = "Use this control to add an attention–getting text message that scrolls continuously across the screen.", Icon = "marquee.png", Color = Colors.DarkRed },
                 new GalleryItem { Title = "PinBox", SubTitle = "Allow to introduce a PIN or verification Code.", Icon = "pinbox.png", Color = Colors.PaleVioletRed },

@@ -20,6 +20,7 @@
             <themes:CircleProgressBar />
             <themes:ComparerView />
             <themes:Divider />
+            <themes:ExpanderView />
             <themes:GridLines />
             <themes:GridSplitter />
             <themes:LineChart />

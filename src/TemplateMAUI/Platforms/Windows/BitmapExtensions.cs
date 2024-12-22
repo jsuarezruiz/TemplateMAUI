@@ -49,16 +49,34 @@ namespace TemplateMAUI.Platforms
         {
             var bitmap = await view.ToImage(mauiContext);
 
-            return bitmap.ColorAtPoint(x, y).ToColor();
+            var color = await bitmap.ColorAtPoint(x, y);
+
+            return color;
         }
 
-        internal static WColor ColorAtPoint(this CanvasBitmap bitmap, double x, double y, bool includeAlpha = false)
+        internal static async Task<Color> ColorAtPoint(this CanvasBitmap bitmap, double x, double y, bool includeAlpha = false)
         {
             var pixel = bitmap.GetPixelColors((int)x, (int)y, 1, 1)[0];
 
-            return includeAlpha
+            var wColor = includeAlpha
                 ? pixel
                 : WColor.FromArgb(255, pixel.R, pixel.G, pixel.B);
+
+            var result = await Task.FromResult(wColor.ToColor());
+
+            return result;
+        }
+
+        internal static async Task<Color> ColorAtPoint(this object obj, double x, double y, bool includeAlpha = false)
+        {
+            if (obj is CanvasBitmap bitmap)
+            {
+                var color = await bitmap.ColorAtPoint(x, y, includeAlpha);
+
+                return color;
+            }
+
+            return null;
         }
     }
 }

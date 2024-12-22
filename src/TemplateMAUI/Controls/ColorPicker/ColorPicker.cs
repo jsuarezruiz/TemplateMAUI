@@ -4,7 +4,7 @@ using TemplateMAUI.Platforms;
 
 namespace TemplateMAUI.Controls
 {
-    public class ColorPicker : TemplatedView
+    public class ColorPicker : TemplatedView, IDisposable
     {
         const string ElementGradientContainer = "PART_GradientContainer";
         const string ElementGradientBackgroundLayer1 = "PART_GradientBackgroundLayer1";
@@ -30,6 +30,8 @@ namespace TemplateMAUI.Controls
 
         double _previousX;
         double _previousY;
+
+        object _gradientImageCache;
 
         double ThumbHalfWidth => (_thumb?.Width ?? 0) / 2;
 
@@ -80,6 +82,11 @@ namespace TemplateMAUI.Controls
             UpdateIsEnabled();
         }
 
+        public void Dispose()
+        {
+            _gradientImageCache = null;
+        }
+
         protected override void OnPropertyChanged([CallerMemberName] string propertyName = null)
         {
             base.OnPropertyChanged(propertyName);
@@ -104,6 +111,8 @@ namespace TemplateMAUI.Controls
                 new Point(1, 0));
 
             _gradientBackground.Background = gradientBackground;
+
+            _gradientImageCache = null;
         }
 
         async void OnSliderColorValueChanged(object sender, ValueChangedEventArgs e)
@@ -272,7 +281,12 @@ namespace TemplateMAUI.Controls
                 if (width <= 0 || height <= 0)
                     return;
 
-                Color color = await _gradientContainer.ColorAtPoint(x, y);
+                if (_gradientImageCache is null)
+                {
+                    _gradientImageCache = await _gradientContainer.ToImage();
+                }
+
+                Color color = await _gradientImageCache.ColorAtPoint(x, y);
 
                 Color colorWithAlpha = color.WithAlpha((float)_sliderOpacity.Value / 255);
 

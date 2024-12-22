@@ -105,5 +105,17 @@ namespace TemplateMAUI.Platforms
 
             return pixel;
         }
+
+        internal static async Task<Color> ColorAtPoint(this object obj, double x, double y, bool includeAlpha = false)
+        {
+            if (obj is UIImage bitmap)
+            {
+                var color = await bitmap.ColorAtPoint(x, y, includeAlpha);
+
+                return color;
+            }
+
+            return null;
+        }
     }
 }

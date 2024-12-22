@@ -71,5 +71,17 @@ namespace TemplateMAUI.Platforms
 
             return await Task.FromResult(result);
         }
+
+        internal static async Task<Microsoft.Maui.Graphics.Color> ColorAtPoint(this object obj, double x, double y, bool includeAlpha = false)
+        {
+            if (obj is Bitmap bitmap)
+            {
+                var color = await bitmap.ColorAtPoint(x, y, includeAlpha);
+
+                return color;
+            }
+
+            return null;
+        }
     }
 }

@@ -52,7 +52,7 @@ namespace TemplateMAUI.Platforms
             return Task.FromResult(image);
         }
 
-        internal static async Task<Microsoft.Maui.Graphics.Color> ColorAtPoint(this UIView view, double x, double y, IMauiContext mauiContext, bool includeAlpha = false)
+        internal static async Task<Color> ColorAtPoint(this UIView view, double x, double y, IMauiContext mauiContext, bool includeAlpha = false)
         {
             var bitmap = await view.ToImage(mauiContext);
 
@@ -104,6 +104,18 @@ namespace TemplateMAUI.Platforms
             };
 
             return pixel;
+        }
+
+        internal static async Task<Color> ColorAtPoint(this object obj, double x, double y, bool includeAlpha = false)
+        {
+            if (obj is UIImage bitmap)
+            {
+                var color = await bitmap.ColorAtPoint(x, y, includeAlpha);
+
+                return color;
+            }
+
+            return null;
         }
     }
 }

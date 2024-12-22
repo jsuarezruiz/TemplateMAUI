@@ -1,5 +1,9 @@
 ﻿namespace TemplateMAUI.Controls
 {
+    /// <summary>
+    /// The ExpanderAnimation class implements the IExpanderAnimation interface, providing custom animations for expander views. 
+    /// This class defines the behavior for expanding and collapsing animations using scaling effects on the Y-axis.
+    /// </summary>
     public class ExpanderAnimation : IExpanderAnimation
     {
         protected uint AnimationLength { get; } = 150;

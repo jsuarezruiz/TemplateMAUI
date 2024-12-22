@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="TemplateMAUI.Gallery.Views.StepBarGallery"
+    xmlns:controls="clr-namespace:TemplateMAUI.Controls;assembly=TemplateMAUI"
+    xmlns:viewmodels="clr-namespace:TemplateMAUI.Gallery.ViewModels"
+    Title="StepBar Gallery">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            
+            <Color x:Key="SelectedColor">#4c79f2</Color>
+            
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.BindingContext>
+        <viewmodels:StepBarViewModel />
+    </ContentPage.BindingContext>
+    <VerticalStackLayout>
+        <Grid
+            Margin="24"
+            RowDefinitions="*, Auto">
+            <controls:StepBar
+                StepIndex="{Binding StepIndex}"
+                Color="Black"
+                ColorSelected="{StaticResource SelectedColor}"
+                TextColor="DarkGray"
+                TextColorSelected="Black">
+                <controls:StepBar.Items>
+                    <controls:StepBarItems>
+                        <controls:StepBarItem
+                            Text="Step 1" />
+                        <controls:StepBarItem 
+                            Text="Step 2" />
+                        <controls:StepBarItem 
+                            Text="Step 3" />
+                        <controls:StepBarItem 
+                            Text="Step 4" />
+                    </controls:StepBarItems>
+                </controls:StepBar.Items>
+            </controls:StepBar>
+            <HorizontalStackLayout
+                HorizontalOptions="Center"
+                Grid.Row="1">
+                <Button 
+                    Text="Previous"
+                    Command="{Binding PreviousCommand}"/>
+                <Button 
+                    Text="Next"
+                    Command="{Binding NextCommand}"/>
+            </HorizontalStackLayout>
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>

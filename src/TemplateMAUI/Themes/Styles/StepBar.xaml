@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="TemplateMAUI.Themes.StepBar"
+    xmlns:controls="clr-namespace:TemplateMAUI.Controls">
+
+    <Style TargetType="controls:StepBar">
+        <Setter Property="ControlTemplate">
+            <Setter.Value>
+                <ControlTemplate>
+                    <Grid
+                        RowDefinitions="24, *">
+                        <controls:ProgressBar
+                            x:Name="PART_ProgressBar"
+                            HeightRequest="4"
+                            ProgressColor="{TemplateBinding ColorSelected}"
+                            BackgroundColor="{TemplateBinding Color}"
+                            VerticalOptions="Center" />
+                        <Grid
+                            x:Name="PART_Container"
+                            Grid.RowSpan="2"/>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style TargetType="controls:StepBarItem">
+        <Setter Property="ControlTemplate">
+            <Setter.Value>
+                <ControlTemplate>
+                    <StackLayout>
+                        <Border 
+                            StrokeShape="Ellipse"
+                            HorizontalOptions="Center"
+                            BackgroundColor="White"
+                            Stroke="{TemplateBinding CurrentColor}"
+                            StrokeThickness="2" 
+                            HeightRequest="24"
+                            MinimumWidthRequest="24">
+                            <Label 
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"
+                                Text="{TemplateBinding Index}"/>
+                        </Border>
+                        <Label 
+                            HorizontalOptions="Center"
+                            Text="{TemplateBinding Text}"
+                            TextColor="{TemplateBinding CurrentTextColor}" />
+                    </StackLayout>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+</ResourceDictionary>

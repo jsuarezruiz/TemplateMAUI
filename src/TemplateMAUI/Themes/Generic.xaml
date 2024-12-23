@@ -33,6 +33,7 @@
             <themes:Shield />
             <themes:Slider />
             <themes:SnackBar />
+            <themes:StepBar />
             <themes:Tag />
             <themes:ToggleSwitch />
             <themes:TreeView />

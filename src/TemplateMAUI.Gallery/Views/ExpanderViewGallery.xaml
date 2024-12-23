@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TemplateMAUI.Gallery.Views.ExpanderViewGallery"
+             xmlns:controls="clr-namespace:TemplateMAUI.Controls;assembly=TemplateMAUI"
+             Title="ExpanderView Gallery">
+    <Grid
+        ColumnDefinitions="*, *">
+        <Grid
+            RowDefinitions="Auto, *">
+            <Label 
+                Text="ExpandDirection Down" />
+            <VerticalStackLayout
+                Grid.Row="1">
+                <controls:ExpanderView
+                    ExpandDirection="Down">
+                    <controls:ExpanderView.Header>
+                        <Grid
+                            BackgroundColor="OrangeRed">
+                            <Label 
+                                Text="Header" 
+                                TextColor="White"/>
+                        </Grid>
+                    </controls:ExpanderView.Header>
+                    <controls:ExpanderView.Content>
+                        <Grid
+                            BackgroundColor="Orange"
+                            HeightRequest="250"
+                            VerticalOptions="Fill">
+                            <Label 
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"
+                                Text="Content" />
+                        </Grid>
+                    </controls:ExpanderView.Content>
+                </controls:ExpanderView>
+                <Label 
+                    Text="Other Content"/>
+            </VerticalStackLayout>
+        </Grid>
+        <Grid
+            Grid.Column="1"
+            RowDefinitions="Auto, *">
+            <Label 
+                Text="ExpandDirection Up" />
+            <VerticalStackLayout 
+                Grid.Row="1">
+                <Label 
+                    Text="Other Content"/>
+                <controls:ExpanderView
+                    ExpandDirection="Up">
+                    <controls:ExpanderView.Header>
+                        <Grid
+                            BackgroundColor="SkyBlue">
+                            <Label 
+                                Text="Header" 
+                                TextColor="White"/>
+                        </Grid>
+                    </controls:ExpanderView.Header>
+                    <controls:ExpanderView.Content>
+                        <Grid
+                            BackgroundColor="LightBlue"
+                            HeightRequest="250"
+                            VerticalOptions="Fill">
+                            <Label 
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"
+                                Text="Content" />
+                        </Grid>
+                    </controls:ExpanderView.Content>
+                </controls:ExpanderView>
+            </VerticalStackLayout>
+        </Grid>
+    </Grid>
+</ContentPage>

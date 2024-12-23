@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="TemplateMAUI.Themes.ExpanderView"
+    xmlns:controls="clr-namespace:TemplateMAUI.Controls">
+
+    <Style TargetType="controls:ExpanderView">
+        <Setter Property="ControlTemplate">
+            <Setter.Value>
+                <ControlTemplate>
+                    <Grid
+                        x:Name="PART_Container"
+                        BackgroundColor="{TemplateBinding BackgroundColor}"
+                        RowSpacing="0"
+                        RowDefinitions="Auto, *">
+                        <ContentView
+                            x:Name="PART_Header"
+                            Content="{TemplateBinding Header}"/>
+                        <ContentView 
+                            x:Name="PART_Content"
+                            Grid.Row="1" 
+                            Content="{TemplateBinding Content}"
+                            HorizontalOptions="FillAndExpand"
+                            VerticalOptions="FillAndExpand"/>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    
+</ResourceDictionary>

@@ -29,7 +29,7 @@ namespace TemplateMAUI.Gallery.ViewModels
 
         void Next()
         {
-            StepIndex++;
+            if (StepIndex < MaxSteps - 1) StepIndex++;
         }
     }
 }

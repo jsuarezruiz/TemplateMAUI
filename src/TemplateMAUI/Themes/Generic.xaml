@@ -27,6 +27,7 @@
             <themes:Marquee />
             <themes:PinBox />
             <themes:ProgressBar />
+            <themes:ProgressButton />
             <themes:PropertyGrid />
             <themes:Rate />
             <themes:SegmentedControl />

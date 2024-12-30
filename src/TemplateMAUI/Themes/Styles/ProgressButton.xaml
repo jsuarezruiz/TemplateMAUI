@@ -6,30 +6,32 @@
     xmlns:controls="clr-namespace:TemplateMAUI.Controls">
 
     <ControlTemplate x:Key="ProgressButtonControlTemplate">
-        <Border 
-            x:Name="PART_Container"
-            Background="{TemplateBinding Background}"
-            Stroke="{TemplateBinding BorderBrush}"
-            StrokeThickness="{TemplateBinding BorderThickness}"
-            MinimumHeightRequest="{TemplateBinding MinimumHeightRequest}">
-            <Grid
-                ColumnDefinitions="*, Auto"
-                HorizontalOptions="Center"
-                VerticalOptions="Center">
-                <ContentPresenter
-                    Content="{TemplateBinding Content}" />
-                <ActivityIndicator
-                    x:Name="PART_ActivityIndicator"
-                    Grid.Column="1"
-                    Color="{TemplateBinding ProgressColor}"
-                    Scale="0.5"
-                    HorizontalOptions="Center" 
-                    VerticalOptions="Center"
-                    Margin="0" />
-            </Grid>
-        </Border>
+        <controls:FeedbackView>
+            <Border 
+                x:Name="PART_Container" 
+                Background="{TemplateBinding Background}"
+                Stroke="{TemplateBinding BorderBrush}"
+                StrokeThickness="{TemplateBinding BorderThickness}"
+                MinimumHeightRequest="{TemplateBinding MinimumHeightRequest}">
+                <Grid
+                    ColumnDefinitions="*, Auto"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center">
+                    <ContentPresenter
+                        Content="{TemplateBinding Content}" />
+                    <ActivityIndicator
+                        x:Name="PART_ActivityIndicator"
+                        Grid.Column="1"
+                        Color="{TemplateBinding ProgressColor}"
+                        Scale="0.5"
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center"
+                        Margin="0" />
+                </Grid>
+            </Border>
+        </controls:FeedbackView>
     </ControlTemplate>
-    
+
     <Style TargetType="controls:ProgressButton">
         <Setter Property="MinimumHeightRequest" Value="32"/>
         <Setter Property="ControlTemplate" Value="{StaticResource ProgressButtonControlTemplate}"/>

@@ -25,7 +25,7 @@
             Clicked="OnProgressButtonClicked">
             <controls:ProgressButton.Content>
                 <Grid
-                    ColumnDefinitions="Auto, Auto, *"
+                    ColumnDefinitions="Auto, Auto, *, Auto"
                     VerticalOptions="Center">
                     <Image 
                         HeightRequest="24"
@@ -40,6 +40,11 @@
                         Grid.Column="2"
                         Text="Button"
                         TextColor="Black"/>
+                    <Image 
+                        Grid.Column="3"
+                        HeightRequest="24"
+                        Aspect="AspectFit"
+                        Source="file.png"/>
                 </Grid>
             </controls:ProgressButton.Content>
         </controls:ProgressButton>

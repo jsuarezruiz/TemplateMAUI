@@ -21,6 +21,7 @@
             <themes:ComparerView />
             <themes:Divider />
             <themes:ExpanderView />
+            <themes:FeedbackView />
             <themes:GridLines />
             <themes:GridSplitter />
             <themes:LineChart />

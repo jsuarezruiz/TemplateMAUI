@@ -68,6 +68,14 @@ namespace TemplateMAUI.Controls
             set { SetValue(FontFamilyProperty, value); }
         }
 
+        public static readonly BindableProperty RippleColorProperty = ButtonBase.RippleColorProperty;
+
+        public Color RippleColor
+        {
+            get => (Color)GetValue(RippleColorProperty);
+            set => SetValue(RippleColorProperty, value);
+        }
+
         public static readonly BindableProperty ContentProperty = ButtonBase.ContentProperty;
 
         public object Content

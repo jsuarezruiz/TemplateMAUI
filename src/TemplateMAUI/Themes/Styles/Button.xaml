@@ -6,13 +6,14 @@
     xmlns:controls="clr-namespace:TemplateMAUI.Controls">
 
     <ControlTemplate x:Key="ButtonControlTemplate">
-        <controls:FeedbackView>
+        <controls:FeedbackView
+            RippleColor="{TemplateBinding RippleColor}">
             <Border 
-            x:Name="PART_Container" 
-            Background="{TemplateBinding Background}"
-            Stroke="{TemplateBinding BorderBrush}"
-            StrokeThickness="{TemplateBinding BorderThickness}"
-            MinimumHeightRequest="{TemplateBinding MinimumHeightRequest}">
+                x:Name="PART_Container" 
+                Background="{TemplateBinding Background}"
+                Stroke="{TemplateBinding BorderBrush}"
+                StrokeThickness="{TemplateBinding BorderThickness}"
+                MinimumHeightRequest="{TemplateBinding MinimumHeightRequest}">
                 <Grid
                     ColumnDefinitions="*, Auto"
                     HorizontalOptions="Center"

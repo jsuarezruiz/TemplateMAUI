@@ -5,17 +5,15 @@ using System.Windows.Input;
 namespace TemplateMAUI.Controls
 {
     /// <summary>
-    /// The ProgressButton is a custom templated control designed to represent a button with integrated progress indication functionality. 
-    /// It allows you to display content within the button while showing progress, making it useful for scenarios where users need visual feedback on ongoing tasks, such as loading or submitting.
+    /// The Button is a custom templated control that implements the IButton interface. 
+    /// It represents a button control with customizable content, appearance, and behavior, making it a versatile component for user interaction in your application.
     /// </summary>
     [ContentProperty(nameof(Content))]
-    public class ProgressButton : TemplatedView, IButton
+    public class Button : TemplatedView, IButton
     {
-        const string ElementContainer = "PART_Container"; 
-        const string ElementActivityIndicator = "PART_ActivityIndicator";
+        const string ElementContainer = "PART_Container";
 
         Border _container;
-        ActivityIndicator _activityIndicator;
 
         TapGestureRecognizer _tapGestureRecognizer;
         PointerGestureRecognizer _pointerGestureRecognizer;
@@ -70,15 +68,6 @@ namespace TemplateMAUI.Controls
             set { SetValue(FontFamilyProperty, value); }
         }
 
-        public static readonly BindableProperty ProgressColorProperty =
-            BindableProperty.Create(nameof(ProgressColor), typeof(Color), typeof(ProgressButton));
-
-        public Color ProgressColor
-        {
-            get => (Color)GetValue(ProgressColorProperty);
-            set => SetValue(ProgressColorProperty, value);
-        }
-
         public static readonly BindableProperty ContentProperty = ButtonBase.ContentProperty;
 
         public object Content
@@ -97,23 +86,7 @@ namespace TemplateMAUI.Controls
             set { SetValue(ContentProperty, value); }
         }
 
-        public static readonly BindableProperty IsBusyProperty =
-            BindableProperty.Create(nameof(IsBusy), typeof(bool), typeof(ProgressButton), false,
-                propertyChanged: OnIsBusyChanged);
-
-        static void OnIsBusyChanged(BindableObject bindable, object oldValue, object newValue)
-        {
-            (bindable as ProgressButton)?.UpdateIsBusy();
-        }
-
-        public bool IsBusy
-        {
-            get => (bool)GetValue(IsBusyProperty);
-            set => SetValue(IsBusyProperty, value);
-        }
-
-        public static readonly BindableProperty CommandProperty =
-            BindableProperty.Create(nameof(Command), typeof(ICommand), typeof(ProgressButton));
+        public static readonly BindableProperty CommandProperty = ButtonBase.CommandProperty;
 
         public ICommand Command
         {
@@ -121,8 +94,7 @@ namespace TemplateMAUI.Controls
             set { SetValue(CommandProperty, value); }
         }
 
-        public static readonly BindableProperty CommandParameterProperty =
-            BindableProperty.Create(nameof(CommandParameter), typeof(object), typeof(ProgressButton));
+        public static readonly BindableProperty CommandParameterProperty = ButtonBase.CommandParameterProperty;
 
         public object CommandParameter
         {
@@ -161,7 +133,6 @@ namespace TemplateMAUI.Controls
             base.OnApplyTemplate();
 
             _container = GetTemplateChild(ElementContainer) as Border;
-            _activityIndicator = GetTemplateChild(ElementActivityIndicator) as ActivityIndicator;
 
             _tapGestureRecognizer = new TapGestureRecognizer();
             _pointerGestureRecognizer = new PointerGestureRecognizer();
@@ -235,25 +206,6 @@ namespace TemplateMAUI.Controls
             ButtonVisualState = IsEnabled ? ButtonVisualState.Normal : ButtonVisualState.Disabled;
         }
 
-        async void UpdateIsBusy()
-        {
-            if (_activityIndicator is null)
-                return;
-
-            if (IsBusy)
-            {
-                _container.IsEnabled = false;
-                _activityIndicator.IsRunning = true;
-                await _activityIndicator.FadeTo(1);
-            }
-            else
-            {
-                _container.IsEnabled = true;
-                _activityIndicator.IsRunning = false;
-                await _activityIndicator.FadeTo(0);
-            }
-        }
-
         void OnButtonTapped(object sender, TappedEventArgs e)
         {
             Clicked?.Invoke(this, EventArgs.Empty);
@@ -261,7 +213,7 @@ namespace TemplateMAUI.Controls
             if (Command is not null && Command.CanExecute(CommandParameter))
                 Command.Execute(null);
         }
-       
+
         void OnButtonPointerPressed(object sender, PointerEventArgs e)
         {
             UpdateVisualState(ButtonVisualState.Pressed);

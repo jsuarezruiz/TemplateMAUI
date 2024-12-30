@@ -54,6 +54,7 @@ namespace TemplateMAUI.Gallery.ViewModels
             {
                 new GalleryItem { Title = "AvatarView", SubTitle = "Is a graphical representation of the user image view that can be customized by adding icon, text, etc.", Icon = "avatarview.png", Color = Colors.LightPink },
                 new GalleryItem { Title = "BadgeView", SubTitle = "Control used to  used to notify users notifications, or status of something.", Icon = "badgeview.png", Color = Colors.LightSkyBlue, Status = GalleryItemStatus.Preview },
+                new GalleryItem { Title = "Button", SubTitle = "Represents a button control with customizable content, appearance, and behavior, making it a versatile component for user interaction in your application.", Icon = "button.png", Color = Colors.DarkTurquoise },
                 new GalleryItem { Title = "CarouselView", SubTitle = "Allow to navigate through a collection of views.", Icon = "carouselview.png", Color = Colors.LimeGreen },
                 new GalleryItem { Title = "ChatBubble", SubTitle = "Allow to show a speech bubble message.", Icon = "chatbubble.png", Color = Colors.DarkSeaGreen },
                 new GalleryItem { Title = "ComparerView", SubTitle = "Provides an option for displaying a split-screen of two views, which can help you to make comparisons.", Icon = "comparerview.png", Color = Colors.DarkViolet, Status = GalleryItemStatus.InProgress },

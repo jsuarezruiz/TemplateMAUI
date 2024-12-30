@@ -17,4 +17,9 @@
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
 	</PropertyGroup>
 
+  <ItemGroup>
+	  <MauiImage Include="Resources\Images\transparent_bar.png" />
+	  <MauiImage Include="Resources\Images\transparent_ellipse.png" />
+	</ItemGroup>
+
 </Project>

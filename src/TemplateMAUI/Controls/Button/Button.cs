@@ -121,6 +121,8 @@ namespace TemplateMAUI.Controls
             }
         }
 
+        public event EventHandler Pressed;
+        public event EventHandler Released;
         public event EventHandler Clicked;
 
         public View ContentAsString(object content)
@@ -192,6 +194,7 @@ namespace TemplateMAUI.Controls
                 _pointerGestureRecognizer.PointerPressed += OnButtonPointerPressed;
                 _pointerGestureRecognizer.PointerMoved += OnButtonPointerMoved;
                 _pointerGestureRecognizer.PointerExited += OnButtonHandlePointerExited;
+                _pointerGestureRecognizer.PointerReleased += OnButtonPointerReleased;
                 _container.GestureRecognizers.Add(_pointerGestureRecognizer);
             }
             else
@@ -207,6 +210,7 @@ namespace TemplateMAUI.Controls
                     _pointerGestureRecognizer.PointerPressed -= OnButtonPointerPressed;
                     _pointerGestureRecognizer.PointerMoved -= OnButtonPointerMoved;
                     _pointerGestureRecognizer.PointerExited -= OnButtonHandlePointerExited;
+                    _pointerGestureRecognizer.PointerReleased -= OnButtonPointerReleased;
                     _container.GestureRecognizers.Remove(_pointerGestureRecognizer);
                 }
             }
@@ -225,6 +229,7 @@ namespace TemplateMAUI.Controls
         void OnButtonPointerPressed(object sender, PointerEventArgs e)
         {
             UpdateVisualState(ButtonVisualState.Pressed);
+            Pressed?.Invoke(this, EventArgs.Empty);
         }
 
         void OnButtonPointerMoved(object sender, PointerEventArgs e)
@@ -235,6 +240,11 @@ namespace TemplateMAUI.Controls
         void OnButtonHandlePointerExited(object sender, PointerEventArgs e)
         {
             UpdateVisualState(ButtonVisualState.Normal);
+        }
+
+        void OnButtonPointerReleased(object sender, PointerEventArgs e)
+        {
+            Released?.Invoke(this, EventArgs.Empty);
         }
 
         void UpdateVisualState(ButtonVisualState visualState)

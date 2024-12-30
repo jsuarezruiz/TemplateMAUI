@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="TemplateMAUI.Themes.Button" 
+    xmlns:controls="clr-namespace:TemplateMAUI.Controls">
+
+    <ControlTemplate x:Key="ButtonControlTemplate">
+        <controls:FeedbackView
+            RippleColor="{TemplateBinding RippleColor}">
+            <Border 
+                x:Name="PART_Container" 
+                Background="{TemplateBinding Background}"
+                Stroke="{TemplateBinding BorderBrush}"
+                StrokeThickness="{TemplateBinding BorderThickness}"
+                MinimumHeightRequest="{TemplateBinding MinimumHeightRequest}">
+                <Grid
+                    ColumnDefinitions="*, Auto"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center">
+                    <ContentPresenter
+                        Content="{TemplateBinding Content}" />
+                </Grid>
+            </Border>
+        </controls:FeedbackView>
+    </ControlTemplate>
+
+    <Style TargetType="controls:Button">
+        <Setter Property="MinimumHeightRequest" Value="32"/>
+        <Setter Property="ControlTemplate" Value="{StaticResource ButtonControlTemplate}"/>
+    </Style>
+
+</ResourceDictionary>

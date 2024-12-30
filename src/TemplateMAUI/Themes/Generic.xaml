@@ -14,6 +14,7 @@
             <themes:AvatarView />
             <themes:BadgeView />
             <themes:BarChart />
+            <themes:Button />
             <themes:CarouselView />
             <themes:ChatBubble />
             <themes:CategoryAxis />
@@ -21,12 +22,14 @@
             <themes:ComparerView />
             <themes:Divider />
             <themes:ExpanderView />
+            <themes:FeedbackView />
             <themes:GridLines />
             <themes:GridSplitter />
             <themes:LineChart />
             <themes:Marquee />
             <themes:PinBox />
             <themes:ProgressBar />
+            <themes:ProgressButton />
             <themes:PropertyGrid />
             <themes:Rate />
             <themes:SegmentedControl />

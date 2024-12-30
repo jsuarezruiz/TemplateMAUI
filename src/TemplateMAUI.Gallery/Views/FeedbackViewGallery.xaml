@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="TemplateMAUI.Gallery.Views.FeedbackViewGallery"
+    xmlns:controls="clr-namespace:TemplateMAUI.Controls;assembly=TemplateMAUI"
+    Title="FeedbackView Gallery">
+    <VerticalStackLayout
+        Padding="12">
+        <Label 
+            Text="Hightlight Effect" />
+        <controls:FeedbackView
+            FeedbackType="Hightlight"
+            HightlightAnimationDuration="200"
+            HightlightColor="White">
+            <controls:FeedbackView.Content>
+                <Grid
+                    HeightRequest="200">
+                    <Image
+                        Aspect="AspectFill" 
+                        Source="before.jpg" />
+                    <Label 
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"
+                        TextColor="White"
+                        Text="Hightlight" />
+                </Grid>
+            </controls:FeedbackView.Content>
+        </controls:FeedbackView>
+        <Label 
+            Text="Ripple Effect" />
+        <controls:FeedbackView
+            FeedbackType="Ripple"
+            RippleAnimationDuration="500"
+            RippleColor="White">
+            <controls:FeedbackView.Content>
+                <Grid
+                    HeightRequest="200">
+                    <Image
+                        Aspect="AspectFill" 
+                        Source="before.jpg" />
+                    <Label 
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"
+                        TextColor="White"
+                        Text="Ripple" />
+                </Grid>
+            </controls:FeedbackView.Content>
+        </controls:FeedbackView>
+    </VerticalStackLayout>
+</ContentPage>

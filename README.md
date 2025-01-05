@@ -122,6 +122,28 @@ Is a horizontal bar that can be manipulated by the user to select a double value
 
 ![Slider](https://raw.githubusercontent.com/jsuarezruiz/TemplateMAUI/main/images/slider.png)
 
+#### SnackBar
+
+Provide brief messages about app processes at the bottom of the screen.
+
+![SnackBar](https://raw.githubusercontent.com/jsuarezruiz/TemplateMAUI/main/images/snackbar.gif)
+
+#### StepBar
+
+Allows users to track or keep up with multi-step tasks smoothly.
+
+![StepBar](https://raw.githubusercontent.com/jsuarezruiz/TemplateMAUI/main/images/stepbar.png)
+
+#### Tag
+
+Is a tagging control.
+
+![Tag](https://raw.githubusercontent.com/jsuarezruiz/TemplateMAUI/main/images/tag.png)
+
+#### ToggleSwitch
+
+A View control that provides a toggled value.
+
 #### TreeView
 
 Enables a hierarchical list with expanding and collapsing nodes that contain nested items.

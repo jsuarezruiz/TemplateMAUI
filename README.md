@@ -144,6 +144,8 @@ Is a tagging control.
 
 A View control that provides a toggled value.
 
+![ToggleSwitch](https://raw.githubusercontent.com/jsuarezruiz/TemplateMAUI/main/images/toggleswitch.png)
+
 #### TreeView
 
 Enables a hierarchical list with expanding and collapsing nodes that contain nested items.

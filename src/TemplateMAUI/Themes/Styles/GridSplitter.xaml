@@ -10,42 +10,44 @@
 
     <controls:ElementToBoolConverter x:Key="ElementToBoolConverter" />
 
+    <ControlTemplate x:Key="GridSplitterControlTemplate">
+        <Grid
+           x:Name="PART_GridSplitter">
+            <Grid
+               BackgroundColor="{TemplateBinding BackgroundColor}">
+                <StackLayout
+                    x:Name="PART_GridSplitterIndicator"
+                    WidthRequest="16"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    IsVisible="{TemplateBinding Element, Converter={StaticResource ElementToBoolConverter}}">
+                    <BoxView
+                        Background="{StaticResource GridSplitterIndicatorBrush}"
+                        HeightRequest="2"
+                        Margin="0, 1" />
+                    <BoxView
+                        Background="{StaticResource GridSplitterIndicatorBrush}"
+                        HeightRequest="2"
+                        Margin="0, 1" />
+                    <BoxView
+                        Background="{StaticResource GridSplitterIndicatorBrush}"
+                        HeightRequest="2"
+                        Margin="0, 1" />
+                </StackLayout>
+            </Grid>
+            <ContentPresenter
+                Content="{TemplateBinding Element}"
+                HorizontalOptions="Fill"
+                VerticalOptions="Fill" />
+        </Grid>
+    </ControlTemplate>
+    
     <Style TargetType="controls:GridSplitter">
         <Setter Property="HorizontalOptions" Value="Fill" />
         <Setter Property="VerticalOptions" Value="Fill" />
         <Setter Property="MinimumWidthRequest" Value="16" />
         <Setter Property="MinimumHeightRequest" Value="16" />
-        <Setter Property="ControlTemplate">
-            <Setter.Value>
-                <ControlTemplate>
-                    <Grid
-                        x:Name="PART_GridSplitter">
-                        <Grid
-                            HeightRequest="16"
-                            BackgroundColor="{TemplateBinding BackgroundColor}">
-                                <StackLayout
-                                    Padding="6"
-                                    VerticalOptions="Center"
-                                    HorizontalOptions="Center"
-                                    IsVisible="{TemplateBinding Element, Converter={StaticResource ElementToBoolConverter}}">
-                                    <Line
-                                        X2="10"
-                                        Stroke="{StaticResource GridSplitterIndicatorBrush}"
-                                        StrokeThickness="2" />
-                                    <Line
-                                        X2="10"
-                                        Stroke="{StaticResource GridSplitterIndicatorBrush}"
-                                        StrokeThickness="2" />
-                                </StackLayout>
-                            </Grid>
-                        <ContentPresenter
-                            Content="{TemplateBinding Element}"
-                            HorizontalOptions="Fill"
-                            VerticalOptions="Fill" />
-                    </Grid>
-                </ControlTemplate>
-            </Setter.Value>
-        </Setter>
+        <Setter Property="ControlTemplate"  Value="{StaticResource GridSplitterControlTemplate}"/>
     </Style>
 
 </ResourceDictionary>

@@ -62,7 +62,7 @@ namespace TemplateMAUI.Gallery.ViewModels
                 new GalleryItem { Title = "Divider", SubTitle = "Displays a separator between views.", Icon = "divider.png", Color = Colors.Orchid  },
                 new GalleryItem { Title = "ExpanderView", SubTitle = "Provide content in an expandable area and includes a header.", Icon = "expanderview.png", Color = Colors.HotPink  },
                 new GalleryItem { Title = "FeedbackView", SubTitle = "Provide visual feedback to touch interactions.", Icon = "feedbackview.png", Color = Colors.PaleGoldenrod  },
-                new GalleryItem { Title = "GridSplitter", SubTitle = "Represents the control that redistributes space between columns or rows of a Grid control.", Icon = "gridsplitter.png", Color = Colors.DarkOrchid },
+                new GalleryItem { Title = "GridSplitter", SubTitle = "Represents the control that redistributes space between columns or rows of a Grid control.", Icon = "gridsplitter.png", Color = Colors.DarkOrchid, Status = GalleryItemStatus.InProgress },
                 new GalleryItem { Title = "Marquee", SubTitle = "Use this control to add an attention–getting text message that scrolls continuously across the screen.", Icon = "marquee.png", Color = Colors.DarkRed },
                 new GalleryItem { Title = "PinBox", SubTitle = "Allow to introduce a PIN or verification Code.", Icon = "pinbox.png", Color = Colors.PaleVioletRed },
                 new GalleryItem { Title = "PropertyGrid", SubTitle = "Allows end-users to edit properties of the objects associated with it.", Icon = "propertygrid.png", Color = Colors.DarkSlateGrey },

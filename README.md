@@ -6,7 +6,23 @@ A set of .NET MAUI templated controls.
 
 Visit [Documentation](https://jsuarezruiz.github.io/TemplateMAUI/)
 
-### Controls
+### How to use it
+
+ First, add the TemplateMAUI **NuGet** package to your project. Run the following command in the Package Manager Console.
+
+```
+ PM> Install-Package TemplateMAUI
+``` 
+
+After adding the NuGet package, initialize the library in the **App** class:
+
+```
+TemplateMAUI.Init();
+``` 
+
+### Controls 
+
+Currently, the following controls are available:
 
 #### AvatarView
 

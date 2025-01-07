@@ -84,6 +84,12 @@ Provide visual feedback to touch interactions.
 
 ![FeedbackView](https://raw.githubusercontent.com/jsuarezruiz/TemplateMAUI/main/images/feedbackview.gif)
 
+#### GridSplitter
+
+Represents the control that redistributes space between columns or rows of a Grid control.
+
+![GridSplitter](https://raw.githubusercontent.com/jsuarezruiz/TemplateMAUI/main/images/gridsplitter.png)
+
 #### Marquee
 
 Use this control to add an attention getting text message that scrolls continuously across the screen.

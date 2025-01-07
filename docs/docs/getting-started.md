@@ -22,7 +22,15 @@ Using **.NET CLI**:
 dotnet add package TemplateMAUI
 ```
 
-**Step 2: Add the Namespace**
+**Step 2: Initialize the library**
+
+After adding the NuGet package, initialize the library in the **App** class:
+
+```
+TemplateMAUI.Init();
+``` 
+
+**Step 3: Add the Namespace**
 
 After installing the package, you need to add the TemplateMAUI namespace to your XAML or C# files.
 

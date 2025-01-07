@@ -22,10 +22,21 @@
 		<PackageProjectUrl>https://github.com/jsuarezruiz/TemplateMAUI</PackageProjectUrl>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<RepositoryUrl>https://github.com/jsuarezruiz/TemplateMAUI</RepositoryUrl>
-		<PackageTags>dotnet,dotnet-maui,maui,controls,</PackageTags>
+		<PackageTags>dotnet,dotnet-maui,maui,controls,xaml,csharp,</PackageTags>
+		<PackageIcon>templatemaui-logo.png</PackageIcon>
+		<Authors>Javier Suárez Ruiz</Authors>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
 	</PropertyGroup>
 
 	<ItemGroup>
+	  <None Include="..\..\images\templatemaui-logo.png">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	  <None Include="..\..\LICENSE">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
 	  <None Include="..\..\README.md">
 	    <Pack>True</Pack>
 	    <PackagePath>\</PackagePath>

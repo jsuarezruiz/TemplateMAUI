@@ -80,7 +80,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\..\TemplateMAUI.CodeEditor\TemplateMAUI.CodeEditor.csproj" />
+	  <ProjectReference Include="..\TemplateMAUI.CodeEditor\TemplateMAUI.CodeEditor.csproj" />
 	  <ProjectReference Include="..\TemplateMAUI\TemplateMAUI.csproj" />
 	</ItemGroup>
 

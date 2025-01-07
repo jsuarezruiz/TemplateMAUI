@@ -19,7 +19,7 @@ namespace TemplateMAUI.Controls
 
         Grid _container;
         Label _text;
-        Button _action;
+        Microsoft.Maui.Controls.Button _action;
         SnackBarTimer _timer;
 
         public static readonly BindableProperty IsOpenProperty =
@@ -132,14 +132,14 @@ namespace TemplateMAUI.Controls
         {
             base.OnApplyTemplate();
 
-            if (_action != null)
+            if (_action is not null)
                 _action.Clicked -= OnActionClicked;
 
             _container = GetTemplateChild(ElementContainer) as Grid;
-            _text = GetTemplateChild(ElementText) as Label;
-            _action = GetTemplateChild(ElementAction) as Button;
+            _text = GetTemplateChild(ElementText) as Label; 
+            _action = GetTemplateChild(ElementAction) as Microsoft.Maui.Controls.Button;
 
-            if (_action != null)
+            if (_action is not null)
                 _action.Clicked += OnActionClicked;
 
             UpdateIsOpen();
@@ -160,8 +160,7 @@ namespace TemplateMAUI.Controls
         {
             IsOpen = true;
 
-            if (_timer != null)
-                _timer.Stop();
+            _timer?.Stop();
 
             Animation.OnOpen(this);
         }

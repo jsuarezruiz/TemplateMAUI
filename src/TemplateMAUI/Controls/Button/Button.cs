@@ -106,8 +106,8 @@ namespace TemplateMAUI.Controls
 
         public object CommandParameter
         {
-            get => GetValue(CommandProperty);
-            set { SetValue(CommandProperty, value); }
+            get => GetValue(CommandParameterProperty);
+            set { SetValue(CommandParameterProperty, value); }
         }
 
         [EditorBrowsable(EditorBrowsableState.Never)]

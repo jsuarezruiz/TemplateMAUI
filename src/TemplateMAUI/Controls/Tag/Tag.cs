@@ -4,6 +4,10 @@ using System.Windows.Input;
 
 namespace TemplateMAUI.Controls
 {
+    /// <summary>
+    /// The Tag is a custom templated control designed to display a tag or label. 
+    /// Tags are often used to categorize content, highlight important information, or provide quick context to items within an application.
+    /// </summary>
     public class Tag : TemplatedView
     {
         const string ElementBorder = "PART_Border";

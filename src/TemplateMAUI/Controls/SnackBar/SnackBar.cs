@@ -3,6 +3,10 @@ using System.Runtime.CompilerServices;
 
 namespace TemplateMAUI.Controls
 {
+    /// <summary>
+    /// The SnackBar is a custom templated control designed to display brief messages or notifications to users. 
+    /// SnackBars typically appear at the bottom of the screen and provide feedback about an operation or offer a quick action for the user to perform.
+    /// </summary>
     // TODO: Create a SnackBarManager to allow have methods that can show a SnackBar without adding the SnackBar to the page hierarchy.
     public class SnackBar : TemplatedView
     {
@@ -15,7 +19,7 @@ namespace TemplateMAUI.Controls
 
         Grid _container;
         Label _text;
-        Button _action;
+        Microsoft.Maui.Controls.Button _action;
         SnackBarTimer _timer;
 
         public static readonly BindableProperty IsOpenProperty =
@@ -128,14 +132,14 @@ namespace TemplateMAUI.Controls
         {
             base.OnApplyTemplate();
 
-            if (_action != null)
+            if (_action is not null)
                 _action.Clicked -= OnActionClicked;
 
             _container = GetTemplateChild(ElementContainer) as Grid;
-            _text = GetTemplateChild(ElementText) as Label;
-            _action = GetTemplateChild(ElementAction) as Button;
+            _text = GetTemplateChild(ElementText) as Label; 
+            _action = GetTemplateChild(ElementAction) as Microsoft.Maui.Controls.Button;
 
-            if (_action != null)
+            if (_action is not null)
                 _action.Clicked += OnActionClicked;
 
             UpdateIsOpen();
@@ -156,8 +160,7 @@ namespace TemplateMAUI.Controls
         {
             IsOpen = true;
 
-            if (_timer != null)
-                _timer.Stop();
+            _timer?.Stop();
 
             Animation.OnOpen(this);
         }

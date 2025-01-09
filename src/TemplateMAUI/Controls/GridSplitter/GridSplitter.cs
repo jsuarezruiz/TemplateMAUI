@@ -3,11 +3,17 @@ using System.Runtime.CompilerServices;
 
 namespace TemplateMAUI.Controls
 {
+    /// <summary>
+    /// The GridSplitter is a custom templated control designed to provide a way to resize rows or columns in a grid layout. 
+    /// It allows users to dynamically adjust the size of grid elements, enhancing the flexibility and interactivity of the user interface.
+    /// </summary>
     public class GridSplitter : TemplatedView
     {
         const string ElementGridSplitter = "PART_GridSplitter";
+        const string ElementIndicator = "PART_GridSplitterIndicator";
 
         Grid _gridSplitter;
+        Layout _indicator;
 
         double _previousPositionX;
         double _previousPositionY;
@@ -44,7 +50,9 @@ namespace TemplateMAUI.Controls
             base.OnApplyTemplate();
 
             _gridSplitter = GetTemplateChild(ElementGridSplitter) as Grid;
+            _indicator = GetTemplateChild(ElementIndicator) as Layout;
 
+            UpdateIndicator();
             UpdateIsEnabled();
         }
 
@@ -53,7 +61,10 @@ namespace TemplateMAUI.Controls
             base.OnPropertyChanged(propertyName);
 
             if (propertyName == ResizeDirectionProperty.PropertyName)
+            {
+                UpdateIndicator();
                 UpdateLayout();
+            }
             else if (propertyName == IsEnabledProperty.PropertyName)
                 UpdateIsEnabled();
         }
@@ -81,7 +92,7 @@ namespace TemplateMAUI.Controls
             switch (e.StatusType)
             {
                 case GestureStatus.Running:
-                    if (DeviceInfo.Platform == DevicePlatform.iOS)
+                    if (DeviceInfo.Platform == DevicePlatform.iOS || DeviceInfo.Platform == DevicePlatform.WinUI)
                     {
                         var totalX = e.TotalX - _previousPositionX;
                         var totalY = e.TotalY - _previousPositionY;
@@ -101,9 +112,20 @@ namespace TemplateMAUI.Controls
             }
         }
 
+        void UpdateIndicator()
+        {
+            if (_indicator is null)
+                return;
+
+            if (ResizeDirection == GridResizeDirection.Columns)
+                _indicator.Rotation = 90;
+            else
+                _indicator.Rotation = 0;
+        }
+
         void UpdateLayout(double offsetX = 0, double offsetY = 0)
         {
-            if (!(Parent is Grid))
+            if (Parent is not Grid)
                 // TODO: Throw Exception?
                 return;
 
@@ -125,7 +147,7 @@ namespace TemplateMAUI.Controls
 
             if (columnCount <= 1 || column == 0 || column == columnCount - 1)
                 return;
-            
+
             ColumnDefinition previousColumn = grid.ColumnDefinitions[column - 1];
 
             double previousRowWidth;

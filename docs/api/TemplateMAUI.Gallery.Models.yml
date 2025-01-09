@@ -1,0 +1,75 @@
+### YamlMime:ManagedReference
+items:
+- uid: TemplateMAUI.Gallery.Models
+  commentId: N:TemplateMAUI.Gallery.Models
+  id: TemplateMAUI.Gallery.Models
+  children:
+  - TemplateMAUI.Gallery.Models.ChartDataItem
+  - TemplateMAUI.Gallery.Models.GalleryItem
+  - TemplateMAUI.Gallery.Models.GalleryItemStatus
+  - TemplateMAUI.Gallery.Models.Monkey
+  langs:
+  - csharp
+  - vb
+  name: TemplateMAUI.Gallery.Models
+  nameWithType: TemplateMAUI.Gallery.Models
+  fullName: TemplateMAUI.Gallery.Models
+  type: Namespace
+  assemblies:
+  - TemplateMAUI.Gallery
+references:
+- uid: TemplateMAUI.Gallery.Models.ChartDataItem
+  commentId: T:TemplateMAUI.Gallery.Models.ChartDataItem
+  href: TemplateMAUI.Gallery.Models.ChartDataItem.html
+  name: ChartDataItem
+  nameWithType: ChartDataItem
+  fullName: TemplateMAUI.Gallery.Models.ChartDataItem
+- uid: TemplateMAUI.Gallery.Models.GalleryItem
+  commentId: T:TemplateMAUI.Gallery.Models.GalleryItem
+  href: TemplateMAUI.Gallery.Models.GalleryItem.html
+  name: GalleryItem
+  nameWithType: GalleryItem
+  fullName: TemplateMAUI.Gallery.Models.GalleryItem
+- uid: TemplateMAUI.Gallery.Models.GalleryItemStatus
+  commentId: T:TemplateMAUI.Gallery.Models.GalleryItemStatus
+  parent: TemplateMAUI.Gallery.Models
+  href: TemplateMAUI.Gallery.Models.GalleryItemStatus.html
+  name: GalleryItemStatus
+  nameWithType: GalleryItemStatus
+  fullName: TemplateMAUI.Gallery.Models.GalleryItemStatus
+- uid: TemplateMAUI.Gallery.Models.Monkey
+  commentId: T:TemplateMAUI.Gallery.Models.Monkey
+  href: TemplateMAUI.Gallery.Models.Monkey.html
+  name: Monkey
+  nameWithType: Monkey
+  fullName: TemplateMAUI.Gallery.Models.Monkey
+- uid: TemplateMAUI.Gallery.Models
+  commentId: N:TemplateMAUI.Gallery.Models
+  href: TemplateMAUI.html
+  name: TemplateMAUI.Gallery.Models
+  nameWithType: TemplateMAUI.Gallery.Models
+  fullName: TemplateMAUI.Gallery.Models
+  spec.csharp:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Gallery
+    name: Gallery
+    href: TemplateMAUI.Gallery.html
+  - name: .
+  - uid: TemplateMAUI.Gallery.Models
+    name: Models
+    href: TemplateMAUI.Gallery.Models.html
+  spec.vb:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Gallery
+    name: Gallery
+    href: TemplateMAUI.Gallery.html
+  - name: .
+  - uid: TemplateMAUI.Gallery.Models
+    name: Models
+    href: TemplateMAUI.Gallery.Models.html

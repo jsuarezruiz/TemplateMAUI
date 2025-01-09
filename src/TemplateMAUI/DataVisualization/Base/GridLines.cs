@@ -1,7 +1,9 @@
-﻿using Microsoft.Maui.Controls.Shapes;
-
-namespace TemplateMAUI.DataVisualization
+﻿namespace TemplateMAUI.DataVisualization
 {
+    /// <summary>
+    /// The GridLines is a custom templated view designed to display grid lines within a data visualization control. 
+    /// It provides the visual representation and functionality for showing horizontal and/or vertical lines that help to delineate and organize data points.
+    /// </summary>
     public class GridLines : TemplatedView
     {
         const string ElementGridLayout = "PART_GridLayout";

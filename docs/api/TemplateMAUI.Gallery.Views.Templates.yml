@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: TemplateMAUI.Gallery.Views.Templates
+  commentId: N:TemplateMAUI.Gallery.Views.Templates
+  id: TemplateMAUI.Gallery.Views.Templates
+  children:
+  - TemplateMAUI.Gallery.Views.Templates.GalleryItemTemplate
+  - TemplateMAUI.Gallery.Views.Templates.TrendingItemTemplate
+  langs:
+  - csharp
+  - vb
+  name: TemplateMAUI.Gallery.Views.Templates
+  nameWithType: TemplateMAUI.Gallery.Views.Templates
+  fullName: TemplateMAUI.Gallery.Views.Templates
+  type: Namespace
+  assemblies:
+  - TemplateMAUI.Gallery
+references:
+- uid: TemplateMAUI.Gallery.Views.Templates.GalleryItemTemplate
+  commentId: T:TemplateMAUI.Gallery.Views.Templates.GalleryItemTemplate
+  href: TemplateMAUI.Gallery.Views.Templates.GalleryItemTemplate.html
+  name: GalleryItemTemplate
+  nameWithType: GalleryItemTemplate
+  fullName: TemplateMAUI.Gallery.Views.Templates.GalleryItemTemplate
+- uid: TemplateMAUI.Gallery.Views.Templates.TrendingItemTemplate
+  commentId: T:TemplateMAUI.Gallery.Views.Templates.TrendingItemTemplate
+  href: TemplateMAUI.Gallery.Views.Templates.TrendingItemTemplate.html
+  name: TrendingItemTemplate
+  nameWithType: TrendingItemTemplate
+  fullName: TemplateMAUI.Gallery.Views.Templates.TrendingItemTemplate

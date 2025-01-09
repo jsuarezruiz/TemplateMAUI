@@ -1,0 +1,117 @@
+### YamlMime:ManagedReference
+items:
+- uid: TemplateMAUI.Controls.DividerOrientation
+  commentId: T:TemplateMAUI.Controls.DividerOrientation
+  id: DividerOrientation
+  parent: TemplateMAUI.Controls
+  children:
+  - TemplateMAUI.Controls.DividerOrientation.Horizontal
+  - TemplateMAUI.Controls.DividerOrientation.Vertical
+  langs:
+  - csharp
+  - vb
+  name: DividerOrientation
+  nameWithType: DividerOrientation
+  fullName: TemplateMAUI.Controls.DividerOrientation
+  type: Enum
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/Divider/DividerOrientation.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: DividerOrientation
+    path: ../src/TemplateMAUI/Controls/Divider/DividerOrientation.cs
+    startLine: 6
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  summary: >-
+    Represents the possible orientations for a divider in a user interface. 
+
+    This enumeration is used to specify whether the divider should be displayed horizontally or vertically.
+  example: []
+  syntax:
+    content: public enum DividerOrientation
+    content.vb: Public Enum DividerOrientation
+- uid: TemplateMAUI.Controls.DividerOrientation.Horizontal
+  commentId: F:TemplateMAUI.Controls.DividerOrientation.Horizontal
+  id: Horizontal
+  parent: TemplateMAUI.Controls.DividerOrientation
+  langs:
+  - csharp
+  - vb
+  name: Horizontal
+  nameWithType: DividerOrientation.Horizontal
+  fullName: TemplateMAUI.Controls.DividerOrientation.Horizontal
+  type: Field
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/Divider/DividerOrientation.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: Horizontal
+    path: ../src/TemplateMAUI/Controls/Divider/DividerOrientation.cs
+    startLine: 8
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: Horizontal = 0
+    return:
+      type: TemplateMAUI.Controls.DividerOrientation
+- uid: TemplateMAUI.Controls.DividerOrientation.Vertical
+  commentId: F:TemplateMAUI.Controls.DividerOrientation.Vertical
+  id: Vertical
+  parent: TemplateMAUI.Controls.DividerOrientation
+  langs:
+  - csharp
+  - vb
+  name: Vertical
+  nameWithType: DividerOrientation.Vertical
+  fullName: TemplateMAUI.Controls.DividerOrientation.Vertical
+  type: Field
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/Divider/DividerOrientation.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: Vertical
+    path: ../src/TemplateMAUI/Controls/Divider/DividerOrientation.cs
+    startLine: 9
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: Vertical = 1
+    return:
+      type: TemplateMAUI.Controls.DividerOrientation
+references:
+- uid: TemplateMAUI.Controls
+  commentId: N:TemplateMAUI.Controls
+  href: TemplateMAUI.html
+  name: TemplateMAUI.Controls
+  nameWithType: TemplateMAUI.Controls
+  fullName: TemplateMAUI.Controls
+  spec.csharp:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Controls
+    name: Controls
+    href: TemplateMAUI.Controls.html
+  spec.vb:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Controls
+    name: Controls
+    href: TemplateMAUI.Controls.html
+- uid: TemplateMAUI.Controls.DividerOrientation
+  commentId: T:TemplateMAUI.Controls.DividerOrientation
+  parent: TemplateMAUI.Controls
+  href: TemplateMAUI.Controls.DividerOrientation.html
+  name: DividerOrientation
+  nameWithType: DividerOrientation
+  fullName: TemplateMAUI.Controls.DividerOrientation

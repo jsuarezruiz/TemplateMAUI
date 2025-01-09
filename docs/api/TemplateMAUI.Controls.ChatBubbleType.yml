@@ -1,0 +1,117 @@
+### YamlMime:ManagedReference
+items:
+- uid: TemplateMAUI.Controls.ChatBubbleType
+  commentId: T:TemplateMAUI.Controls.ChatBubbleType
+  id: ChatBubbleType
+  parent: TemplateMAUI.Controls
+  children:
+  - TemplateMAUI.Controls.ChatBubbleType.Receiver
+  - TemplateMAUI.Controls.ChatBubbleType.Sender
+  langs:
+  - csharp
+  - vb
+  name: ChatBubbleType
+  nameWithType: ChatBubbleType
+  fullName: TemplateMAUI.Controls.ChatBubbleType
+  type: Enum
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/ChatBubble/ChatBubbleType.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: ChatBubbleType
+    path: ../src/TemplateMAUI/Controls/ChatBubble/ChatBubbleType.cs
+    startLine: 6
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  summary: >-
+    Represents the types of chat bubbles in a chat interface. 
+
+    It is used to differentiate between the messages sent by the user and the messages received from others.
+  example: []
+  syntax:
+    content: public enum ChatBubbleType
+    content.vb: Public Enum ChatBubbleType
+- uid: TemplateMAUI.Controls.ChatBubbleType.Sender
+  commentId: F:TemplateMAUI.Controls.ChatBubbleType.Sender
+  id: Sender
+  parent: TemplateMAUI.Controls.ChatBubbleType
+  langs:
+  - csharp
+  - vb
+  name: Sender
+  nameWithType: ChatBubbleType.Sender
+  fullName: TemplateMAUI.Controls.ChatBubbleType.Sender
+  type: Field
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/ChatBubble/ChatBubbleType.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: Sender
+    path: ../src/TemplateMAUI/Controls/ChatBubble/ChatBubbleType.cs
+    startLine: 8
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: Sender = 0
+    return:
+      type: TemplateMAUI.Controls.ChatBubbleType
+- uid: TemplateMAUI.Controls.ChatBubbleType.Receiver
+  commentId: F:TemplateMAUI.Controls.ChatBubbleType.Receiver
+  id: Receiver
+  parent: TemplateMAUI.Controls.ChatBubbleType
+  langs:
+  - csharp
+  - vb
+  name: Receiver
+  nameWithType: ChatBubbleType.Receiver
+  fullName: TemplateMAUI.Controls.ChatBubbleType.Receiver
+  type: Field
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/ChatBubble/ChatBubbleType.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: Receiver
+    path: ../src/TemplateMAUI/Controls/ChatBubble/ChatBubbleType.cs
+    startLine: 9
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: Receiver = 1
+    return:
+      type: TemplateMAUI.Controls.ChatBubbleType
+references:
+- uid: TemplateMAUI.Controls
+  commentId: N:TemplateMAUI.Controls
+  href: TemplateMAUI.html
+  name: TemplateMAUI.Controls
+  nameWithType: TemplateMAUI.Controls
+  fullName: TemplateMAUI.Controls
+  spec.csharp:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Controls
+    name: Controls
+    href: TemplateMAUI.Controls.html
+  spec.vb:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Controls
+    name: Controls
+    href: TemplateMAUI.Controls.html
+- uid: TemplateMAUI.Controls.ChatBubbleType
+  commentId: T:TemplateMAUI.Controls.ChatBubbleType
+  parent: TemplateMAUI.Controls
+  href: TemplateMAUI.Controls.ChatBubbleType.html
+  name: ChatBubbleType
+  nameWithType: ChatBubbleType
+  fullName: TemplateMAUI.Controls.ChatBubbleType

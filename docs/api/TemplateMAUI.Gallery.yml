@@ -1,0 +1,58 @@
+### YamlMime:ManagedReference
+items:
+- uid: TemplateMAUI.Gallery
+  commentId: N:TemplateMAUI.Gallery
+  id: TemplateMAUI.Gallery
+  children:
+  - TemplateMAUI.Gallery.App
+  - TemplateMAUI.Gallery.MainActivity
+  - TemplateMAUI.Gallery.MainApplication
+  - TemplateMAUI.Gallery.MauiProgram
+  - TemplateMAUI.Gallery.Resource
+  - TemplateMAUI.Gallery.TemplateMAUI
+  langs:
+  - csharp
+  - vb
+  name: TemplateMAUI.Gallery
+  nameWithType: TemplateMAUI.Gallery
+  fullName: TemplateMAUI.Gallery
+  type: Namespace
+  assemblies:
+  - TemplateMAUI.Gallery
+references:
+- uid: TemplateMAUI.Gallery.App
+  commentId: T:TemplateMAUI.Gallery.App
+  href: TemplateMAUI.Gallery.App.html
+  name: App
+  nameWithType: App
+  fullName: TemplateMAUI.Gallery.App
+- uid: TemplateMAUI.Gallery.MauiProgram
+  commentId: T:TemplateMAUI.Gallery.MauiProgram
+  href: TemplateMAUI.Gallery.MauiProgram.html
+  name: MauiProgram
+  nameWithType: MauiProgram
+  fullName: TemplateMAUI.Gallery.MauiProgram
+- uid: TemplateMAUI.Gallery.MainActivity
+  commentId: T:TemplateMAUI.Gallery.MainActivity
+  href: TemplateMAUI.Gallery.MainActivity.html
+  name: MainActivity
+  nameWithType: MainActivity
+  fullName: TemplateMAUI.Gallery.MainActivity
+- uid: TemplateMAUI.Gallery.MainApplication
+  commentId: T:TemplateMAUI.Gallery.MainApplication
+  href: TemplateMAUI.Gallery.MainApplication.html
+  name: MainApplication
+  nameWithType: MainApplication
+  fullName: TemplateMAUI.Gallery.MainApplication
+- uid: TemplateMAUI.Gallery.TemplateMAUI
+  commentId: T:TemplateMAUI.Gallery.TemplateMAUI
+  href: TemplateMAUI.Gallery.TemplateMAUI.html
+  name: TemplateMAUI
+  nameWithType: TemplateMAUI
+  fullName: TemplateMAUI.Gallery.TemplateMAUI
+- uid: TemplateMAUI.Gallery.Resource
+  commentId: T:TemplateMAUI.Gallery.Resource
+  href: TemplateMAUI.Gallery.Resource.html
+  name: Resource
+  nameWithType: Resource
+  fullName: TemplateMAUI.Gallery.Resource

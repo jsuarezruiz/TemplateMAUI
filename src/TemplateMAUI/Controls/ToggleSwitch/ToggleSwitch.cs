@@ -3,6 +3,10 @@ using System.Runtime.CompilerServices;
 
 namespace TemplateMAUI.Controls
 {
+    /// <summary>
+    /// The ToggleSwitch is a custom templated control designed to represent a switch that can be toggled on or off. 
+    /// It provides a flexible and customizable way to include toggle functionality in your application, similar to a standard switch control.
+    /// </summary>
     public class ToggleSwitch : TemplatedView
     {
         public const string ToggleSwitchOnVisualState = "On";

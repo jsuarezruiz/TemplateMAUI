@@ -1,5 +1,9 @@
 ﻿namespace TemplateMAUI.Controls
 {
+    /// <summary>
+    /// The Marquee is a custom templated control designed to display scrolling text, that moves across the screen. 
+    /// It is useful for displaying announcements, news tickers, or any other continuously moving content.
+    /// </summary>
     [ContentProperty(nameof(Content))]
     public class Marquee : TemplatedView
     {

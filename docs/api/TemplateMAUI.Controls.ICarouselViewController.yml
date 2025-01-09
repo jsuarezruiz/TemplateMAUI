@@ -1,0 +1,179 @@
+### YamlMime:ManagedReference
+items:
+- uid: TemplateMAUI.Controls.ICarouselViewController
+  commentId: T:TemplateMAUI.Controls.ICarouselViewController
+  id: ICarouselViewController
+  parent: TemplateMAUI.Controls
+  children:
+  - TemplateMAUI.Controls.ICarouselViewController.TouchChanged(System.Double)
+  - TemplateMAUI.Controls.ICarouselViewController.TouchEnded
+  - TemplateMAUI.Controls.ICarouselViewController.TouchStarted
+  langs:
+  - csharp
+  - vb
+  name: ICarouselViewController
+  nameWithType: ICarouselViewController
+  fullName: TemplateMAUI.Controls.ICarouselViewController
+  type: Interface
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/CarouselView/ICarouselViewController.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: ICarouselViewController
+    path: ../src/TemplateMAUI/Controls/CarouselView/ICarouselViewController.cs
+    startLine: 6
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  summary: >-
+    The ICarouselViewController interface defines the methods required to manage touch interactions for a carousel view. 
+
+    This interface provides a way to handle touch events such as starting, changing, and ending touch gestures on a carousel.
+  example: []
+  syntax:
+    content: public interface ICarouselViewController
+    content.vb: Public Interface ICarouselViewController
+- uid: TemplateMAUI.Controls.ICarouselViewController.TouchStarted
+  commentId: M:TemplateMAUI.Controls.ICarouselViewController.TouchStarted
+  id: TouchStarted
+  parent: TemplateMAUI.Controls.ICarouselViewController
+  langs:
+  - csharp
+  - vb
+  name: TouchStarted()
+  nameWithType: ICarouselViewController.TouchStarted()
+  fullName: TemplateMAUI.Controls.ICarouselViewController.TouchStarted()
+  type: Method
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/CarouselView/ICarouselViewController.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: TouchStarted
+    path: ../src/TemplateMAUI/Controls/CarouselView/ICarouselViewController.cs
+    startLine: 8
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: void TouchStarted()
+    content.vb: Sub TouchStarted()
+  overload: TemplateMAUI.Controls.ICarouselViewController.TouchStarted*
+- uid: TemplateMAUI.Controls.ICarouselViewController.TouchChanged(System.Double)
+  commentId: M:TemplateMAUI.Controls.ICarouselViewController.TouchChanged(System.Double)
+  id: TouchChanged(System.Double)
+  parent: TemplateMAUI.Controls.ICarouselViewController
+  langs:
+  - csharp
+  - vb
+  name: TouchChanged(double)
+  nameWithType: ICarouselViewController.TouchChanged(double)
+  fullName: TemplateMAUI.Controls.ICarouselViewController.TouchChanged(double)
+  type: Method
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/CarouselView/ICarouselViewController.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: TouchChanged
+    path: ../src/TemplateMAUI/Controls/CarouselView/ICarouselViewController.cs
+    startLine: 9
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: void TouchChanged(double offset)
+    parameters:
+    - id: offset
+      type: System.Double
+    content.vb: Sub TouchChanged(offset As Double)
+  overload: TemplateMAUI.Controls.ICarouselViewController.TouchChanged*
+  nameWithType.vb: ICarouselViewController.TouchChanged(Double)
+  fullName.vb: TemplateMAUI.Controls.ICarouselViewController.TouchChanged(Double)
+  name.vb: TouchChanged(Double)
+- uid: TemplateMAUI.Controls.ICarouselViewController.TouchEnded
+  commentId: M:TemplateMAUI.Controls.ICarouselViewController.TouchEnded
+  id: TouchEnded
+  parent: TemplateMAUI.Controls.ICarouselViewController
+  langs:
+  - csharp
+  - vb
+  name: TouchEnded()
+  nameWithType: ICarouselViewController.TouchEnded()
+  fullName: TemplateMAUI.Controls.ICarouselViewController.TouchEnded()
+  type: Method
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/CarouselView/ICarouselViewController.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: TouchEnded
+    path: ../src/TemplateMAUI/Controls/CarouselView/ICarouselViewController.cs
+    startLine: 10
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: void TouchEnded()
+    content.vb: Sub TouchEnded()
+  overload: TemplateMAUI.Controls.ICarouselViewController.TouchEnded*
+references:
+- uid: TemplateMAUI.Controls
+  commentId: N:TemplateMAUI.Controls
+  href: TemplateMAUI.html
+  name: TemplateMAUI.Controls
+  nameWithType: TemplateMAUI.Controls
+  fullName: TemplateMAUI.Controls
+  spec.csharp:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Controls
+    name: Controls
+    href: TemplateMAUI.Controls.html
+  spec.vb:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Controls
+    name: Controls
+    href: TemplateMAUI.Controls.html
+- uid: TemplateMAUI.Controls.ICarouselViewController.TouchStarted*
+  commentId: Overload:TemplateMAUI.Controls.ICarouselViewController.TouchStarted
+  href: TemplateMAUI.Controls.ICarouselViewController.html#TemplateMAUI_Controls_ICarouselViewController_TouchStarted
+  name: TouchStarted
+  nameWithType: ICarouselViewController.TouchStarted
+  fullName: TemplateMAUI.Controls.ICarouselViewController.TouchStarted
+- uid: TemplateMAUI.Controls.ICarouselViewController.TouchChanged*
+  commentId: Overload:TemplateMAUI.Controls.ICarouselViewController.TouchChanged
+  href: TemplateMAUI.Controls.ICarouselViewController.html#TemplateMAUI_Controls_ICarouselViewController_TouchChanged_System_Double_
+  name: TouchChanged
+  nameWithType: ICarouselViewController.TouchChanged
+  fullName: TemplateMAUI.Controls.ICarouselViewController.TouchChanged
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TemplateMAUI.Controls.ICarouselViewController.TouchEnded*
+  commentId: Overload:TemplateMAUI.Controls.ICarouselViewController.TouchEnded
+  href: TemplateMAUI.Controls.ICarouselViewController.html#TemplateMAUI_Controls_ICarouselViewController_TouchEnded
+  name: TouchEnded
+  nameWithType: ICarouselViewController.TouchEnded
+  fullName: TemplateMAUI.Controls.ICarouselViewController.TouchEnded

@@ -1,0 +1,62 @@
+### YamlMime:ManagedReference
+items:
+- uid: TemplateMAUI.Gallery.Services
+  commentId: N:TemplateMAUI.Gallery.Services
+  id: TemplateMAUI.Gallery.Services
+  children:
+  - TemplateMAUI.Gallery.Services.DialogService
+  - TemplateMAUI.Gallery.Services.NavigationService
+  langs:
+  - csharp
+  - vb
+  name: TemplateMAUI.Gallery.Services
+  nameWithType: TemplateMAUI.Gallery.Services
+  fullName: TemplateMAUI.Gallery.Services
+  type: Namespace
+  assemblies:
+  - TemplateMAUI.Gallery
+references:
+- uid: TemplateMAUI.Gallery.Services.DialogService
+  commentId: T:TemplateMAUI.Gallery.Services.DialogService
+  parent: TemplateMAUI.Gallery.Services
+  href: TemplateMAUI.Gallery.Services.DialogService.html
+  name: DialogService
+  nameWithType: DialogService
+  fullName: TemplateMAUI.Gallery.Services.DialogService
+- uid: TemplateMAUI.Gallery.Services.NavigationService
+  commentId: T:TemplateMAUI.Gallery.Services.NavigationService
+  parent: TemplateMAUI.Gallery.Services
+  href: TemplateMAUI.Gallery.Services.NavigationService.html
+  name: NavigationService
+  nameWithType: NavigationService
+  fullName: TemplateMAUI.Gallery.Services.NavigationService
+- uid: TemplateMAUI.Gallery.Services
+  commentId: N:TemplateMAUI.Gallery.Services
+  href: TemplateMAUI.html
+  name: TemplateMAUI.Gallery.Services
+  nameWithType: TemplateMAUI.Gallery.Services
+  fullName: TemplateMAUI.Gallery.Services
+  spec.csharp:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Gallery
+    name: Gallery
+    href: TemplateMAUI.Gallery.html
+  - name: .
+  - uid: TemplateMAUI.Gallery.Services
+    name: Services
+    href: TemplateMAUI.Gallery.Services.html
+  spec.vb:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Gallery
+    name: Gallery
+    href: TemplateMAUI.Gallery.html
+  - name: .
+  - uid: TemplateMAUI.Gallery.Services
+    name: Services
+    href: TemplateMAUI.Gallery.Services.html

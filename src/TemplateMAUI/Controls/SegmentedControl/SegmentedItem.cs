@@ -2,6 +2,10 @@
 
 namespace TemplateMAUI.Controls
 {
+    /// <summary>
+    /// The SegmentedItem is a custom templated control designed to represent an individual item within a segmented control. 
+    /// It provides the visual representation and functionality for each segment, allowing users to interact with and select individual items in a segmented control.
+    /// </summary>
     public class SegmentedItem : TemplatedView
     {
         const string ElementContainer = "PART_Container";

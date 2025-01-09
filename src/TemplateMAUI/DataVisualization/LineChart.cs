@@ -2,6 +2,10 @@
 
 namespace TemplateMAUI.DataVisualization
 {
+    /// <summary>
+    /// The LineChart is a custom charting control that inherits from SerialChart. 
+    /// It is designed to display data points connected by lines, making it ideal for visualizing trends over time or other continuous data sets.
+    /// </summary>
     // TODO: Move code to SerialChart class
     public class LineChart : SerialChart
     {

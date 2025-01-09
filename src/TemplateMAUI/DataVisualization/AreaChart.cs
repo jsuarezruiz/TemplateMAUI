@@ -2,6 +2,10 @@
 
 namespace TemplateMAUI.DataVisualization
 {
+    /// <summary>
+    /// The AreaChart is a custom charting control that inherits from SerialChart. 
+    /// It is designed to display data points connected by lines and filled areas, making it ideal for visualizing trends and showing the magnitude of changes over time or other continuous data sets.
+    /// </summary>
     // TODO: Move code to SerialChart class
     public class AreaChart : SerialChart
     {

@@ -4,6 +4,9 @@ using System.Windows.Input;
 
 namespace TemplateMAUI.Controls
 {
+    /// <summary>
+    /// The CarouselView is a custom templated control that provides a carousel interface for displaying a collection of views.
+    /// </summary>
     public class CarouselView : TemplatedView, ICarouselViewController
     {
         const string ElementContent = "Part_Content";

@@ -2,6 +2,10 @@
 
 namespace TemplateMAUI.Controls
 {
+    /// <summary>
+    /// The PinBox is a custom templated control designed to provide a secure input interface for PIN (Personal Identification Number) entry. 
+    /// It is typically used in scenarios where users need to enter a secure code, such as for authentication or verification purposes.
+    /// </summary>
     public class PinBox : TemplatedView
     {
         public static char DefaultPasswordChart = '●';

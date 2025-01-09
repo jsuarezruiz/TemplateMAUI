@@ -6,6 +6,10 @@ using System.Runtime.CompilerServices;
 
 namespace TemplateMAUI.Controls
 {
+    /// <summary>
+    /// The SegmentedControl is a custom templated control that provides a segmented control interface, allowing users to select from multiple segments or options. 
+    /// It is useful for scenarios where a single choice needs to be made from a set of options.
+    /// </summary>
     [ContentProperty(nameof(SegmentedItems))]
     public class SegmentedControl : TemplatedView
     {

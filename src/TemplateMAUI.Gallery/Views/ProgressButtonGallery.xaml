@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:TemplateMAUI.Controls;assembly=TemplateMAUI"
+             x:Class="TemplateMAUI.Gallery.Views.ProgressButtonGallery"
+             Title="ProgressButton Gallery">
+    <StackLayout
+        Padding="12">
+        <controls:ProgressButton
+            x:Name="ProgressButton1"
+            Background="LightGray"
+            BorderBrush="DarkGray"
+            ProgressColor="Black"
+            TextColor="Black"
+            Content="Progress"
+            Margin="0, 6"
+            Clicked="OnProgressButtonClicked" />
+        <controls:ProgressButton
+            x:Name="ProgressButton2"
+            Background="LightGray"
+            BorderBrush="DarkGray"
+            ProgressColor="Black"
+            TextColor="Black"
+            Margin="0, 6"
+            Clicked="OnProgressButtonClicked">
+            <controls:ProgressButton.Content>
+                <Grid
+                    ColumnDefinitions="Auto, Auto, *, Auto"
+                    VerticalOptions="Center">
+                    <Image 
+                        HeightRequest="24"
+                        Aspect="AspectFit"
+                        Source="file.png"/>
+                    <Label 
+                        Grid.Column="1"
+                        FontAttributes="Bold"
+                        Text="Progress"
+                        TextColor="Gray"/>
+                    <Label
+                        Grid.Column="2"
+                        Text="Button"
+                        TextColor="Black"/>
+                    <Image 
+                        Grid.Column="3"
+                        HeightRequest="24"
+                        Aspect="AspectFit"
+                        Source="file.png"/>
+                </Grid>
+            </controls:ProgressButton.Content>
+        </controls:ProgressButton>
+    </StackLayout>
+</ContentPage>

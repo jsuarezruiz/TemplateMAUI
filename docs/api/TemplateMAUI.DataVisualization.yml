@@ -1,0 +1,88 @@
+### YamlMime:ManagedReference
+items:
+- uid: TemplateMAUI.DataVisualization
+  commentId: N:TemplateMAUI.DataVisualization
+  id: TemplateMAUI.DataVisualization
+  children:
+  - TemplateMAUI.DataVisualization.AreaChart
+  - TemplateMAUI.DataVisualization.BarChart
+  - TemplateMAUI.DataVisualization.CategoryAxis
+  - TemplateMAUI.DataVisualization.GridLines
+  - TemplateMAUI.DataVisualization.LineChart
+  - TemplateMAUI.DataVisualization.SerialChart
+  - TemplateMAUI.DataVisualization.ValueAxis
+  langs:
+  - csharp
+  - vb
+  name: TemplateMAUI.DataVisualization
+  nameWithType: TemplateMAUI.DataVisualization
+  fullName: TemplateMAUI.DataVisualization
+  type: Namespace
+  assemblies:
+  - TemplateMAUI
+references:
+- uid: TemplateMAUI.DataVisualization.AreaChart
+  commentId: T:TemplateMAUI.DataVisualization.AreaChart
+  href: TemplateMAUI.DataVisualization.AreaChart.html
+  name: AreaChart
+  nameWithType: AreaChart
+  fullName: TemplateMAUI.DataVisualization.AreaChart
+- uid: TemplateMAUI.DataVisualization.BarChart
+  commentId: T:TemplateMAUI.DataVisualization.BarChart
+  href: TemplateMAUI.DataVisualization.BarChart.html
+  name: BarChart
+  nameWithType: BarChart
+  fullName: TemplateMAUI.DataVisualization.BarChart
+- uid: TemplateMAUI.DataVisualization.CategoryAxis
+  commentId: T:TemplateMAUI.DataVisualization.CategoryAxis
+  href: TemplateMAUI.DataVisualization.CategoryAxis.html
+  name: CategoryAxis
+  nameWithType: CategoryAxis
+  fullName: TemplateMAUI.DataVisualization.CategoryAxis
+- uid: TemplateMAUI.DataVisualization.GridLines
+  commentId: T:TemplateMAUI.DataVisualization.GridLines
+  href: TemplateMAUI.DataVisualization.GridLines.html
+  name: GridLines
+  nameWithType: GridLines
+  fullName: TemplateMAUI.DataVisualization.GridLines
+- uid: TemplateMAUI.DataVisualization.SerialChart
+  commentId: T:TemplateMAUI.DataVisualization.SerialChart
+  parent: TemplateMAUI.DataVisualization
+  href: TemplateMAUI.DataVisualization.SerialChart.html
+  name: SerialChart
+  nameWithType: SerialChart
+  fullName: TemplateMAUI.DataVisualization.SerialChart
+- uid: TemplateMAUI.DataVisualization.ValueAxis
+  commentId: T:TemplateMAUI.DataVisualization.ValueAxis
+  href: TemplateMAUI.DataVisualization.ValueAxis.html
+  name: ValueAxis
+  nameWithType: ValueAxis
+  fullName: TemplateMAUI.DataVisualization.ValueAxis
+- uid: TemplateMAUI.DataVisualization.LineChart
+  commentId: T:TemplateMAUI.DataVisualization.LineChart
+  href: TemplateMAUI.DataVisualization.LineChart.html
+  name: LineChart
+  nameWithType: LineChart
+  fullName: TemplateMAUI.DataVisualization.LineChart
+- uid: TemplateMAUI.DataVisualization
+  commentId: N:TemplateMAUI.DataVisualization
+  href: TemplateMAUI.html
+  name: TemplateMAUI.DataVisualization
+  nameWithType: TemplateMAUI.DataVisualization
+  fullName: TemplateMAUI.DataVisualization
+  spec.csharp:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.DataVisualization
+    name: DataVisualization
+    href: TemplateMAUI.DataVisualization.html
+  spec.vb:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.DataVisualization
+    name: DataVisualization
+    href: TemplateMAUI.DataVisualization.html

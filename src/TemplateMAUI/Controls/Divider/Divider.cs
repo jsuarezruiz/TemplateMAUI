@@ -1,5 +1,9 @@
 ﻿namespace TemplateMAUI.Controls
 {
+    /// <summary>
+    /// The Divider is a custom templated control designed to represent a visual divider in a user interface. 
+    /// It is used to separate content or sections within a layout, providing a clear visual distinction between different parts of the UI.
+    /// </summary>
     // TODO: Replace the BoxView with a Line and add more properties (StrokeDashArray, etc.).
     public class Divider : TemplatedView
     {

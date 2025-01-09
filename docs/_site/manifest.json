@@ -1,0 +1,1828 @@
+{
+  "source_base_path": "C:/Users/jsuarez/Documents/GitHub/TemplateMAUI/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.AvatarShape.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.AvatarShape.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.AvatarSize.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.AvatarSize.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.AvatarView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.AvatarView.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.BadgeAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.BadgeAnimation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.BadgePosition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.BadgePosition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.BadgeView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.BadgeView.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.BoolPropertyEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.BoolPropertyEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.CarouselItemTransition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.CarouselItemTransition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.CarouselView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.CarouselView.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.ChatBubble.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.ChatBubble.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.ChatBubbleType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.ChatBubbleType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.ColorPicker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.ColorPicker.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.ColorToHexConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.ColorToHexConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.ColorToRgbaConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.ColorToRgbaConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.ComparerOrientation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.ComparerOrientation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.ComparerThumb.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.ComparerThumb.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.ComparerView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.ComparerView.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.CurrentItemChangedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.CurrentItemChangedEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.DatePropertyEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.DatePropertyEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.Divider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.Divider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.DividerOrientation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.DividerOrientation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.ElementToBoolConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.ElementToBoolConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.EnumPropertyEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.EnumPropertyEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.GridResizeDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.GridResizeDirection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.GridSplitter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.GridSplitter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.IBadgeAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.IBadgeAnimation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.ICarouselItemTransition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.ICarouselItemTransition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.ICarouselViewController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.ICarouselViewController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.IPinAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.IPinAnimation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.ISnackBarAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.ISnackBarAnimation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.Marquee.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.Marquee.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.MarqueeDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.MarqueeDirection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.NodeDoubleTappedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.NodeDoubleTappedEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.NodeExpandedCollapsedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.NodeExpandedCollapsedEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.NodeTappedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.NodeTappedEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.NumberPropertyEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.NumberPropertyEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.PinAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.PinAnimation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.PinBox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.PinBox.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.PinCompletedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.PinCompletedEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.PositionChangedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.PositionChangedEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.ProgressBar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.ProgressBar.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.PropertyEditorBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.PropertyEditorBase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.PropertyEditorType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.PropertyEditorType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.PropertyGrid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.PropertyGrid.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.PropertyItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.PropertyItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.PropertyItems.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.PropertyItems.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.PropertyResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.PropertyResolver.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.Rate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.Rate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.RateItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.RateItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.ReadOnlyPropertyEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.ReadOnlyPropertyEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.ScrolledEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.ScrolledEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.SegmentedControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.SegmentedControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.SegmentedItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.SegmentedItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.SelectedIndexEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.SelectedIndexEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.SelectionChanged.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.SelectionChanged.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.SelectionChangedArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.SelectionChangedArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.SelectionChangingArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.SelectionChangingArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.SelectionMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.SelectionMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.Shield.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.Shield.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.Slider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.Slider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.SnackBar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.SnackBar.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.SnackBarAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.SnackBarAnimation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.SnackBarTimer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.SnackBarTimer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.StringPropertyEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.StringPropertyEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.SwipeDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.SwipeDirection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.Tag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.Tag.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.ToggleSwitch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.ToggleSwitch.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.ToggledEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.ToggledEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.TreeView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.TreeView.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.TreeViewChildrenToBoolConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.TreeViewChildrenToBoolConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.TreeViewNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.TreeViewNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.TreeViewNodes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.TreeViewNodes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.ValueChangedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.ValueChangedEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.VisualType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.VisualType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Controls.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Controls.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.DataVisualization.AreaChart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.DataVisualization.AreaChart.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.DataVisualization.BarChart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.DataVisualization.BarChart.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.DataVisualization.CategoryAxis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.DataVisualization.CategoryAxis.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.DataVisualization.GridLines.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.DataVisualization.GridLines.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.DataVisualization.LineChart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.DataVisualization.LineChart.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.DataVisualization.SerialChart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.DataVisualization.SerialChart.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.DataVisualization.ValueAxis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.DataVisualization.ValueAxis.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.DataVisualization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.DataVisualization.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Extensions.EnumerableExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Extensions.EnumerableExtension.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Extensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Gallery.App.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Gallery.App.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Gallery.Converters.ColorToBrushConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Gallery.Converters.ColorToBrushConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Gallery.Converters.GalleryItemStatusToBoolConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Gallery.Converters.GalleryItemStatusToBoolConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Gallery.Converters.GalleryItemStatusToColorConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Gallery.Converters.GalleryItemStatusToColorConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Gallery.Converters.GalleryItemStatusToStringConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Gallery.Converters.GalleryItemStatusToStringConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Gallery.Converters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Gallery.Converters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Gallery.MainActivity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Gallery.MainActivity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Gallery.MainApplication.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Gallery.MainApplication.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Gallery.MauiProgram.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Gallery.MauiProgram.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Gallery.Models.ChartDataItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Gallery.Models.ChartDataItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Gallery.Models.GalleryItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Gallery.Models.GalleryItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Gallery.Models.GalleryItemStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Gallery.Models.GalleryItemStatus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Gallery.Models.Monkey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Gallery.Models.Monkey.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Gallery.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Gallery.Models.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Gallery.Resource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Gallery.Resource.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Gallery.Services.DialogService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Gallery.Services.DialogService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Gallery.Services.NavigationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Gallery.Services.NavigationService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Gallery.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Gallery.Services.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Gallery.TemplateMAUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Gallery.TemplateMAUI.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Gallery.ViewModels.BadgeViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Gallery.ViewModels.BadgeViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Gallery.ViewModels.CarouselViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Gallery.ViewModels.CarouselViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Gallery.ViewModels.MainViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Gallery.ViewModels.MainViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Gallery.ViewModels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Gallery.ViewModels.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Gallery.Views.AvatarViewGallery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Gallery.Views.AvatarViewGallery.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Gallery.Views.BadgeViewGallery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Gallery.Views.BadgeViewGallery.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Gallery.Views.CarouselViewGallery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Gallery.Views.CarouselViewGallery.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Gallery.Views.ChatBubbleGallery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Gallery.Views.ChatBubbleGallery.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Gallery.Views.CircleProgressBarGallery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Gallery.Views.CircleProgressBarGallery.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Gallery.Views.ColorPickerGallery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Gallery.Views.ColorPickerGallery.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Gallery.Views.ComparerViewGallery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Gallery.Views.ComparerViewGallery.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Gallery.Views.CustomNavigationPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Gallery.Views.CustomNavigationPage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Gallery.Views.DataVisualizationGallery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Gallery.Views.DataVisualizationGallery.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Gallery.Views.DividerGallery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Gallery.Views.DividerGallery.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Gallery.Views.GridSplitterGallery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Gallery.Views.GridSplitterGallery.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Gallery.Views.MainView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Gallery.Views.MainView.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Gallery.Views.MarqueeGallery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Gallery.Views.MarqueeGallery.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Gallery.Views.PinBoxGallery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Gallery.Views.PinBoxGallery.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Gallery.Views.ProgressBarGallery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Gallery.Views.ProgressBarGallery.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Gallery.Views.PropertyEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Gallery.Views.PropertyEnum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Gallery.Views.PropertyGridGallery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Gallery.Views.PropertyGridGallery.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Gallery.Views.PropertyGridModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Gallery.Views.PropertyGridModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Gallery.Views.RateGallery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Gallery.Views.RateGallery.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Gallery.Views.SegmentedControlGallery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Gallery.Views.SegmentedControlGallery.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Gallery.Views.ShieldGallery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Gallery.Views.ShieldGallery.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Gallery.Views.SliderGallery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Gallery.Views.SliderGallery.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Gallery.Views.SnackBarGallery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Gallery.Views.SnackBarGallery.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Gallery.Views.TagGallery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Gallery.Views.TagGallery.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Gallery.Views.Templates.GalleryItemTemplate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Gallery.Views.Templates.GalleryItemTemplate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Gallery.Views.Templates.TrendingItemTemplate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Gallery.Views.Templates.TrendingItemTemplate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Gallery.Views.Templates.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Gallery.Views.Templates.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Gallery.Views.ToggleSwitchGallery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Gallery.Views.ToggleSwitchGallery.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Gallery.Views.TreeViewGallery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Gallery.Views.TreeViewGallery.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Gallery.Views.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Gallery.Views.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Gallery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Gallery.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Helpers.VisualTreeHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Helpers.VisualTreeHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Helpers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Platforms.BitmapExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Platforms.BitmapExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Platforms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Platforms.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Themes.AreaChart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Themes.AreaChart.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Themes.AvatarView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Themes.AvatarView.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Themes.BadgeView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Themes.BadgeView.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Themes.BarChart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Themes.BarChart.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Themes.CarouselView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Themes.CarouselView.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Themes.CategoryAxis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Themes.CategoryAxis.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Themes.ChatBubble.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Themes.ChatBubble.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Themes.CircleProgressBar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Themes.CircleProgressBar.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Themes.ColorPicker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Themes.ColorPicker.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Themes.Colors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Themes.Colors.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Themes.ComparerView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Themes.ComparerView.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Themes.Divider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Themes.Divider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Themes.Generic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Themes.Generic.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Themes.Geometries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Themes.Geometries.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Themes.GridLines.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Themes.GridLines.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Themes.GridSplitter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Themes.GridSplitter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Themes.LineChart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Themes.LineChart.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Themes.Marquee.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Themes.Marquee.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Themes.PinBox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Themes.PinBox.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Themes.ProgressBar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Themes.ProgressBar.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Themes.PropertyGrid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Themes.PropertyGrid.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Themes.Rate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Themes.Rate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Themes.SegmentedControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Themes.SegmentedControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Themes.Shield.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Themes.Shield.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Themes.Slider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Themes.Slider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Themes.SnackBar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Themes.SnackBar.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Themes.Tag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Themes.Tag.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Themes.ToggleSwitch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Themes.ToggleSwitch.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Themes.TreeView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Themes.TreeView.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Themes.ValueAxis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Themes.ValueAxis.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplateMAUI.Themes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplateMAUI.Themes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

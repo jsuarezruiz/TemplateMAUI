@@ -33,7 +33,7 @@
                 x:Name="CornerRadiusSnackBar"
                 BackgroundColor="OrangeRed"
                 ActionTextColor="LightGoldenrodYellow"
-                CornerRadius="24"
+                CornerRadius="12"
                 Message="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
                 Margin="12, 0, 12, 24"/>
         </Grid>

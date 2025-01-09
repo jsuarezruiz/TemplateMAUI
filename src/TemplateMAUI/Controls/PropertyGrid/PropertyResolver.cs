@@ -2,6 +2,10 @@
 
 namespace TemplateMAUI.Controls
 {
+    /// <summary>
+    /// The PropertyResolver class is a utility class designed to map types to their corresponding property editor types. 
+    /// This class helps in determining the appropriate editor type for a given data type, facilitating dynamic property editing in user interfaces.
+    /// </summary>
     public class PropertyResolver
     {
         static readonly Dictionary<Type, PropertyEditorType> TypeCodes = new()

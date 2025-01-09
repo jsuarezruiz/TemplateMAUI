@@ -1,0 +1,114 @@
+### YamlMime:ManagedReference
+items:
+- uid: TemplateMAUI.Controls.MarqueeDirection
+  commentId: T:TemplateMAUI.Controls.MarqueeDirection
+  id: MarqueeDirection
+  parent: TemplateMAUI.Controls
+  children:
+  - TemplateMAUI.Controls.MarqueeDirection.LeftToRight
+  - TemplateMAUI.Controls.MarqueeDirection.RightToLeft
+  langs:
+  - csharp
+  - vb
+  name: MarqueeDirection
+  nameWithType: MarqueeDirection
+  fullName: TemplateMAUI.Controls.MarqueeDirection
+  type: Enum
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/Marquee/MarqueeDirection.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: MarqueeDirection
+    path: ../src/TemplateMAUI/Controls/Marquee/MarqueeDirection.cs
+    startLine: 5
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  summary: Represents the possible directions for a marquee effect, which is a scrolling display of text or other content.
+  example: []
+  syntax:
+    content: public enum MarqueeDirection
+    content.vb: Public Enum MarqueeDirection
+- uid: TemplateMAUI.Controls.MarqueeDirection.LeftToRight
+  commentId: F:TemplateMAUI.Controls.MarqueeDirection.LeftToRight
+  id: LeftToRight
+  parent: TemplateMAUI.Controls.MarqueeDirection
+  langs:
+  - csharp
+  - vb
+  name: LeftToRight
+  nameWithType: MarqueeDirection.LeftToRight
+  fullName: TemplateMAUI.Controls.MarqueeDirection.LeftToRight
+  type: Field
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/Marquee/MarqueeDirection.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: LeftToRight
+    path: ../src/TemplateMAUI/Controls/Marquee/MarqueeDirection.cs
+    startLine: 7
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: LeftToRight = 0
+    return:
+      type: TemplateMAUI.Controls.MarqueeDirection
+- uid: TemplateMAUI.Controls.MarqueeDirection.RightToLeft
+  commentId: F:TemplateMAUI.Controls.MarqueeDirection.RightToLeft
+  id: RightToLeft
+  parent: TemplateMAUI.Controls.MarqueeDirection
+  langs:
+  - csharp
+  - vb
+  name: RightToLeft
+  nameWithType: MarqueeDirection.RightToLeft
+  fullName: TemplateMAUI.Controls.MarqueeDirection.RightToLeft
+  type: Field
+  source:
+    remote:
+      path: src/TemplateMAUI/Controls/Marquee/MarqueeDirection.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/TemplateMAUI.git
+    id: RightToLeft
+    path: ../src/TemplateMAUI/Controls/Marquee/MarqueeDirection.cs
+    startLine: 8
+  assemblies:
+  - TemplateMAUI
+  namespace: TemplateMAUI.Controls
+  syntax:
+    content: RightToLeft = 1
+    return:
+      type: TemplateMAUI.Controls.MarqueeDirection
+references:
+- uid: TemplateMAUI.Controls
+  commentId: N:TemplateMAUI.Controls
+  href: TemplateMAUI.html
+  name: TemplateMAUI.Controls
+  nameWithType: TemplateMAUI.Controls
+  fullName: TemplateMAUI.Controls
+  spec.csharp:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Controls
+    name: Controls
+    href: TemplateMAUI.Controls.html
+  spec.vb:
+  - uid: TemplateMAUI
+    name: TemplateMAUI
+    href: TemplateMAUI.html
+  - name: .
+  - uid: TemplateMAUI.Controls
+    name: Controls
+    href: TemplateMAUI.Controls.html
+- uid: TemplateMAUI.Controls.MarqueeDirection
+  commentId: T:TemplateMAUI.Controls.MarqueeDirection
+  parent: TemplateMAUI.Controls
+  href: TemplateMAUI.Controls.MarqueeDirection.html
+  name: MarqueeDirection
+  nameWithType: MarqueeDirection
+  fullName: TemplateMAUI.Controls.MarqueeDirection

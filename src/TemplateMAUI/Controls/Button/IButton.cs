@@ -15,6 +15,7 @@ namespace TemplateMAUI.Controls
         Color TextColor { get; }
         double FontSize { get; }
         string FontFamily { get; }
+        FontAttributes FontAttributes { get; }
         Color RippleColor { get; }
         ICommand Command { get; }
         object CommandParameter { get; }

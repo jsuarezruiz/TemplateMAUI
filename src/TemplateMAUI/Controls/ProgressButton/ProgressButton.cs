@@ -149,6 +149,10 @@ namespace TemplateMAUI.Controls
             }
         }
 
+        public event EventHandler Pressed;
+        public event EventHandler Released;
+        public event EventHandler PointerEntered;
+        public event EventHandler PointerExited;
         public event EventHandler Clicked;
 
         public View ContentAsString(object content)
@@ -218,9 +222,11 @@ namespace TemplateMAUI.Controls
                 _tapGestureRecognizer.Tapped += OnButtonTapped;
                 _container.GestureRecognizers.Add(_tapGestureRecognizer);
 
+                _pointerGestureRecognizer.PointerEntered += OnButtonPointerEntered;
                 _pointerGestureRecognizer.PointerPressed += OnButtonPointerPressed;
                 _pointerGestureRecognizer.PointerMoved += OnButtonPointerMoved;
-                _pointerGestureRecognizer.PointerExited += OnButtonHandlePointerExited;
+                _pointerGestureRecognizer.PointerExited += OnButtonPointerExited;
+                _pointerGestureRecognizer.PointerReleased += OnButtonPointerReleased;
                 _container.GestureRecognizers.Add(_pointerGestureRecognizer);
             }
             else
@@ -233,9 +239,11 @@ namespace TemplateMAUI.Controls
 
                 if (_pointerGestureRecognizer is not null)
                 {
+                    _pointerGestureRecognizer.PointerEntered -= OnButtonPointerEntered;
                     _pointerGestureRecognizer.PointerPressed -= OnButtonPointerPressed;
                     _pointerGestureRecognizer.PointerMoved -= OnButtonPointerMoved;
-                    _pointerGestureRecognizer.PointerExited -= OnButtonHandlePointerExited;
+                    _pointerGestureRecognizer.PointerExited -= OnButtonPointerExited;
+                    _pointerGestureRecognizer.PointerReleased -= OnButtonPointerReleased;
                     _container.GestureRecognizers.Remove(_pointerGestureRecognizer);
                 }
             }
@@ -269,10 +277,16 @@ namespace TemplateMAUI.Controls
             if (Command is not null && Command.CanExecute(CommandParameter))
                 Command.Execute(null);
         }
-       
+
+        void OnButtonPointerEntered(object sender, PointerEventArgs e)
+        {
+            PointerEntered?.Invoke(this, EventArgs.Empty);
+        }
+
         void OnButtonPointerPressed(object sender, PointerEventArgs e)
         {
             UpdateVisualState(ButtonVisualState.Pressed);
+            Pressed?.Invoke(this, EventArgs.Empty);
         }
 
         void OnButtonPointerMoved(object sender, PointerEventArgs e)
@@ -280,9 +294,15 @@ namespace TemplateMAUI.Controls
             UpdateVisualState(ButtonVisualState.MouseOver);
         }
 
-        void OnButtonHandlePointerExited(object sender, PointerEventArgs e)
+        void OnButtonPointerExited(object sender, PointerEventArgs e)
         {
             UpdateVisualState(ButtonVisualState.Normal);
+            PointerExited?.Invoke(this, EventArgs.Empty);
+        }
+
+        void OnButtonPointerReleased(object sender, PointerEventArgs e)
+        {
+            Released?.Invoke(this, EventArgs.Empty);
         }
 
         void UpdateVisualState(ButtonVisualState visualState)

@@ -123,6 +123,8 @@ namespace TemplateMAUI.Controls
 
         public event EventHandler Pressed;
         public event EventHandler Released;
+        public event EventHandler PointerEntered;
+        public event EventHandler PointerExited;
         public event EventHandler Clicked;
 
         public View ContentAsString(object content)
@@ -191,6 +193,7 @@ namespace TemplateMAUI.Controls
                 _tapGestureRecognizer.Tapped += OnButtonTapped;
                 _container.GestureRecognizers.Add(_tapGestureRecognizer);
 
+                _pointerGestureRecognizer.PointerEntered += OnButtonPointerEntered;
                 _pointerGestureRecognizer.PointerPressed += OnButtonPointerPressed;
                 _pointerGestureRecognizer.PointerMoved += OnButtonPointerMoved;
                 _pointerGestureRecognizer.PointerExited += OnButtonHandlePointerExited;
@@ -207,6 +210,7 @@ namespace TemplateMAUI.Controls
 
                 if (_pointerGestureRecognizer is not null)
                 {
+                    _pointerGestureRecognizer.PointerEntered -= OnButtonPointerEntered;
                     _pointerGestureRecognizer.PointerPressed -= OnButtonPointerPressed;
                     _pointerGestureRecognizer.PointerMoved -= OnButtonPointerMoved;
                     _pointerGestureRecognizer.PointerExited -= OnButtonHandlePointerExited;
@@ -226,6 +230,11 @@ namespace TemplateMAUI.Controls
                 Command.Execute(null);
         }
 
+        void OnButtonPointerEntered(object sender, PointerEventArgs e)
+        {
+            PointerEntered?.Invoke(this, EventArgs.Empty);
+        }
+
         void OnButtonPointerPressed(object sender, PointerEventArgs e)
         {
             UpdateVisualState(ButtonVisualState.Pressed);
@@ -240,6 +249,7 @@ namespace TemplateMAUI.Controls
         void OnButtonHandlePointerExited(object sender, PointerEventArgs e)
         {
             UpdateVisualState(ButtonVisualState.Normal);
+            PointerExited?.Invoke(this, EventArgs.Empty);
         }
 
         void OnButtonPointerReleased(object sender, PointerEventArgs e)

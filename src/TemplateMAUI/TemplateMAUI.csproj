@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
 		<TargetFrameworks>net8.0;net8.0-android;net8.0-ios;net8.0-maccatalyst</TargetFrameworks>
@@ -41,6 +41,11 @@
 	    <Pack>True</Pack>
 	    <PackagePath>\</PackagePath>
 	  </None>
+	</ItemGroup>
+
+  <ItemGroup>
+	  <MauiImage Include="Resources\Images\transparent_bar.png" />
+	  <MauiImage Include="Resources\Images\transparent_ellipse.png" />
 	</ItemGroup>
 
 </Project>

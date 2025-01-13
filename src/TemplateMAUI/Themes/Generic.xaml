@@ -19,6 +19,7 @@
             <themes:ChatBubble />
             <themes:CategoryAxis />
             <themes:CircleProgressBar />
+            <themes:ColorPicker />
             <themes:ComparerView />
             <themes:Divider />
             <themes:ExpanderView />

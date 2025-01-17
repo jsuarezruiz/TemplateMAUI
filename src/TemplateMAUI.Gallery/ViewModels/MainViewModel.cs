@@ -65,6 +65,7 @@ namespace TemplateMAUI.Gallery.ViewModels
                 new GalleryItem { Title = "GridSplitter", SubTitle = "Represents the control that redistributes space between columns or rows of a Grid control.", Icon = "gridsplitter.png", Color = Colors.DarkOrchid, Status = GalleryItemStatus.InProgress },
                 new GalleryItem { Title = "Marquee", SubTitle = "Use this control to add an attention–getting text message that scrolls continuously across the screen.", Icon = "marquee.png", Color = Colors.DarkRed },
                 new GalleryItem { Title = "PinBox", SubTitle = "Allow to introduce a PIN or verification Code.", Icon = "pinbox.png", Color = Colors.PaleVioletRed },
+                new GalleryItem { Title = "PreviewSlider", SubTitle = "Represents a Slider control that provides a preview of its value.", Icon = "slider.png", Color = Colors.Chocolate },
                 new GalleryItem { Title = "PropertyGrid", SubTitle = "Allows end-users to edit properties of the objects associated with it.", Icon = "propertygrid.png", Color = Colors.DarkSlateGrey },
                 new GalleryItem { Title = "ProgressBar", SubTitle = "Provides a customizable visual to indicate the progress of a task.", Icon = "progressbar.png", Color = Colors.DodgerBlue, Status = GalleryItemStatus.InProgress  },
                 new GalleryItem { Title = "ProgressButton", SubTitle = "Represent a button with integrated progress indication functionality.", Icon = "progressbutton.png", Color = Colors.PaleVioletRed },

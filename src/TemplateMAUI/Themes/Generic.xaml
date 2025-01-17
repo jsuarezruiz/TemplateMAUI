@@ -28,6 +28,7 @@
             <themes:LineChart />
             <themes:Marquee />
             <themes:PinBox />
+            <themes:PreviewSlider />
             <themes:ProgressBar />
             <themes:ProgressButton />
             <themes:PropertyGrid />

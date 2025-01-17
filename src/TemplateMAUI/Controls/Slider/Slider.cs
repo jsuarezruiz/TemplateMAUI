@@ -6,7 +6,7 @@ namespace TemplateMAUI.Controls
     /// The Slider is a custom templated control that allows users to select a value from a range of values by moving a thumb control along a track. 
     /// It provides a flexible and customizable way to input numerical values within a specified range.
     /// </summary>
-    public class Slider : TemplatedView
+    public class Slider : TemplatedView, ISlider
     {
         const string ElementTrackBackground = "PART_TrackBackground";
         const string ElementProgress = "PART_Progress";
@@ -51,8 +51,7 @@ namespace TemplateMAUI.Controls
                 slider._thumb.Content = newValue as View;
         }
 
-        public static readonly BindableProperty MinimumProperty =
-            BindableProperty.Create(nameof(Minimum), typeof(double), typeof(Slider), 0.0d);
+        public static readonly BindableProperty MinimumProperty = SliderBase.MinimumProperty;
 
         public double Minimum
         {
@@ -60,8 +59,7 @@ namespace TemplateMAUI.Controls
             set => SetValue(MinimumProperty, value);
         }
 
-        public static readonly BindableProperty MaximumProperty =
-            BindableProperty.Create(nameof(Maximum), typeof(double), typeof(Slider), 10.0d);
+        public static readonly BindableProperty MaximumProperty = SliderBase.MaximumProperty;
 
         public double Maximum
         {
@@ -148,13 +146,17 @@ namespace TemplateMAUI.Controls
                 return;
             }
             ValueChanged?.Invoke(this, new ValueChangedEventArgs(valChecked));
+            
+            if (_trackBackground is null)
+                return;
 
             if (!isNecessary && _previousVal == val)
                 return;
 
             var half = ThumbHalfWidth;
 
-            var thumbCenterPosition = ConvertRangeValue(val, min, max, half, _trackBackground.Width -half);
+            var width = _trackBackground.Width > 0 ? _trackBackground.Width : Width;
+            var thumbCenterPosition = ConvertRangeValue(val, min, max, half, width - half);
             SetThumbPosition(thumbCenterPosition - half, thumbCenterPosition, val);
         }
 

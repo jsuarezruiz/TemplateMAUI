@@ -102,6 +102,12 @@ Allow to introduce a PIN or verification Code.
 
 ![PinBox](https://raw.githubusercontent.com/jsuarezruiz/TemplateMAUI/main/images/pinbox.png)
 
+### PreviewSlider
+
+Represents a Slider control that provides a preview of its value.
+
+![PreviewSlider](https://raw.githubusercontent.com/jsuarezruiz/TemplateMAUI/main/images/previewslider.gif)
+
 ### ProgressBar
 
 Provides a customizable visual to indicate the progress of a task.

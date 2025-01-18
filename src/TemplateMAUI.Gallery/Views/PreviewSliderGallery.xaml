@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="TemplateMAUI.Gallery.Views.PreviewSliderGallery"
+    xmlns:controls="clr-namespace:TemplateMAUI.Controls;assembly=TemplateMAUI"
+    Title="PreviewSlider Gallery">
+    <VerticalStackLayout
+        Padding="12">
+        <Label
+            Text="Getting Started"/>
+        <controls:PreviewSlider 
+            Minimum="0"
+            Maximum="100"  
+            Value="50"
+            Margin="0, 6" />
+        <controls:PreviewSlider 
+            Minimum="0"
+            Maximum="100"  
+            Value="50" 
+            PreviewPosition="Botttom"
+            Margin="0, 6" />
+        <Label
+            Text="Customization" />
+        <controls:PreviewSlider 
+            Minimum="0"
+            Maximum="100"  
+            Value="50"
+            TrackColor="OrangeRed"
+            ThumbColor="Orange"
+            PreviewColor="Orange"
+            TextColor="White"
+            Margin="0, 6" />
+    </VerticalStackLayout>
+</ContentPage>

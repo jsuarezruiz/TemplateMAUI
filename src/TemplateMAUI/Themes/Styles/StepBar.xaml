@@ -5,6 +5,8 @@
     x:Class="TemplateMAUI.Themes.StepBar"
     xmlns:controls="clr-namespace:TemplateMAUI.Controls">
 
+    <controls:ColorToInverseColorConverter  x:Key="ColorToInverseColorConverter"/>
+    
     <Style TargetType="controls:StepBar">
         <Setter Property="ControlTemplate">
             <Setter.Value>
@@ -42,6 +44,7 @@
                             <Label 
                                 HorizontalOptions="Center"
                                 VerticalOptions="Center"
+                                TextColor="{TemplateBinding CurrentColor, Converter={StaticResource ColorToInverseColorConverter}}"
                                 Text="{TemplateBinding Index}"/>
                         </Border>
                         <Label 

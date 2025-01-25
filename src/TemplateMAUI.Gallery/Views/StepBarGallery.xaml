@@ -22,10 +22,10 @@
             RowDefinitions="*, Auto">
             <controls:StepBar
                 StepIndex="{Binding StepIndex}"
-                Color="Black"
+                Color="{AppThemeBinding Light=Black, Dark=White}"
                 ColorSelected="{StaticResource SelectedColor}"
                 TextColor="DarkGray"
-                TextColorSelected="Black">
+                TextColorSelected="{AppThemeBinding Light=Black, Dark=White}">
                 <controls:StepBar.Items>
                     <controls:StepBarItems>
                         <controls:StepBarItem
@@ -44,10 +44,12 @@
                 Grid.Row="1">
                 <Button 
                     Text="Previous"
-                    Command="{Binding PreviousCommand}"/>
+                    Command="{Binding PreviousCommand}"
+                    Margin="0, 6"/>
                 <Button 
                     Text="Next"
-                    Command="{Binding NextCommand}"/>
+                    Command="{Binding NextCommand}"
+                    Margin="0, 6"/>
             </HorizontalStackLayout>
         </Grid>
     </VerticalStackLayout>

@@ -75,7 +75,7 @@ namespace TemplateMAUI.Controls
         }
 
         public static readonly BindableProperty TextColorProperty =
-            BindableProperty.Create(nameof(TextColor), typeof(Color), typeof(TreeView), Colors.Black);
+            BindableProperty.Create(nameof(TextColor), typeof(Color), typeof(TreeView), Application.Current.RequestedTheme == AppTheme.Light ? Colors.Black : Colors.White);
 
         public Color TextColor
         {

@@ -7,7 +7,7 @@
         <ResourceDictionary>
 
             <Style x:Key="TitleTextStyle" TargetType="Label">
-                <Setter Property="TextColor" Value="Black" />
+                <Setter Property="TextColor" Value="{AppThemeBinding Light=Black, Dark=White}" />
             </Style>
 
             <Style x:Key="SubTitleTextStyle" TargetType="Label">

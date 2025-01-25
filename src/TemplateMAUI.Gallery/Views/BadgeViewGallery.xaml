@@ -5,7 +5,7 @@
     xmlns:controls="clr-namespace:TemplateMAUI.Controls;assembly=TemplateMAUI"
     xmlns:viewmodels="clr-namespace:TemplateMAUI.Gallery.ViewModels"
     x:Class="TemplateMAUI.Gallery.Views.BadgeViewGallery"
-    BarBackgroundColor="{StaticResource NavBarBackgroundColor}"
+    BarBackgroundColor="{AppThemeBinding Dark={StaticResource DarkNavBarBackgroundColor}, Light={StaticResource LightNavBarBackgroundColor}}"
     BarTextColor="White"
     Title="BadgeView Gallery">
     <ContentPage

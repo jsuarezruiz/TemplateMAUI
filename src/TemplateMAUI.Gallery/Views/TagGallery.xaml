@@ -4,7 +4,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:controls="clr-namespace:TemplateMAUI.Controls;assembly=TemplateMAUI"
     x:Class="TemplateMAUI.Gallery.Views.TagGallery"
-    BarBackgroundColor="{StaticResource NavBarBackgroundColor}"
+    BarBackgroundColor="{AppThemeBinding Dark={StaticResource DarkNavBarBackgroundColor}, Light={StaticResource LightNavBarBackgroundColor}}"
     BarTextColor="White"
     Title="Tag Gallery">
     <ContentPage

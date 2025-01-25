@@ -4,7 +4,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:datavisualization="clr-namespace:TemplateMAUI.DataVisualization;assembly=TemplateMAUI"
     x:Class="TemplateMAUI.Gallery.Views.DataVisualizationGallery"
-    BarBackgroundColor="{StaticResource NavBarBackgroundColor}"
+    BarBackgroundColor="{AppThemeBinding Dark={StaticResource DarkNavBarBackgroundColor}, Light={StaticResource LightNavBarBackgroundColor}}"
     BarTextColor="White"
     Title="DataVisualization Gallery">
     <ContentPage

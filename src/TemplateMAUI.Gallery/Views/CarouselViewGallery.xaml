@@ -5,7 +5,7 @@
     xmlns:viewmodels="clr-namespace:TemplateMAUI.Gallery.ViewModels"
     xmlns:controls="clr-namespace:TemplateMAUI.Controls;assembly=TemplateMAUI"
     x:Class="TemplateMAUI.Gallery.Views.CarouselViewGallery"
-    BarBackgroundColor="{StaticResource NavBarBackgroundColor}"
+    BarBackgroundColor="{AppThemeBinding Dark={StaticResource DarkNavBarBackgroundColor}, Light={StaticResource LightNavBarBackgroundColor}}"
     BarTextColor="White"
     Title="CarouselView Gallery">
    <TabbedPage.Resources>

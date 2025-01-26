@@ -5,18 +5,18 @@
     xmlns:viewmodels="clr-namespace:TemplateMAUI.Gallery.ViewModels"
     xmlns:templates="clr-namespace:TemplateMAUI.Gallery.Views.Templates"
     x:Class="TemplateMAUI.Gallery.Views.MainView"
-    BackgroundColor="{StaticResource NavBarBackgroundColor}"
+    BackgroundColor="{AppThemeBinding Dark={StaticResource DarkNavBarBackgroundColor}, Light={StaticResource LightNavBarBackgroundColor}}"
     Title="Welcome to TemplateMAUI!">
     <ContentPage.Resources>
         <ResourceDictionary>
 
             <Style x:Key="SubTitleTextStyle" TargetType="Label">
-                <Setter Property="TextColor" Value="White" />
+                <Setter Property="TextColor" Value="{AppThemeBinding Light=Black, Dark=White}" />
                 <Setter Property="FontSize" Value="Micro" />
             </Style>
 
             <Style x:Key="SectionTextStyle" TargetType="Label">
-                <Setter Property="TextColor" Value="Black" />
+                <Setter Property="TextColor" Value="{AppThemeBinding Light=Black, Dark=White}" />
                 <Setter Property="FontSize" Value="Micro" />
                 <Setter Property="Margin" Value="12, 12, 12, 0" />
             </Style>
@@ -49,7 +49,7 @@
     <ContentPage.Content>
         <ScrollView>
             <Grid
-                BackgroundColor="{StaticResource NavBarBackgroundColor}">
+                BackgroundColor="{AppThemeBinding Dark={StaticResource DarkNavBarBackgroundColor}, Light={StaticResource LightNavBarBackgroundColor}}">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto" />
                     <RowDefinition Height="*" />
@@ -82,7 +82,7 @@
                     </Grid.RowDefinitions>
                     <BoxView
                         Grid.RowSpan="3"
-                        Color="{StaticResource BackgroundColor}"
+                        Color="{AppThemeBinding Dark={StaticResource DarkBackgroundColor}, Light={StaticResource LightBackgroundColor}}"
                         CornerRadius="24, 24, 0, 0"/>
                     <!-- TRENDING -->
                     <StackLayout
@@ -117,7 +117,7 @@
                         Grid.Row="1">
                         <Frame
                             HasShadow="False"
-                            BackgroundColor="{StaticResource NavBarBackgroundColor}"
+                            BackgroundColor="{AppThemeBinding Dark={StaticResource DarkNavBarBackgroundColor}, Light={StaticResource LightNavBarBackgroundColor}}"
                             Padding="0"
                             CornerRadius="12"
                             Margin="12, 0">
@@ -153,7 +153,7 @@
                             Style="{StaticResource SectionTextStyle}"/>
                         <Frame
                             HasShadow="False"
-                            BackgroundColor="White"
+                            BackgroundColor="{AppThemeBinding Light=White, Dark=Black}"
                             Padding="0"
                             Margin="12, 0, 12, 12">
                             <CollectionView 

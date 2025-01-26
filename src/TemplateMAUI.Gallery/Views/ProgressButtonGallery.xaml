@@ -8,19 +8,19 @@
         Padding="12">
         <controls:ProgressButton
             x:Name="ProgressButton1"
-            Background="LightGray"
+            Background="{AppThemeBinding Light=LightGray, Dark=#3e3e3e}"
             BorderBrush="DarkGray"
-            ProgressColor="Black"
-            TextColor="Black"
+            ProgressColor="{AppThemeBinding Light=Black, Dark=White}"
+            TextColor="{AppThemeBinding Light=Black, Dark=White}"
             Content="Progress"
             Margin="0, 6"
             Clicked="OnProgressButtonClicked" />
         <controls:ProgressButton
             x:Name="ProgressButton2"
-            Background="LightGray"
+            Background="{AppThemeBinding Light=LightGray, Dark=#3e3e3e}"
             BorderBrush="DarkGray"
-            ProgressColor="Black"
-            TextColor="Black"
+            ProgressColor="{AppThemeBinding Light=Black, Dark=White}"
+            TextColor="{AppThemeBinding Light=Black, Dark=White}"
             Margin="0, 6"
             Clicked="OnProgressButtonClicked">
             <controls:ProgressButton.Content>
@@ -35,11 +35,11 @@
                         Grid.Column="1"
                         FontAttributes="Bold"
                         Text="Progress"
-                        TextColor="Gray"/>
+                        TextColor="{AppThemeBinding Light=Gray, Dark=LightGray}"/>
                     <Label
                         Grid.Column="2"
                         Text="Button"
-                        TextColor="Black"/>
+                        TextColor="{AppThemeBinding Light=Black, Dark=White}"/>
                     <Image 
                         Grid.Column="3"
                         HeightRequest="24"

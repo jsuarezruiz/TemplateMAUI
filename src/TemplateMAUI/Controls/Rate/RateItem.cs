@@ -49,7 +49,7 @@ namespace TemplateMAUI.Controls
         }
 
         public static readonly BindableProperty UnSelectedStrokeProperty =
-            BindableProperty.Create(nameof(UnSelectedStroke), typeof(Color), typeof(RateItem), Colors.Black);
+            BindableProperty.Create(nameof(UnSelectedStroke), typeof(Color), typeof(RateItem), Application.Current.RequestedTheme == AppTheme.Light ? Colors.Black : Colors.White);
 
         public Color UnSelectedStroke
         {

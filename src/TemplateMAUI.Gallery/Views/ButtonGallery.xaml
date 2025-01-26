@@ -7,9 +7,9 @@
     <VerticalStackLayout
         Padding="12">
         <controls:Button
-            Background="LightGray"
+            Background="{AppThemeBinding Light=LightGray, Dark=#3e3e3e}"
             BorderBrush="DarkGray"
-            TextColor="Black"
+            TextColor="{AppThemeBinding Light=Black, Dark=White}"
             Content="Button"
             Margin="0, 6"
             Clicked="OnButtonClicked"/>

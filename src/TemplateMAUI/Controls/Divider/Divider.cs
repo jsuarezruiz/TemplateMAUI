@@ -29,7 +29,7 @@
         }
 
         public static readonly BindableProperty LineStrokeProperty =
-            BindableProperty.Create(nameof(LineStroke), typeof(Color), typeof(Divider), Colors.Black);
+            BindableProperty.Create(nameof(LineStroke), typeof(Color), typeof(Divider), Application.Current.RequestedTheme == AppTheme.Light ? Colors.Black : Colors.White);
 
         public Color LineStroke
         {

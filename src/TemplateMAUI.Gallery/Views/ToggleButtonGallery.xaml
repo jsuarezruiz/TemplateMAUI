@@ -118,7 +118,7 @@
                     ToggledTextColor="Black"
                     BorderBrush="SkyBlue"
                     BorderThickness="2"
-                    Content="Custom Border" />
+                    Content="Custom CornerRadius" />
                 <Label 
                     Text="Custom RippleColor"/>
                 <controls:ToggleButton
@@ -129,7 +129,55 @@
                     ToggledTextColor="Black"
                     BorderBrush="SkyBlue"
                     BorderThickness="2"
-                    Content="Custom Border" />
+                    Content="Custom RippleColor" />
+                <Label 
+                    Text="Using Visual States"/>
+                <controls:ToggleButton
+                     RippleColor="White"
+                     Background="Gray"
+                     ToggledBackground="SkyBlue"
+                     TextColor="White"
+                     ToggledTextColor="Black"
+                     BorderBrush="SkyBlue"
+                     BorderThickness="2"
+                     Content="Visual States">
+                    <VisualStateManager.VisualStateGroups>
+                        <VisualStateGroup x:Name="ToggleButtonStates">
+                            <VisualState x:Name="Normal">
+                                <VisualState.Setters>
+                                    <Setter Property="Background" Value="Gray"/>
+                                </VisualState.Setters>
+                            </VisualState>
+                            <VisualState x:Name="MouseOver">
+                                <VisualState.Setters>
+                                    <Setter Property="TextColor" Value="WhiteSmoke"/>
+                                    <Setter Property="Background" Value="DarkGray"/>
+                                </VisualState.Setters>
+                            </VisualState>
+                            <VisualState x:Name="Disabled">
+                                <VisualState.Setters>
+                                    <Setter Property="Background" Value="DarkGray"/>
+                                </VisualState.Setters>
+                            </VisualState>
+                            <VisualState x:Name="Toggled">
+                                <VisualState.Setters>
+                                    <Setter Property="Background" Value="SkyBlue"/>
+                                </VisualState.Setters>
+                            </VisualState>
+                            <VisualState x:Name="ToggledMouseOver">
+                                <VisualState.Setters>
+                                    <Setter Property="TextColor" Value="WhiteSmoke"/>
+                                    <Setter Property="Background" Value="DeepSkyBlue"/>
+                                </VisualState.Setters>
+                            </VisualState>
+                            <VisualState x:Name="ToggledDisabled">
+                                <VisualState.Setters>
+                                    <Setter Property="Background" Value="LightBlue"/>
+                                </VisualState.Setters>
+                            </VisualState>
+                        </VisualStateGroup>
+                    </VisualStateManager.VisualStateGroups>
+                </controls:ToggleButton>
             </VerticalStackLayout>
         </ContentPage.Content>
     </ContentPage>

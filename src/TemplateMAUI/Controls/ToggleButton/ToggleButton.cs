@@ -268,7 +268,7 @@ namespace TemplateMAUI.Controls
                 if (!IsEnabled)
                     VisualStateManager.GoToState(this, ToggleButtonVisualState.ToggledDisabled.ToString());            
                 else if (IsMouseHover)
-                    VisualStateManager.GoToState(this, ToggleButtonVisualState.MouseOver.ToString());
+                    VisualStateManager.GoToState(this, ToggleButtonVisualState.ToggledMouseOver.ToString());
                 else
                     VisualStateManager.GoToState(this, ToggleButtonVisualState.Toggled.ToString());
             }

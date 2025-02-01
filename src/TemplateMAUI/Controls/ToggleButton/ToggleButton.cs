@@ -5,6 +5,9 @@ using System.Windows.Input;
 
 namespace TemplateMAUI.Controls
 {
+    /// <summary>
+    /// A button control that can be toggled on or off.
+    /// </summary>
     [ContentProperty(nameof(Content))]
     public class ToggleButton : TemplatedView, IButton
     {

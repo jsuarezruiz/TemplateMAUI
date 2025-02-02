@@ -7,10 +7,12 @@
 
     <ControlTemplate x:Key="ProgressButtonControlTemplate">
         <controls:FeedbackView 
+            x:Name="PART_Feedback"
             RippleColor="{TemplateBinding RippleColor}">
             <Border 
                 x:Name="PART_Container" 
                 Background="{TemplateBinding Background}"
+                StrokeShape="RoundRectangle"
                 Stroke="{TemplateBinding BorderBrush}"
                 StrokeThickness="{TemplateBinding BorderThickness}"
                 MinimumHeightRequest="{TemplateBinding MinimumHeightRequest}">

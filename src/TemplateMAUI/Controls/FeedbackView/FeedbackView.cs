@@ -1,4 +1,5 @@
 ﻿using Microsoft.Maui.Animations;
+using Microsoft.Maui.Controls.Shapes;
 using System.Runtime.CompilerServices;
 
 namespace TemplateMAUI.Controls;
@@ -103,7 +104,7 @@ public class FeedbackView : TemplatedView
 
     public static readonly BindableProperty HightlightColorProperty =
         BindableProperty.Create(nameof(HightlightColor), typeof(Color), typeof(FeedbackView), Colors.Gray,
-            propertyChanged: OnRippleColorChanged);
+            propertyChanged: OnHightlightColorChanged);
 
     static void OnHightlightColorChanged(BindableObject bindable, object oldValue, object newValue)
     {
@@ -114,6 +115,21 @@ public class FeedbackView : TemplatedView
     {
         get => (Color)GetValue(HightlightColorProperty);
         set => SetValue(HightlightColorProperty, value);
+    }
+
+    public static readonly BindableProperty CornerRadiusProperty =
+         BindableProperty.Create(nameof(CornerRadius), typeof(CornerRadius), typeof(FeedbackView), null,
+             propertyChanged: OnCornerRadiusChanged);
+
+    static void OnCornerRadiusChanged(BindableObject bindable, object oldValue, object newValue)
+    {
+        (bindable as FeedbackView).UpdateCornerRadius();
+    }
+
+    public CornerRadius CornerRadius
+    {
+        get => (CornerRadius)GetValue(CornerRadiusProperty);
+        set => SetValue(CornerRadiusProperty, value);
     }
 
     protected override void OnApplyTemplate()
@@ -208,6 +224,14 @@ public class FeedbackView : TemplatedView
         }
 #endif
 
+    }
+
+    void UpdateCornerRadius()
+    {
+        if (_container is not null && _container.StrokeShape is RoundRectangle strokeShape)
+        {
+            strokeShape.CornerRadius = CornerRadius;
+        }
     }
 
     void OnFeedbackViewPointerPressed(object? sender, TappedEventArgs e)

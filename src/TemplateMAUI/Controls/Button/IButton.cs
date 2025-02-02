@@ -12,6 +12,7 @@ namespace TemplateMAUI.Controls
         Brush Background { get; }
         Brush BorderBrush { get; }
         double BorderThickness { get; }
+        CornerRadius CornerRadius { get; }
         Color TextColor { get; }
         double FontSize { get; }
         string FontFamily { get; }

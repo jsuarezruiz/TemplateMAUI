@@ -1,17 +1,96 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:controls="clr-namespace:TemplateMAUI.Controls;assembly=TemplateMAUI"
-             x:Class="TemplateMAUI.Gallery.Views.ButtonGallery"
-             Title="Button Gallery">
-    <VerticalStackLayout
-        Padding="12">
-        <controls:Button
-            Background="{AppThemeBinding Light=LightGray, Dark=#3e3e3e}"
-            BorderBrush="DarkGray"
-            TextColor="{AppThemeBinding Light=Black, Dark=White}"
-            Content="Button"
-            Margin="0, 6"
-            Clicked="OnButtonClicked"/>
-    </VerticalStackLayout>
-</ContentPage>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:controls="clr-namespace:TemplateMAUI.Controls;assembly=TemplateMAUI"
+            x:Class="TemplateMAUI.Gallery.Views.ButtonGallery"
+            BarBackgroundColor="{AppThemeBinding Dark={StaticResource DarkNavBarBackgroundColor}, Light={StaticResource LightNavBarBackgroundColor}}"
+            BarTextColor="White" 
+            Title="Button Gallery">
+    <ContentPage
+        Title="Getting Started"
+        IconImageSource="started.png">
+        <ContentPage.Content>
+            <VerticalStackLayout
+                Padding="12">
+                <controls:Button
+                    Background="{AppThemeBinding Light=LightGray, Dark=#3e3e3e}"
+                    BorderBrush="DarkGray"
+                    TextColor="{AppThemeBinding Light=Black, Dark=White}"
+                    Content="Button"
+                    Margin="0, 6" />
+            </VerticalStackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+    <ContentPage
+      Title="Button Customization"
+      IconImageSource="customize.png">
+        <ContentPage.Content>
+            <VerticalStackLayout
+              Padding="12">
+                <Label 
+                    Text="Gradients" />
+                <controls:Button
+                    BorderBrush="Blue"
+                    TextColor="White"
+                    Content="Gradients">
+                    <controls:Button.Background>
+                        <LinearGradientBrush>
+                            <LinearGradientBrush.GradientStops>
+                                <GradientStop Color="LightSkyBlue" Offset="0.1" />
+                                <GradientStop Color="DarkBlue" Offset="0.9" />
+                            </LinearGradientBrush.GradientStops>
+                        </LinearGradientBrush>
+                    </controls:Button.Background>
+                </controls:Button>
+                <Label 
+                    Text="Custom Border" />
+                <controls:Button
+                    Background="Red"
+                    BorderThickness="6"
+                    TextColor="White"
+                    Content="Custom Border">
+                    <controls:Button.BorderBrush>
+                        <LinearGradientBrush>
+                            <LinearGradientBrush.GradientStops>
+                                <GradientStop Color="GreenYellow" Offset="0.1" />
+                                <GradientStop Color="DarkOrange" Offset="0.9" />
+                            </LinearGradientBrush.GradientStops>
+                        </LinearGradientBrush>
+                    </controls:Button.BorderBrush>
+                </controls:Button>
+                <Label 
+                    Text="Custom CornerRadius" />
+                <controls:Button
+                    CornerRadius="12, 0, 0, 24"
+                    Background="{AppThemeBinding Light=LightGray, Dark=#3e3e3e}"
+                    BorderBrush="DarkGray"
+                    TextColor="{AppThemeBinding Light=Black, Dark=White}"
+                    Content="CornerRadius" />
+                <Label 
+                    Text="Custom Fonts" />
+                <controls:Button
+                    Background="{AppThemeBinding Light=LightGray, Dark=#3e3e3e}"
+                    BorderBrush="DarkGray"
+                    FontSize="16"
+                    TextColor="{AppThemeBinding Light=Black, Dark=White}"
+                    Content="CornerRadius" />
+            </VerticalStackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+    <ContentPage
+        Title="Button Events"
+        IconImageSource="customize.png">
+        <ContentPage.Content>
+            <VerticalStackLayout
+                Padding="12">
+                <controls:Button
+                    Background="{AppThemeBinding Light=LightGray, Dark=#3e3e3e}"
+                    BorderBrush="DarkGray"
+                    TextColor="{AppThemeBinding Light=Black, Dark=White}"
+                    Content="Button"
+                    Margin="0, 6"
+                    Clicked="OnButtonClicked"/>
+            </VerticalStackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+</TabbedPage>

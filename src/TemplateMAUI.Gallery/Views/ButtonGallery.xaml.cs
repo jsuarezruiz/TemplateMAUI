@@ -1,6 +1,6 @@
 namespace TemplateMAUI.Gallery.Views;
 
-public partial class ButtonGallery : ContentPage
+public partial class ButtonGallery : TabbedPage
 {
 	public ButtonGallery()
 	{

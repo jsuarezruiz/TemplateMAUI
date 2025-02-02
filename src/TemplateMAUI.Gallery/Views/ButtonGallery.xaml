@@ -48,7 +48,7 @@
                     Background="Red"
                     BorderThickness="6"
                     TextColor="White"
-                    Content="Gradients">
+                    Content="Custom Border">
                     <controls:Button.BorderBrush>
                         <LinearGradientBrush>
                             <LinearGradientBrush.GradientStops>

@@ -168,6 +168,12 @@ Is a tagging control.
 
 ![Tag](https://raw.githubusercontent.com/jsuarezruiz/TemplateMAUI/main/images/tag.png)
 
+#### ToggleButton
+
+Represents a button that can be toggled between two states: toggled and untoggled.
+
+![ToggleButton](https://raw.githubusercontent.com/jsuarezruiz/TemplateMAUI/main/images/tobblebutton.gif)
+
 #### ToggleSwitch
 
 A View control that provides a toggled value.

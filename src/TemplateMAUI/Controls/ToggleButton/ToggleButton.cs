@@ -1,4 +1,5 @@
-﻿using Microsoft.Maui.Controls.Shapes;
+﻿using Microsoft.Maui;
+using Microsoft.Maui.Controls.Shapes;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Windows.Input;
@@ -82,7 +83,7 @@ namespace TemplateMAUI.Controls
         }
 
         public static readonly BindableProperty CornerRadiusProperty = 
-            BindableProperty.Create(nameof(CornerRadius), typeof(double), typeof(ToggleButton), 6.0d,
+            BindableProperty.Create(nameof(CornerRadius), typeof(CornerRadius), typeof(ToggleButton), new CornerRadius(6.0d),
                 propertyChanged: OnCornerRadiusChanged);
 
         static void OnCornerRadiusChanged(BindableObject bindable, object oldValue, object newValue)
@@ -90,9 +91,9 @@ namespace TemplateMAUI.Controls
             (bindable as ToggleButton).UpdateCornerRadius();
         }
 
-        public double CornerRadius
+        public CornerRadius CornerRadius
         {
-            get => (double)GetValue(CornerRadiusProperty);
+            get => (CornerRadius)GetValue(CornerRadiusProperty);
             set => SetValue(CornerRadiusProperty, value);
         }
 
@@ -326,7 +327,7 @@ namespace TemplateMAUI.Controls
         {
             if (_container is not null && _container.StrokeShape is RoundRectangle strokeShape)
             {
-                strokeShape.CornerRadius = new CornerRadius(CornerRadius);
+                strokeShape.CornerRadius = CornerRadius;
             }
         }
 

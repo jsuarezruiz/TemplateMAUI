@@ -110,7 +110,7 @@
                 <Label 
                     Text="CornerRadius"/>
                 <controls:ToggleButton
-                    CornerRadius="24"
+                    CornerRadius="24, 0, 0, 12"
                     RippleColor="White"
                     Background="Gray"
                     ToggledBackground="SkyBlue"

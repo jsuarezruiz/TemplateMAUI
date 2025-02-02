@@ -1,25 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ResourceDictionary
-    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    x:Class="TemplateMAUI.Themes.Button" 
+    x:Class="TemplateMAUI.Themes.ToggleButton"               
     xmlns:controls="clr-namespace:TemplateMAUI.Controls">
-
-    <ControlTemplate x:Key="ButtonControlTemplate">
+ 
+    <ControlTemplate x:Key="ToggleButtonControlTemplate">
         <controls:FeedbackView
-            x:Name="PART_Feedback"
             RippleColor="{TemplateBinding RippleColor}">
             <Border 
                 x:Name="PART_Container" 
-                Background="{TemplateBinding Background}"
+                Background="{TemplateBinding CurrentBackground}"
                 StrokeShape="RoundRectangle"
-                Stroke="{TemplateBinding BorderBrush}"
+                Stroke="{TemplateBinding CurrentBorderBrush}"
                 StrokeThickness="{TemplateBinding BorderThickness}"
                 MinimumHeightRequest="{TemplateBinding MinimumHeightRequest}">
                 <Grid
                     ColumnDefinitions="*, Auto"
-                    HorizontalOptions="Center"
-                    VerticalOptions="Center">
+                    HorizontalOptions="Fill"
+                    VerticalOptions="Fill">
                     <ContentPresenter
                         Content="{TemplateBinding Content}" />
                 </Grid>
@@ -27,9 +26,9 @@
         </controls:FeedbackView>
     </ControlTemplate>
 
-    <Style TargetType="controls:Button">
+    <Style TargetType="controls:ToggleButton">
         <Setter Property="MinimumHeightRequest" Value="32"/>
-        <Setter Property="ControlTemplate" Value="{StaticResource ButtonControlTemplate}"/>
+        <Setter Property="ControlTemplate" Value="{StaticResource ToggleButtonControlTemplate}"/>
     </Style>
-
+    
 </ResourceDictionary>

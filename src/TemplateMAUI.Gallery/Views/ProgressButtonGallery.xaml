@@ -1,52 +1,98 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:controls="http://schemas.microsoft.com/dotnet/2021/maui/templatemaui"
              x:Class="TemplateMAUI.Gallery.Views.ProgressButtonGallery"
+             BarBackgroundColor="{AppThemeBinding Dark={StaticResource DarkNavBarBackgroundColor}, Light={StaticResource LightNavBarBackgroundColor}}"   
+             BarTextColor="White" 
              Title="ProgressButton Gallery">
-    <StackLayout
-        Padding="12">
-        <controls:ProgressButton
-            x:Name="ProgressButton1"
-            Background="{AppThemeBinding Light=LightGray, Dark=#3e3e3e}"
-            BorderBrush="DarkGray"
-            ProgressColor="{AppThemeBinding Light=Black, Dark=White}"
-            TextColor="{AppThemeBinding Light=Black, Dark=White}"
-            Content="Progress"
-            Margin="0, 6"
-            Clicked="OnProgressButtonClicked" />
-        <controls:ProgressButton
-            x:Name="ProgressButton2"
-            Background="{AppThemeBinding Light=LightGray, Dark=#3e3e3e}"
-            BorderBrush="DarkGray"
-            ProgressColor="{AppThemeBinding Light=Black, Dark=White}"
-            TextColor="{AppThemeBinding Light=Black, Dark=White}"
-            Margin="0, 6"
-            Clicked="OnProgressButtonClicked">
-            <controls:ProgressButton.Content>
-                <Grid
-                    ColumnDefinitions="Auto, Auto, *, Auto"
-                    VerticalOptions="Center">
-                    <Image 
-                        HeightRequest="24"
-                        Aspect="AspectFit"
-                        Source="file.png"/>
-                    <Label 
-                        Grid.Column="1"
-                        FontAttributes="Bold"
-                        Text="Progress"
-                        TextColor="{AppThemeBinding Light=Gray, Dark=LightGray}"/>
-                    <Label
-                        Grid.Column="2"
-                        Text="Button"
-                        TextColor="{AppThemeBinding Light=Black, Dark=White}"/>
-                    <Image 
-                        Grid.Column="3"
-                        HeightRequest="24"
-                        Aspect="AspectFit"
-                        Source="file.png"/>
-                </Grid>
-            </controls:ProgressButton.Content>
-        </controls:ProgressButton>
-    </StackLayout>
-</ContentPage>
+    <ContentPage
+        Title="Getting Started"
+        IconImageSource="started.png">
+        <ContentPage.Content>
+            <StackLayout
+                Padding="12">
+                <controls:ProgressButton
+                    x:Name="ProgressButton1"
+                    Background="{AppThemeBinding Light=LightGray, Dark=#3e3e3e}"
+                    BorderBrush="DarkGray"
+                    ProgressColor="{AppThemeBinding Light=Black, Dark=White}"
+                    TextColor="{AppThemeBinding Light=Black, Dark=White}"
+                    Content="Progress"
+                    Margin="0, 6"
+                    Clicked="OnProgressButtonClicked" />
+                <controls:ProgressButton
+                    x:Name="ProgressButton2"
+                    Background="{AppThemeBinding Light=LightGray, Dark=#3e3e3e}"
+                    BorderBrush="DarkGray"
+                    ProgressColor="{AppThemeBinding Light=Black, Dark=White}"
+                    TextColor="{AppThemeBinding Light=Black, Dark=White}"
+                    Margin="0, 6"
+                    Clicked="OnProgressButtonClicked">
+                    <controls:ProgressButton.Content>
+                        <Grid
+                            ColumnDefinitions="Auto, Auto, *, Auto"
+                            VerticalOptions="Center">
+                            <Image 
+                                HeightRequest="24"
+                                Aspect="AspectFit"
+                                Source="file.png"/>
+                            <Label 
+                                Grid.Column="1"
+                                FontAttributes="Bold"
+                                Text="Progress"
+                                TextColor="{AppThemeBinding Light=Gray, Dark=LightGray}"/>
+                            <Label
+                                Grid.Column="2"
+                                Text="Button"
+                                TextColor="{AppThemeBinding Light=Black, Dark=White}"/>
+                            <Image 
+                                Grid.Column="3"
+                                HeightRequest="24"
+                                Aspect="AspectFit"
+                                Source="file.png"/>
+                        </Grid>
+                    </controls:ProgressButton.Content>
+                </controls:ProgressButton>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+    <ContentPage
+     Title="ProgressButton Customization"
+     IconImageSource="customize.png">
+        <ContentPage.Content>
+            <VerticalStackLayout
+                Padding="12">
+                <Label 
+                    Text="Gradients" />
+                <controls:ProgressButton
+                    x:Name="GradientProgressButton"
+                    BorderBrush="Blue"
+                    TextColor="White"
+                    ProgressColor="White"
+                    Content="Gradients"
+                    Clicked="OnProgressButtonClicked">
+                    <controls:ProgressButton.Background>
+                        <LinearGradientBrush>
+                            <LinearGradientBrush.GradientStops>
+                                <GradientStop Color="LightSkyBlue" Offset="0.1" />
+                                <GradientStop Color="DarkBlue" Offset="0.9" />
+                            </LinearGradientBrush.GradientStops>
+                        </LinearGradientBrush>
+                    </controls:ProgressButton.Background>
+                </controls:ProgressButton>
+                <Label 
+                    Text="Custom CornerRadius" />
+                <controls:ProgressButton
+                    x:Name="CornerRadiusProgressButton"
+                    CornerRadius="12, 0, 0, 24"
+                    Background="{AppThemeBinding Light=LightGray, Dark=#3e3e3e}"
+                    BorderBrush="DarkGray"
+                    TextColor="{AppThemeBinding Light=Black, Dark=White}"
+                    ProgressColor="{AppThemeBinding Light=Black, Dark=White}"
+                    Content="CornerRadius"
+                    Clicked="OnProgressButtonClicked" />
+            </VerticalStackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+</TabbedPage>

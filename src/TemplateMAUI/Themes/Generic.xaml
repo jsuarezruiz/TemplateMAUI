@@ -39,6 +39,7 @@
             <themes:SnackBar />
             <themes:StepBar />
             <themes:Tag />
+            <themes:ToggleButton />
             <themes:ToggleSwitch />
             <themes:TreeView />
             <themes:ValueAxis />

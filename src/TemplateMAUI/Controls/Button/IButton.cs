@@ -12,9 +12,11 @@ namespace TemplateMAUI.Controls
         Brush Background { get; }
         Brush BorderBrush { get; }
         double BorderThickness { get; }
+        CornerRadius CornerRadius { get; }
         Color TextColor { get; }
         double FontSize { get; }
         string FontFamily { get; }
+        FontAttributes FontAttributes { get; }
         Color RippleColor { get; }
         ICommand Command { get; }
         object CommandParameter { get; }

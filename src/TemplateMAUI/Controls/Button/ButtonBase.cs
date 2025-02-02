@@ -28,7 +28,10 @@ namespace TemplateMAUI.Controls
 
         public static BindableProperty FontFamilyProperty =
             BindableProperty.Create(nameof(IButton.FontFamily), typeof(string), typeof(ButtonBase), string.Empty);
-      
+       
+        public static BindableProperty FontAttributesProperty =
+            BindableProperty.Create(nameof(IButton.FontAttributes), typeof(FontAttributes), typeof(ButtonBase), FontAttributes.None);
+
         public static readonly BindableProperty RippleColorProperty =
             BindableProperty.Create(nameof(IButton.RippleColor), typeof(Color), typeof(FeedbackView), Colors.Gray);
 

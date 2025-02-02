@@ -76,6 +76,7 @@ namespace TemplateMAUI.Gallery.ViewModels
                 new GalleryItem { Title = "SnackBar", SubTitle = "Provide brief messages about app processes at the bottom of the screen.", Icon = "snackbar.png", Color = Colors.IndianRed, Status = GalleryItemStatus.InProgress },
                 new GalleryItem { Title = "StepBar", SubTitle = "Allows users to track or keep up with multi-step tasks smoothly.", Icon = "stepbar.png", Color = Colors.Coral },  
                 new GalleryItem { Title = "Tag", SubTitle = "Is a tagging control.", Icon = "tag.png", Color = Colors.DarkSalmon },
+                new GalleryItem { Title = "ToggleButton", SubTitle = "Represents a button that can be toggled between two states: toggled and untoggled.", Icon = "toggle.png", Color = Colors.Khaki },
                 new GalleryItem { Title = "ToggleSwitch", SubTitle = "A View control that provides a toggled value.", Icon = "toggleswitch.png", Color = Colors.DeepPink, Status = GalleryItemStatus.Preview  },
                 new GalleryItem { Title = "TreeView", SubTitle = "Enables a hierarchical list with expanding and collapsing nodes that contain nested items.", Icon = "tag.png", Color = Colors.MediumPurple, Status = GalleryItemStatus.InProgress  }
             };

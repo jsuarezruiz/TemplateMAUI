@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using Microsoft.Maui.Controls.Shapes;
+using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Windows.Input;
 
@@ -11,8 +12,10 @@ namespace TemplateMAUI.Controls
     [ContentProperty(nameof(Content))]
     public class Button : TemplatedView, IButton
     {
+        const string ElementFeedback = "PART_Feedback";
         const string ElementContainer = "PART_Container";
 
+        FeedbackView _feedbackView;
         Border _container;
 
         TapGestureRecognizer _tapGestureRecognizer;
@@ -44,6 +47,21 @@ namespace TemplateMAUI.Controls
             set => SetValue(BorderThicknessProperty, value);
         }
 
+        public static readonly BindableProperty CornerRadiusProperty =
+            BindableProperty.Create(nameof(CornerRadius), typeof(CornerRadius), typeof(Button), new CornerRadius(6d),
+                propertyChanged: OnCornerRadiusChanged);
+
+        static void OnCornerRadiusChanged(BindableObject bindable, object oldValue, object newValue)
+        {
+            (bindable as Button).UpdateCornerRadius();
+        }
+
+        public CornerRadius CornerRadius
+        {
+            get => (CornerRadius)GetValue(CornerRadiusProperty);
+            set => SetValue(CornerRadiusProperty, value);
+        }
+
         public static readonly BindableProperty TextColorProperty = ButtonBase.TextColorProperty;
 
         public Color TextColor
@@ -60,12 +78,21 @@ namespace TemplateMAUI.Controls
             get { return (double)GetValue(FontSizeProperty); }
             set { SetValue(FontSizeProperty, value); }
         }
+
         public static BindableProperty FontFamilyProperty = ButtonBase.FontFamilyProperty;
 
         public string FontFamily
         {
             get { return (string)GetValue(FontFamilyProperty); }
             set { SetValue(FontFamilyProperty, value); }
+        }
+
+        public static BindableProperty FontAttributesProperty = ButtonBase.FontAttributesProperty;
+
+        public FontAttributes FontAttributes
+        {
+            get { return (FontAttributes)GetValue(FontAttributesProperty); }
+            set { SetValue(FontAttributesProperty, value); }
         }
 
         public static readonly BindableProperty RippleColorProperty = ButtonBase.RippleColorProperty;
@@ -135,6 +162,7 @@ namespace TemplateMAUI.Controls
                 VerticalOptions = LayoutOptions.Center,
                 FontFamily = FontFamily,
                 FontSize = FontSize,
+                FontAttributes = FontAttributes,
                 TextColor = TextColor,
                 Text = content?.ToString()
             };
@@ -144,6 +172,7 @@ namespace TemplateMAUI.Controls
         {
             base.OnApplyTemplate();
 
+            _feedbackView = GetTemplateChild(ElementFeedback) as FeedbackView;
             _container = GetTemplateChild(ElementContainer) as Border;
 
             _tapGestureRecognizer = new TapGestureRecognizer();
@@ -220,6 +249,15 @@ namespace TemplateMAUI.Controls
             }
 
             ButtonVisualState = IsEnabled ? ButtonVisualState.Normal : ButtonVisualState.Disabled;
+        }
+
+        void UpdateCornerRadius()
+        {
+            if (_feedbackView is not null)
+                _feedbackView.CornerRadius = CornerRadius;
+
+            if (_container is not null && _container.StrokeShape is RoundRectangle containerStrokeShape)
+                containerStrokeShape.CornerRadius = CornerRadius;        
         }
 
         void OnButtonTapped(object sender, TappedEventArgs e)

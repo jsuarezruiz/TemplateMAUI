@@ -129,6 +129,14 @@ namespace TemplateMAUI.Controls
             get { return (string)GetValue(FontFamilyProperty); }
             set { SetValue(FontFamilyProperty, value); }
         }
+        
+        public static BindableProperty FontAttributesProperty = ButtonBase.FontAttributesProperty;
+
+        public FontAttributes FontAttributes
+        {
+            get { return (FontAttributes)GetValue(FontAttributesProperty); }
+            set { SetValue(FontAttributesProperty, value); }
+        }
 
         public static readonly BindableProperty RippleColorProperty = ButtonBase.RippleColorProperty;
 
@@ -239,6 +247,7 @@ namespace TemplateMAUI.Controls
                 HorizontalOptions = LayoutOptions.Center,
                 VerticalOptions = LayoutOptions.Center,
                 FontFamily = FontFamily,
+                FontAttributes = FontAttributes,
                 FontSize = FontSize,
                 TextColor = CurrentTextColor,
                 Text = content?.ToString()

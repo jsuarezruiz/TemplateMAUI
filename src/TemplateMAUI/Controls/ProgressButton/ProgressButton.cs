@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using Microsoft.Maui.Controls.Shapes;
+using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Windows.Input;
 
@@ -11,9 +12,11 @@ namespace TemplateMAUI.Controls
     [ContentProperty(nameof(Content))]
     public class ProgressButton : TemplatedView, IButton
     {
+        const string ElementFeedback = "PART_Feedback";
         const string ElementContainer = "PART_Container"; 
         const string ElementActivityIndicator = "PART_ActivityIndicator";
 
+        FeedbackView _feedbackView;
         Border _container;
         ActivityIndicator _activityIndicator;
 
@@ -44,6 +47,21 @@ namespace TemplateMAUI.Controls
         {
             get => (double)GetValue(BorderThicknessProperty);
             set => SetValue(BorderThicknessProperty, value);
+        }
+
+        public static readonly BindableProperty CornerRadiusProperty =
+            BindableProperty.Create(nameof(CornerRadius), typeof(CornerRadius), typeof(ProgressButton), new CornerRadius(6d),
+                propertyChanged: OnCornerRadiusChanged);
+
+        static void OnCornerRadiusChanged(BindableObject bindable, object oldValue, object newValue)
+        {
+            (bindable as ProgressButton).UpdateCornerRadius();
+        }
+
+        public CornerRadius CornerRadius
+        {
+            get => (CornerRadius)GetValue(CornerRadiusProperty);
+            set => SetValue(CornerRadiusProperty, value);
         }
 
         public static readonly BindableProperty TextColorProperty = ButtonBase.TextColorProperty;
@@ -172,6 +190,7 @@ namespace TemplateMAUI.Controls
         {
             base.OnApplyTemplate();
 
+            _feedbackView = GetTemplateChild(ElementFeedback) as FeedbackView;
             _container = GetTemplateChild(ElementContainer) as Border;
             _activityIndicator = GetTemplateChild(ElementActivityIndicator) as ActivityIndicator;
 
@@ -268,6 +287,15 @@ namespace TemplateMAUI.Controls
                 _activityIndicator.IsRunning = false;
                 await _activityIndicator.FadeTo(0);
             }
+        }
+
+        void UpdateCornerRadius()
+        {
+            if (_feedbackView is not null)
+                _feedbackView.CornerRadius = CornerRadius;
+
+            if (_container is not null && _container.StrokeShape is RoundRectangle containerStrokeShape)
+                containerStrokeShape.CornerRadius = CornerRadius;
         }
 
         void OnButtonTapped(object sender, TappedEventArgs e)

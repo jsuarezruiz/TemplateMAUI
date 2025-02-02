@@ -39,7 +39,7 @@ After installing the package, you need to add the TemplateMAUI namespace to your
 Add the following namespace declaration to the top of your XAML file:
 
 ```
-xmlns:template="clr-namespace:TemplateMAUI;assembly=TemplateMAUI"
+xmlns:template="http://schemas.microsoft.com/dotnet/2021/maui/templatemaui"
 ```
 
 **C#**

@@ -172,7 +172,7 @@ Is a tagging control.
 
 Represents a button that can be toggled between two states: toggled and untoggled.
 
-![ToggleButton](https://raw.githubusercontent.com/jsuarezruiz/TemplateMAUI/main/images/tobblebutton.gif)
+![ToggleButton](https://raw.githubusercontent.com/jsuarezruiz/TemplateMAUI/main/images/togglebutton.gif)
 
 #### ToggleSwitch
 

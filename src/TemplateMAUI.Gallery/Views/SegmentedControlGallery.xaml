@@ -2,7 +2,7 @@
 <TabbedPage
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:controls="clr-namespace:TemplateMAUI.Controls;assembly=TemplateMAUI"
+    xmlns:controls="http://schemas.microsoft.com/dotnet/2021/maui/templatemaui"
     x:Class="TemplateMAUI.Gallery.Views.SegmentedControlGallery"
     BarBackgroundColor="{AppThemeBinding Dark={StaticResource DarkNavBarBackgroundColor}, Light={StaticResource LightNavBarBackgroundColor}}"
     BarTextColor="White"

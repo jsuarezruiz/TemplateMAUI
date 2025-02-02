@@ -3,7 +3,7 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="TemplateMAUI.Gallery.Views.FeedbackViewGallery"
-    xmlns:controls="clr-namespace:TemplateMAUI.Controls;assembly=TemplateMAUI"
+    xmlns:controls="http://schemas.microsoft.com/dotnet/2021/maui/templatemaui"
     Title="FeedbackView Gallery">
     <VerticalStackLayout
         Padding="12">

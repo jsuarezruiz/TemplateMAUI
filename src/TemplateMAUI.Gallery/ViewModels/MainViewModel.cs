@@ -57,6 +57,7 @@ namespace TemplateMAUI.Gallery.ViewModels
                 new GalleryItem { Title = "Button", SubTitle = "Represents a button control with customizable content, appearance, and behavior, making it a versatile component for user interaction in your application.", Icon = "button.png", Color = Colors.DarkTurquoise },
                 new GalleryItem { Title = "CarouselView", SubTitle = "Allow to navigate through a collection of views.", Icon = "carouselview.png", Color = Colors.LimeGreen },
                 new GalleryItem { Title = "ChatBubble", SubTitle = "Allow to show a speech bubble message.", Icon = "chatbubble.png", Color = Colors.DarkSeaGreen },
+                new GalleryItem { Title = "CodeEditor", SubTitle = "A powerful code editor control based on Monaco editor.", Icon = "codeeditor.png", Color = Colors.Peru, Status = GalleryItemStatus.InProgress },
                 new GalleryItem { Title = "ComparerView", SubTitle = "Provides an option for displaying a split-screen of two views, which can help you to make comparisons.", Icon = "comparerview.png", Color = Colors.DarkViolet, Status = GalleryItemStatus.InProgress },
                 new GalleryItem { Title = "DataVisualization", SubTitle = "Several series graphs.", Icon = "chart.png", Color = Colors.LightCoral, Status = GalleryItemStatus.Preview  },
                 new GalleryItem { Title = "Divider", SubTitle = "Displays a separator between views.", Icon = "divider.png", Color = Colors.Orchid  },

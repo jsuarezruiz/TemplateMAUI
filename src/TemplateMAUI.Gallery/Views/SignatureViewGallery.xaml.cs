@@ -7,9 +7,9 @@ public partial class SignatureViewGallery : ContentPage
 		InitializeComponent();
 	}
 
-    void OnSaveButtonClicked(object sender, EventArgs e)
+    async void OnSaveButtonClicked(object sender, EventArgs e)
     {
-
+        await SignatureView.SaveAsync("mySignature");
     }
 
     void OnClearButtonClicked(object sender, EventArgs e)

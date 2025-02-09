@@ -118,9 +118,24 @@ namespace TemplateMAUI.Controls
                 UpdateIsEnabled();
         }
 
-        public void Save()
+        public async Task SaveAsync(string fileName)
         {
-            // TODO:
+            if (_graphicsView is null)
+                return;
+
+            IScreenshotResult screenshotResult = await _graphicsView.CaptureAsync();
+
+            if (screenshotResult is not null)
+            {
+                string filePath = Environment.GetFolderPath(Environment.SpecialFolder.Personal);
+                var targetFile = System.IO.Path.Combine(filePath, $"{fileName}.png");
+
+                using FileStream outputStream = File.Create(targetFile);
+                if (File.Exists(targetFile))
+                {
+                    await screenshotResult.CopyToAsync(outputStream, ScreenshotFormat.png);
+                }
+            }
         }
 
         public void Clear()

@@ -34,6 +34,7 @@
             <themes:PropertyGrid />
             <themes:Rate />
             <themes:SegmentedControl />
+            <themes:SignatureView />
             <themes:Shield />
             <themes:Slider />
             <themes:SnackBar />

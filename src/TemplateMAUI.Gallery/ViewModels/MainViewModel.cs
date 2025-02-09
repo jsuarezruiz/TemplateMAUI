@@ -71,6 +71,7 @@ namespace TemplateMAUI.Gallery.ViewModels
                 new GalleryItem { Title = "ProgressButton", SubTitle = "Represent a button with integrated progress indication functionality.", Icon = "progressbutton.png", Color = Colors.PaleVioletRed },
                 new GalleryItem { Title = "Rate", SubTitle = "Allows users to select a rating value from a group of visual symbols like stars.", Icon = "rate.png", Color = Colors.DarkTurquoise },
                 new GalleryItem { Title = "SegmentedControl", SubTitle = "Is a linear segment made up of multiple segments and allow users to select between multiple options.", Icon = "segmentedcontrol.png", Color = Colors.DarkKhaki, Status = GalleryItemStatus.InProgress },
+                new GalleryItem { Title = "SignatureView", SubTitle = "Gives you the option to capture a signature in your applications.", Icon = "signatureview.png", Color = Colors.LawnGreen },
                 new GalleryItem { Title = "Shield", SubTitle = "Shield is a type of badge.", Icon = "shield.png", Color = Colors.DarkOliveGreen },
                 new GalleryItem { Title = "Slider", SubTitle = "Is a horizontal bar that can be manipulated by the user to select a double value from a continuous range.", Icon = "slider.png", Color = Colors.ForestGreen, Status = GalleryItemStatus.InProgress },
                 new GalleryItem { Title = "SnackBar", SubTitle = "Provide brief messages about app processes at the bottom of the screen.", Icon = "snackbar.png", Color = Colors.IndianRed, Status = GalleryItemStatus.InProgress },

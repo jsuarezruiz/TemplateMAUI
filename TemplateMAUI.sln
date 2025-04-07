@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMAUI", "src\Templat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMAUI.Gallery", "src\TemplateMAUI.Gallery\TemplateMAUI.Gallery.csproj", "{48A8688C-2C2D-4A3F-B800-1008F8A5FDF1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMAUI.CodeEditor", "src\TemplateMAUI.CodeEditor\TemplateMAUI.CodeEditor.csproj", "{F4FE13D8-025E-4A2A-8702-DEFA21DE4BAC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{48A8688C-2C2D-4A3F-B800-1008F8A5FDF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48A8688C-2C2D-4A3F-B800-1008F8A5FDF1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{48A8688C-2C2D-4A3F-B800-1008F8A5FDF1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{F4FE13D8-025E-4A2A-8702-DEFA21DE4BAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4FE13D8-025E-4A2A-8702-DEFA21DE4BAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4FE13D8-025E-4A2A-8702-DEFA21DE4BAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4FE13D8-025E-4A2A-8702-DEFA21DE4BAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
